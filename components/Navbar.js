@@ -17,9 +17,9 @@ const Navbar = () => {
       <div className="flex items-center">
         <ul className={`fixed top-16 left-0 right-0 bg-[#321E1E] flex-col sm:flex-row gap-5 font-bold flex ${isOpen ? 'flex' : 'hidden'} sm:flex static sm:static`}>
           <li className='cursor-pointer px-4 py-2 rounded-full hover:text-[#d4af37]'><Link href={"/"}>Home</Link></li>
-          <li className='cursor-pointer px-4 py-2 rounded-full hover:text-[#d4af37]'><Link href={"/about"}>About Us</Link></li>
-          <li className='cursor-pointer px-4 py-2 rounded-full hover:text-[#d4af37]'><Link href={"/testimonials"}>Testimonials</Link></li>
-          <li className='cursor-pointer px-4 py-2 rounded-full hover:text-[#d4af37]'><Link href={"/contact"}>Contact</Link></li>
+          <li className='cursor-pointer px-4 py-2 rounded-full hover:text-[#d4af37]'><Link href="#about">About Us</Link></li>
+          <li className='cursor-pointer px-4 py-2 rounded-full hover:text-[#d4af37]'><Link href="#testimonials">Testimonials</Link></li>
+          <li className='cursor-pointer px-4 py-2 rounded-full hover:text-[#d4af37]'><Link href="#contact">Contact</Link></li>
           <li className='cursor-pointer px-4 py-2 rounded-full hover:text-[#d4af37] sm:hidden'>
             <button type="button" className="bg-[#d4af37] px-8 py-2 -mx-2 mb-8 rounded-full font-bold text-[#321E1E] hover:bg-[#e1ba43] border border-white">Log In</button>
           </li>

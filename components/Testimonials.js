@@ -33,7 +33,7 @@ const Testimonials = () => {
 
 
   return (
-    <div className='mt-16 text-[#321E1E] mb-16'>
+    <div className='mt-16 text-[#321E1E] mb-16' id='testimonials'>
       <h2 className='text-center text-4xl'>Testimonials</h2>
       <p className='text-center mt-3'>
         Heartfelt testimonials from our satisfied clients highlight the exceptional quality and impact of our services

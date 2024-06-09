@@ -9,3 +9,18 @@
 .slick-prev:before, .slick-next:before{
   color: #321E1E;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background:#d4af37 ;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #321E1E;
+}

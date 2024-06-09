@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <>
-      <div className='text-[#321E1E] bg-[#d4af37] p-2 rounded-xl my-8 mx-4 md:mx-10'>
+    <div id='about'>
+      <div className='text-[#321E1E] bg-[#d4af37] p-2 rounded-xl my-16 mx-4 md:mx-10'>
         <h2 className='my-4 text-center font-bold text-3xl md:text-4xl'>About Us</h2>
         <div className='flex flex-col md:flex-row justify-center items-center m-4 gap-10 md:gap-20'>
           <div className='bg-[#321E1E] rounded-full w-36 h-36 md:w-72 md:h-72 flex justify-center items-center overflow-hidden'>
@@ -39,7 +39,7 @@ const About = () => {
           <p>Helps you stay within your financial limits while achieving your desired outcomes</p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
