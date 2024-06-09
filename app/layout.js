@@ -1,7 +1,16 @@
 import { Inter } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import About from "@/components/About";
+import Testimonials from "@/components/Testimonials";
+import Contact from "@/components/Contact";
+
+const pd = Playfair_Display({
+  subsets: ["latin"],
+  weight: ['400', '500', '600', '700', '800', '900'],
+ });
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,12 +21,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]  from-orange-900 via-amber-100 to-orange-900">
+      <body className={pd.className} style={{backgroundImage: 'url("/png/wedding.png")', height:"900"}}>
         <Navbar />
-        <div className="div bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]  from-orange-900 via-amber-100 to-orange-900 min-h-screen">
+        <div className="div md:min-h-screen">
           {children}
         </div>
+        <About />
+        <Testimonials />
+        <Contact />
         <Footer />
       </body>
     </html>
