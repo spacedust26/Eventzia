@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '@/components/dashboard/Sidebar'
 import Navbar from '@/components/dashboard/Navbar'
+import Footer from '@/components/dashboard/Footer'
 
 const layout = ({children}) => {
   return (
@@ -11,6 +12,7 @@ const layout = ({children}) => {
       <div className='content flex-4 p-[20px]'>
         <Navbar />
         {children}
+        <Footer />
       </div>
     </div>
   )

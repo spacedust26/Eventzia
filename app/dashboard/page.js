@@ -1,7 +1,7 @@
 import React from 'react'
-import Card from '@/components/dashboard/card'
+import Card from '@/components/dashboard/Card'
 import EventHistory from '@/components/dashboard/EventHistory'
-import Charts from '@/components/dashboard/charts'
+import Charts from '@/components/dashboard/Charts'
 import RightBar from '@/components/dashboard/RightBar'
 
 const Dashboard = () => {

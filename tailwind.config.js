@@ -11,6 +11,10 @@ module.exports = {
         '4': '4 4 0%',
         '3': '3 3 0%',
       },
+      colors: {
+        'custom-dark': '#321E1E',
+        'custom-medium': '#8C6A5D',
+      },
     },
   },
   plugins: [],

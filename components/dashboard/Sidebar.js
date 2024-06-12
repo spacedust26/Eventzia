@@ -67,8 +67,8 @@ const menuItems = [
 
 const Sidebar = () => {
   return (
-    <div className="container text-white sticky top-[40px] h-screen">
-      <div className="user flex items-center gap-[16px] mb-[20px]">
+    <div className="container text-white top-[40px] sticky">
+      <div className="user flex items-center gap-[20px] mb-[16px]">
         <div className="bg-[#503C3C] rounded-full"><Image className="rounded-full object-cover" src="/gif/avatar.gif" width={50} height={50} unoptimized/></div>
         <div className="flex flex-col">
           <span className="font-bold">Pranamya Kulal</span>
