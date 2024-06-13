@@ -29,7 +29,7 @@ const createEvent = ({ placeholder }) => {
             <td className='p-[10px]'>Rs 2000000</td>
             <td className='p-[10px]'>
               <div className="buttons flex gap-2">
-                <Link href="/"><button className='button px-[5px] py-[10px] rounded-lg border-none cursor-pointer view bg-teal-500'>View</button></Link>
+                <Link href="/dashboard/createEvent/test"><button className='button px-[5px] py-[10px] rounded-lg border-none cursor-pointer view bg-teal-500'>View</button></Link>
                 <button className='button px-[5px] py-[10px] rounded-lg cursor-pointer delete border-none bg-red-500'>Delete</button>
               </div>
             </td>
@@ -42,7 +42,7 @@ const createEvent = ({ placeholder }) => {
             <td className='p-[10px]'>Rs 2000000</td>
             <td className='p-[10px]'>
               <div className="buttons flex gap-2">
-                <Link href="/"><button className='button px-[5px] py-[10px] rounded-lg border-none cursor-pointer view bg-teal-500'>View</button></Link>
+                <Link href=""><button className='button px-[5px] py-[10px] rounded-lg border-none cursor-pointer view bg-teal-500'>View</button></Link>
                 <button className='button px-[5px] py-[10px] rounded-lg cursor-pointer delete border-none bg-red-500'>Delete</button>
               </div>
             </td>

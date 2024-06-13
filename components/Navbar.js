@@ -25,7 +25,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <button type="button" className="bg-[#d4af37] px-8 py-2 rounded-full font-bold text-[#321E1E] hover:bg-[#e1ba43] border border-white hidden sm:block">Log In</button>
+      <Link href={"/login"}><button type="button" className="bg-[#d4af37] px-8 py-2 rounded-full font-bold text-[#321E1E] hover:bg-[#e1ba43] border border-white hidden sm:block">Log In</button></Link>
       <button type="button" className="sm:hidden ml-4" onClick={toggleMenu}>
         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
