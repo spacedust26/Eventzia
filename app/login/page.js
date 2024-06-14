@@ -1,35 +1,20 @@
+import { getServerSession } from "next-auth";
+import {redirect} from "next/navigation"
+import { authOptions } from "../api/auth/[...nextauth]/route";
 import React from 'react'
-import Image from 'next/image'
-
-const loginPage = () => {
+import LoginForm from "@/components/loginForm";
+  
+const loginPage = async () => {
+  const session = await getServerSession(authOptions);
+  if(session) redirect("/dashboard")
   return (
-    <div className='container w-full h-[100vh] flex items-center justify-center'>
-        <form action='' className='form bg-[#321E1E] p-[50px] rounded-lg w-[570px] h-[570px] flex flex-col justify-center items-center gap-5'>
-            <Image src="/gif/EventziaLogo.gif" alt="logo" width={120} height={120} />
-            <h1 className='text-white font-bold text-2xl'>Login</h1>
-            <input type='text' placeholder='Enter Username' className='p-[30px] border border-[#503C3C] rounded-lg bg-[#321E1E] text-white w-full' />
-            <input type='password' placeholder='Enter Password' className='p-[30px] border border-[#503C3C] rounded-lg bg-[#321E1E] text-white w-full' />
-            <button className='p-[30px] bg-[#d4af37] rounded-lg text-[#321E1E] border-none cursor-pointer w-full'>Login</button>
-        </form>
-    </div>
+    <>
+      <LoginForm />
+    </>
   )
 }
 
 export default loginPage
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,6 +1,9 @@
+"use client"
 import React from "react";
 import Menulink from "./Menulink";
 import Image from "next/image";
+import { signOut } from "next-auth/react";
+import { useSession } from "next-auth/react";
 import {
   MdAttachMoney,
   MdDashboard,
@@ -66,13 +69,14 @@ const menuItems = [
 ];
 
 const Sidebar = () => {
+  const {data: session} = useSession()
   return (
     <div className="container text-white top-[40px] sticky">
       <div className="user flex items-center gap-[20px] mb-[16px]">
         <div className="bg-[#503C3C] rounded-full"><Image className="rounded-full object-cover" src="/gif/avatar.gif" width={50} height={50} unoptimized/></div>
         <div className="flex flex-col">
-          <span className="font-bold">Pranamya Kulal</span>
-          <span className="text-sm text-gray-200">User</span>
+          <span className="font-bold">USER</span>
+          <span className="font-bold">{session?.user?.email}</span>
         </div>
       </div>
       <ul className="list-none">
@@ -87,7 +91,7 @@ const Sidebar = () => {
           );
         })}
       </ul>
-      <button className="logout p-[20px] my-[5px] flex items-center gap-[10px] cursor-pointer rounded-lg hover:bg-[#503C3C] w-full">
+      <button className="logout p-[20px] my-[5px] flex items-center gap-[10px] cursor-pointer rounded-lg hover:bg-[#503C3C] w-full" onClick={() => signOut()}>
         <MdLogout />
         Logout
       </button>
