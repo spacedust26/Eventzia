@@ -7,7 +7,7 @@ const About = () => {
         <h2 className='my-4 text-center font-bold text-3xl md:text-4xl'>About Us</h2>
         <div className='flex flex-col md:flex-row justify-center items-center m-4 gap-10 md:gap-20'>
           <div className='bg-[#321E1E] rounded-full w-36 h-36 md:w-72 md:h-72 flex justify-center items-center overflow-hidden'>
-            <img src='/gif/EventziaLogo.gif' className='w-full h-full object-cover' />
+            <img src='/gif/EventziaLogo.gif' className='w-full h-full object-contain' />
           </div>
           <div className='w-full md:w-3/4 text-base md:text-lg flex flex-col gap-5'>
             <p>Welcome to Eventzia, your ultimate platform for seamless event management! Whether you're planning a dream wedding, a corporate gala, or a cozy birthday celebration, Eventzia offers an intuitive and comprehensive solution to bring your vision to life.</p>

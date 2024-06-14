@@ -49,7 +49,7 @@ const Testimonials = () => {
                 <div className='flex flex-col items-center justify-center gap-4 p-4'>
                   <p className='text-xl font-semibold text-white'>{d.name}</p>
                   <p className='text-white'>{d.event}</p>
-                  <p className='text-center text-[#d4af37]'>{d.review}</p>
+                  <p className='text-center text-sm text-[#d4af37]'>{d.review}</p>
                 </div>
               </div>
             ))}
@@ -71,7 +71,7 @@ const data = [
     name: 'Rahul Sharma and Riya',
     img: '/images/Rahul-Riya.png',
     event: 'Baby Shower',
-    review: 'Thank to Eventzia, we could plan our baby shower with ease right from the comfort of our homes by choosing among the vast choice of vendors. We could achieve what we wanted and all the guests loved the event - the food, the decorations, everything !'
+    review: 'Thanks to Eventzia, we could plan our baby shower with ease right from the comfort of our homes by choosing among the vast choice of vendors. We could achieve what we wanted and all the guests loved the event - the food, the decorations, everything !'
   },
   {
     name: 'Rita Allen',
