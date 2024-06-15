@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import { MdOutlineArrowBackIosNew } from "react-icons/md";
+import Link from 'next/link';
 
 const venue = [
   {
@@ -72,7 +74,9 @@ const venue = [
 
 const Venue = () => {
   return (
-    <div className='flex flex-col justify-center items-center m-8 gap-8'>
+    <>
+    <Link href="/dashboard/createEvent/add"><div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'><MdOutlineArrowBackIosNew /></div></Link>
+    <div className='flex flex-col justify-center items-center mb-8 gap-8'>
       <h1 className='text-3xl font-bold text-[#321E1E]'>Venues, Hotels and Banquet Halls</h1>
 
 
@@ -97,6 +101,7 @@ const Venue = () => {
 
 
     </div>
+    </>
   )
 }
 
