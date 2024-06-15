@@ -1,7 +1,7 @@
 "use client"
 import { usePathname } from 'next/navigation'
 import React from 'react'
-import { MdPublic, MdSearch, MdNotifications, MdOutlineChat } from 'react-icons/md';
+import { MdOutlineShoppingCart, MdSearch, MdNotifications, MdOutlineChat } from 'react-icons/md';
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="icons flex gap-[20px]">
           <MdOutlineChat size={20} />
           <MdNotifications size={20} />
-          <MdPublic size={20} />
+          <MdOutlineShoppingCart  size={20}/>
         </div>
       </div>
     </div>
