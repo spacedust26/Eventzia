@@ -2,6 +2,7 @@
 import { usePathname } from 'next/navigation'
 import React from 'react'
 import { MdOutlineShoppingCart, MdSearch, MdNotifications, MdOutlineChat } from 'react-icons/md';
+import Link from 'next/link';
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -16,7 +17,10 @@ const Navbar = () => {
         <div className="icons flex gap-[20px]">
           <MdOutlineChat size={20} />
           <MdNotifications size={20} />
-          <MdOutlineShoppingCart  size={20}/>
+          <div className="flex">
+            <Link href="/cart"><MdOutlineShoppingCart size={20} /></Link>
+            <span className='relative text-[13px] -top-2 right-[10px] bg-red-600 h-[18px] w-[18px] rounded-full grid place-items-center place- text-white'>0</span>
+          </div>
         </div>
       </div>
     </div>
