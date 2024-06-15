@@ -73,7 +73,7 @@ const venue = [
 const Venue = () => {
   return (
     <div className='flex flex-col justify-center items-center m-8 gap-8'>
-      <h1 className='text-3xl font-bold text-[#321E1E]'>Venue</h1>
+      <h1 className='text-3xl font-bold text-[#321E1E]'>Venues, Hotels and Banquet Halls</h1>
 
 
         <div className='flex flex-row flex-wrap gap-8 justify-center'>
