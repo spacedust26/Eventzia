@@ -20,7 +20,7 @@ const add = () => {
         </div>
 
         <div className='flex flex-row flex-wrap justify-center'>
-          <Link href="/"><div className='flex flex-col bg-[#503C3C] h-[300px] items-center rounded-lg transform transition duration-200 hover:scale-105 m-5'>
+          <Link href="/dashboard/createEvent/add/venue"><div className='flex flex-col bg-[#503C3C] h-[300px] items-center rounded-lg transform transition duration-200 hover:scale-105 m-5'>
             <Image src="/category/venue.png" width={195} height={120} alt='' className='object-cover rounded-t-lg overflow-hidden' />
             <h4 className='text-white p-4 w-48 text-center'>Venue, Hotels & Banquet Halls</h4>
           </div></Link>
