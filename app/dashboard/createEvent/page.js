@@ -9,7 +9,7 @@ const createEvent = ({ placeholder }) => {
       <div className="top flex items-center justify-between">
         <Search placeholder='Search for an event...' />
         <Link href="/dashboard/createEvent/add">
-          <button className='addButton p-[10px] text-[#321E1E] border-none rounded-lg cursor-pointer bg-[#d4af37]'>Create Event</button></Link>
+          <button className='addButton p-[10px] text-[#321E1E] border-none rounded-lg cursor-pointer bg-[#d4af37] font-bold'>Create Event</button></Link>
       </div>
       <table className='table  w-full'>
         <thead>

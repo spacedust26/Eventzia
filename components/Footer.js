@@ -28,11 +28,11 @@ const Footer = () => {
       <div className="flex flex-col items-center md:items-start">
         <h4 className='text-white font-bold text-lg mb-2'>Links</h4>
         <ul className='text-center md:text-left'>
-          <li className='my-1 hover:text-white'>About Us</li>
-          <li className='my-1 hover:text-white'>Contact</li>
-          <li className='my-1 hover:text-white'>Privacy Policy</li>
-          <li className='my-1 hover:text-white'>Terms and Conditions</li>
-          <li className='my-1 hover:text-white'>Contact</li>
+          <li className='my-1 hover:text-white cursor-pointer'>About Us</li>
+          <li className='my-1 hover:text-white cursor-pointer'>Contact</li>
+          <li className='my-1 hover:text-white cursor-pointer'>Privacy Policy</li>
+          <li className='my-1 hover:text-white cursor-pointer'>Terms and Conditions</li>
+          <li className='my-1 hover:text-white cursor-pointer'>Contact</li>
         </ul>
       </div>
       <div className="flex flex-col items-center md:items-start">
