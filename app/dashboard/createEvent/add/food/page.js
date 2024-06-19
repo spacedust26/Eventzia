@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import Link from 'next/link';
+import Star from '@/components/dashboard/Star';
 
 const venue = [
   {
@@ -90,8 +91,7 @@ const Venue = () => {
               <div className='text text-xl font-bold text-[#d4af37]'>{v.title}</div>
               <div className='text-center text-sm mx-2'>{v.desc}</div>
               <div className=''>
-                <span className='p-5'>{v.star}</span>
-                <span className='p-5'>{v.review} reviews</span>
+              <Star stars = {v.star} reviews = {v.review} />
               </div>
             </div>
             <button className='bg-[#d4af37] p-2 rounded-full text-[#321E1E] font-bold border-dashed border border-white'>View More</button>
