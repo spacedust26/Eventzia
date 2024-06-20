@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { MdPlayCircleFilled, MdReadMore } from 'react-icons/md'
+import Link from 'next/link'
 
 const RightBar = () => {
   return (
@@ -14,7 +15,7 @@ const RightBar = () => {
           <h3 className='title font-semibold text-lg text-gray-200'>How to organise a sustainable wedding ?</h3>
           <span className='subtitle text-sm'>Know in 10 minutes</span>
           <p className='desc text-sm'>Tie the knot with nature in mind: exchange vows under a canopy of local blooms, and let your digital invites whisper love through the ether. Celebrate your union with eco-chic flair, where every detail—from upcycled decor to plantable favors—leaves a lighter footprint on the earth.</p>
-          <button className='button p-[10px] flex items-center gap-2 bg-[#d4af37] border-none rounded-lg cursor-pointer max-w-max'><MdPlayCircleFilled /> Watch</button>
+          <Link href="https://www.youtube.com/watch?v=AuE8nDr1jis"><button className='button p-[10px] flex items-center gap-2 bg-[#d4af37] border-none rounded-lg cursor-pointer max-w-max'><MdPlayCircleFilled /> Watch</button></Link>
         </div>
       </div>
 
@@ -28,7 +29,7 @@ const RightBar = () => {
           <span className='subtitle text-sm'>Read for 5 minutes</span>
           <p className='desc text-sm'>
           Transform your space with DIY decor and creative lighting, making every corner shimmer with charm and personality. Serve up a feast of potluck delights and signature homemade drinks, turning your low-budget bash into a grand celebration of community and creativity</p>
-          <button className='button p-[10px] flex items-center gap-2 bg-[#d4af37] border-none rounded-lg cursor-pointer max-w-max'><MdReadMore /> Learn</button>
+          <Link href="https://www.ramseysolutions.com/budgeting/birthday-party-ideas"><button className='button p-[10px] flex items-center gap-2 bg-[#d4af37] border-none rounded-lg cursor-pointer max-w-max'><MdReadMore /> Learn</button></Link>
         </div>
       </div>
     </div>

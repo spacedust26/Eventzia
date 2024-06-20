@@ -3,9 +3,16 @@ import Image from 'next/image'
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import Link from 'next/link';
 import Star from '@/components/dashboard/Star';
-import venue from '@/assets/venue.json'
+import { notFound } from 'next/navigation';
 
-const Venue = () => {
+const getData = async () => {
+  const res = await fetch("http://localhost:3000/api/venue", { cache: "no-store" });
+  if (!res.ok) return notFound();
+  return res.json();
+};
+
+const Venue = async() => {
+  const venue = await getData();
   return (
     <>
       <Link href="/dashboard/createEvent/add"><div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'><MdOutlineArrowBackIosNew /></div></Link>
@@ -15,7 +22,7 @@ const Venue = () => {
 
         <div className='flex flex-row flex-wrap gap-8 justify-center'>
         {venue.map((v) => (
-            <div key={v.title} className='flex flex-col items-center text-white rounded-lg bg-[#321E1E] w-[300px] h-[430px] overflow-hidden gap-4'>
+            <div key={v.id} className='flex flex-col items-center text-white rounded-lg bg-[#321E1E] w-[300px] h-[430px] overflow-hidden gap-4'>
               <div className="object-contain overflow-hidden">
                 <Image src={v.img} width={400} height={400} alt={v.title} />
               </div>

@@ -16,5 +16,5 @@ const userSchema = new Schema({
 }, {timestamps: true})
 
 const User = models.User || mongoose.model("User", userSchema)
-console.log("User model defined:", User);
+// console.log("User model defined:", User);
 export default User
