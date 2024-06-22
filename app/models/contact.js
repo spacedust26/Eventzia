@@ -4,7 +4,7 @@ const contactSchema = new Schema({
   name:{
     type: String,
     required: [true, "Name is required"],
-    trime: true, //removes whitespace from beginning and end of the string
+    trim: true, //removes whitespace from beginning and end of the string
     minLength: [2, "Name must be larger than 2 characters"],
     maxLength: [50, "Name must be lesser than 50 characters"]
   },

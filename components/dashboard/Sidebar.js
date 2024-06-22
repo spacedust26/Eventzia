@@ -5,7 +5,6 @@ import Image from "next/image";
 import { signOut } from "next-auth/react";
 import { useSession } from "next-auth/react";
 import {
-  MdAttachMoney,
   MdDashboard,
   MdShoppingBag,
   MdWork,
@@ -28,11 +27,6 @@ const menuItems = [
         title: "Create Event",
         path: "/dashboard/createEvent",
         icon: <MdShoppingBag />,
-      },
-      {
-        title: "Transactions",
-        path: "/dashboard/transactions",
-        icon: <MdAttachMoney />,
       },
     ],
   },
@@ -72,10 +66,10 @@ const Sidebar = () => {
   const {data: session} = useSession()
   return (
     <div className="container text-white top-[40px] sticky">
-      <div className="user flex items-center gap-[20px] mb-[16px]">
-        <div className="bg-[#503C3C] rounded-full"><Image className="rounded-full object-cover" src="/gif/avatar.gif" width={50} height={50} unoptimized/></div>
+      <div className="user flex items-center gap-[20px] mb-[16px] bg-[#503C3C] p-4 rounded-lg">
+        <div className="bg-[#352626] rounded-full"><Image className="rounded-full object-cover" src="/gif/avatar.gif" width={50} height={50} unoptimized/></div>
         <div className="flex flex-col">
-          <span className="font-bold">USER</span>
+          <span className="font-bold text-[#d4af37]">USER</span>
           <span className="font-bold">{session?.user?.email}</span>
         </div>
       </div>
