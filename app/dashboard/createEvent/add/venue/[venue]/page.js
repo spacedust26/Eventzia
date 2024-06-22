@@ -1,40 +1,45 @@
-"use client";
-import React, { useContext, useEffect, useState } from 'react';
+"use client"
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { notFound, usePathname } from 'next/navigation';
 import Star from '@/components/dashboard/Star';
-import { CartContext } from '@/app/lib/CartContext';
-import toast from 'react-hot-toast';
 import Link from 'next/link';
 import { MdOutlineArrowBackIosNew } from 'react-icons/md';
 
 const getData = async () => {
-  const res = await fetch("http://localhost:3000/api/venue", { cache: "no-store" });
-  if (!res.ok) return notFound();
-  return res.json();
+  try {
+    const res = await fetch("http://localhost:3000/api/venue", { cache: "no-store" });
+    if (!res.ok) {
+      return null;
+    }
+    return res.json();
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    return null;
+  }
 };
 
 const SingleVenue = () => {
   const pathname = usePathname();
-  const venueName = pathname.split("/").pop().replaceAll("_", " ");
-  const { addProduct } = useContext(CartContext);
+  const venueName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
 
   const [venueData, setVenueData] = useState([]);
-
+  const [venueItems, setVenueItems] = useState([]);
+  
   useEffect(() => {
     const fetchData = async () => {
-      const venue = await getData();
-      const filteredVenue = venue.filter(v => v.title === venueName);
+      const data = await getData();
+      if (!data) return notFound();
+      
+      const filteredVenue = data.venues.filter(v => v.title === venueName);
       setVenueData(filteredVenue);
+      
+      const filteredVenueItems = data.items.filter(item => item.title === venueName);
+      setVenueItems(filteredVenueItems);
     };
 
     fetchData();
   }, [venueName]);
-
-  const addItemToCart = (id) => {
-    addProduct(id);
-    toast.success('Booking successful!');
-  };
 
   if (venueData.length === 0) {
     return <div className="text-white">Venue not found</div>;
@@ -42,23 +47,27 @@ const SingleVenue = () => {
 
   return (
     <>
-      <Link href="/dashboard/createEvent/add/venue"><div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'><MdOutlineArrowBackIosNew /></div></Link>
-      <div className='flex items-center justify-center flex-col m-8 gap-8'>
+      <Link href="/dashboard/createEvent/add/venue" passHref>
+        <div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'>
+          <MdOutlineArrowBackIosNew />
+        </div>
+      </Link>
+      <form className='flex items-center justify-center flex-col m-8 gap-8'>
         {venueData.map((v) => (
           <React.Fragment key={v.id}>
             <div className="top flex items-center justify-start flex-row gap-8 bg-[#321E1E] p-8 text-white rounded-lg">
               <div className="left rounded-lg">
-                <Image src={v.img} width={1000} height={1000} alt="image" className='rounded-lg' />
+                <Image src={v.img} width={1000} height={1000} alt={v.title} className='rounded-lg' />
               </div>
               <div className="right flex items-start justify-center flex-col gap-3 w-2/3">
                 <span className='title text-3xl text-[#d4af37]'>{v.title}</span>
                 <div className="flex flex-col">
                   <span className='text-[#d4af37] font-bold text-lg'>About Us</span>
-                  <span class>{v.about}</span>
+                  <span>{v.about}</span>
                 </div>
                 <div className="flex flex-col">
                   <span className='text-[#d4af37] font-bold text-lg'>Location</span>
-                  <span classNa>{v.address}</span>
+                  <span>{v.address}</span>
                 </div>
                 <div className="flex flex-col">
                   <span className='text-[#d4af37] font-bold text-lg'>Contact us</span>
@@ -66,15 +75,8 @@ const SingleVenue = () => {
                   <span>{v.email}</span>
                 </div>
                 <Star stars={v.star} reviews={v.review} />
-                <button
-                  className='bg-[#d4af37] text-[#321E1E] font-bold rounded-lg px-4 py-2 hover:bg-[#503C3C] hover:text-[#d4af37] w-full'
-                  onClick={() => addItemToCart(v.id)}
-                >
-                  Book Now
-                </button>
               </div>
             </div>
-
 
             <div className="bottom flex flex-row gap-8 text-white w-full">
               <div className='left bg-[#321E1E] rounded-lg p-8 flex flex-col gap-5 items-center justify-center'>
@@ -109,19 +111,29 @@ const SingleVenue = () => {
                 </div>
               </div>
 
-
               <div className="right bg-[#321E1E] rounded-lg p-8 flex flex-col gap-3">
                 <p className='text-[#d4af37] font-bold text-lg'>Specifications</p>
-                {v.specifications.map((timing, index) => (
-                  <span key={index} className='text-sm'>{timing}</span>
+                {v.specifications.map((specification, index) => (
+                  <span key={index} className='text-sm'>{specification}</span>
                 ))}
               </div>
 
+              <div className="bg-[#321E1E] rounded-lg p-8 flex flex-col gap-3">
+                <p className='text-[#d4af37] font-bold text-lg'>Book Your Choice</p>
+                <div className="">
+                  {venueItems.map((vi) => (
+                    <div className="flex flex-row gap-3" key={vi.id}>
+                      <p>{vi.hall}</p>
+                      <p>{vi.time}</p>
+                      <p>{vi.price}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </React.Fragment>
-        ))
-        }
-      </div >
+        ))}
+      </form>
     </>
   );
 };

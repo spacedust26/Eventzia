@@ -16,7 +16,7 @@ const venueSchema = new Schema({
     timings: [{ type: String, required: true }],
     since: { type: String, required: true },
     roomsavailable: { type: Number, required: true },
-    avgprice: { type: String, required: true },
+    avgprice: { type: Number, required: true },
     cancellation: { type: String, required: true },
     specifications: [{ type: String, required: true }]
 });

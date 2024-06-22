@@ -9,8 +9,12 @@ const createEvent = ({ placeholder }) => {
       <div className="top flex items-center justify-between">
         <Search placeholder='Search for an event...' />
         <Link href="/dashboard/createEvent/add">
-          <button className='addButton p-[10px] text-[#321E1E] border-none rounded-lg cursor-pointer bg-[#d4af37] font-bold'>Create Event</button></Link>
+          <button className='addButton p-[10px] text-[#321E1E] border-none rounded-lg cursor-pointer bg-[#d4af37] font-bold w-96'>Create Event</button></Link>
       </div>
+
+      <hr className='m-7 bg-[#503C3C]'/>
+
+      <h3 className='text-2xl font-bold text-center mb-5 text-[#d4af37]'>List Of Events</h3>
       <table className='table  w-full'>
         <thead>
           <tr>

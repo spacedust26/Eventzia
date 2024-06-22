@@ -1,27 +1,39 @@
-import React from 'react'
-import Image from 'next/image'
+"use client"
+import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import Link from 'next/link';
 import Star from '@/components/dashboard/Star';
-import { notFound } from 'next/navigation';
 
-const getData = async () => {
-  const res = await fetch("http://localhost:3000/api/venue", { cache: "no-store" });
-  if (!res.ok) return notFound();
-  return res.json();
-};
+const Venue = () => {
+  const [venues, setVenues] = useState([]);
 
-const Venue = async() => {
-  const venue = await getData();
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch("http://localhost:3000/api/venue", { cache: "no-store" });
+        if (res.ok) {
+          const data = await res.json();
+          setVenues(data.venues); // Assuming data structure is { venues: [], items: [] }
+        } else {
+          console.error('Failed to fetch data');
+        }
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
   return (
     <>
-      <Link href="/dashboard/createEvent/add"><div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'><MdOutlineArrowBackIosNew /></div></Link>
+      <Link href="/dashboard/createEvent/add" passHref><div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'><MdOutlineArrowBackIosNew /></div></Link>
       <div className='flex flex-col justify-center items-center mb-8 gap-8'>
         <h1 className='text-3xl font-bold text-[#321E1E]'>Venues, Hotels and Banquet Halls</h1>
 
 
         <div className='flex flex-row flex-wrap gap-8 justify-center'>
-        {venue.map((v) => (
+        {venues.map((v) => (
             <div key={v.id} className='flex flex-col items-center text-white rounded-lg bg-[#321E1E] w-[300px] h-[430px] overflow-hidden gap-4'>
               <div className="object-contain overflow-hidden">
                 <Image src={v.img} width={400} height={400} alt={v.title} />
@@ -35,7 +47,7 @@ const Venue = async() => {
                 <span className='p-5'>{v.review} reviews</span> */}
                 </div>
               </div>
-              <Link href={v.viewmore}>
+              <Link href={v.viewmore} passHref>
                 <button className='bg-[#d4af37] p-2 rounded-full text-[#321E1E] font-bold border-dashed border border-white hover:bg-[#9f8738]'>View More</button>
               </Link>
             </div>

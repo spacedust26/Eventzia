@@ -1,0 +1,16 @@
+[
+  {
+    "id": "v1",
+    "title":"Grand Plaza Ballroom",
+    "hall":"The Ball",
+    "time":"5:00pm - 12:00am",
+    "price": 50000
+  },
+  {
+    "id": "v2",
+    "title": "Grand Plaza Ballroom",
+    "hall": "The Grand Wedding Hall",
+    "time":"8:00pm - 3pm",
+    "price": 330000
+  }
+]
