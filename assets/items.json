@@ -2,6 +2,7 @@
   {
     "id": "v1",
     "title":"Grand Plaza Ballroom",
+    "address": "Madhav Nagar, Manipal, 576104",
     "hall":"The Ball",
     "time":"5:00pm - 12:00am",
     "price": 50000
@@ -10,6 +11,7 @@
     "id": "v2",
     "title": "Grand Plaza Ballroom",
     "hall": "The Grand Wedding Hall",
+    "address": "Madhav Nagar, Manipal, 576104",
     "time":"8:00pm - 3pm",
     "price": 330000
   }
