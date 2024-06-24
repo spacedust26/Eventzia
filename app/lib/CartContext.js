@@ -34,7 +34,7 @@ export function CartContextProvider({children}){
 
   function clearCart(){
     if(ls){
-      ls.remove('cart');
+      ls.removeItem('cart');
     }
     setCartProducts([])
   }
