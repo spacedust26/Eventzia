@@ -16,7 +16,128 @@
     "address": "Madhav Nagar, Manipal, 576104",
     "stock": 1,
     "hall": "The Grand Wedding Hall",
+    "time":"8:00am - 3:00pm",
+    "price": 330000
+  },
+  {
+    "id": "v3",
+    "category": "Venue Hotels & Banquet Halls",
+    "title":"Sunrise Garden Resort",
+    "address": "Palm Street, Udupi, 576101",
+    "stock": 1,
+    "hall":"Open Court Room",
+    "time":"5:00am - 2:00pm",
+    "price": 10000
+  },
+  {
+    "id": "v4",
+    "category": "Venue Hotels & Banquet Halls",
+    "title": "Oceanview Conference Center",
+    "address": "Beach Road, Mangalore, 575001",
+    "stock": 1,
+    "hall": "Mega Conference Hall",
+    "time":"8:00pm - 2:00pm",
+    "price": 15000
+  },
+  {
+    "id": "v5",
+    "category": "Venue Hotels & Banquet Halls",
+    "title": "Oceanview Conference Center",
+    "address": "Beach Road, Mangalore, 575001",
+    "stock": 1,
+    "hall": "Quick Conference Area",
+    "time":"4:00pm - 8:00pm",
+    "price": 8000
+  },
+  {
+    "id": "v6",
+    "category": "Venue Hotels & Banquet Halls",
+    "title": "Hilltop Retreat Resort",
+    "address": "Hillside Drive, Coorg, 571201",
+    "stock": 1,
+    "hall": "Hilltop Retreat Resort",
+    "time":"8:00pm - 11:00pm",
+    "price": 20000
+  },
+  {
+    "id": "v7",
+    "category": "Venue Hotels & Banquet Halls",
+    "title":"Sunset Beach Resort",
+    "address": "Coastal Highway, Karwar, 581301",
+    "stock": 1,
+    "hall":"Beach Mantap Setup",
+    "time":"10:00pm - 6:00pm",
+    "price": 50000
+  },
+  {
+    "id": "v8",
+    "category": "Venue Hotels & Banquet Halls",
+    "title": "Sunset Beach Resort",
+    "address": "Coastal Highway, Karwar, 581301",
+    "stock": 1,
+    "hall": "The Open Wave",
     "time":"8:00pm - 3pm",
     "price": 330000
+  },
+  {
+    "id": "v9",
+    "category": "Venue Hotels & Banquet Halls",
+    "title":"Heritage Manor",
+    "address": "Heritage Street, Mysore, 570001",
+    "stock": 1,
+    "hall":"Heritage Villa Hall",
+    "time":"1:00pm - 12:00am",
+    "price": 500000
+  },
+  {
+    "id": "v10",
+    "category": "Venue Hotels & Banquet Halls",
+    "title": "Mountaintop Resort",
+    "address": "Mountain View Road, Shimla, 171001",
+    "stock": 1,
+    "hall": "MountainTop Hall",
+    "time":"8:00pm - 3:00pm",
+    "price": 330000
+  },
+  {
+    "id": "v11",
+    "category": "Venue Hotels & Banquet Halls",
+    "title":"Golden Sands Resort",
+    "address": "Coastal Road, Goa, 403001",
+    "stock": 1,
+    "hall":"Golden Sands Grand Wedding Venue",
+    "time":"5:00am - 12:00am",
+    "price": 900000
+  },
+  {
+    "id": "v12",
+    "category": "Venue Hotels & Banquet Halls",
+    "title": "Golden Sands Resort",
+    "address": "Coastal Road, Goa, 403001",
+    "stock": 1,
+    "hall": "Sand Castle Birthday Hall",
+    "time":"8:00am - 12:00am",
+    "price": 330000
+  },
+  {
+    "id": "v13",
+    "category": "Venue Hotels & Banquet Halls",
+    "title":"Golden Sands Resort",
+    "address": "Coastal Road, Goa, 403001",
+    "stock": 1,
+    "hall":"The Golden Conference Hall",
+    "time":"5:00pm - 12:00am",
+    "price": 500000
+  },
+  {
+    "id": "v14",
+    "category": "Venue Hotels & Banquet Halls",
+    "title": "Golden Sands Resort",
+    "address": "Coastal Road, Goa, 403001",
+    "stock": 1,
+    "hall": "Multipurpose Hall",
+    "time":"8:00am - 12:00am",
+    "price": 3030000
   }
+
 ]
