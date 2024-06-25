@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import { CartContext } from '@/app/lib/CartContext';
 import Link from 'next/link';
+import axios from 'axios';
 
 const formatPrice = (price) => {
   return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -27,6 +28,14 @@ const Cart = () => {
   const amountWithoutTax = cart?.cartItems?.reduce((acc, item) => acc + item.quantity * item.price, 0)
   const taxAmount = (amountWithoutTax * 0.05).toFixed(2);
   const totalAmount = (Number(amountWithoutTax) + Number(taxAmount))
+
+  const createCheckoutSession = () => {
+    axios.post('/api/checkout_sessions', { cartItems: cart.cartItems })
+      .then(res => {
+        window.location = res.data.sessionURL;
+      })
+      .catch(err => console.log(err));
+  };
 
   return (
     <div className='flex justify-between max-md:flex-col space-x-4'>
@@ -104,7 +113,7 @@ const Cart = () => {
             </li>
           </ul>
 
-          <a className="py-1 px-2 mb-2 inline-block w-fit text-center font-medium text-[#321E1E] bg-[#d4af37] hover:bg-[#e1ba43] cursor-pointer">
+          <a className="py-1 px-2 mb-2 inline-block w-fit text-center font-medium text-[#321E1E] bg-[#d4af37] hover:bg-[#e1ba43] cursor-pointer" onClick={createCheckoutSession}>
             Continue
           </a>
 

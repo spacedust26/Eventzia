@@ -1,0 +1,282 @@
+[
+  {
+    "id": "food1",
+    "img": "/category/food/img1.jpg",
+    "title": "Delicious Delights Catering",
+    "address": "123 MG Road, Bengaluru, Karnataka",
+    "star": "4.7",
+    "review": "20",
+    "viewmore": "/dashboard/createEvent/add/food/Delicious_Delights_Catering",
+    "contact": "+91 9876543210",
+    "email": "info@deliciousdelights.com",
+    "specifications": [
+      "No artificial flavouring",
+      "Organic ingredients",
+      "Vegan options available"
+    ],
+    "menu": {
+      "Premium": {
+        "items": [
+          "Paneer Tikka",
+          "Veg Biryani",
+          "Chocolate Mousse"
+        ],
+        "price": "INR 2000 per plate"
+      },
+      "Regular": {
+        "items": [
+          "Veg Cutlet",
+          "Fried Rice",
+          "Gulab Jamun"
+        ],
+        "price": "INR 1500 per plate"
+      }
+    },
+    "about": "Delicious Delights Catering offers a variety of organic and vegan-friendly dishes with no artificial flavoring. Located in Bengaluru, Karnataka, this service is highly rated for its quality and variety."
+  },
+  {
+    "id": "food2",
+    "img": "/category/food/img2.jpg",
+    "title": "Gourmet Gatherings Catering",
+    "address": "456 Anna Salai, Chennai, Tamil Nadu",
+    "star": "4.3",
+    "review": "20",
+    "viewmore": "/dashboard/createEvent/add/food/Gourmet_Gatherings_Catering",
+    "contact": "+91 8765432109",
+    "email": "info@gourmetgatherings.com",
+    "specifications": [
+      "No artificial flavouring",
+      "Fresh seafood",
+      "Gluten-free options"
+    ],
+    "menu": {
+      "Premium": {
+        "items": [
+          "Chicken Kebab",
+          "Mutton Biryani",
+          "Ras Malai"
+        ],
+        "price": "INR 2500 per plate"
+      },
+      "Regular": {
+        "items": [
+          "Veg Pakora",
+          "Chicken Fried Rice",
+          "Ice Cream"
+        ],
+        "price": "INR 1800 per plate"
+      }
+    },
+    "about": "Gourmet Gatherings Catering in Chennai, Tamil Nadu, is known for its fresh seafood and gluten-free options. This service ensures no artificial flavoring and offers a wide variety of dishes."
+  },
+  {
+    "id": "food3",
+    "img": "/category/food/img3.jpeg",
+    "title": "Exquisite Eats",
+    "address": "234 Park Street, Kolkata, West Bengal",
+    "star": "4.8",
+    "review": "20",
+    "viewmore": "/dashboard/createEvent/add/food/Exquisite_Eats",
+    "contact": "+91 7654321098",
+    "email": "info@exquisiteeats.com",
+    "specifications": [
+      "No artificial flavouring",
+      "Locally sourced ingredients",
+      "Vegetarian options"
+    ],
+    "menu": {
+      "Premium": {
+        "items": [
+          "Prawn Cocktail",
+          "Lamb Chops",
+          "Cheesecake"
+        ],
+        "price": "INR 3000 per plate"
+      },
+      "Regular": {
+        "items": [
+          "Paneer Butter Masala",
+          "Jeera Rice",
+          "Kheer"
+        ],
+        "price": "INR 2000 per plate"
+      }
+    },
+    "about": "Exquisite Eats, located in Kolkata, West Bengal, is highly praised for its use of locally sourced ingredients and vegetarian options. The service provides high-quality meals with no artificial flavoring."
+  },
+  {
+    "id": "food4",
+    "img": "/category/food/img4.jpg",
+    "title": "Epicurean Events Catering",
+    "address": "567 Connaught Place, New Delhi, Delhi",
+    "star": "4.6",
+    "review": "20",
+    "viewmore": "/dashboard/createEvent/add/food/Epicurean_Events_Catering",
+    "contact": "+91 6543210987",
+    "email": "info@epicureanevents.com",
+    "specifications": [
+      "No artificial flavouring",
+      "Multi-cuisine",
+      "Halal options"
+    ],
+    "menu": {
+      "Premium": {
+        "items": [
+          "Grilled Salmon",
+          "Beef Steak",
+          "Tiramisu"
+        ],
+        "price": "INR 3500 per plate"
+      },
+      "Regular": {
+        "items": [
+          "Dal Makhani",
+          "Naan",
+          "Jalebi"
+        ],
+        "price": "INR 2500 per plate"
+      }
+    },
+    "about": "Epicurean Events Catering in New Delhi offers a diverse menu with multi-cuisine options and Halal choices. They are known for their high-quality food with no artificial flavoring."
+  },
+  {
+    "id": "food5",
+    "img": "/category/food/img5.jpg",
+    "title": "Taste Temptations Catering",
+    "address": "101 Marine Drive, Mumbai, Maharashtra",
+    "star": "4.4",
+    "review": "20",
+    "viewmore": "/dashboard/createEvent/add/food/Taste_Temptations_Catering",
+    "contact": "+91 5432109876",
+    "email": "info@tastetemptations.com",
+    "specifications": [
+      "No artificial flavouring",
+      "Seafood specialties",
+      "Customizable menus"
+    ],
+    "menu": {
+      "Premium": {
+        "items": [
+          "Lobster Bisque",
+          "Crab Cakes",
+          "Creme Brulee"
+        ],
+        "price": "INR 4000 per plate"
+      },
+      "Regular": {
+        "items": [
+          "Chicken Curry",
+          "Steamed Rice",
+          "Fruit Salad"
+        ],
+        "price": "INR 3000 per plate"
+      }
+    },
+    "about": "Taste Temptations Catering, based in Mumbai, Maharashtra, is celebrated for its seafood specialties and customizable menus. They ensure no artificial flavoring in their high-quality offerings."
+  },
+  {
+    "id": "food6",
+    "img": "/category/food/img6.jpg",
+    "title": "Culinary Creations Catering",
+    "address": "222 Banjara Hills, Hyderabad, Telangana",
+    "star": "4.9",
+    "review": "20",
+    "viewmore": "/dashboard/createEvent/add/food/Culinary_Creations_Catering",
+    "contact": "+91 4321098765",
+    "email": "info@culinarycreations.com",
+    "specifications": [
+      "No artificial flavouring",
+      "Fusion cuisine",
+      "Kosher options"
+    ],
+    "menu": {
+      "Premium": {
+        "items": [
+          "Duck Confit",
+          "Foie Gras",
+          "Macarons"
+        ],
+        "price": "INR 4500 per plate"
+      },
+      "Regular": {
+        "items": [
+          "Rajma Chawal",
+          "Bhindi Fry",
+          "Gajar Halwa"
+        ],
+        "price": "INR 3500 per plate"
+      }
+    },
+    "about": "Culinary Creations Catering in Hyderabad, Telangana, is renowned for its fusion cuisine and Kosher options. They use no artificial flavoring and offer an exquisite dining experience."
+  },
+  {
+    "id": "food7",
+    "img": "/category/food/img7.jpg",
+    "title": "Serenity Gardens Event Space",
+    "address": "567 Koregaon Park, Pune, Maharashtra",
+    "star": "4.2",
+    "review": "20",
+    "viewmore": "/dashboard/createEvent/add/food/Serenity_Gardens_Event_Space",
+    "contact": "+91 3210987654",
+    "email": "info@serenitygardens.com",
+    "specifications": [
+      "No artificial flavouring",
+      "Garden fresh ingredients",
+      "Eco-friendly packaging"
+    ],
+    "menu": {
+      "Premium": {
+        "items": [
+          "Stuffed Bell Peppers",
+          "Grilled Veggies",
+          "Berry Tart"
+        ],
+        "price": "INR 2200 per plate"
+      },
+      "Regular": {
+        "items": [
+          "Mixed Veg Curry",
+          "Roti",
+          "Lassi"
+        ],
+        "price": "INR 1800 per plate"
+      }
+    },
+    "about": "Serenity Gardens Event Space in Pune, Maharashtra, uses garden-fresh ingredients and eco-friendly packaging. They provide a range of high-quality dishes with no artificial flavoring."
+  },
+  {
+    "id": "food8",
+    "img": "/category/food/img8.jpg",
+    "title": "Savor the Flavor Catering",
+    "address": "789 Civil Lines, Jaipur, Rajasthan",
+    "star": "4.5",
+    "review": "20",
+    "viewmore": "/dashboard/createEvent/add/food/Savor_the_Flavor_Catering",
+    "contact": "+91 2109876543",
+    "email": "info@savortheflavor.com",
+    "specifications": [
+      "No artificial flavouring",
+      "Traditional Rajasthani dishes",
+      "Organic spices"
+    ],
+    "menu": {
+      "Premium": {
+        "items": [
+          "Laal Maas",
+          "Ker Sangri",
+          "Malpua"
+        ],
+        "price": "INR 2700 per plate"
+      },
+      "Regular": {
+        "items": [
+          "Dal Baati Churma",
+          "Gatte Ki Sabzi",
+          "Rabri"
+        ],
+        "price": "INR 2200 per plate"
+      }
+    },
+    "about": "Savor the Flavor Catering in Jaipur, Rajasthan, is well-known for its traditional Rajasthani dishes and use of organic spices. They ensure no artificial flavoring in their delicious offerings."
+  }
+]

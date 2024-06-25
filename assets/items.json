@@ -57,7 +57,7 @@
     "stock": 1,
     "hall": "Hilltop Retreat Resort",
     "time":"8:00pm - 11:00pm",
-    "price": 20000
+    "price": 500
   },
   {
     "id": "v7",
@@ -138,6 +138,149 @@
     "hall": "Multipurpose Hall",
     "time":"8:00am - 12:00am",
     "price": 3030000
+  },
+  {
+    "id": "f1",
+    "category": "Caterers & Food Services",
+    "title": "Delicious Delights Catering",
+    "address": "123 MG Road, Bengaluru, Karnataka",
+    "stock": 500,
+    "menu": ["Paneer Tikka", "Veg Biryani", "Chocolate Mousse"],
+    "price": 500
+  },
+  {
+    "id": "f2",
+    "category": "Caterers & Food Services",
+    "title": "Delicious Delights Catering",
+    "address": "123 MG Road, Bengaluru, Karnataka",
+    "stock": 500,
+    "menu": ["Veg Cutlet", "Fried Rice", "Gulab Jamun"],
+    "price": 500
+  },
+  {
+    "id": "f3",
+    "category": "Caterers & Food Services",
+    "title": "Gourmet Gatherings Catering",
+    "address": "456 Anna Salai, Chennai, Tamil Nadu",
+    "stock": 15000,
+    "menu": ["Chicken Kebab", "Mutton Biryani", "Ras Malai"],
+    "price": 500
+  },
+  {
+    "id": "f4",
+    "category": "Caterers & Food Services",
+    "title": "Gourmet Gatherings Catering",
+    "address": "456 Anna Salai, Chennai, Tamil Nadu",
+    "stock": 15000,
+    "menu": ["Veg Pakora", "Chicken Fried Rice", "Ice Cream"],
+    "price": 500
+  },
+  {
+    "id": "f5",
+    "category": "Caterers & Food Services",
+    "title": "Exquisite Eats",
+    "address": "234 Park Street, Kolkata, West Bengal",
+    "stock": 18000,
+    "menu": ["Prawn Cocktail", "Lamb Chops", "Cheesecake"],
+    "price": 500
+  },
+  {
+    "id": "f6",
+    "category": "Caterers & Food Services",
+    "title": "Exquisite Eats",
+    "address": "234 Park Street, Kolkata, West Bengal",
+    "stock": 18000,
+    "menu": ["Paneer Butter Masala", "Jeera Rice", "Kheer"],
+    "price": 500
+  },
+  {
+    "id": "f7",
+    "category": "Caterers & Food Services",
+    "title": "Epicurean Events Catering",
+    "address": "567 Connaught Place, New Delhi, Delhi",
+    "stock": 22000,
+    "menu": ["Grilled Salmon", "Beef Steak", "Tiramisu"],
+    "price": 500
+  },
+  {
+    "id": "f8",
+    "category": "Caterers & Food Services",
+    "title": "Epicurean Events Catering",
+    "address": "567 Connaught Place, New Delhi, Delhi",
+    "stock": 22000,
+    "menu": ["Dal Makhani", "Naan", "Jalebi"],
+    "price": 500
+  },
+  {
+    "id": "f9",
+    "category": "Caterers & Food Services",
+    "title": "Taste Temptations Catering",
+    "address": "101 Marine Drive, Mumbai, Maharashtra",
+    "stock": 25000,
+    "menu": ["Lobster Bisque", "Crab Cakes", "Creme Brulee"],
+    "price": 500
+  },
+  {
+    "id": "f10",
+    "category": "Caterers & Food Services",
+    "title": "Taste Temptations Catering",
+    "address": "101 Marine Drive, Mumbai, Maharashtra",
+    "stock": 25000,
+    "menu": ["Chicken Curry", "Steamed Rice", "Fruit Salad"],
+    "price": 500
+  },
+  {
+    "id": "f11",
+    "category": "Caterers & Food Services",
+    "title": "Culinary Creations Catering",
+    "address": "222 Banjara Hills, Hyderabad, Telangana",
+    "stock": 24000,
+    "menu": ["Duck Confit", "Foie Gras", "Macarons"],
+    "price": 500
+  },
+  {
+    "id": "f12",
+    "category": "Caterers & Food Services",
+    "title": "Culinary Creations Catering",
+    "address": "222 Banjara Hills, Hyderabad, Telangana",
+    "stock": 24000,
+    "menu": ["Rajma Chawal", "Bhindi Fry", "Gajar Halwa"],
+    "price": 500
+  },
+  {
+    "id": "f13",
+    "category": "Caterers & Food Services",
+    "title": "Serenity Gardens Event Space",
+    "address": "567 Koregaon Park, Pune, Maharashtra",
+    "stock": 17000,
+    "menu": ["Stuffed Bell Peppers", "Grilled Veggies", "Berry Tart"],
+    "price": 500
+  },
+  {
+    "id": "f14",
+    "category": "Caterers & Food Services",
+    "title": "Serenity Gardens Event Space",
+    "address": "567 Koregaon Park, Pune, Maharashtra",
+    "stock": 17000,
+    "menu": ["Mixed Veg Curry", "Roti", "Lassi"],
+    "price": 500
+  },
+  {
+    "id": "f15",
+    "category": "Caterers & Food Services",
+    "title": "Savor the Flavor Catering",
+    "address": "789 Civil Lines, Jaipur, Rajasthan",
+    "stock": 19000,
+    "menu": ["Laal Maas", "Ker Sangri", "Malpua"],
+    "price": 500
+  },
+  {
+    "id": "f16",
+    "category": "Caterers & Food Services",
+    "title": "Savor the Flavor Catering",
+    "address": "789 Civil Lines, Jaipur, Rajasthan",
+    "stock": 19000,
+    "menu": ["Dal Baati Churma", "Gatte Ki Sabzi", "Rabri"],
+    "price": 500
   }
-
 ]

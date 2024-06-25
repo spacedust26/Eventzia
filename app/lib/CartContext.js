@@ -29,6 +29,7 @@ export const CartProvider = ({ children }) => {
     stock,
     hall,
     price,
+    menu,
     quantity = 1
   }) => {
     const item = {
@@ -39,6 +40,7 @@ export const CartProvider = ({ children }) => {
       stock,
       hall,
       price,
+      menu,
       quantity
     };
 

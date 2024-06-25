@@ -33,7 +33,7 @@ const Venue = () => {
 
 
         <div className='flex flex-row flex-wrap gap-8 justify-center'>
-        {venues.map((v) => (
+          {venues.map((v) => (
             <div key={v.id} className='flex flex-col items-center text-white rounded-lg bg-[#321E1E] w-[300px] h-[430px] overflow-hidden gap-4'>
               <div className="object-contain overflow-hidden">
                 <Image src={v.img} width={400} height={400} alt={v.title} />
