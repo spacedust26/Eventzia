@@ -7,8 +7,8 @@ import { CartContext } from '@/app/lib/CartContext';
 
 const Navbar = () => {
   const pathname = usePathname();
-  const { cartProducts } = useContext(CartContext)
-
+  const {cart} = useContext(CartContext);
+  const cartItems = cart?.cartItems;
   return (
     <div className='container p-[20px] rounded-lg bg-[#321E1E] flex items-center justify-between text-white sticky top-1 z-50'>
       <div className="title text-gray-200 font-bold capitalize">{pathname.split("/").pop().replaceAll("_", " ")}</div>
@@ -25,7 +25,7 @@ const Navbar = () => {
               <MdOutlineShoppingCart size={20} />
             </Link>
             <span className='relative text-[14px] -top-2 right-[8px] bg-red-600 h-[18px] w-[18px] rounded-full flex items-center justify-center text-white'>
-              {cartProducts.length}
+              {cartItems?.length || 0}
             </span>
           </div>
 

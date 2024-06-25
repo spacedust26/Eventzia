@@ -1,17 +1,21 @@
 [
   {
     "id": "v1",
+    "category": "Venue Hotels & Banquet Halls",
     "title":"Grand Plaza Ballroom",
     "address": "Madhav Nagar, Manipal, 576104",
+    "stock": 1,
     "hall":"The Ball",
     "time":"5:00pm - 12:00am",
     "price": 50000
   },
   {
     "id": "v2",
+    "category": "Venue Hotels & Banquet Halls",
     "title": "Grand Plaza Ballroom",
-    "hall": "The Grand Wedding Hall",
     "address": "Madhav Nagar, Manipal, 576104",
+    "stock": 1,
+    "hall": "The Grand Wedding Hall",
     "time":"8:00pm - 3pm",
     "price": 330000
   }
