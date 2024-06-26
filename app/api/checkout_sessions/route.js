@@ -1,40 +1,3 @@
-// const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-
-// export const POST = async(req, res)=> {
-//   if (req.method === 'POST') {
-//     try {
-//       const items = req.body.cartItems;
-//       console.log(items);
-//       const transformedItems = items.map((item) => ({
-//         id: item._id,
-//         category: item.category,
-//         title: item.title,
-//         address: item.address,
-//         stock: item.stock,
-//         hall: item.hall,
-//         time: item.time,
-//         price: item.price,
-//         quantity: item.quantity
-//       }));
-
-//       const session = await stripe.checkout.sessions.create({
-//         line_items: transformedItems,
-//         mode: 'payment',
-//         success_url: `${req.headers.origin}/?success=true`,
-//         cancel_url: `${req.headers.origin}/?canceled=true`,
-//       });
-
-//       res.json({ "sessionURL" : session.url });
-//     } catch (err) {
-//       res.status(err.statusCode || 500).json(err.message);
-//     }
-//   } else {
-//     res.setHeader('Allow', 'POST');
-//     res.status(405).end('Method Not Allowed');
-//   }
-// }
-
-
 import { NextResponse } from 'next/server';
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
@@ -55,12 +18,12 @@ export const POST = async (req) => {
         product_data: {
           name: item.title,
           metadata: {
-            product_id: item._id, // Include the product ID here
+            product_id: item._id, 
             category: item.category,
             address: item.address,
           },
         },
-        unit_amount: item.price * 100, // Stripe expects the amount in the smallest currency unit (paise)
+        unit_amount: item.price * 100, 
       },
       quantity: item.quantity,
     }));
@@ -70,7 +33,7 @@ export const POST = async (req) => {
       line_items: transformedItems,
       mode: 'payment',
       success_url: `${req.headers.get('origin')}/success`,
-      cancel_url: `${req.headers.get('origin')}/?canceled=true`,
+      cancel_url: `${req.headers.get('origin')}/cancel`,
     });
 
     return NextResponse.json({ sessionURL: session.url }, { status: 200 });
