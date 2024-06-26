@@ -30,12 +30,16 @@ const Cart = () => {
   const totalAmount = (Number(amountWithoutTax) + Number(taxAmount))
 
   const createCheckoutSession = () => {
-    axios.post('/api/checkout_sessions', { cartItems: cart.cartItems })
+    axios.post('/api/checkout_sessions', { cartItems: cart.cartItems.map(item => ({ ...item, priceId: item.productId })) })
       .then(res => {
+        console.log('Stripe session created:', res);
         window.location = res.data.sessionURL;
       })
-      .catch(err => console.log(err));
+      .catch(err => {
+        console.error('Error creating checkout session:', err);
+      });
   };
+  
 
   return (
     <div className='flex justify-between max-md:flex-col space-x-4'>
@@ -49,7 +53,7 @@ const Cart = () => {
           {cart?.cartItems?.length > 0 && (
             <>
               {cart.cartItems.map((cartItem) => (
-                <div className="mt-2" key={`Rs{cartItem._id}-Rs{cartItem.time}`}>
+                <div className="mt-2" key={cartItem.id}>
                   <ul className='space-y-4'>
                     <li className='flex items-center gap-4 justify-between'>
                       <div className="bg-[#321E1E] p-4 text-white rounded-lg flex flex-row gap-8 items-center w-[1000px] justify-around">

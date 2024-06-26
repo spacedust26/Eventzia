@@ -14,7 +14,7 @@ const Venue = () => {
         const res = await fetch("http://localhost:3000/api/venue", { cache: "no-store" });
         if (res.ok) {
           const data = await res.json();
-          setVenues(data.venues); // Assuming data structure is { venues: [], items: [] }
+          setVenues(data.venues); 
         } else {
           console.error('Failed to fetch data');
         }
@@ -43,8 +43,6 @@ const Venue = () => {
                 <div className='text-center text-sm mx-2'>{v.address}</div>
                 <div className=''>
                   <Star stars={v.star} reviews={v.review} />
-                  {/* <span className='p-5'>{v.star}</span>
-                <span className='p-5'>{v.review} reviews</span> */}
                 </div>
               </div>
               <Link href={v.viewmore} passHref>

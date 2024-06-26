@@ -9,7 +9,8 @@ const itemSchema = new Schema({
   stock: { type: Number},
   hall: { type: String},
   time: { type: String},
-  price: { type: Number, required: true}
+  price: { type: Number, required: true},
+  productID: {type:String}
 });
 
 const Item = models.Item ||  mongoose.model("Item", itemSchema);

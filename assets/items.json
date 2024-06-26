@@ -282,5 +282,101 @@
     "stock": 19000,
     "menu": ["Dal Baati Churma", "Gatte Ki Sabzi", "Rabri"],
     "price": 500
+  },
+  {
+    "id": "p1",
+    "category": "Photography & Videography",
+    "title": "LensCraft",
+    "address": "123 Shutter Street, Aperture Town, Delhi, 110001",
+    "stock": 1,
+    "packages": {
+      "Basic Package": "₹10,000",
+      "Premium Package": "₹20,000",
+      "Deluxe Package": "₹30,000"
+    }
+  },
+  {
+    "id": "p2",
+    "category": "Photography & Videography",
+    "title": "Focus Frames",
+    "address": "456 Snapshot Lane, Capture City, Mumbai, 400001",
+    "stock": 1,
+    "packages": {
+      "Basic Package": "₹12,000",
+      "Premium Package": "₹22,000",
+      "Deluxe Package": "₹32,000"
+    }
+  },
+  {
+    "id": "p3",
+    "category": "Photography & Videography",
+    "title": "EShutter Speed",
+    "address": "789 Flash Avenue, Lensville, Bangalore, 560001",
+    "stock": 1,
+    "packages": {
+      "Basic Package": "₹15,000",
+      "Premium Package": "₹25,000",
+      "Deluxe Package": "₹35,000"
+    }
+  },
+  {
+    "id": "p4",
+    "category": "Photography & Videography",
+    "title": "Picture Perfect",
+    "address": "321 Frame Road, Exposure Town, Chennai, 600001",
+    "stock": 1,
+    "packages": {
+      "Basic Package": "₹14,000",
+      "Premium Package": "₹24,000",
+      "Deluxe Package": "₹34,000"
+    }
+  },
+  {
+    "id": "p5",
+    "category": "Photography & Videography",
+    "title": "Capture Moments",
+    "address": "567 Aperture Boulevard, Focus City, Kolkata, 700001",
+    "stock": 1,
+    "packages": {
+      "Basic Package": "₹13,000",
+      "Premium Package": "₹23,000",
+      "Deluxe Package": "₹33,000"
+    }
+  },
+  {
+    "id": "p6",
+    "category": "Photography & Videography",
+    "title": "Frame Focus",
+    "address": "890 Viewpoint Street, Camera Town, Hyderabad, 500001",
+    "stock": 1,
+    "packages": {
+      "Basic Package": "₹11,000",
+      "Premium Package": "₹21,000",
+      "Deluxe Package": "₹31,000"
+    }
+  },
+  {
+    "id": "p7",
+    "category": "Photography & Videography",
+    "title": "Lens Legend",
+    "address": "234 Flash Lane, Snapshot Village, Pune, 411001",
+    "stock": 1,
+    "packages": {
+      "Basic Package": "₹16,000",
+      "Premium Package": "₹26,000",
+      "Deluxe Package": "₹36,000"
+    }
+  },
+  {
+    "id": "p8",
+    "category": "Photography & Videography",
+    "title": "Snapshot Studio",
+    "address": "678 Lens Avenue, Picture City, Jaipur, 302001",
+    "stock": 1,
+    "packages": {
+      "Basic Package": "₹18,000",
+      "Premium Package": "₹28,000",
+      "Deluxe Package": "₹38,000"
+    }
   }
 ]

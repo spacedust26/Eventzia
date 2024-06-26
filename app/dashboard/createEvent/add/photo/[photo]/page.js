@@ -9,7 +9,7 @@ import { CartContext } from '@/app/lib/CartContext';
 
 const getData = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/venue", { cache: "no-store" });
+    const res = await fetch("http://localhost:3000/api/photo", { cache: "no-store" });
     if (!res.ok) {
       return null;
     }
@@ -20,31 +20,31 @@ const getData = async () => {
   }
 };
 
-const SingleVenue = () => {
+const SinglePhoto = () => {
   const {addItemToCart} = useContext(CartContext);
   const pathname = usePathname();
-  const venueName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
+  const photoName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
 
-  const [venueData, setVenueData] = useState([]);
-  const [venueItems, setVenueItems] = useState([]);
+  const [photoData, setphotoData] = useState([]);
+  const [photoItems, setphotoItems] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await getData();
       if (!data) return notFound();
 
-      const filteredVenue = data.venues.filter(v => v.title === venueName);
-      setVenueData(filteredVenue);
+      const filteredPhoto = data.photos.filter(v => v.title === photoName);
+      setphotoData(filteredPhoto);
 
-      const filteredVenueItems = data.items.filter(item => item.title === venueName);
-      setVenueItems(filteredVenueItems);
+      const filteredphotoItems = data.items.filter(item => item.title === photoName);
+      setphotoItems(filteredphotoItems);
     };
 
     fetchData();
-  }, [venueName]);
+  }, [photoName]);
 
-  if (venueData.length === 0) {
-    return <div className="text-[#321E1E] text-center text-2xl m-12">Venue / Hotels / Banquet Halls not found</div>;
+  if (photoData.length === 0) {
+    return <div className="text-[#321E1E] text-center text-2xl m-12">Photography / Videography not found</div>;
   }
 
   const addToCartHandler = (product) => {
@@ -57,7 +57,7 @@ const SingleVenue = () => {
       hall: product.hall,
       time: product.time,
       price: product.price,
-      productID: product.productID,
+      packages: product.packages,
       quantity: 1
     });
   };
@@ -70,7 +70,7 @@ const SingleVenue = () => {
         </div>
       </Link>
       <form className='flex items-center justify-center flex-col m-8 gap-8'>
-        {venueData.map((v) => (
+        {photoData.map((v) => (
           <React.Fragment key={v.id}>
             <div className="top flex items-center justify-start flex-row gap-8 bg-[#321E1E] p-8 text-white rounded-lg">
               <div className="left rounded-lg">
@@ -154,7 +154,7 @@ const SingleVenue = () => {
                         <th className='p-2'>Price</th>
                       </tr>
                     </thead>
-                    {venueItems.map((vi) => {
+                    {photoItems.map((vi) => {
                       const inStock = vi.stock >= 1;
                       return (
                         <tbody key={vi.id}>
@@ -187,4 +187,4 @@ const SingleVenue = () => {
   );
 };
 
-export default SingleVenue;
+export default SinglePhoto;

@@ -18,7 +18,8 @@ const venueSchema = new Schema({
     roomsavailable: { type: Number, required: true },
     avgprice: { type: Number, required: true },
     cancellation: { type: String, required: true },
-    specifications: [{ type: String, required: true }]
+    specifications: [{ type: String, required: true }],
+    productID: {type: String}
 });
 
 const Venue = models.Venue ||  mongoose.model("Venue", venueSchema);
