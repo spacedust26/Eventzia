@@ -1,0 +1,289 @@
+[
+  {
+    "id": "funeral1",
+    "img": "/category/funeral/img1.jpg",
+    "title": "Peaceful Memorials",
+    "about": "Peaceful Memorials offers compassionate funeral services, helping families honor their loved ones with dignity and respect.",
+    "address": "123 Serenity Avenue, Tranquil City, Delhi, 110001",
+    "email": "peacefulmemorials@example.com",
+    "contact": "+91 9876543201",
+    "star": "4.9",
+    "review": "50",
+    "viewmore": "/dashboard/createEvent/add/funeral/Peaceful_Memorials",
+    "specifications": [
+      "Traditional Funeral",
+      "Cremation Services",
+      "Memorial Ceremonies",
+      "Grief Counseling"
+    ],
+    "services": [
+      {
+        "service": "Traditional Funeral",
+        "price": "₹20,000 - ₹30,000"
+      },
+      {
+        "service": "Cremation Services",
+        "price": "₹15,000 - ₹25,000"
+      },
+      {
+        "service": "Memorial Ceremonies",
+        "price": "₹10,000 - ₹20,000"
+      },
+      {
+        "service": "Grief Counseling",
+        "price": "₹5,000 per session"
+      }
+    ]
+  },
+  {
+    "id": "funeral2",
+    "img": "/category/funeral/img2.jpg",
+    "title": "Sacred Farewells",
+    "about": "Sacred Farewells provides end-of-life services with sensitivity and care, offering personalized funeral arrangements tailored to individual wishes.",
+    "address": "456 Tranquility Road, Serene Town, Mumbai, 400001",
+    "email": "sacredfarewells@example.com",
+    "contact": "+91 9876543202",
+    "star": "4.8",
+    "review": "45",
+    "viewmore": "/dashboard/createEvent/add/funeral/Sacred_Farewells",
+    "specifications": [
+      "Burial Services",
+      "Funeral Planning",
+      "Ash Scattering",
+      "Support Groups"
+    ],
+    "services": [
+      {
+        "service": "Burial Services",
+        "price": "₹25,000 - ₹35,000"
+      },
+      {
+        "service": "Funeral Planning",
+        "price": "₹18,000 - ₹28,000"
+      },
+      {
+        "service": "Ash Scattering",
+        "price": "₹12,000 - ₹22,000"
+      },
+      {
+        "service": "Support Groups",
+        "price": "₹6,000 per session"
+      }
+    ]
+  },
+  {
+    "id": "funeral3",
+    "img": "/category/funeral/img3.jpg",
+    "title": "Eternal Rest",
+    "about": "Eternal Rest provides comprehensive funeral services, ensuring families receive compassionate support during their time of loss.",
+    "address": "789 Eternal Peace Avenue, Tranquility Village, Bangalore, 560001",
+    "email": "eternalrest@example.com",
+    "contact": "+91 9876543203",
+    "star": "4.7",
+    "review": "40",
+    "viewmore": "/dashboard/createEvent/add/funeral/Eternal_Rest",
+    "specifications": [
+      "Memorial Services",
+      "Funeral Arrangements",
+      "Cremation Facilities",
+      "Family Support"
+    ],
+    "services": [
+      {
+        "service": "Memorial Services",
+        "price": "₹15,000 - ₹25,000"
+      },
+      {
+        "service": "Funeral Arrangements",
+        "price": "₹12,000 - ₹22,000"
+      },
+      {
+        "service": "Cremation Facilities",
+        "price": "₹10,000 - ₹20,000"
+      },
+      {
+        "service": "Family Support",
+        "price": "₹5,000 per session"
+      }
+    ]
+  },
+  {
+    "id": "funeral4",
+    "img": "/category/funeral/img4.jpg",
+    "title": "Serenity Funerals",
+    "about": "Serenity Funerals specializes in dignified funeral services, offering solace and support to families during difficult times.",
+    "address": "321 Tranquil Lane, Harmony City, Chennai, 600001",
+    "email": "serenityfunerals@example.com",
+    "contact": "+91 9876543204",
+    "star": "4.6",
+    "review": "35",
+    "viewmore": "/dashboard/createEvent/add/funeral/Serenity_Funerals",
+    "specifications": [
+      "Funeral Ceremonies",
+      "Ashes Interment",
+      "Grief Management",
+      "Legal Documentation"
+    ],
+    "services": [
+      {
+        "service": "Funeral Ceremonies",
+        "price": "₹18,000 - ₹28,000"
+      },
+      {
+        "service": "Ashes Interment",
+        "price": "₹10,000 - ₹20,000"
+      },
+      {
+        "service": "Grief Management",
+        "price": "₹8,000 - ₹15,000"
+      },
+      {
+        "service": "Legal Documentation",
+        "price": "₹5,000 per session"
+      }
+    ]
+  },
+  {
+    "id": "funeral5",
+    "img": "/category/funeral/img5.jpg",
+    "title": "Comforting Farewells",
+    "about": "Comforting Farewells offers caring funeral services, helping families create meaningful tributes and farewell ceremonies.",
+    "address": "567 Tranquil Road, Peaceful Town, Kolkata, 700001",
+    "email": "comfortingfarewells@example.com",
+    "contact": "+91 9876543205",
+    "star": "4.8",
+    "review": "42",
+    "viewmore": "/dashboard/createEvent/add/funeral/Comforting_Farewells",
+    "specifications": [
+      "Funeral Planning",
+      "Burial Services",
+      "Memorial Tributes",
+      "Emotional Support"
+    ],
+    "services": [
+      {
+        "service": "Funeral Planning",
+        "price": "₹20,000 - ₹30,000"
+      },
+      {
+        "service": "Burial Services",
+        "price": "₹15,000 - ₹25,000"
+      },
+      {
+        "service": "Memorial Tributes",
+        "price": "₹12,000 - ₹22,000"
+      },
+      {
+        "service": "Emotional Support",
+        "price": "₹6,000 per session"
+      }
+    ]
+  },
+  {
+    "id": "funeral6",
+    "img": "/category/funeral/img6.jpg",
+    "title": "Tranquil Memorials",
+    "about": "Tranquil Memorials provides respectful funeral services, guiding families through the process of saying goodbye with compassion and care.",
+    "address": "789 Serenity Lane, Peaceful Village, Hyderabad, 500001",
+    "email": "tranquilmemorials@example.com",
+    "contact": "+91 9876543206",
+    "star": "4.7",
+    "review": "38",
+    "viewmore": "/dashboard/createEvent/add/funeral/Tranquil_Memorials",
+    "specifications": [
+      "Cremation Services",
+      "Funeral Arrangements",
+      "Grief Counseling",
+      "Aftercare Support"
+    ],
+    "services": [
+      {
+        "service": "Cremation Services",
+        "price": "₹18,000 - ₹28,000"
+      },
+      {
+        "service": "Funeral Arrangements",
+        "price": "₹12,000 - ₹22,000"
+      },
+      {
+        "service": "Grief Counseling",
+        "price": "₹8,000 - ₹15,000"
+      },
+      {
+        "service": "Aftercare Support",
+        "price": "₹5,000 per session"
+      }
+    ]
+  }, {
+    "id": "funeral7",
+    "img": "/category/funeral/img7.jpg",
+    "title": "Eternal Peace Funerals",
+    "about": "Eternal Peace Funerals offers professional funeral services, ensuring families receive compassionate support and guidance during their time of loss.",
+    "address": "910 Peaceful Avenue, Serene City, Jaipur, 302001",
+    "email": "eternalpeacefunerals@example.com",
+    "contact": "+91 9876543207",
+    "star": "4.6",
+    "review": "36",
+    "viewmore": "/dashboard/createEvent/add/funeral/Eternal_Peace_Funerals",
+    "specifications": [
+      "Memorial Services",
+      "Burial Arrangements",
+      "Ash Scattering",
+      "Family Counseling"
+    ],
+    "services": [
+      {
+        "service": "Memorial Services",
+        "price": "₹15,000 - ₹25,000"
+      },
+      {
+        "service": "Burial Arrangements",
+        "price": "₹12,000 - ₹22,000"
+      },
+      {
+        "service": "Ash Scattering",
+        "price": "₹10,000 - ₹20,000"
+      },
+      {
+        "service": "Family Counseling",
+        "price": "₹5,000 per session"
+      }
+    ]
+  },
+  {
+    "id": "funeral8",
+    "img": "/category/funeral/img8.jpg",
+    "title": "Solace Funerals",
+    "about": "Solace Funerals provides compassionate funeral services, assisting families with respectful arrangements and support during their time of mourning.",
+    "address": "123 Tranquil Avenue, Peaceful Town, Ahmedabad, 380001",
+    "email": "solacefunerals@example.com",
+    "contact": "+91 9876543208",
+    "star": "4.8",
+    "review": "48",
+    "viewmore": "/dashboard/createEvent/add/funeral/Solace_Funerals",
+    "specifications": [
+      "Funeral Planning",
+      "Cremation Services",
+      "Memorial Ceremonies",
+      "Grief Support"
+    ],
+    "services": [
+      {
+        "service": "Funeral Planning",
+        "price": "₹20,000 - ₹30,000"
+      },
+      {
+        "service": "Cremation Services",
+        "price": "₹15,000 - ₹25,000"
+      },
+      {
+        "service": "Memorial Ceremonies",
+        "price": "₹12,000 - ₹22,000"
+      },
+      {
+        "service": "Grief Support",
+        "price": "₹6,000 per session"
+      }
+    ]
+  }
+]

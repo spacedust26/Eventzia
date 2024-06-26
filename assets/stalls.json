@@ -1,0 +1,284 @@
+[
+  {
+    "id": "stalls1",
+    "img": "/category/stalls/img1.jpg",
+    "title": "Creative Crafts Expo",
+    "address": "123 Artisan Avenue, Craft City, Delhi, 110008",
+    "email": "contact@creativecrafts.com",
+    "contact": "+91 9876543280",
+    "star": "4.7",
+    "review": "45",
+    "viewmore": "/dashboard/createEvent/add/stalls/Creative_Crafts_Expo",
+    "about": "Creative Crafts Expo in Delhi showcases a diverse range of creative crafts and artisanal products. We provide a platform for artisans to display their unique creations, enhancing your event with artistic flair.",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Display Tables and Counters",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Handcrafted Jewelry",
+        "price": "Varies by product"
+      },
+      {
+        "type": "Art Prints and Paintings",
+        "price": "Varies by artwork"
+      },
+      {
+        "type": "Handwoven Textiles",
+        "price": "Varies by fabric"
+      },
+      {
+        "type": "Wooden Handicrafts",
+        "price": "Varies by item"
+      }
+    ]
+  },
+  {
+    "id": "stalls2",
+    "img": "/category/stalls/img11.jpg",
+    "title": "Mehendi Art Stall",
+    "address": "567 Henna Lane, Mehendi Bazaar, Bangalore, 560009",
+    "email": "contact@mehendiart.com",
+    "contact": "+91 9876543290",
+    "star": "4.9",
+    "review": "56",
+    "viewmore": "/dashboard/createEvent/add/stalls/Mehendi_Art_Stall",
+    "about": "Mehendi Art Stall in Bangalore specializes in intricate mehendi designs for weddings and special occasions. Our skilled artists create beautiful henna patterns, adding cultural charm to your event.",
+    "specifications": [
+      "Customizable Mehendi Designs",
+      "Traditional and Contemporary Styles",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Bridal Mehendi",
+        "price": "₹2,000 and up"
+      },
+      {
+        "type": "Guest Mehendi",
+        "price": "₹500 per hand"
+      },
+      {
+        "type": "Custom Designs",
+        "price": "Prices vary by complexity"
+      }
+    ]
+  },
+  {
+    "id": "stalls3",
+    "img": "/category/stalls/img3.jpg",
+    "title": "Fashion Fiesta",
+    "address": "56 Style Avenue, Fashion District, Bangalore, 560008",
+    "email": "contact@fashionfiesta.com",
+    "contact": "+91 9876543282",
+    "star": "4.9",
+    "review": "55",
+    "viewmore": "/dashboard/createEvent/add/stalls/Fashion_Fiesta",
+    "about": "Fashion Fiesta in Bangalore celebrates style with a collection of fashion stalls featuring trendy clothing and accessories. We showcase the latest in fashion trends, offering a chic experience for fashion enthusiasts.",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Display Tables and Counters",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Women's Apparel",
+        "price": "Varies by item"
+      },
+      {
+        "type": "Men's Fashion",
+        "price": "Varies by product"
+      },
+      {
+        "type": "Footwear and Accessories",
+        "price": "Varies by item"
+      },
+      {
+        "type": "Designer Wear",
+        "price": "Varies by collection"
+      }
+    ]
+  },
+  {
+    "id": "stalls4",
+    "img": "/category/stalls/img4.jpg",
+    "title": "Culinary Delights",
+    "address": "78 Taste Boulevard, Foodie Lane, Chennai, 600008",
+    "email": "contact@culinarydelights.com",
+    "contact": "+91 9876543283",
+    "star": "4.8",
+    "review": "52",
+    "viewmore": "/dashboard/createEvent/add/stalls/Culinary_Delights",
+    "about": "Culinary Delights in Chennai offers a gastronomic experience with a variety of gourmet food stalls. From regional delicacies to international cuisines, we satisfy every palate.",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Display Tables and Counters",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Street Food Specialties",
+        "price": "Varies by dish"
+      },
+      {
+        "type": "International Cuisine",
+        "price": "Varies by dish"
+      },
+      {
+        "type": "Desserts and Beverages",
+        "price": "Varies by item"
+      },
+      {
+        "type": "Specialty Snacks",
+        "price": "Varies by item"
+      }
+    ]
+  },
+  {
+    "id": "stalls5",
+    "img": "/category/stalls/img5.jpg",
+    "title": "Artisanal Food Market",
+    "address": "90 Gourmet Street, Flavor City, Kolkata, 700008",
+    "email": "contact@artisanalfood.com",
+    "contact": "+91 9876543284",
+    "star": "4.7",
+    "review": "48",
+    "viewmore": "/dashboard/createEvent/add/stalls/Artisanal_Food_Market",
+    "about": "Artisanal Food Market in Kolkata showcases a variety of gourmet food stalls offering artisanal delicacies. From handcrafted chocolates to organic produce, we curate a culinary journey for food enthusiasts.",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Display Tables and Counters",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Handcrafted Chocolates",
+        "price": "Varies by assortment"
+      },
+      {
+        "type": "Organic Farm Produce",
+        "price": "Varies by item"
+      },
+      {
+        "type": "Artisanal Baked Goods",
+        "price": "Varies by selection"
+      },
+      {
+        "type": "Specialty Beverages",
+        "price": "Varies by drink"
+      }
+    ]
+  },
+  {
+    "id": "stalls6",
+    "img": "/category/stalls/img6.jpg",
+    "title": "Home Decor Showcase",
+    "address": "123 Design Lane, Decor Plaza, Hyderabad, 500008",
+    "email": "contact@homedecorshowcase.com",
+    "contact": "+91 9876543285",
+    "star": "4.9",
+    "review": "57",
+    "viewmore": "/dashboard/createEvent/add/stalls/Home_Decor_Showcase",
+    "about": "Home Decor Showcase in Hyderabad features a collection of stalls showcasing elegant home decor items. From contemporary furniture to vintage accents, we offer inspiration for transforming living spaces.",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Display Tables and Counters",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Furniture and Furnishings",
+        "price": "Varies by piece"
+      },
+      {
+        "type": "Home Accessories",
+        "price": "Varies by item"
+      },
+      {
+        "type": "Wall Art and Mirrors",
+        "price": "Varies by artwork"
+      },
+      {
+        "type": "Lighting Fixtures",
+        "price": "Varies by fixture"
+      }
+    ]
+  },
+  {
+    "id": "stalls7",
+    "img": "/category/stalls/img7.jpg",
+    "title": "Health and Wellness Pavilion",
+    "address": "456 Wellness Avenue, Wellness Hub, Pune, 411008",
+    "email": "contact@wellnesspavilion.com",
+    "contact": "+91 9876543286",
+    "star": "4.8",
+    "review": "53",
+    "viewmore": "/dashboard/createEvent/add/stalls/Health_and_Wellness_Pavilion",
+    "about": "Health and Wellness Pavilion in Pune promotes holistic well-being with a variety of stalls offering wellness products and services. From organic skincare to fitness equipment, we cater to health-conscious individuals.",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Display Tables and Counters",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Organic Skincare",
+        "price": "Varies by product"
+      },
+      {
+        "type": "Fitness Gear",
+        "price": "Varies by equipment"
+      },
+      {
+        "type": "Nutritional Supplements",
+        "price": "Varies by supplement"
+      },
+      {
+        "type": "Wellness Services",
+        "price": "Varies by service"
+      },
+      {
+        "type": "Health Consultations",
+        "price": "Varies by consultation"
+      }
+    ]
+  },
+  {
+    "id": "stalls8",
+    "img": "/category/stalls/img10.jpg",
+    "title": "Speed Caricature Art",
+    "address": "234 Art Lane, Creative Corner, Mumbai, 400009",
+    "email": "contact@caricatureart.com",
+    "contact": "+91 9876543289",
+    "star": "4.8",
+    "review": "51",
+    "viewmore": "/dashboard/createEvent/add/stalls/Speed_Caricature_Art",
+    "about": "Speed Caricature Art in Mumbai offers live caricature making at",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Interactive Drawing Sessions",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Black and White Caricatures",
+        "price": "₹500 per caricature"
+      },
+      {
+        "type": "Color Caricatures",
+        "price": "₹800 per caricature"
+      },
+      {
+        "type": "Group Caricatures",
+        "price": "Prices vary by group size"
+      }
+    ]
+  }
+]

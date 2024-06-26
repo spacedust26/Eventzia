@@ -1,0 +1,289 @@
+[
+  {
+    "id": "mehendi1",
+    "img": "/category/mehendi/img1.jpg",
+    "title": "Artistic Henna",
+    "about": "Artistic Henna specializes in traditional and contemporary mehendi designs, creating intricate patterns for weddings and festive occasions.",
+    "address": "123 Mehendi Lane, Mehendi Nagar, Delhi, 110001",
+    "email": "artistic.henna@example.com",
+    "contact": "+91 9876543211",
+    "star": "4.9",
+    "review": "55",
+    "viewmore": "/dashboard/createEvent/add/mehendi/Artistic_Henna",
+    "specifications": [
+      "Traditional Mehendi",
+      "Bridal Mehendi",
+      "Arabic Mehendi",
+      "Glitter Mehendi"
+    ],
+    "services": [
+      {
+        "service": "Traditional Mehendi",
+        "price": "₹3,000 - ₹5,000"
+      },
+      {
+        "service": "Bridal Mehendi",
+        "price": "₹5,000 - ₹10,000"
+      },
+      {
+        "service": "Arabic Mehendi",
+        "price": "₹3,500 - ₹6,000"
+      },
+      {
+        "service": "Glitter Mehendi",
+        "price": "₹4,000 - ₹7,000"
+      }
+    ]
+  },
+  {
+    "id": "mehendi2",
+    "img": "/category/mehendi/img2.jpg",
+    "title": "Divine Mehendi",
+    "about": "Divine Mehendi offers exquisite mehendi designs, blending traditional artistry with modern techniques for weddings and special celebrations.",
+    "address": "456 Henna Road, Mehendi City, Mumbai, 400001",
+    "email": "divine.mehendi@example.com",
+    "contact": "+91 9876543212",
+    "star": "4.8",
+    "review": "50",
+    "viewmore": "/dashboard/createEvent/add/mehendi/Divine_Mehendi",
+    "specifications": [
+      "Bridal Mehendi",
+      "Rajasthani Mehendi",
+      "Indo-Arabic Mehendi",
+      "Black Mehendi"
+    ],
+    "services": [
+      {
+        "service": "Bridal Mehendi",
+        "price": "₹5,000 - ₹8,000"
+      },
+      {
+        "service": "Rajasthani Mehendi",
+        "price": "₹4,000 - ₹7,000"
+      },
+      {
+        "service": "Indo-Arabic Mehendi",
+        "price": "₹4,500 - ₹7,500"
+      },
+      {
+        "service": "Black Mehendi",
+        "price": "₹5,500 - ₹9,000"
+      }
+    ]
+  },
+  {
+    "id": "mehendi3",
+    "img": "/category/mehendi/img3.jpg",
+    "title": "Royal Henna Art",
+    "about": "Royal Henna Art specializes in bespoke mehendi designs, offering personalized services for weddings, festivals, and cultural events.",
+    "address": "789 Mehendi Avenue, Henna Town, Bangalore, 560001",
+    "email": "royal.henna@example.com",
+    "contact": "+91 9876543213",
+    "star": "4.7",
+    "review": "45",
+    "viewmore": "/dashboard/createEvent/add/mehendi/Royal_Henna_Art",
+    "specifications": [
+      "Bridal Mehendi",
+      "Marwari Mehendi",
+      "Pakistani Mehendi",
+      "Multi-color Mehendi"
+    ],
+    "services": [
+      {
+        "service": "Bridal Mehendi",
+        "price": "₹6,000 - ₹10,000"
+      },
+      {
+        "service": "Marwari Mehendi",
+        "price": "₹4,500 - ₹8,000"
+      },
+      {
+        "service": "Pakistani Mehendi",
+        "price": "₹5,500 - ₹9,000"
+      },
+      {
+        "service": "Multi-color Mehendi",
+        "price": "₹5,000 - ₹8,500"
+      }
+    ]
+  },
+  {
+    "id": "mehendi4",
+    "img": "/category/mehendi/img4.jpg",
+    "title": "Golden Mehendi",
+    "about": "Golden Mehendi offers luxurious mehendi services, specializing in intricate designs and personalized patterns for weddings and special events.",
+    "address": "321 Mehendi Street, Mehendi Nagar, Chennai, 600001",
+    "email": "golden.mehendi@example.com",
+    "contact": "+91 9876543214",
+    "star": "4.8",
+    "review": "52",
+    "viewmore": "/dashboard/createEvent/add/mehendi/Golden_Mehendi",
+    "specifications": [
+      "Bridal Mehendi",
+      "Gujarati Mehendi",
+      "Egyptian Mehendi",
+      "Color Mehendi"
+    ],
+    "services": [
+      {
+        "service": "Bridal Mehendi",
+        "price": "₹5,500 - ₹9,000"
+      },
+      {
+        "service": "Gujarati Mehendi",
+        "price": "₹4,500 - ₹8,000"
+      },
+      {
+        "service": "Egyptian Mehendi",
+        "price": "₹5,000 - ₹8,500"
+      },
+      {
+        "service": "Color Mehendi",
+        "price": "₹5,500 - ₹9,500"
+      }
+    ]
+  },
+  {
+    "id": "mehendi5",
+    "img": "/category/mehendi/img5.jpg",
+    "title": "Celestial Mehendi",
+    "about": "Celestial Mehendi specializes in celestial and divine mehendi designs, perfect for weddings, engagements, and festive celebrations.",
+    "address": "567 Celestial Avenue, Henna City, Kolkata, 700001",
+    "email": "celestial.mehendi@example.com",
+    "contact": "+91 9876543215",
+    "star": "4.9",
+    "review": "55",
+    "viewmore": "/dashboard/createEvent/add/mehendi/Celestial_Mehendi",
+    "specifications": [
+      "Bridal Mehendi",
+      "Punjabi Mehendi",
+      "Moroccan Mehendi",
+      "Glitter Mehendi"
+    ],
+    "services": [
+      {
+        "service": "Bridal Mehendi",
+        "price": "₹6,000 - ₹10,000"
+      },
+      {
+        "service": "Punjabi Mehendi",
+        "price": "₹5,000 - ₹8,000"
+      },
+      {
+        "service": "Moroccan Mehendi",
+        "price": "₹5,500 - ₹9,000"
+      },
+      {
+        "service": "Glitter Mehendi",
+        "price": "₹4,500 - ₹7,500"
+      }
+    ]
+  },
+  {
+    "id": "mehendi6",
+    "img": "/category/mehendi/img6.jpg",
+    "title": "Traditional Henna Art",
+    "about": "Traditional Henna Art offers authentic and timeless mehendi designs, specializing in Rajasthani and Arabic styles for weddings and cultural events.",
+    "address": "890 Henna Lane, Mehendi Nagar, Hyderabad, 500001",
+    "email": "traditional.henna@example.com",
+    "contact": "+91 9876543216",
+    "star": "4.7",
+    "review": "48",
+    "viewmore": "/dashboard/createEvent/add/mehendi/Traditional_Henna_Art",
+    "specifications": [
+      "Bridal Mehendi",
+      "Arabic Mehendi",
+      "Rajasthani Mehendi",
+      "Modern Mehendi"
+    ],
+    "services": [
+      {
+        "service": "Bridal Mehendi",
+        "price": "₹5,500 - ₹9,000"
+      },
+      {
+        "service": "Arabic Mehendi",
+        "price": "₹4,500 - ₹8,000"
+      },
+      {
+        "service": "Rajasthani Mehendi",
+        "price": "₹4,500 - ₹8,000"
+      },
+      {
+        "service": "Modern Mehendi",
+        "price": "₹5,000 - ₹8,500"
+      }
+    ]
+  },{
+    "id": "mehendi8",
+    "img": "/category/mehendi/img8.jpg",
+    "title": "Elegant Mehendi Designs",
+    "about": "Elegant Mehendi Designs specializes in elegant and contemporary mehendi art, offering bespoke designs for weddings and special occasions.",
+    "address": "678 Mehendi Street, Mehendi Nagar, Jaipur, 302001",
+    "email": "elegant.mehendi@example.com",
+    "contact": "+91 9876543218",
+    "star": "4.7",
+    "review": "47",
+    "viewmore": "/dashboard/createEvent/add/mehendi/Elegant_Mehendi_Designs",
+    "specifications": [
+      "Bridal Mehendi",
+      "Gulf Mehendi",
+      "Bengali Mehendi",
+      "Minimalist Mehendi"
+    ],
+    "services": [
+      {
+        "service": "Bridal Mehendi",
+        "price": "₹5,500 - ₹9,000"
+      },
+      {
+        "service": "Gulf Mehendi",
+        "price": "₹4,500 - ₹8,000"
+      },
+      {
+        "service": "Bengali Mehendi",
+        "price": "₹4,500 - ₹8,000"
+      },
+      {
+        "service": "Minimalist Mehendi",
+        "price": "₹5,000 - ₹8,500"
+      }
+    ]
+  },
+  {
+    "id": "mehendi9",
+    "img": "/category/mehendi/img9.jpg",
+    "title": "Royal Mehendi Artistry",
+    "about": "Royal Mehendi Artistry offers royal and intricate mehendi designs, specializing in Mughlai and traditional motifs for weddings and cultural celebrations.",
+    "address": "890 Mehendi Lane, Mehendi Town, Chandigarh, 160001",
+    "email": "royal.mehendi@example.com",
+    "contact": "+91 9876543219",
+    "star": "4.9",
+    "review": "58",
+    "viewmore": "/dashboard/createEvent/add/mehendi/Royal_Mehendi_Artistry",
+    "specifications": [
+      "Bridal Mehendi",
+      "Mughlai Mehendi",
+      "Parsi Mehendi",
+      "Fusion Mehendi"
+    ],
+    "services": [
+      {
+        "service": "Bridal Mehendi",
+        "price": "₹6,000 - ₹10,000"
+      },
+      {
+        "service": "Mughlai Mehendi",
+        "price": "₹5,000 - ₹8,000"
+      },
+      {
+        "service": "Parsi Mehendi",
+        "price": "₹5,500 - ₹9,000"
+      },
+      {
+        "service": "Fusion Mehendi",
+        "price": "₹5,000 - ₹8,500"
+      }
+    ]
+  }
+]

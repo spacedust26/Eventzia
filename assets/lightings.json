@@ -1,0 +1,294 @@
+[
+  {
+    "id": "lightings1",
+    "img": "/category/lightings/img1.jpg",
+    "title": "Luminous Lightings",
+    "address": "12 Glow Street, Radiance City, Delhi, 110007",
+    "email": "contact@luminouslightings.com",
+    "contact": "+91 9876543270",
+    "star": "4.7",
+    "review": "45",
+    "viewmore": "/dashboard/createEvent/add/lightings/Luminous_Lightings",
+    "about": "Luminous Lightings in Delhi specializes in creating magical ambiance with a wide range of lighting solutions tailored to your event. From elegant to dramatic, we illuminate your celebrations with style.",
+    "specifications": [
+      "Customizable Lighting Designs",
+      "LED and Laser Lighting",
+      "Special Effects Lighting",
+      "Installation and Setup"
+    ],
+    "types": [
+      {
+        "type": "LED Uplighting",
+        "price": "₹20,000 per event"
+      },
+      {
+        "type": "String Lights",
+        "price": "₹15,000 per event"
+      },
+      {
+        "type": "Spotlights and Floodlights",
+        "price": "₹25,000 per event"
+      },
+      {
+        "type": "Gobo Lighting",
+        "price": "₹30,000 per event"
+      }
+    ]
+  },
+  {
+    "id": "lightings2",
+    "img": "/category/lightings/img2.jpg",
+    "title": "Glowing Effects",
+    "address": "34 Radiant Avenue, Glow City, Mumbai, 400007",
+    "email": "contact@glowingeffects.com",
+    "contact": "+91 9876543271",
+    "star": "4.8",
+    "review": "50",
+    "viewmore": "/dashboard/createEvent/add/lightings/Glowing_Effects",
+    "about": "Glowing Effects in Mumbai offers stunning lighting solutions that transform your venue into a spectacular setting. With expertise in lighting design and installation, we create mesmerizing atmospheres for events.",
+    "specifications": [
+      "Customizable Lighting Designs",
+      "LED and Laser Lighting",
+      "Special Effects Lighting",
+      "Installation and Setup"
+    ],
+    "types": [
+      {
+        "type": "Fairy Lights",
+        "price": "₹18,000 per event"
+      },
+      {
+        "type": "Color Wash Lighting",
+        "price": "₹22,000 per event"
+      },
+      {
+        "type": "Intelligent Lighting",
+        "price": "₹28,000 per event"
+      },
+      {
+        "type": "Outdoor Lighting",
+        "price": "₹32,000 per event"
+      }
+    ]
+  },
+  {
+    "id": "lightings3",
+    "img": "/category/lightings/img3.jpg",
+    "title": "Ethereal Illuminations",
+    "address": "56 Illumination Street, Sparkle Town, Bangalore, 560007",
+    "email": "contact@etherealillum.com",
+    "contact": "+91 9876543272",
+    "star": "4.9",
+    "review": "55",
+    "viewmore": "/dashboard/createEvent/add/lightings/Ethereal_Illuminations",
+    "about": "Ethereal Illuminations in Bangalore specializes in creating ethereal lighting effects that add magic to your events. With a focus on creativity and innovation, we illuminate your celebrations with beauty and elegance.",
+    "specifications": [
+      "Customizable Lighting Designs",
+      "LED and Laser Lighting",
+      "Special Effects Lighting",
+      "Installation and Setup"
+    ],
+    "types": [
+      {
+        "type": "Chandelier Lighting",
+        "price": "₹25,000 per event"
+      },
+      {
+        "type": "Monogram Lighting",
+        "price": "₹35,000 per event"
+      },
+      {
+        "type": "Projection Mapping",
+        "price": "₹40,000 per event"
+      },
+      {
+        "type": "Firework Lighting",
+        "price": "₹45,000 per event"
+      }
+    ]
+  },
+  {
+    "id": "lightings4",
+    "img": "/category/lightings/img4.jpg",
+    "title": "Radiant Rays",
+    "address": "78 Glow Lane, Bright City, Chennai, 600007",
+    "email": "contact@radiantrays.com",
+    "contact": "+91 9876543273",
+    "star": "4.8",
+    "review": "52",
+    "viewmore": "/dashboard/createEvent/add/lightings/Radiant_Rays",
+    "about": "Radiant Rays in Chennai specializes in creating radiant lighting setups that enhance the ambiance of weddings and events. With a dedication to excellence, we light up your celebrations with brilliance and style.",
+    "specifications": [
+      "Customizable Lighting Designs",
+      "LED and Laser Lighting",
+      "Special Effects Lighting",
+      "Installation and Setup"
+    ],
+    "types": [
+      {
+        "type": "Twinkle Lights",
+        "price": "₹23,000 per event"
+      },
+      {
+        "type": "Ambient Lighting",
+        "price": "₹27,000 per event"
+      },
+      {
+        "type": "Pixel Mapping",
+        "price": "₹37,000 per event"
+      },
+      {
+        "type": "Neon Lighting",
+        "price": "₹42,000 per event"
+      }
+    ]
+  },
+  {
+    "id": "lightings5",
+    "img": "/category/lightings/img5.jpg",
+    "title": "Sparkle Spectrum",
+    "address": "90 Sparkle Boulevard, Shine City, Kolkata, 700007",
+    "email": "contact@sparklespectrum.com",
+    "contact": "+91 9876543274",
+    "star": "4.7",
+    "review": "48",
+    "viewmore": "/dashboard/createEvent/add/lightings/Sparkle_Spectrum",
+    "about": "Sparkle Spectrum in Kolkata offers a spectrum of sparkling lighting designs to illuminate your special events. With creativity and precision, we create stunning visual effects that mesmerize your guests.",
+    "specifications": [
+      "Customizable Lighting Designs",
+      "LED and Laser Lighting",
+      "Special Effects Lighting",
+      "Installation and Setup"
+    ],
+    "types": [
+      {
+        "type": "Glow Sticks",
+        "price": "₹21,000 per event"
+      },
+      {
+        "type": "Disco Lights",
+        "price": "₹24,000 per event"
+      },
+      {
+        "type": "UV Lighting",
+        "price": "₹34,000 per event"
+      },
+      {
+        "type": "Festoon Lighting",
+        "price": "₹38,000 per event"
+      }
+    ]
+  },
+  {
+    "id": "lightings6",
+    "img": "/category/lightings/img6.jpg",
+    "title": "Dazzle Designs",
+    "address": "123 Dazzle Lane, Brilliance City, Jaipur, 302007",
+    "email": "contact@dazzledesigns.com",
+    "contact": "+91 9876543275",
+    "star": "4.9",
+    "review": "57",
+    "viewmore": "/dashboard/createEvent/add/lightings/Dazzle_Designs",
+    "about": "Dazzle Designs in Jaipur specializes in creating dazzling lighting designs that add a touch of elegance and grandeur to your events. We transform spaces with our creative lighting solutions.",
+    "specifications": [
+      "Customizable Lighting Designs",
+      "LED and Laser Lighting",
+      "Special Effects Lighting",
+      "Installation and Setup"
+    ],
+    "types": [
+      {
+        "type": "Fiber Optic Lighting",
+        "price": "₹29,000 per event"
+      },
+      {
+        "type": "Candlelight Effect",
+        "price": "₹32,000 per event"
+      },
+      {
+        "type": "Architectural Lighting",
+        "price": "₹36,000 per event"
+      },
+      {
+        "type": "Wireless LED Lighting",
+        "price": "₹39,000 per event"
+      }
+    ]
+  },
+  {
+    "id": "lightings7",
+    "img": "/category/lightings/img7.jpg",
+    "title": "Brilliant Bliss",
+    "address": "456 Blissful Street, Radiant Glow Town, Hyderabad, 500007",
+    "email": "contact@brilliantbliss.com",
+    "contact": "+91 9876543276",
+    "star": "4.8",
+    "review": "53",
+    "viewmore": "/dashboard/createEvent/add/lightings/Brilliant_Bliss",
+    "about": "Brilliant Bliss in Hyderabad specializes in creating brilliant lighting setups that enhance the beauty of weddings and events. We create magical atmospheres with our innovative lighting designs.",
+    "specifications": [
+      "Customizable Lighting Designs",
+      "LED and Laser Lighting",
+      "Special Effects Lighting",
+      "Installation and Setup"
+    ],
+    "types": [
+      {
+        "type": "Outdoor Festive Lighting",
+        "price": "₹26,000 per event"
+      },
+      {
+        "type": "Event Theme Lighting",
+        "price": "₹31,000 per event"
+      },
+      {
+        "type": "Interactive LED Panels",
+        "price": "₹33,000 per event"
+      },
+      {
+        "type": "Waterproof Lighting",
+        "price": "₹35,000 per event"
+      },
+      {
+        "type": "Crystal Chandeliers",
+        "price": "₹40,000 per event"
+      }
+    ]
+  },
+  {
+    "id": "lightings8",
+    "img": "/category/lightings/img8.jpg",
+    "title": "Twilight Illuminations",
+    "address": "789 Twilight Avenue, Glowville, Pune, 411007",
+    "email": "contact@twilightillum.com",
+    "contact": "+91 9876543277",
+    "star": "4.9",
+    "review": "58",
+    "viewmore": "/dashboard/createEvent/add/lightings/Twilight_Illuminations",
+    "about": "Twilight Illuminations in Pune offers enchanting lighting designs that create a magical ambiance for weddings and special events. With expertise in lighting technology, we bring your visions to light.",
+    "specifications": [
+      "Customizable Lighting Designs",
+      "LED and Laser Lighting",
+      "Special Effects Lighting",
+      "Installation and Setup"
+    ],
+    "types": [
+      {
+        "type": "Glowing Orbs",
+        "price": "₹28,000 per event"
+      },
+      {
+        "type": "Pixel LED Curtains",
+        "price": "₹30,000 per event"
+      },
+      {
+        "type": "Laser Show",
+        "price": "₹38,000 per event"
+      },
+      {
+        "type": "Starlight Effect",
+        "price": "₹42,000 per event"
+      }
+    ]
+  }
+]

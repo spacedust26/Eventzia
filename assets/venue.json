@@ -17,7 +17,7 @@
     ],
     "since": "2010",
     "roomsavailable": 70,
-    "avgprice": "50000 (prices may vary)",
+    "avgprice": "500 (prices may vary)",
     "cancellation": "No Refund",
     "specifications": [
       "Electricity Backup",
@@ -50,7 +50,7 @@
     ],
     "since": "2008",
     "roomsavailable": 50,
-    "avgprice": "350000 (prices may vary)",
+    "avgprice": "3500 (prices may vary)",
     "cancellation": "50% Refund if cancelled 30 days prior",
     "specifications": [
       "Electricity Backup",
@@ -82,7 +82,7 @@
     ],
     "since": "2015",
     "roomsavailable": 30,
-    "avgprice": "600000 (prices may vary)",
+    "avgprice": "600 (prices may vary)",
     "cancellation": "No Refund",
     "specifications": [
       "Electricity Backup",
@@ -112,7 +112,7 @@
     "timings": ["10:00am to 4:00pm", "5:00pm to 11:00pm"],
     "since": "2015",
     "roomsavailable": 100,
-    "avgprice": "300000 (prices may vary)",
+    "avgprice": "300 (prices may vary)",
     "cancellation": "Flexible with conditions",
     "specifications": ["Electricity Backup", "Wifi", "Outdoor Pool", "Gym", "Restaurant", "Parking", "Spa", "Adventure Activities"]
   },
@@ -131,7 +131,7 @@
     "timings": ["9:00am to 5:00pm", "6:00pm to 12:00am"],
     "since": "2005",
     "roomsavailable": 60,
-    "avgprice": "250000 (prices may vary)",
+    "avgprice": "250 (prices may vary)",
     "cancellation": "Partial refund possible",
     "specifications": ["Electricity Backup", "Wifi", "Beachfront", "Restaurant", "Parking", "Spa", "Water Sports"]
   },
@@ -150,7 +150,7 @@
     "timings": ["8:00am to 4:00pm", "5:00pm to 11:00pm"],
     "since": "2000",
     "roomsavailable": 20,
-    "avgprice": "400000 (prices may vary)",
+    "avgprice": "400 (prices may vary)",
     "cancellation": "No Refund",
     "specifications": ["Electricity Backup", "Wifi", "Historic Building", "Garden", "Restaurant", "Parking", "Valet Service"]
   },
@@ -169,7 +169,7 @@
     "timings": ["9:00am to 6:00pm", "7:00pm to 1:00am"],
     "since": "2011",
     "roomsavailable": 80,
-    "avgprice": "380000 (prices may vary)",
+    "avgprice": "3800 (prices may vary)",
     "cancellation": "Flexible with conditions",
     "specifications": ["Electricity Backup", "Wifi", "Mountain View", "Restaurant", "Parking", "Spa", "Adventure Activities"]
   },
@@ -188,7 +188,7 @@
     "timings": ["10:00am to 5:00pm", "6:00pm to 1:00am"],
     "since": "2007",
     "roomsavailable": 150,
-    "avgprice": "600000 (prices may vary)",
+    "avgprice": "600 (prices may vary)",
     "cancellation": "Non-refundable",
     "specifications": ["Electricity Backup", "Wifi", "Beachfront", "Restaurant", "Parking", "Spa", "Water Sports"]
   }

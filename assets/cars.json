@@ -1,0 +1,289 @@
+[
+  {
+    "id": "cars1",
+    "img": "/category/cars/img1.jpg",
+    "title": "Classic Vintage Rentals",
+    "about": "Classic Vintage Rentals specializes in renting classic cars for weddings, events, and special occasions, offering a touch of elegance and nostalgia.",
+    "address": "123 Classic Lane, Vintage Town, Delhi, 110008",
+    "email": "contact@classicvintagerentals.com",
+    "contact": "+91 9876543201",
+    "star": "4.7",
+    "review": "45",
+    "viewmore": "/dashboard/createEvent/add/cars/Classic_Vintage_Rentals",
+    "specifications": [
+      "Wide Range of Classic Cars",
+      "Chauffeur Services Available",
+      "Customizable Car Decorations",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Vintage Rolls-Royce",
+        "price": "₹15,000 - ₹50,000 per day"
+      },
+      {
+        "type": "Classic Cadillac",
+        "price": "₹10,000 - ₹40,000 per day"
+      },
+      {
+        "type": "Antique Mercedes-Benz",
+        "price": "₹12,000 - ₹45,000 per day"
+      },
+      {
+        "type": "Oldsmobile Convertible",
+        "price": "₹8,000 - ₹35,000 per day"
+      }
+    ]
+  },
+  {
+    "id": "cars2",
+    "img": "/category/cars/img2.jpg",
+    "title": "Retro Wheels Rentals",
+    "about": "Retro Wheels Rentals offers a collection of retro and vintage cars for rent, providing clients with a memorable driving experience from a bygone era.",
+    "address": "456 Retro Road, Nostalgia Lane, Mumbai, 400008",
+    "email": "contact@retrowheelsrentals.com",
+    "contact": "+91 9876543202",
+    "star": "4.8",
+    "review": "48",
+    "viewmore": "/dashboard/createEvent/add/cars/Retro_Wheels_Rentals",
+    "specifications": [
+      "Unique Retro Car Selection",
+      "Professional Driving Services",
+      "Personalized Car Packages",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Vintage Ford Mustang",
+        "price": "₹20,000 - ₹60,000 per day"
+      },
+      {
+        "type": "Classic Chevrolet Bel Air",
+        "price": "₹18,000 - ₹55,000 per day"
+      },
+      {
+        "type": "Antique Volkswagen Beetle",
+        "price": "₹12,000 - ₹40,000 per day"
+      },
+      {
+        "type": "Old School VW Camper",
+        "price": "₹15,000 - ₹50,000 per day"
+      }
+    ]
+  },
+  {
+    "id": "cars3",
+    "img": "/category/cars/img3.jpg",
+    "title": "Heritage Car Rentals",
+    "about": "Heritage Car Rentals specializes in renting heritage cars that evoke nostalgia and elegance, ensuring a memorable and stylish transportation experience.",
+    "address": "789 Heritage Drive, Classic City, Bangalore, 560008",
+    "email": "contact@heritagecarrentals.com",
+    "contact": "+91 9876543203",
+    "star": "4.6",
+    "review": "42",
+    "viewmore": "/dashboard/createEvent/add/cars/Heritage_Car_Rentals",
+    "specifications": [
+      "Exclusive Heritage Car Fleet",
+      "Expert Drivers Available",
+      "Vintage Car Shows",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Classic Jaguar E-Type",
+        "price": "₹25,000 - ₹70,000 per day"
+      },
+      {
+        "type": "Vintage Porsche 356",
+        "price": "₹22,000 - ₹65,000 per day"
+      },
+      {
+        "type": "Antique Bentley S1",
+        "price": "₹30,000 - ₹80,000 per day"
+      },
+      {
+        "type": "Retro Austin-Healey",
+        "price": "₹18,000 - ₹50,000 per day"
+      }
+    ]
+  },
+  {
+    "id": "cars4",
+    "img": "/category/cars/img4.jpg",
+    "title": "Nostalgia Car Haven",
+    "about": "Nostalgia Car Haven offers a sanctuary for vintage car enthusiasts, providing rentals and showcasing iconic automobiles from different eras.",
+    "address": "321 Nostalgia Street, Retro Village, Chennai, 600008",
+    "email": "contact@nostalgiacarhaven.com",
+    "contact": "+91 9876543204",
+    "star": "4.9",
+    "review": "55",
+    "viewmore": "/dashboard/createEvent/add/cars/Nostalgia_Car_Haven",
+    "specifications": [
+      "Diverse Vintage Car Collection",
+      "Themed Car Exhibitions",
+      "Chauffeur-Driven Services",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Classic Ford Thunderbird",
+        "price": "₹18,000 - ₹55,000 per day"
+      },
+      {
+        "type": "Antique Buick Roadmaster",
+        "price": "₹20,000 - ₹60,000 per day"
+      },
+      {
+        "type": "Vintage Chrysler Imperial",
+        "price": "₹22,000 - ₹65,000 per day"
+      },
+      {
+        "type": "Retro Chevrolet Corvette",
+        "price": "₹15,000 - ₹50,000 per day"
+      }
+    ]
+  },
+  {
+    "id": "cars5",
+    "img": "/category/cars/img5.jpg",
+    "title": "Royal Vintage Rides",
+    "about": "Royal Vintage Rides offers a regal experience with its fleet of royal vintage cars, perfect for weddings, ceremonies, and grand events.",
+    "address": "567 Vintage Avenue, Royalty Plaza, Kolkata, 700008",
+    "email": "contact@royalvintagerides.com",
+    "contact": "+91 9876543205",
+    "star": "4.7",
+    "review": "50",
+    "viewmore": "/dashboard/createEvent/add/cars/Royal_Vintage_Rides",
+    "specifications": [
+      "Luxurious Vintage Car Options",
+      "Royal Carriage Services",
+      "Royal Car Parades",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Royal Rolls-Royce Phantom",
+        "price": "₹30,000 - ₹80,000 per day"
+      },
+      {
+        "type": "Vintage Bentley Mulsanne",
+        "price": "₹35,000 - ₹90,000 per day"
+      },
+      {
+        "type": "Antique Daimler Limousine",
+        "price": "₹25,000 - ₹75,000 per day"
+      },
+      {
+        "type": "Classic Jaguar Mark 2",
+        "price": "₹28,000 - ₹85,000 per day"
+      }
+    ]
+  },
+  {
+    "id": "cars6",
+    "img": "/category/cars/img6.jpg",
+    "title": "Antique Auto Rentals",
+    "about": "Antique Auto Rentals specializes in renting antique cars that embody elegance and charm, providing a unique touch to any special occasion.",
+    "address": "890 Antique Drive, Heritage Lane, Hyderabad, 500008",
+    "email": "contact@antiqueautorentals.com",
+    "contact": "+91 9876543206",
+    "star": "4.8",
+    "review": "52",
+    "viewmore": "/dashboard/createEvent/add/cars/Antique_Auto_Rentals",
+    "specifications": [
+      "Authentic Antique Car Selection",
+      "Vintage Car Shows",
+      "Chauffeur-Driven Services",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Antique Ford Model T",
+        "price": "₹20,000 - ₹60,000 per day"
+      },
+      {
+        "type": "Classic Packard Twelve",
+        "price": "₹25,000 - ₹70,000 per day"
+      },
+      {
+        "type": "Retro Cadillac V16",
+        "price": "₹22,000 - ₹65,000 per day"
+      },
+      {
+        "type": "Vintage Stutz Bearcat",
+        "price": "₹18,000 - ₹55,000 per day"
+      }
+    ]
+  },{
+    "id": "cars7",
+    "img": "/category/cars/img7.jpg",
+    "title": "Timeless Treasures Rentals",
+    "about": "Timeless Treasures Rentals offers a collection of timeless and treasured cars that add sophistication and class to any event or celebration.",
+    "address": "234 Timeless Road, Elegance District, Pune, 411008",
+    "email": "contact@timelesstreasuresrentals.com",
+    "contact": "+91 9876543207",
+    "star": "4.6",
+    "review": "40",
+    "viewmore": "/dashboard/createEvent/add/cars/Timeless_Treasures_Rentals",
+    "specifications": [
+      "Exclusive Collection of Timeless Cars",
+      "Professional Chauffeurs Available",
+      "Themed Car Decorations",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Vintage Aston Martin DB5",
+        "price": "₹28,000 - ₹75,000 per day"
+      },
+      {
+        "type": "Classic Alfa Romeo Spider",
+        "price": "₹25,000 - ₹70,000 per day"
+      },
+      {
+        "type": "Antique Fiat 500",
+        "price": "₹15,000 - ₹50,000 per day"
+      },
+      {
+        "type": "Retro Lamborghini Miura",
+        "price": "₹30,000 - ₹80,000 per day"
+      }
+    ]
+  },
+  {
+    "id": "cars8",
+    "img": "/category/cars/img8.jpg",
+    "title": "Vintage Visions",
+    "about": "Vintage Visions offers an exquisite selection of vintage cars, providing a blend of luxury and nostalgia for weddings, film shoots, and corporate events.",
+    "address": "678 Vintage Lane, Classic City, Jaipur, 302008",
+    "email": "contact@vintagevisions.com",
+    "contact": "+91 9876543208",
+    "star": "4.9",
+    "review": "55",
+    "viewmore": "/dashboard/createEvent/add/cars/Vintage_Visions",
+    "specifications": [
+      "Premium Vintage Car Selection",
+      "Professional Car Rental Services",
+      "Customizable Car Packages",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Vintage Bentley Continental",
+        "price": "₹35,000 - ₹90,000 per day"
+      },
+      {
+        "type": "Classic Rolls-Royce Silver Cloud",
+        "price": "₹30,000 - ₹85,000 per day"
+      },
+      {
+        "type": "Antique Cadillac Fleetwood",
+        "price": "₹32,000 - ₹88,000 per day"
+      },
+      {
+        "type": "Retro Mercedes-Benz 300SL",
+        "price": "₹40,000 - ₹95,000 per day"
+      }
+    ]
+  }
+]

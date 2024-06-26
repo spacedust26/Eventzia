@@ -16,7 +16,7 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "types of cake": [
+    "typesofcake": [
       {
         "type": "Chocolate Cake",
         "weights": [
@@ -64,7 +64,7 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "types of cake": [
+    "typesofcake": [
       {
         "type": "Black Forest Cake",
         "weights": [
@@ -112,7 +112,7 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "types of cake": [
+    "typesofcake": [
       {
         "type": "Strawberry Cake",
         "weights": [
@@ -160,7 +160,7 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "types of cake": [
+    "typesofcake": [
       {
         "type": "Mango Cake",
         "weights": [
@@ -208,7 +208,7 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "types of cake": [
+    "typesofcake": [
       {
         "type": "Chocolate Truffle Cake",
         "weights": [
@@ -255,7 +255,7 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "types of cake": [
+    "typesofcake": [
       {
         "type": "Chocolate Fudge Cake",
         "weights": [
@@ -303,7 +303,7 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "types of cake": [
+    "typesofcake": [
       {
         "type": "Chocolate Mousse Cake",
         "weights": [
@@ -351,7 +351,7 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "types of cake": [
+    "typesofcake": [
       {
         "type": "Hazelnut Cake",
         "weights": [

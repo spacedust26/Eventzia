@@ -1,0 +1,290 @@
+[
+  {
+    "id": "entertainment1",
+    "img": "/category/entertainment/img1.jpg",
+    "title": "Harmony Music & Dance",
+    "address": "12 Melody Street, Rhythm City, Delhi, 110006",
+    "email": "contact@harmonymusicdance.com",
+    "contact": "+91 9876543260",
+    "star": "4.7",
+    "review": "40",
+    "viewmore": "/dashboard/createEvent/add/entertainment/Harmony_Music_Dance",
+    "about": "Harmony Music & Dance in Delhi offers a seamless blend of live music performances and mesmerizing dance choreography for events. With a talented team of musicians and dancers, we create unforgettable experiences.",
+    "specifications": [
+      "Live Music Performances",
+      "Professional Dance Choreography",
+      "Sound System Included",
+      "Customizable Packages"
+    ],
+    "services": [
+      {
+        "type": "Live Band (4 musicians)",
+        "price": "₹50,000 per event"
+      },
+      {
+        "type": "Solo Singer",
+        "price": "₹20,000 per event"
+      },
+      {
+        "type": "Dance Choreography (1 routine)",
+        "price": "₹30,000 per routine"
+      },
+      {
+        "type": "Sound System Rental",
+        "price": "₹10,000 per event"
+      }
+    ]
+  },
+  {
+    "id": "entertainment2",
+    "img": "/category/entertainment/img2.jpg",
+    "title": "Groove Beats Entertainment",
+    "address": "34 Dance Avenue, Beat City, Mumbai, 400006",
+    "email": "contact@groovebeats.com",
+    "contact": "+91 9876543261",
+    "star": "4.9",
+    "review": "50",
+    "viewmore": "/dashboard/createEvent/add/entertainment/Groove_Beats_Entertainment",
+    "about": "Groove Beats Entertainment in Mumbai is your ultimate destination for energetic live music performances, talented bands, and dynamic dance choreography. We specialize in creating memorable experiences for all types of events.",
+    "specifications": [
+      "Live Music Performances",
+      "Professional Dance Choreography",
+      "Sound System Included",
+      "Customizable Packages"
+    ],
+    "services": [
+      {
+        "type": "Live Band (5 musicians)",
+        "price": "₹60,000 per event"
+      },
+      {
+        "type": "DJ Services",
+        "price": "₹40,000 per event"
+      },
+      {
+        "type": "Group Dance Performance",
+        "price": "₹35,000 per routine"
+      },
+      {
+        "type": "Sound System Rental with Operator",
+        "price": "₹15,000 per event"
+      }
+    ]
+  },
+  {
+    "id": "entertainment3",
+    "img": "/category/entertainment/img3.jpg",
+    "title": "Rhythm Masters",
+    "address": "56 Music Lane, Dance Hub, Bangalore, 560006",
+    "email": "contact@rhythmmasters.com",
+    "contact": "+91 9876543262",
+    "star": "4.8",
+    "review": "45",
+    "viewmore": "/dashboard/createEvent/add/entertainment/Rhythm_Masters",
+    "about": "Rhythm Masters in Bangalore offers a fusion of live music, exhilarating dance performances, and professional sound system services. We bring rhythm and energy to every event, ensuring a lively and entertaining atmosphere.",
+    "specifications": [
+      "Live Music Performances",
+      "Professional Dance Choreography",
+      "Sound System Included",
+      "Customizable Packages"
+    ],
+    "services": [
+      {
+        "type": "Live Band (6 musicians)",
+        "price": "₹70,000 per event"
+      },
+      {
+        "type": "Classical Dance Performance",
+        "price": "₹25,000 per routine"
+      },
+      {
+        "type": "Sound System Rental (Full Setup)",
+        "price": "₹20,000 per event"
+      },
+      {
+        "type": "Choreography for Wedding Dance",
+        "price": "₹40,000 per routine"
+      }
+    ]
+  },
+  {
+    "id": "entertainment4",
+    "img": "/category/entertainment/img4.jpg",
+    "title": "Soulful Melodies",
+    "address": "78 Melody Lane, Harmony City, Chennai, 600006",
+    "email": "contact@soulfulmelodies.com",
+    "contact": "+91 9876543263",
+    "star": "4.7",
+    "review": "42",
+    "viewmore": "/dashboard/createEvent/add/entertainment/Soulful_Melodies",
+    "about": "Soulful Melodies in Chennai offers soul-stirring live music performances and elegant dance choreography that enhance the ambiance of any event. With a passion for music and dance, we create magical moments.",
+    "specifications": [
+      "Live Music Performances",
+      "Professional Dance Choreography",
+      "Sound System Included",
+      "Customizable Packages"
+    ],
+    "services": [
+      {
+        "type": "Live Band (7 musicians)",
+        "price": "₹80,000 per event"
+      },
+      {
+        "type": "Contemporary Dance Performance",
+        "price": "₹30,000 per routine"
+      },
+      {
+        "type": "Sound System Rental (Premium Setup)",
+        "price": "₹25,000 per event"
+      },
+      {
+        "type": "Choreography for Sangeet Ceremony",
+        "price": "₹45,000 per routine"
+      }
+    ]
+  },
+  {
+    "id": "entertainment5",
+    "img": "/category/entertainment/img5.jpg",
+    "title": "Dynamic Beats Entertainment",
+    "address": "90 Beats Avenue, Dance Pulse, Kolkata, 700006",
+    "email": "contact@dynamicbeats.com",
+    "contact": "+91 9876543264",
+    "star": "4.9",
+    "review": "48",
+    "viewmore": "/dashboard/createEvent/add/entertainment/Dynamic_Beats_Entertainment",
+    "about": "Dynamic Beats Entertainment in Kolkata offers dynamic live music bands, exciting dance performances, and professional sound system services to elevate your celebrations. We create energetic and engaging experiences for every occasion.",
+    "specifications": [
+      "Live Music Performances",
+      "Professional Dance Choreography",
+      "Sound System Included",
+      "Customizable Packages"
+    ],
+    "services": [
+      {
+        "type": "Live Band (8 musicians)",
+        "price": "₹90,000 per event"
+      },
+      {
+        "type": "Bollywood Dance Performance",
+        "price": "₹40,000 per routine"
+      },
+      {
+        "type": "Sound System Rental (Full Event Coverage)",
+        "price": "₹30,000 per event"
+      },
+      {
+        "type": "Choreography for Corporate Events",
+        "price": "₹50,000 per routine"
+      }
+    ]
+  },
+  {
+    "id": "entertainment6",
+    "img": "/category/entertainment/img6.jpg",
+    "title": "Melody Masters",
+    "address": "123 Melodic Street, Harmonious City, Jaipur, 302006",
+    "email": "contact@melodymasters.com",
+    "contact": "+91 9876543265",
+    "star": "4.8",
+    "review": "47",
+    "viewmore": "/dashboard/createEvent/add/entertainment/Melody_Masters",
+    "about": "Melody Masters in Jaipur specializes in creating melodious live music performances and captivating dance choreography for weddings and events. We bring harmony and joy to your celebrations with our talented team.",
+    "specifications": [
+      "Live Music Performances",
+      "Professional Dance Choreography",
+      "Sound System Included",
+      "Customizable Packages"
+    ],
+    "services": [
+      {
+        "type": "Live Band (9 musicians)",
+        "price": "₹100,000 per event"
+      },
+      {
+        "type": "Folk Dance Performance",
+        "price": "₹35,000 per routine"
+      },
+      {
+        "type": "Sound System Rental (Premium Setup with DJ)",
+        "price": "₹35,000 per event"
+      },
+      {
+        "type": "Choreography for Annual Function",
+        "price": "₹55,000 per routine"
+      }
+    ]
+  },
+  {
+    "id": "entertainment7",
+    "img": "/category/entertainment/img7.jpg",
+    "title": "Celestial Sounds",
+    "address": "456 Celestial Avenue, Music Haven, Hyderabad, 500006",
+    "email": "contact@celestialsounds.com",
+    "contact": "+91 9876543266",
+    "star": "4.9",
+    "review": "55",
+    "viewmore": "/dashboard/createEvent/add/entertainment/Celestial_Sounds",
+    "about": "Celestial Sounds in Hyderabad offers celestial live music performances, elegant dance choreography, and professional sound system services to create magical moments at your events. We specialize in bringing celestial vibes to your celebrations.",
+    "specifications": [
+      "Live Music Performances",
+      "Professional Dance Choreography",
+      "Sound System Included",
+      "Customizable Packages"
+    ],
+    "services": [
+      {
+        "type": "Live Band (10 musicians)",
+        "price": "₹110,000 per event"
+      },
+      {
+        "type": "Kathak Dance Performance",
+        "price": "₹45,000 per routine"
+      },
+      {
+        "type": "Sound System Rental (Full Event Setup with Lighting)",
+        "price": "₹40,000 per event"
+      },
+      {
+        "type": "Choreography for Music Festivals",
+        "price": "₹60,000 per routine"
+      }
+    ]
+  },
+  {
+    "id": "entertainment8",
+    "img": "/category/entertainment/img8.jpg",
+    "title": "Vibrant Beats Entertainment",
+    "address": "789 Beats Boulevard, Dance Fusion City, Pune, 411006",
+    "email": "contact@vibrantbeats.com",
+    "contact": "+91 9876543267",
+    "star": "4.8",
+    "review": "52",
+    "viewmore": "/dashboard/createEvent/add/entertainment/Vibrant_Beats_Entertainment",
+    "about": "Vibrant Beats Entertainment in Pune offers vibrant live music bands, dynamic dance performances, and state-of-the-art sound system services to amplify your celebrations. We bring energy and vibrancy to every event.",
+    "specifications": [
+      "Live Music Performances",
+      "Professional Dance Choreography",
+      "Sound System Included",
+      "Customizable Packages"
+    ],
+    "services": [
+      {
+        "type": "Live Band (11 musicians)",
+        "price": "₹120,000 per event"
+      },
+      {
+        "type": "Hip-Hop Dance Performance",
+        "price": "₹50,000 per routine"
+      },
+      {
+        "type": "Sound System Rental (Full Coverage with DJ and Effects)",
+        "price": "₹50,000 per event"
+      },
+      {
+        "type": "Choreography for Dance Competitions",
+        "price": "₹70,000 per routine"
+      }
+    ]
+  }
+]

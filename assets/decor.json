@@ -1,0 +1,290 @@
+[
+  {
+    "id": "decor1",
+    "img": "/category/decor/img1.jpg",
+    "title": "Blossom Decor",
+    "address": "101 Flower Street, Garden City, Delhi, 110002",
+    "email": "contact@blossomdecor.com",
+    "contact": "+91 9876543218",
+    "star": "4.7",
+    "review": "25",
+    "viewmore": "/dashboard/createEvent/add/decor/Blossom_Decor",
+    "about": "Blossom Decor specializes in creating stunning floral arrangements and themed decorations for all occasions. Located in the heart of Delhi, our team transforms venues into beautiful spaces, ensuring every detail aligns with your vision.",
+    "specifications": [
+      "Event Planning",
+      "Custom Designs",
+      "Setup and Cleanup",
+      "On-Site Coordination"
+    ],
+    "types": [
+      {
+        "type": "Weddings",
+        "price": "₹50,000"
+      },
+      {
+        "type": "Corporate Events",
+        "price": "₹40,000"
+      },
+      {
+        "type": "Birthday Parties",
+        "price": "₹30,000"
+      },
+      {
+        "type": "Anniversaries",
+        "price": "₹35,000"
+      }
+    ]
+  },
+  {
+    "id": "decor2",
+    "img": "/category/decor/img2.jpg",
+    "title": "Elegant Affairs",
+    "address": "202 Celebration Lane, Festive Town, Mumbai, 400002",
+    "email": "contact@elegantaffairs.com",
+    "contact": "+91 9876543219",
+    "star": "4.8",
+    "review": "30",
+    "viewmore": "/dashboard/createEvent/add/decor/Elegant_Affairs",
+    "about": "Elegant Affairs in Mumbai is known for its sophisticated and stylish decorations. Our expert decorators work closely with clients to create personalized decor that adds a touch of elegance to every event.",
+    "specifications": [
+      "Event Planning",
+      "Custom Designs",
+      "Setup and Cleanup",
+      "On-Site Coordination"
+    ],
+    "types": [
+      {
+        "type": "Weddings",
+        "price": "₹55,000"
+      },
+      {
+        "type": "Corporate Events",
+        "price": "₹45,000"
+      },
+      {
+        "type": "Birthday Parties",
+        "price": "₹35,000"
+      },
+      {
+        "type": "Anniversaries",
+        "price": "₹40,000"
+      }
+    ]
+  },
+  {
+    "id": "decor3",
+    "img": "/category/decor/img3.jpg",
+    "title": "Floral Fantasy",
+    "address": "303 Blossom Boulevard, Bloom Town, Bangalore, 560002",
+    "email": "contact@floralfantasy.com",
+    "contact": "+91 9876543220",
+    "star": "4.6",
+    "review": "22",
+    "viewmore": "/dashboard/createEvent/add/decor/Floral_Fantasy",
+    "about": "Floral Fantasy in Bangalore is a top choice for exquisite floral designs and event decorations. We specialize in crafting unique and beautiful decor that enhances the ambiance of any event.",
+    "specifications": [
+      "Event Planning",
+      "Custom Designs",
+      "Setup and Cleanup",
+      "On-Site Coordination"
+    ],
+    "types": [
+      {
+        "type": "Weddings",
+        "price": "₹52,000"
+      },
+      {
+        "type": "Corporate Events",
+        "price": "₹42,000"
+      },
+      {
+        "type": "Birthday Parties",
+        "price": "₹32,000"
+      },
+      {
+        "type": "Anniversaries",
+        "price": "₹37,000"
+      }
+    ]
+  },
+  {
+    "id": "decor4",
+    "img": "/category/decor/img4.jpg",
+    "title": "Dreamscape Decor",
+    "address": "404 Celebration Street, Event City, Chennai, 600002",
+    "email": "contact@dreamscapedecor.com",
+    "contact": "+91 9876543221",
+    "star": "4.7",
+    "review": "28",
+    "viewmore": "/dashboard/createEvent/add/decor/Dreamscape_Decor",
+    "about": "Dreamscape Decor in Chennai offers creative and luxurious decorations for all types of events. Our talented team works meticulously to bring your vision to life, ensuring every detail is perfect.",
+    "specifications": [
+      "Event Planning",
+      "Custom Designs",
+      "Setup and Cleanup",
+      "On-Site Coordination"
+    ],
+    "types": [
+      {
+        "type": "Weddings",
+        "price": "₹60,000"
+      },
+      {
+        "type": "Corporate Events",
+        "price": "₹50,000"
+      },
+      {
+        "type": "Birthday Parties",
+        "price": "₹40,000"
+      },
+      {
+        "type": "Anniversaries",
+        "price": "₹45,000"
+      }
+    ]
+  },
+  {
+    "id": "decor5",
+    "img": "/category/decor/img5.jpg",
+    "title": "Elegant Touch",
+    "address": "505 Gala Avenue, Festival Town, Kolkata, 700002",
+    "email": "contact@eleganttouch.com",
+    "contact": "+91 9876543222",
+    "star": "4.9",
+    "review": "35",
+    "viewmore": "/dashboard/createEvent/add/decor/Elegant_Touch",
+    "about": "Elegant Touch in Kolkata is renowned for its attention to detail and creative decor solutions. We provide a wide range of decoration services, ensuring each event is unique and memorable.",
+    "specifications": [
+      "Event Planning",
+      "Custom Designs",
+      "Setup and Cleanup",
+      "On-Site Coordination"
+    ],
+    "types": [
+      {
+        "type": "Weddings",
+        "price": "₹58,000"
+      },
+      {
+        "type": "Corporate Events",
+        "price": "₹48,000"
+      },
+      {
+        "type": "Birthday Parties",
+        "price": "₹38,000"
+      },
+      {
+        "type": "Anniversaries",
+        "price": "₹43,000"
+      }
+    ]
+  },
+  {
+    "id": "decor6",
+    "img": "/category/decor/img6.jpg",
+    "title": "Heavenly Decor",
+    "address": "606 Paradise Street, Celebration City, Hyderabad, 500002",
+    "email": "contact@heavenlydecor.com",
+    "contact": "+91 9876543223",
+    "star": "4.8",
+    "review": "27",
+    "viewmore": "/dashboard/createEvent/add/decor/Heavenly_Decor",
+    "about": "Heavenly Decor in Hyderabad offers bespoke decoration services for weddings, corporate events, and more. Our team of experts ensures every detail is executed to perfection, creating a magical ambiance for your event.",
+    "specifications": [
+      "Event Planning",
+      "Custom Designs",
+      "Setup and Cleanup",
+      "On-Site Coordination"
+    ],
+    "types": [
+      {
+        "type": "Weddings",
+        "price": "₹62,000"
+      },
+      {
+        "type": "Corporate Events",
+        "price": "₹52,000"
+      },
+      {
+        "type": "Birthday Parties",
+        "price": "₹42,000"
+      },
+      {
+        "type": "Anniversaries",
+        "price": "₹47,000"
+      }
+    ]
+  },
+  {
+    "id": "decor7",
+    "img": "/category/decor/img7.jpg",
+    "title": "Celebration Central",
+    "address": "707 Party Lane, Joy Town, Pune, 411002",
+    "email": "contact@celebrationcentral.com",
+    "contact": "+91 9876543224",
+    "star": "4.6",
+    "review": "24",
+    "viewmore": "/dashboard/createEvent/add/decor/Celebration_Central",
+    "about": "Celebration Central in Pune offers vibrant and innovative decoration solutions for all types of events. Our dedicated team ensures that every event is decorated to perfection, making your celebrations unforgettable.",
+    "specifications": [
+      "Event Planning",
+      "Custom Designs",
+      "Setup and Cleanup",
+      "On-Site Coordination"
+    ],
+    "types": [
+      {
+        "type": "Weddings",
+        "price": "₹54,000"
+      },
+      {
+        "type": "Corporate Events",
+        "price": "₹44,000"
+      },
+      {
+        "type": "Birthday Parties",
+        "price": "₹34,000"
+      },
+      {
+        "type": "Anniversaries",
+        "price": "₹39,000"
+      }
+    ]
+  },
+  {
+    "id": "decor8",
+    "img": "/category/decor/img8.jpg",
+    "title": "Event Elegance",
+    "address": "808 Gala Boulevard, Festive Town, Jaipur, 302002",
+    "email": "contact@eventelegance.com",
+    "contact": "+91 9876543225",
+    "star": "4.7",
+    "review": "29",
+    "viewmore": "/dashboard/createEvent/add/decor/Event_Elegance",
+    "about": "Event Elegance in Jaipur is dedicated to providing top-notch decoration services for all types of events. Our creative team ensures that each event is beautifully decorated, leaving a lasting impression on your guests.",
+    "specifications": [
+      "Event Planning",
+      "Custom Designs",
+      "Setup and Cleanup",
+      "On-Site Coordination"
+    ],
+    "types": [
+      {
+        "type": "Weddings",
+        "price": "₹57,000"
+      },
+      {
+        "type": "Corporate Events",
+        "price": "₹47,000"
+      },
+      {
+        "type": "Birthday Parties",
+        "price": "₹37,000"
+      },
+      {
+        "type": "Anniversaries",
+        "price": "₹42,000"
+      }
+    ]
+  }
+]

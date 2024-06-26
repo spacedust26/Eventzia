@@ -1,0 +1,286 @@
+[
+  {
+    "id": "clothing1",
+    "img": "/category/clothing/img1.jpg",
+    "title": "Ethnic Couture Creations",
+    "about": "Ethnic Couture Creations specializes in exquisite ethnic wear that combines traditional craftsmanship with contemporary designs, perfect for all occasions.",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "email": "contact@ethniccouture.com",
+    "contact": "+91 9876543201",
+    "star": "4.7",
+    "review": "45",
+    "viewmore": "/dashboard/createEvent/add/clothing/Ethnic_Couture_Creations",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Fashion Runway Display",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Lehengas",
+        "price": "₹10000 - ₹80000"
+      },
+      {
+        "type": "Sarees",
+        "price": "₹5000 - ₹50000"
+      },
+      {
+        "type": "Anarkalis",
+        "price": "₹8000 - ₹60000"
+      },
+      {
+        "type": "Kurtas and Kurtis",
+        "price": "₹3000 - ₹25000"
+      }
+    ]
+  },
+  {
+    "id": "clothing2",
+    "img": "/category/clothing/img2.jpg",
+    "title": "Modern Chic Studios",
+    "about": "Modern Chic Studios offers contemporary fashion designs that blend sophistication with trendy styles, appealing to fashion-forward individuals.",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "email": "contact@modernchicstudios.com",
+    "contact": "+91 9876543202",
+    "star": "4.8",
+    "review": "48",
+    "viewmore": "/dashboard/createEvent/add/clothing/Modern_Chic_Studios",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Fashion Lookbook Display",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Party Dresses",
+        "price": "₹2000 - ₹20000"
+      },
+      {
+        "type": "Formal Wear",
+        "price": "₹3000 - ₹25000"
+      },
+      {
+        "type": "Casual Outfits",
+        "price": "₹1000 - ₹8000"
+      },
+      {
+        "type": "Designer Suits",
+        "price": "₹5000 - ₹40000"
+      }
+    ]
+  },
+  {
+    "id": "clothing3",
+    "img": "/category/clothing/img3.jpg",
+    "title": "Bridal Ensemble Boutique",
+    "about": "Bridal Ensemble Boutique specializes in bridal and wedding attire, offering a range of luxurious and elegant designs for brides and grooms.",
+    "address": "789 Bridal Lane, Wedding Mall, Bangalore, 560008",
+    "email": "contact@bridalensemble.com",
+    "contact": "+91 9876543203",
+    "star": "4.9",
+    "review": "50",
+    "viewmore": "/dashboard/createEvent/add/clothing/Bridal_Ensemble_Boutique",
+    "specifications": [
+      "Customizable Bridal Displays",
+      "Luxurious Showroom Setup",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Bridal Lehengas",
+        "price": "₹25000 - ₹150000"
+      },
+      {
+        "type": "Sherwanis",
+        "price": "₹20000 - ₹100000"
+      },
+      {
+        "type": "Bridal Sarees",
+        "price": "₹20000 - ₹80000"
+      },
+      {
+        "type": "Groom's Wear",
+        "price": "₹15000 - ₹75000"
+      }
+    ]
+  },
+  {
+    "id": "clothing4",
+    "img": "/category/clothing/img4.jpg",
+    "title": "Designer Couture Hub",
+    "about": "Designer Couture Hub showcases exclusive designer collections, offering bespoke fashion pieces crafted with precision and artistic flair.",
+    "address": "321 Couture Road, Fashion District, Chennai, 600008",
+    "email": "contact@designercouturehub.com",
+    "contact": "+91 9876543204",
+    "star": "4.8",
+    "review": "46",
+    "viewmore": "/dashboard/createEvent/add/clothing/Designer_Couture_Hub",
+    "specifications": [
+      "Customizable Designer Displays",
+      "Fashion Showcase Events",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Haute Couture Dresses",
+        "price": "₹50000 - ₹300000"
+      },
+      {
+        "type": "Designer Gowns",
+        "price": "₹40000 - ₹250000"
+      },
+      {
+        "type": "Luxury Pret",
+        "price": "₹20000 - ₹100000"
+      },
+      {
+        "type": "Fashion Accessories",
+        "price": "₹5000 - ₹50000"
+      }
+    ]
+  },
+  {
+    "id": "clothing5",
+    "img": "/category/clothing/img5.jpg",
+    "title": "Casual Chic Boutique",
+    "about": "Casual Chic Boutique offers comfortable yet stylish casual wear collections, perfect for everyday fashion statements.",
+    "address": "567 Chic Avenue, Trendy Market, Kolkata, 700008",
+    "email": "contact@casualchicboutique.com",
+    "contact": "+91 9876543205",
+    "star": "4.7",
+    "review": "44",
+    "viewmore": "/dashboard/createEvent/add/clothing/Casual_Chic_Boutique",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Trendy Fashion Displays",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Casual Dresses",
+        "price": "₹1000 - ₹10000"
+      },
+      {
+        "type": "Denim Collection",
+        "price": "₹1500 - ₹12000"
+      },
+      {
+        "type": "Tops and Tees",
+        "price": "₹500 - ₹4000"
+      },
+      {
+        "type": "Athleisure Wear",
+        "price": "₹2000 - ₹15000"
+      }
+    ]
+  },
+  {
+    "id": "clothing6",
+    "img": "/category/clothing/img6.jpg",
+    "title": "Bohemian Chic Creations",
+    "about": "Bohemian Chic Creations offers free-spirited and boho-inspired fashion collections, featuring unique designs for the free-spirited fashionista.",
+    "address": "890 Boho Lane, Hippie District, Hyderabad, 500008",
+    "email": "contact@bohemianchic.com",
+    "contact": "+91 9876543206",
+    "star": "4.8",
+    "review": "49",
+    "viewmore": "/dashboard/createEvent/add/clothing/Bohemian_Chic_Creations",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Bohemian Fashion Displays",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Boho Dresses",
+        "price": "₹2000 - ₹20000"
+      },
+      {
+        "type": "Ethnic Skirts",
+        "price": "₹1500 - ₹12000"
+      },
+      {
+        "type": "Gypsy Tops",
+        "price": "₹800 - ₹6000"
+      },
+      {
+        "type": "Boho Accessories",
+        "price": "₹500 - ₹4000"
+      }
+    ]
+  },
+  {
+    "id": "clothing7",
+    "img": "/category/clothing/img7.jpg",
+    "title": "Streetwear Studio",
+    "about": "Streetwear Studio offers urban and street-inspired fashion collections, catering to the modern fashionista who embraces urban culture.",
+    "address": "234 Urban Avenue, Street Style Zone, Pune, 411008",
+    "email": "contact@streetwearstudio.com",
+    "contact": "+91 9876543207",
+    "star": "4.6",
+    "review": "40",
+    "viewmore": "/dashboard/createEvent/add/clothing/Streetwear_Studio",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Street Fashion Displays",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Urban Hoodies",
+        "price": "₹500 - ₹5000"
+      },
+      {
+        "type": "Skateboarder Jeans",
+        "price": "₹1000 - ₹8000"
+      },
+      {
+        "type": "Ethnic Skirts",
+        "price": "₹1500 - ₹12000"
+      }
+    ]
+  },
+  {
+    "id": "clothing8",
+    "img": "/category/clothing/img8.jpg",
+    "title": "Luxury Bridal Atelier",
+    "about": "Luxury Bridal Atelier offers opulent bridal couture, specializing in intricate designs and luxurious fabrics for discerning brides.",
+    "address": "678 Bridal Lane, Luxury Mall, Jaipur, 302008",
+    "email": "contact@luxurybridalatelier.com",
+    "contact": "+91 9876543208",
+    "star": "4.9",
+    "review": "55",
+    "viewmore": "/dashboard/createEvent/add/clothing/Luxury_Bridal_Atelier",
+    "specifications": [
+      "Customizable Bridal Displays",
+      "Exclusive Runway Shows",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Couture Bridal Gowns",
+        "price": "₹50000 - ₹500000"
+      },
+      {
+        "type": "Royal Sherwanis",
+        "price": "₹40000 - ₹300000"
+      },
+      {
+        "type": "Luxury Bridal Lehengas",
+        "price": "₹60000 - ₹600000"
+      },
+      {
+        "type": "Handcrafted Bridal Jewelry",
+        "price": "₹20000 - ₹200000"
+      }
+    ]
+  }
+]

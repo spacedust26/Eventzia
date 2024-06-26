@@ -1,0 +1,290 @@
+[
+  {
+    "id": "jewellery1",
+    "img": "/category/jewellery/img1.jpg",
+    "title": "Ethnic Elegance Jewels",
+    "about": "Ethnic Elegance Jewels offers a collection of traditional and ethnic jewellery pieces that reflect timeless beauty and craftsmanship.",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "email": "contact@ethnicelegancejewels.com",
+    "contact": "+91 9876543101",
+    "star": "4.7",
+    "review": "42",
+    "viewmore": "/dashboard/createEvent/add/jewellery/Ethnic_Elegance_Jewels",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Display Cases and Counters",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Kundan Sets",
+        "price": "₹5000 - ₹50000"
+      },
+      {
+        "type": "Meenakari Bangles",
+        "price": "₹1500 - ₹10000"
+      },
+      {
+        "type": "Polki Necklaces",
+        "price": "₹8000 - ₹80000"
+      },
+      {
+        "type": "Temple Jewellery",
+        "price": "₹3000 - ₹30000"
+      }
+    ]
+  },
+  {
+    "id": "jewellery2",
+    "img": "/category/jewellery/img2.jpg",
+    "title": "Modern Chic Creations",
+    "about": "Modern Chic Creations offers contemporary jewellery designs that combine elegance with modern fashion trends, perfect for stylish individuals.",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "email": "contact@modernchiccreations.com",
+    "contact": "+91 9876543102",
+    "star": "4.8",
+    "review": "48",
+    "viewmore": "/dashboard/createEvent/add/jewellery/Modern_Chic_Creations",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Interactive Displays",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Statement Earrings",
+        "price": "₹1000 - ₹8000"
+      },
+      {
+        "type": "Layered Necklaces",
+        "price": "₹1500 - ₹12000"
+      },
+      {
+        "type": "Cocktail Rings",
+        "price": "₹800 - ₹6000"
+      },
+      {
+        "type": "Minimalist Bracelets",
+        "price": "₹500 - ₹4000"
+      }
+    ]
+  },
+  {
+    "id": "jewellery3",
+    "img": "/category/jewellery/img3.jpg",
+    "title": "Vintage Treasures",
+    "about": "Vintage Treasures specializes in antique and vintage jewellery pieces that evoke nostalgia and timeless charm, appealing to collectors and history enthusiasts.",
+    "address": "789 Antique Lane, Heritage Market, Bangalore, 560008",
+    "email": "contact@vintagetreasures.com",
+    "contact": "+91 9876543103",
+    "star": "4.9",
+    "review": "50",
+    "viewmore": "/dashboard/createEvent/add/jewellery/Vintage_Treasures",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Antique Display Cases",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Victorian Brooches",
+        "price": "₹2000 - ₹15000"
+      },
+      {
+        "type": "Art Deco Rings",
+        "price": "₹3000 - ₹25000"
+      },
+      {
+        "type": "Retro Chains",
+        "price": "₹2500 - ₹18000"
+      },
+      {
+        "type": "Edwardian Pendants",
+        "price": "₹3500 - ₹30000"
+      }
+    ]
+  },
+  {
+    "id": "jewellery4",
+    "img": "/category/jewellery/img4.jpg",
+    "title": "Bridal Bliss Jewels",
+    "about": "Bridal Bliss Jewels offers exquisite bridal jewellery sets that add glamour and sophistication to every bride's special day.",
+    "address": "321 Bridal Avenue, Wedding Mall, Chennai, 600008",
+    "email": "contact@bridalblissjewels.com",
+    "contact": "+91 9876543104",
+    "star": "4.8",
+    "review": "46",
+    "viewmore": "/dashboard/createEvent/add/jewellery/Bridal_Bliss_Jewels",
+    "specifications": [
+      "Customizable Bridal Displays",
+      "Luxurious Showcase",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Bridal Necklaces",
+        "price": "₹10000 - ₹80000"
+      },
+      {
+        "type": "Maang Tikka Sets",
+        "price": "₹5000 - ₹25000"
+      },
+      {
+        "type": "Choker Sets",
+        "price": "₹8000 - ₹60000"
+      },
+      {
+        "type": "Bridal Bangles",
+        "price": "₹3000 - ₹20000"
+      }
+    ]
+  },
+  {
+    "id": "jewellery5",
+    "img": "/category/jewellery/img5.jpg",
+    "title": "Gold and Diamond Galore",
+    "about": "Gold and Diamond Galore showcases a luxurious collection of fine gold and diamond jewellery pieces, perfect for those seeking timeless elegance.",
+    "address": "567 Luxury Lane, Jewel Plaza, Kolkata, 700008",
+    "email": "contact@goldanddiamondgalore.com",
+    "contact": "+91 9876543105",
+    "star": "4.7",
+    "review": "44",
+    "viewmore": "/dashboard/createEvent/add/jewellery/Gold_and_Diamond_Galore",
+    "specifications": [
+      "Customizable Luxury Displays",
+      "Exclusive Jewellery Cases",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Gold Necklaces",
+        "price": "₹20000 - ₹200000"
+      },
+      {
+        "type": "Diamond Rings",
+        "price": "₹15000 - ₹150000"
+      },
+      {
+        "type": "Platinum Bracelets",
+        "price": "₹25000 - ₹250000"
+      },
+      {
+        "type": "Designer Earrings",
+        "price": "₹10000 - ₹100000"
+      }
+    ]
+  },
+  {
+    "id": "jewellery6",
+    "img": "/category/jewellery/img6.jpg",
+    "title": "Gemstone Creations",
+    "about": "Gemstone Creations offers a diverse range of jewellery featuring precious and semi-precious gemstones, each piece showcasing natural beauty and sophistication.",
+    "address": "890 Gem Avenue, Precious Stones Center, Hyderabad, 500008",
+    "email": "contact@gemstonecreations.com",
+    "contact": "+91 9876543106",
+    "star": "4.8",
+    "review": "49",
+    "viewmore": "/dashboard/createEvent/add/jewellery/Gemstone_Creations",
+    "specifications": [
+      "Customizable Gemstone Displays",
+      "Elegant Showcases",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Ruby Necklaces",
+        "price": "₹5000 - ₹50000"
+      },
+      {
+        "type": "Emerald Rings",
+        "price": "₹4000 - ₹40000"
+      },
+      {
+        "type": "Sapphire Bracelets",
+        "price": "₹6000 - ₹60000"
+      },
+      {
+        "type": "Amethyst Pendants",
+        "price": "₹3000 - ₹30000"
+      }
+    ]
+  },
+  {
+    "id": "jewellery7",
+    "img": "/category/jewellery/img7.jpg",
+    "title": "Silver Charms and Trinkets",
+    "about": "Silver Charms and Trinkets offers a delightful collection of sterling silver jewellery pieces, featuring intricate designs and affordable elegance.",
+    "address": "234 Silver Lane, Charm Plaza, Pune, 411008",
+    "email": "contact@silvercharms.com",
+    "contact": "+91 9876543107",
+    "star": "4.6",
+    "review": "40",
+    "viewmore": "/dashboard/createEvent/add/jewellery/Silver_Charms_and_Trinkets",
+    "specifications": [
+      "Customizable Silver Displays",
+      "Artistic Showcases",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Silver Earrings",
+        "price": "₹500 - ₹5000"
+      },
+      {
+        "type": "Silver Bracelets",
+        "price": "₹500 - ₹5000"
+      },
+      {
+        "type": "Silver Necklaces",
+        "price": "₹1000 - ₹10000"
+      },
+      {
+        "type": "Silver Rings",
+        "price": "₹600 - ₹6000"
+      }
+    ]
+  },
+  {
+    "id": "jewellery8",
+    "img": "/category/jewellery/img8.jpg",
+    "title": "Custom Jewellery Boutique",
+    "about": "Custom Jewellery Boutique offers bespoke jewellery designs tailored to individual preferences, ensuring each piece is unique and reflects personal style.",
+    "address": "678 Bespoke Lane, Designer Avenue, Jaipur, 302008",
+    "email": "contact@customjewelleryboutique.com",
+    "contact": "+91 9876543108",
+    "star": "4.9",
+    "review": "52",
+    "viewmore": "/dashboard/createEvent/add/jewellery/Custom_Jewellery_Boutique",
+    "specifications": [
+      "Customizable Stall Designs",
+      "Private Consultation Area",
+      "Electricity Connections",
+      "Setup Assistance"
+    ],
+    "types": [
+      {
+        "type": "Custom Engagement Rings",
+        "price": "₹20000 and up"
+      },
+      {
+        "type": "Personalized Name Pendants",
+        "price": "₹5000 and up"
+      },
+      {
+        "type": "Unique Gemstone Settings",
+        "price": "Prices vary by gemstone"
+      },
+      {
+        "type": "Artisanal Gold Chains",
+        "price": "₹10000 - ₹80000"
+      }
+    ]
+  }
+]
