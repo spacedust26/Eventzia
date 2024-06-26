@@ -69,7 +69,7 @@ export const POST = async (req) => {
       payment_method_types: ['card'],
       line_items: transformedItems,
       mode: 'payment',
-      success_url: `${req.headers.get('origin')}/?success=true`,
+      success_url: `${req.headers.get('origin')}/success`,
       cancel_url: `${req.headers.get('origin')}/?canceled=true`,
     });
 
