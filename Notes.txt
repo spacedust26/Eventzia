@@ -1,0 +1,71 @@
+* Venue, Hotels & Banquet Halls (venue)
+-> id(venue#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications 
+[ overview (seating, timings, since, roomsavailable, avgprice, cancellation) ]
+
+->id(v#), category, title, address, stock, price
+[hall, time]
+
+
+*Caterers & Food Services(food)
+-> id(food#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [ menu-(premium regular - price)]
+
+->id(f#) category, title, address, stock, price
+[menu]
+
+
+*Photographers & Videographers(photo)
+-> id(food#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [packages - basic , premium, deluxe]
+
+->id(f#) category, title, address, stock, price
+[package]
+
+
+*Decorators & Florists(decor)
+id(food#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of decorations]
+
+
+
+
+
+
+*Bridal Makeup & Hair(makeup)
+id(makeup#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of services]
+
+
+*Mehendi Artists(mehendi)
+id(makeup#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of services]
+
+
+*Cakes(cake)
+id(cake#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of cake with weights and price]
+
+
+*Invitation Cards(invitation)
+id(invitation#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of invitations and their price]
+
+
+*Entertainment- Music, Band, Dance, Choreographers, Sound System(entertainment)
+id(entertainment#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [music band dance choreography or sound system along with thier prices]
+
+*Lightings - (Lightings)
+id(lightings#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types and thier prices]
+
+
+
+*Stalls & Exhibition (stalls)
+id(stalls#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types and thier prices]
+
+*Jewellery (jewellery)
+id(jewellery#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types and thier prices]
+
+*Clothing & Fashion Designers(clothing)
+id(jewellery#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types and thier prices]
+
+*Vintage and Rental Cars (cars)
+id(cars#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types and thier prices]
+
+*Priests & Clergy (priests)
+id(priests#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of occasions and thier prices]
+
+*Funeral Services (funeral)
+id(funeral#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [services thier prices]
