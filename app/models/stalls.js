@@ -1,12 +1,12 @@
 import { Schema, models } from 'mongoose';
 import mongoose from 'mongoose';
 
-const photoPackageSchema = new Schema({
-  name: { type: String, required: true },
+const productSchema = new Schema({
+  type: { type: String, required: true },
   price: { type: String, required: true }
 });
 
-const photoSchema = new Schema({
+const stallSchema = new Schema({
   id: { type: String, required: true },
   img: { type: String, required: true },
   title: { type: String, required: true },
@@ -18,8 +18,8 @@ const photoSchema = new Schema({
   viewmore: { type: String, required: true },
   about: { type: String, required: true },
   specifications: { type: [String], required: true },
-  packages: { type: { Basic: String, Premium: String, Deluxe: String }, required: true }
+  types: { type: [productSchema], required: true }
 });
 
-const PhotoStudio = models.PhotoStudio || mongoose.model("PhotoStudio", photoSchema);
-export default PhotoStudio;
+const Stall = models.Stall || mongoose.model("Stall", stallSchema);
+export default Stall;
