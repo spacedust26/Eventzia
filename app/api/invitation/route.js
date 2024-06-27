@@ -12,4 +12,4 @@ export const GET = async (request) => {
   } catch (error) {
     return new NextResponse("Error in fetching data: " + error, { status: 500 });
   }
-};I
+};

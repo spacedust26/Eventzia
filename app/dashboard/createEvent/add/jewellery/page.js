@@ -1,21 +1,20 @@
 "use client"
-import React from 'react'
-import Image from 'next/image'
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import Link from 'next/link';
 import Star from '@/components/dashboard/Star';
-import { useState, useEffect } from 'react';
 
-const Funeral = () => {
-  const [funeral, setFuneral] = useState([]);
+const Jewellery = () => {
+  const [jewellery, setJewellery] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://localhost:3000/api/funeral", { cache: "no-store" });
+        const res = await fetch("/api/jewellery", { cache: "no-store" });
         if (res.ok) {
           const data = await res.json();
-          setFuneral(data.funeral);
+          setJewellery(data.jewellery);
         } else {
           console.error('Failed to fetch data');
         }
@@ -30,10 +29,10 @@ const Funeral = () => {
     <>
       <Link href="/dashboard/createEvent/add"><div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'><MdOutlineArrowBackIosNew /></div></Link>
       <div className='flex flex-col justify-center items-center mb-8 gap-8'>
-        <h1 className='text-3xl font-bold text-[#321E1E]'>Funeral Services</h1>
+        <h1 className='text-3xl font-bold text-[#321E1E]'>Jewellery</h1>
 
         <div className='flex flex-row flex-wrap gap-8 justify-center'>
-          {funeral.map((v) => (
+          {jewellery.map((v) => (
             <div key={v.id} className='flex flex-col items-center text-white rounded-lg bg-[#321E1E] w-[300px] h-[430px] overflow-hidden gap-4'>
               <div className="object-contain overflow-hidden">
                 <Image src={v.img} width={400} height={400} alt={v.title} />
@@ -57,4 +56,4 @@ const Funeral = () => {
   )
 }
 
-export default Funeral
+export default Jewellery

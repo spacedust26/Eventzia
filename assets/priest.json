@@ -1,7 +1,7 @@
 [
   {
-    "id": "priests1",
-    "img": "/category/priests/img1.jpg",
+    "id": "priest1",
+    "img": "/category/priest/img1.jpg",
     "title": "Pandit Rajesh Sharma",
     "about": "Pandit Rajesh Sharma is a renowned Vedic priest offering traditional Hindu rituals and ceremonies for weddings, griha pravesh (housewarming), and other auspicious occasions.",
     "address": "123 Vedic Lane, Divine City, Delhi, 110001",
@@ -9,7 +9,7 @@
     "contact": "+91 9876543210",
     "star": "4.8",
     "review": "35",
-    "viewmore": "/dashboard/createEvent/add/priests/Pandit_Rajesh_Sharma",
+    "viewmore": "/dashboard/createEvent/add/priest/Pandit_Rajesh_Sharma",
     "specifications": [
       "Weddings",
       "Griha Pravesh",
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "id": "priests2",
-    "img": "/category/priests/img2.jpg",
+    "id": "priest2",
+    "img": "/category/priest/img2.jpg",
     "title": "Father Michael Brown",
     "about": "Father Michael Brown brings a deep understanding of religious traditions and rituals, providing heartfelt ceremonies for weddings, baptisms, and more.",
     "address": "456 Serenity Lane, Grace City, Mumbai, 400001",
@@ -45,7 +45,7 @@
     "contact": "+91 9876543211",
     "star": "4.7",
     "review": "30",
-    "viewmore": "/dashboard/createEvent/add/priests/Father_Michael_Brown",
+    "viewmore": "/dashboard/createEvent/add/priest/Father_Michael_Brown",
     "specifications": [
       "Weddings",
       "Baptisms",
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "id": "priests3",
-    "img": "/category/priests/img3.jpg",
+    "id": "priest3",
+    "img": "/category/priest/img3.jpg",
     "title": "Rabbi Sarah Cohen",
     "about": "Rabbi Sarah Cohen brings inclusivity and tradition to Jewish ceremonies, specializing in weddings, bar/bat mitzvahs, and other sacred celebrations.",
     "address": "789 Torah Avenue, Unity Village, Bangalore, 560001",
@@ -81,7 +81,7 @@
     "contact": "+91 9876543212",
     "star": "4.9",
     "review": "40",
-    "viewmore": "/dashboard/createEvent/add/priests/Rabbi_Sarah_Cohen",
+    "viewmore": "/dashboard/createEvent/add/priest/Rabbi_Sarah_Cohen",
     "specifications": [
       "Weddings",
       "Bar/Bat Mitzvahs",
@@ -108,8 +108,8 @@
     ]
   },
   {
-    "id": "priests4",
-    "img": "/category/priests/img4.jpg",
+    "id": "priest4",
+    "img": "/category/priest/img4.jpg",
     "title": "Mufti Abdul Rahman",
     "about": "Mufti Abdul Rahman provides Islamic religious services including nikah (wedding), aqiqah (birth rituals), and khutbah (sermon), ensuring adherence to Islamic traditions.",
     "address": "321 Mosque Street, Peaceful City, Hyderabad, 500001",
@@ -117,7 +117,7 @@
     "contact": "+91 9876543213",
     "star": "4.6",
     "review": "25",
-    "viewmore": "/dashboard/createEvent/add/priests/Mufti_Abdul_Rahman",
+    "viewmore": "/dashboard/createEvent/add/priest/Mufti_Abdul_Rahman",
     "specifications": [
       "Nikah (Wedding)",
       "Aqiqah (Birth Rituals)",
@@ -144,8 +144,8 @@
     ]
   },
   {
-    "id": "priests5",
-    "img": "/category/priests/img5.jpg",
+    "id": "priest5",
+    "img": "/category/priest/img5.jpg",
     "title": "Guru Singh Sahib",
     "about": "Guru Singh Sahib offers spiritual guidance and conducts Sikh ceremonies including Anand Karaj (wedding), Amrit Sanchar (baptism), and Akhand Path (continuous reading of Guru Granth Sahib).",
     "address": "567 Gurudwara Road, Guru Nagar, Amritsar, 143001",
@@ -153,7 +153,7 @@
     "contact": "+91 9876543214",
     "star": "4.8",
     "review": "30",
-    "viewmore": "/dashboard/createEvent/add/priests/Guru_Singh_Sahib",
+    "viewmore": "/dashboard/createEvent/add/priest/Guru_Singh_Sahib",
     "specifications": [
       "Anand Karaj (Wedding)",
       "Amrit Sanchar (Baptism)",
@@ -180,8 +180,8 @@
     ]
   },
   {
-    "id": "priests6",
-    "img": "/category/priests/img6.jpg",
+    "id": "priest6",
+    "img": "/category/priest/img6.jpg",
     "title": "Father Anthony D'Souza",
     "about": "Father Anthony D'Souza provides Catholic religious services including Mass, sacraments (baptism, confirmation), and pastoral counseling, fostering spiritual growth within the community.",
     "address": "678 Cathedral Road, Blessed City, Goa, 403001",
@@ -189,7 +189,7 @@
     "contact": "+91 9876543215",
     "star": "4.7",
     "review": "25",
-    "viewmore": "/dashboard/createEvent/add/priests/Father_Anthony_DSouza",
+    "viewmore": "/dashboard/createEvent/add/priest/Father_Anthony_DSouza",
     "specifications": [
       "Catholic Mass",
       "Sacraments (Baptism, Confirmation)",
@@ -215,8 +215,8 @@
       }
     ]
   },{
-    "id": "priests7",
-    "img": "/category/priests/img7.jpg",
+    "id": "priest7",
+    "img": "/category/priest/img7.jpg",
     "title": "Maulana Akhtar Khan",
     "about": "Maulana Akhtar Khan offers Islamic religious services including nikah (wedding), talaq (divorce), and jumu'ah (Friday prayer), providing spiritual guidance rooted in Islamic teachings.",
     "address": "910 Mosque Lane, Peace City, Lucknow, 226001",
@@ -224,7 +224,7 @@
     "contact": "+91 9876543216",
     "star": "4.6",
     "review": "20",
-    "viewmore": "/dashboard/createEvent/add/priests/Maulana_Akhtar_Khan",
+    "viewmore": "/dashboard/createEvent/add/priest/Maulana_Akhtar_Khan",
     "specifications": [
       "Nikah (Wedding)",
       "Talaq (Divorce)",
@@ -251,8 +251,8 @@
     ]
   },
   {
-    "id": "priests8",
-    "img": "/category/priests/img8.jpg",
+    "id": "priest8",
+    "img": "/category/priest/img8.jpg",
     "title": "Swami Vivekananda Saraswati",
     "about": "Swami Vivekananda Saraswati offers spiritual teachings and conducts vedic ceremonies including havan (fire rituals), yoga sessions, and vedanta discourses, promoting spiritual growth and harmony.",
     "address": "123 Ashram Road, Enlightenment City, Rishikesh, 249201",
@@ -260,7 +260,7 @@
     "contact": "+91 9876543217",
     "star": "4.9",
     "review": "50",
-    "viewmore": "/dashboard/createEvent/add/priests/Swami_Vivekananda_Saraswati",
+    "viewmore": "/dashboard/createEvent/add/priest/Swami_Vivekananda_Saraswati",
     "specifications": [
       "Havan (Fire Rituals)",
       "Yoga Sessions",

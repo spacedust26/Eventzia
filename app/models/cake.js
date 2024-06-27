@@ -1,6 +1,11 @@
 import { Schema, models } from 'mongoose';
 import mongoose from 'mongoose';
 
+const weightSchema = new Schema({
+  weight: { type: String, required: true },
+  price: { type: String, required: true }
+});
+
 const cakeTypeSchema = new Schema({
   type: { type: String, required: true },
   weights: { type: [weightSchema], required: true }

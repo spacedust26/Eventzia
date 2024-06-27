@@ -1,9 +1,10 @@
 import { Schema, models } from 'mongoose';
 import mongoose from 'mongoose';
 
-const photoPackageSchema = new Schema({
-  name: { type: String, required: true },
-  price: { type: String, required: true }
+const packageSchema = new Schema({
+  Basic: { type: String, required: true },
+  Premium: { type: String, required: true },
+  Deluxe: { type: String, required: true }
 });
 
 const photoSchema = new Schema({
@@ -18,8 +19,8 @@ const photoSchema = new Schema({
   viewmore: { type: String, required: true },
   about: { type: String, required: true },
   specifications: { type: [String], required: true },
-  packages: { type: { Basic: String, Premium: String, Deluxe: String }, required: true }
+  packages: { type: packageSchema, required: true }
 });
 
-const PhotoStudio = models.PhotoStudio || mongoose.model("PhotoStudio", photoSchema);
-export default PhotoStudio;
+const Photos = models.Photos || mongoose.model("Photos", photoSchema);
+export default Photos;

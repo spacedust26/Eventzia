@@ -76,7 +76,7 @@ const Add = () => {
           <Link href="/dashboard/createEvent/add/invitation" passHref>
             <div className='flex flex-col bg-[#503C3C] h-[300px] items-center rounded-lg transform transition duration-200 hover:scale-105 m-5 cursor-pointer'>
               <Image src="/category/invitation.png" width={195} height={120} alt='Invitation Cards' className='object-cover rounded-t-lg overflow-hidden' />
-              <h4 className='text-white p-4 w-48 text-center'>Invitation Cards</h4>
+              <h4 className='text-white p-4 w-48 text-center'>Invitation Cards & Gifts</h4>
             </div>
           </Link>
 
@@ -90,7 +90,7 @@ const Add = () => {
           <Link href="/dashboard/createEvent/add/lightings" passHref>
             <div className='flex flex-col bg-[#503C3C] h-[300px] items-center rounded-lg transform transition duration-200 hover:scale-105 m-5 cursor-pointer'>
               <Image src="/category/lightings.png" width={195} height={120} alt='Lightings' className='object-cover rounded-t-lg overflow-hidden' />
-              <h4 className='text-white p-4 w-48 text-center'>Lightings</h4>
+              <h4 className='text-white p-4 w-48 text-center'>Lightings & Fireworks</h4>
             </div>
           </Link>
 
