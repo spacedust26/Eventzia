@@ -2,12 +2,12 @@
   {
     "id": "v1",
     "category": "Venue Hotels & Banquet Halls",
-    "title":"Grand Plaza Ballroom",
+    "title": "Grand Plaza Ballroom",
     "address": "Madhav Nagar, Manipal, 576104",
     "stock": 1,
     "price": 500,
-    "hall":"The Ball",
-    "time":"5:00pm - 12:00am"
+    "hall": "The Ball",
+    "time": "5:00pm - 12:00am"
   },
   {
     "id": "v2",
@@ -16,17 +16,17 @@
     "address": "Madhav Nagar, Manipal, 576104",
     "stock": 1,
     "hall": "The Grand Wedding Hall",
-    "time":"8:00am - 3:00pm",
+    "time": "8:00am - 3:00pm",
     "price": 330
   },
   {
     "id": "v3",
     "category": "Venue Hotels & Banquet Halls",
-    "title":"Sunrise Garden Resort",
+    "title": "Sunrise Garden Resort",
     "address": "Palm Street, Udupi, 576101",
     "stock": 1,
-    "hall":"Open Court Room",
-    "time":"5:00am - 2:00pm",
+    "hall": "Open Court Room",
+    "time": "5:00am - 2:00pm",
     "price": 100
   },
   {
@@ -36,7 +36,7 @@
     "address": "Beach Road, Mangalore, 575001",
     "stock": 1,
     "hall": "Mega Conference Hall",
-    "time":"8:00pm - 2:00pm",
+    "time": "8:00pm - 2:00pm",
     "price": 150
   },
   {
@@ -46,7 +46,7 @@
     "address": "Beach Road, Mangalore, 575001",
     "stock": 1,
     "hall": "Quick Conference Area",
-    "time":"4:00pm - 8:00pm",
+    "time": "4:00pm - 8:00pm",
     "price": 8000
   },
   {
@@ -56,17 +56,17 @@
     "address": "Hillside Drive, Coorg, 571201",
     "stock": 1,
     "hall": "Hilltop Retreat Resort",
-    "time":"8:00pm - 11:00pm",
+    "time": "8:00pm - 11:00pm",
     "price": 500
   },
   {
     "id": "v7",
     "category": "Venue Hotels & Banquet Halls",
-    "title":"Sunset Beach Resort",
+    "title": "Sunset Beach Resort",
     "address": "Coastal Highway, Karwar, 581301",
     "stock": 1,
-    "hall":"Beach Mantap Setup",
-    "time":"10:00pm - 6:00pm",
+    "hall": "Beach Mantap Setup",
+    "time": "10:00pm - 6:00pm",
     "price": 5000
   },
   {
@@ -76,17 +76,17 @@
     "address": "Coastal Highway, Karwar, 581301",
     "stock": 1,
     "hall": "The Open Wave",
-    "time":"8:00pm - 3pm",
+    "time": "8:00pm - 3pm",
     "price": 3300
   },
   {
     "id": "v9",
     "category": "Venue Hotels & Banquet Halls",
-    "title":"Heritage Manor",
+    "title": "Heritage Manor",
     "address": "Heritage Street, Mysore, 570001",
     "stock": 1,
-    "hall":"Heritage Villa Hall",
-    "time":"1:00pm - 12:00am",
+    "hall": "Heritage Villa Hall",
+    "time": "1:00pm - 12:00am",
     "price": 5000
   },
   {
@@ -96,17 +96,17 @@
     "address": "Mountain View Road, Shimla, 171001",
     "stock": 1,
     "hall": "MountainTop Hall",
-    "time":"8:00pm - 3:00pm",
+    "time": "8:00pm - 3:00pm",
     "price": 3300
   },
   {
     "id": "v11",
     "category": "Venue Hotels & Banquet Halls",
-    "title":"Golden Sands Resort",
+    "title": "Golden Sands Resort",
     "address": "Coastal Road, Goa, 403001",
     "stock": 1,
-    "hall":"Golden Sands Grand Wedding Venue",
-    "time":"5:00am - 12:00am",
+    "hall": "Golden Sands Grand Wedding Venue",
+    "time": "5:00am - 12:00am",
     "price": 9000
   },
   {
@@ -116,17 +116,17 @@
     "address": "Coastal Road, Goa, 403001",
     "stock": 1,
     "hall": "Sand Castle Birthday Hall",
-    "time":"8:00am - 12:00am",
+    "time": "8:00am - 12:00am",
     "price": 330
   },
   {
     "id": "v13",
     "category": "Venue Hotels & Banquet Halls",
-    "title":"Golden Sands Resort",
+    "title": "Golden Sands Resort",
     "address": "Coastal Road, Goa, 403001",
     "stock": 1,
-    "hall":"The Golden Conference Hall",
-    "time":"5:00pm - 12:00am",
+    "hall": "The Golden Conference Hall",
+    "time": "5:00pm - 12:00am",
     "price": 5000
   },
   {
@@ -136,20 +136,20 @@
     "address": "Coastal Road, Goa, 403001",
     "stock": 1,
     "hall": "Multipurpose Hall",
-    "time":"8:00am - 12:00am",
+    "time": "8:00am - 12:00am",
     "price": 3030
   },
-
-
-
-  
   {
     "id": "f1",
     "category": "Caterers & Food Services",
     "title": "Delicious Delights Catering",
     "address": "123 MG Road, Bengaluru, Karnataka",
     "stock": 500,
-    "menu": ["Paneer Tikka", "Veg Biryani", "Chocolate Mousse"],
+    "menu": [
+      "Paneer Tikka",
+      "Veg Biryani",
+      "Chocolate Mousse"
+    ],
     "price": 500
   },
   {
@@ -158,7 +158,11 @@
     "title": "Delicious Delights Catering",
     "address": "123 MG Road, Bengaluru, Karnataka",
     "stock": 500,
-    "menu": ["Veg Cutlet", "Fried Rice", "Gulab Jamun"],
+    "menu": [
+      "Veg Cutlet",
+      "Fried Rice",
+      "Gulab Jamun"
+    ],
     "price": 500
   },
   {
@@ -167,7 +171,11 @@
     "title": "Gourmet Gatherings Catering",
     "address": "456 Anna Salai, Chennai, Tamil Nadu",
     "stock": 15000,
-    "menu": ["Chicken Kebab", "Mutton Biryani", "Ras Malai"],
+    "menu": [
+      "Chicken Kebab",
+      "Mutton Biryani",
+      "Ras Malai"
+    ],
     "price": 500
   },
   {
@@ -176,7 +184,11 @@
     "title": "Gourmet Gatherings Catering",
     "address": "456 Anna Salai, Chennai, Tamil Nadu",
     "stock": 15000,
-    "menu": ["Veg Pakora", "Chicken Fried Rice", "Ice Cream"],
+    "menu": [
+      "Veg Pakora",
+      "Chicken Fried Rice",
+      "Ice Cream"
+    ],
     "price": 500
   },
   {
@@ -185,7 +197,11 @@
     "title": "Exquisite Eats",
     "address": "234 Park Street, Kolkata, West Bengal",
     "stock": 18000,
-    "menu": ["Prawn Cocktail", "Lamb Chops", "Cheesecake"],
+    "menu": [
+      "Prawn Cocktail",
+      "Lamb Chops",
+      "Cheesecake"
+    ],
     "price": 500
   },
   {
@@ -194,7 +210,11 @@
     "title": "Exquisite Eats",
     "address": "234 Park Street, Kolkata, West Bengal",
     "stock": 18000,
-    "menu": ["Paneer Butter Masala", "Jeera Rice", "Kheer"],
+    "menu": [
+      "Paneer Butter Masala",
+      "Jeera Rice",
+      "Kheer"
+    ],
     "price": 500
   },
   {
@@ -203,7 +223,11 @@
     "title": "Epicurean Events Catering",
     "address": "567 Connaught Place, New Delhi, Delhi",
     "stock": 22000,
-    "menu": ["Grilled Salmon", "Beef Steak", "Tiramisu"],
+    "menu": [
+      "Grilled Salmon",
+      "Beef Steak",
+      "Tiramisu"
+    ],
     "price": 500
   },
   {
@@ -212,7 +236,11 @@
     "title": "Epicurean Events Catering",
     "address": "567 Connaught Place, New Delhi, Delhi",
     "stock": 22000,
-    "menu": ["Dal Makhani", "Naan", "Jalebi"],
+    "menu": [
+      "Dal Makhani",
+      "Naan",
+      "Jalebi"
+    ],
     "price": 500
   },
   {
@@ -221,7 +249,11 @@
     "title": "Taste Temptations Catering",
     "address": "101 Marine Drive, Mumbai, Maharashtra",
     "stock": 25000,
-    "menu": ["Lobster Bisque", "Crab Cakes", "Creme Brulee"],
+    "menu": [
+      "Lobster Bisque",
+      "Crab Cakes",
+      "Creme Brulee"
+    ],
     "price": 500
   },
   {
@@ -230,7 +262,11 @@
     "title": "Taste Temptations Catering",
     "address": "101 Marine Drive, Mumbai, Maharashtra",
     "stock": 25000,
-    "menu": ["Chicken Curry", "Steamed Rice", "Fruit Salad"],
+    "menu": [
+      "Chicken Curry",
+      "Steamed Rice",
+      "Fruit Salad"
+    ],
     "price": 500
   },
   {
@@ -239,7 +275,11 @@
     "title": "Culinary Creations Catering",
     "address": "222 Banjara Hills, Hyderabad, Telangana",
     "stock": 24000,
-    "menu": ["Duck Confit", "Foie Gras", "Macarons"],
+    "menu": [
+      "Duck Confit",
+      "Foie Gras",
+      "Macarons"
+    ],
     "price": 500
   },
   {
@@ -248,7 +288,11 @@
     "title": "Culinary Creations Catering",
     "address": "222 Banjara Hills, Hyderabad, Telangana",
     "stock": 24000,
-    "menu": ["Rajma Chawal", "Bhindi Fry", "Gajar Halwa"],
+    "menu": [
+      "Rajma Chawal",
+      "Bhindi Fry",
+      "Gajar Halwa"
+    ],
     "price": 500
   },
   {
@@ -257,7 +301,11 @@
     "title": "Serenity Gardens Event Space",
     "address": "567 Koregaon Park, Pune, Maharashtra",
     "stock": 17000,
-    "menu": ["Stuffed Bell Peppers", "Grilled Veggies", "Berry Tart"],
+    "menu": [
+      "Stuffed Bell Peppers",
+      "Grilled Veggies",
+      "Berry Tart"
+    ],
     "price": 500
   },
   {
@@ -266,7 +314,11 @@
     "title": "Serenity Gardens Event Space",
     "address": "567 Koregaon Park, Pune, Maharashtra",
     "stock": 17000,
-    "menu": ["Mixed Veg Curry", "Roti", "Lassi"],
+    "menu": [
+      "Mixed Veg Curry",
+      "Roti",
+      "Lassi"
+    ],
     "price": 500
   },
   {
@@ -275,7 +327,11 @@
     "title": "Savor the Flavor Catering",
     "address": "789 Civil Lines, Jaipur, Rajasthan",
     "stock": 19000,
-    "menu": ["Laal Maas", "Ker Sangri", "Malpua"],
+    "menu": [
+      "Laal Maas",
+      "Ker Sangri",
+      "Malpua"
+    ],
     "price": 500
   },
   {
@@ -284,7 +340,11 @@
     "title": "Savor the Flavor Catering",
     "address": "789 Civil Lines, Jaipur, Rajasthan",
     "stock": 19000,
-    "menu": ["Dal Baati Churma", "Gatte Ki Sabzi", "Rabri"],
+    "menu": [
+      "Dal Baati Churma",
+      "Gatte Ki Sabzi",
+      "Rabri"
+    ],
     "price": 500
   },
   {
@@ -293,94 +353,52 @@
     "title": "LensCraft",
     "address": "123 Shutter Street, Aperture Town, Delhi, 110001",
     "stock": 1,
-    "packages": {
-      "Basic Package": "₹10,000",
-      "Premium Package": "₹20,000",
-      "Deluxe Package": "₹30,000"
-    }
+    "package": "Basic Package",
+    "price": 10000
   },
   {
     "id": "p2",
     "category": "Photography & Videography",
-    "title": "Focus Frames",
-    "address": "456 Snapshot Lane, Capture City, Mumbai, 400001",
+    "title": "LensCraft",
+    "address": "123 Shutter Street, Aperture Town, Delhi, 110001",
     "stock": 1,
-    "packages": {
-      "Basic Package": "₹12,000",
-      "Premium Package": "₹22,000",
-      "Deluxe Package": "₹32,000"
-    }
+    "package": "Premium Package",
+    "price": 20000
   },
   {
     "id": "p3",
     "category": "Photography & Videography",
-    "title": "EShutter Speed",
-    "address": "789 Flash Avenue, Lensville, Bangalore, 560001",
+    "title": "LensCraft",
+    "address": "123 Shutter Street, Aperture Town, Delhi, 110001",
     "stock": 1,
-    "packages": {
-      "Basic Package": "₹15,000",
-      "Premium Package": "₹25,000",
-      "Deluxe Package": "₹35,000"
-    }
-  },
+    "package": "Deluxe",
+    "price": 30000
+  }, 
   {
     "id": "p4",
     "category": "Photography & Videography",
-    "title": "Picture Perfect",
-    "address": "321 Frame Road, Exposure Town, Chennai, 600001",
+    "title": "Focus Frames",
+    "address": "456 Snapshot Lane, Capture City, Mumbai, 400001",
     "stock": 1,
-    "packages": {
-      "Basic Package": "₹14,000",
-      "Premium Package": "₹24,000",
-      "Deluxe Package": "₹34,000"
-    }
+    "package": "Basic",
+    "price": 12000
   },
   {
     "id": "p5",
     "category": "Photography & Videography",
-    "title": "Capture Moments",
-    "address": "567 Aperture Boulevard, Focus City, Kolkata, 700001",
+    "title": "Focus Frames",
+    "address": "456 Snapshot Lane, Capture City, Mumbai, 400001",
     "stock": 1,
-    "packages": {
-      "Basic Package": "₹13,000",
-      "Premium Package": "₹23,000",
-      "Deluxe Package": "₹33,000"
-    }
+    "package": "Premium",
+    "price": 22000
   },
   {
     "id": "p6",
     "category": "Photography & Videography",
-    "title": "Frame Focus",
-    "address": "890 Viewpoint Street, Camera Town, Hyderabad, 500001",
+    "title": "Focus Frames",
+    "address": "456 Snapshot Lane, Capture City, Mumbai, 400001",
     "stock": 1,
-    "packages": {
-      "Basic Package": "₹11,000",
-      "Premium Package": "₹21,000",
-      "Deluxe Package": "₹31,000"
-    }
-  },
-  {
-    "id": "p7",
-    "category": "Photography & Videography",
-    "title": "Lens Legend",
-    "address": "234 Flash Lane, Snapshot Village, Pune, 411001",
-    "stock": 1,
-    "packages": {
-      "Basic Package": "₹16,000",
-      "Premium Package": "₹26,000",
-      "Deluxe Package": "₹36,000"
-    }
-  },
-  {
-    "id": "p8",
-    "category": "Photography & Videography",
-    "title": "Snapshot Studio",
-    "address": "678 Lens Avenue, Picture City, Jaipur, 302001",
-    "stock": 1,
-    "packages": {
-      "Basic Package": "₹18,000",
-      "Premium Package": "₹28,000",
-      "Deluxe Package": "₹38,000"
-    }
+    "package": "Deluxe",
+    "price": 32000
   }
 ]
