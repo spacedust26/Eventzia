@@ -2,23 +2,96 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const Add = () => {
+  const router = useRouter();
   const [eventname, setEventname] = useState("");
   const [date, setDate] = useState("");
   const [desc, setDesc] = useState("");
+  const [errors, setErrors] = useState({});
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    let formErrors = {};
+    if (!eventname.trim()) {
+      formErrors.eventname = 'Event name is required';
+    }
+    if (!date) {
+      formErrors.date = 'Date is required';
+    }
+    if (Object.keys(formErrors).length > 0) {
+      setErrors(formErrors);
+      return;
+    }
+    console.log('Form submitted with:', { eventname, date, desc });
+    router.push("/dashboard/cart");
+  };
+
+  useEffect(() => {
+    const savedEventname = localStorage.getItem('eventname');
+    const savedDate = localStorage.getItem('date');
+    const savedDesc = localStorage.getItem('desc');
+
+    if (savedEventname) setEventname(savedEventname);
+    if (savedDate) setDate(savedDate);
+    if (savedDesc) setDesc(savedDesc);
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('eventname', eventname);
+  }, [eventname]);
+
+  useEffect(() => {
+    localStorage.setItem('date', date);
+  }, [date]);
+
+  useEffect(() => {
+    localStorage.setItem('desc', desc);
+  }, [desc]);
+
 
   return (
     <div className='container bg-[#321E1E] p-8 rounded-lg mt-[20px] text-white mb-12'>
-      <form className='form flex flex-col gap-8'>
+      <form className='form flex flex-col gap-8' onSubmit={handleSubmit}>
 
         <div className="flex flex-col gap-2">
           <label htmlFor='eventname' className='text-[#d4af37]'>Hey! What event are you planning ?</label>
-          <input className='p-2 bg-transparent border border-[#503C3C] rounded-lg w-full' type='text' placeholder='Enter the name of the event' name='eventname' required value={eventname} onChange={(e) => setEventname(e.target.value)} />
+          <input
+            className={`p-2 bg-transparent border border-[#503C3C] rounded-lg w-full ${errors.eventname && 'border-red-500'}`}
+            type='text'
+            placeholder='Enter the name of the event'
+            name='eventname'
+            required
+            value={eventname}
+            onChange={(e) => {
+              setEventname(e.target.value);
+              setErrors((prevErrors) => ({
+                ...prevErrors,
+                eventname: ''
+              }));
+            }}
+          />
+          {errors.eventname && <p className="text-red-500 text-sm">{errors.eventname}</p>}
         </div>
+
         <div className="flex flex-col gap-2">
           <label htmlFor='date' className='text-[#d4af37]'>When do you plan to host the event ?</label>
-          <input type='date' id='date' name='date' className='block px-3 py-2 border border-[#321E1E] rounded-md shadow-sm focus:outline-none focus:ring-[#d4af37] focus:border-[#d4af37] sm:text-sm bg-[#503C3C] text-gray-300' value={date} onChange={(e) => setDate(e.target.value)} />
+          <input
+            type='date'
+            id='date'
+            name='date'
+            className={`block px-3 py-2 border border-[#321E1E] rounded-md shadow-sm focus:outline-none focus:ring-[#d4af37] focus:border-[#d4af37] sm:text-sm bg-[#503C3C] text-gray-300 ${errors.date && 'border-red-500'}`}
+            value={date}
+            onChange={(e) => {
+              setDate(e.target.value);
+              setErrors((prevErrors) => ({
+                ...prevErrors,
+                date: ''
+              }));
+            }}
+          />
+          {errors.date && <p className="text-red-500 text-sm">{errors.date}</p>}
         </div>
         <div className="flex items-center justify-center">
           <button className='category p-3 bg-[#d4af37] rounded-lg text-[#321E1E] w-fit cursor-default font-bold'>Select Category</button>
@@ -140,7 +213,9 @@ const Add = () => {
           <label htmlFor='desc' className='text-[#d4af37]'>Notes to self</label>
           <textarea type="text" name='desc' id='desc' rows="8" placeholder='Write down important notes to refer later' className='p-3 bg-transparent border border-[#503C3C] rounded-lg' value={desc} onChange={(e) => setDesc(e.target.value)} />
         </div>
+        {/* <Link href="/dashboard/cart"> */}
         <button type='submit' className='p-5 bg-[#d4af37] rounded-lg text-[#321E1E] font-bold'>Go to Booking Cart</button>
+        {/* </Link>         */}
       </form>
     </div>
   );

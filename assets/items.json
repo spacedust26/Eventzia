@@ -353,7 +353,7 @@
     "title": "LensCraft",
     "address": "123 Shutter Street, Aperture Town, Delhi, 110001",
     "stock": 1,
-    "package": "Basic Package",
+    "packages": "Basic Package",
     "price": 10000
   },
   {
@@ -362,7 +362,7 @@
     "title": "LensCraft",
     "address": "123 Shutter Street, Aperture Town, Delhi, 110001",
     "stock": 1,
-    "package": "Premium Package",
+    "packages": "Premium Package",
     "price": 20000
   },
   {
@@ -371,7 +371,7 @@
     "title": "LensCraft",
     "address": "123 Shutter Street, Aperture Town, Delhi, 110001",
     "stock": 1,
-    "package": "Deluxe",
+    "packages": "Deluxe",
     "price": 30000
   }, 
   {
@@ -380,7 +380,7 @@
     "title": "Focus Frames",
     "address": "456 Snapshot Lane, Capture City, Mumbai, 400001",
     "stock": 1,
-    "package": "Basic",
+    "packages": "Basic",
     "price": 12000
   },
   {
@@ -389,7 +389,7 @@
     "title": "Focus Frames",
     "address": "456 Snapshot Lane, Capture City, Mumbai, 400001",
     "stock": 1,
-    "package": "Premium",
+    "packages": "Premium",
     "price": 22000
   },
   {
@@ -398,7 +398,7 @@
     "title": "Focus Frames",
     "address": "456 Snapshot Lane, Capture City, Mumbai, 400001",
     "stock": 1,
-    "package": "Deluxe",
+    "packages": "Deluxe",
     "price": 32000
   }
 ]

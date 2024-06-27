@@ -1,3 +1,4 @@
+v,f,p,d,m,ma,c,i
 * Venue, Hotels & Banquet Halls (venue)
 -> id(venue#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications 
 [ overview (seating, timings, since, roomsavailable, avgprice, cancellation) ]
@@ -16,14 +17,17 @@
 *Photographers & Videographers(photo)
 -> id(food#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [packages - basic , premium, deluxe]
 
-->id(f#) category, title, address, stock, price
+->id(p#) category, title, address, stock, price
 [package]
 
 
 *Decorators & Florists(decor)
 id(food#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of decorations]
+->id(f#) category, title, address, stock, price
+[package]
 
-
+->id(d#) category, title, address, stock, price
+[pacakge]
 
 
 
@@ -32,16 +36,26 @@ id(food#), img, title ,about ,address ,email ,contact,star, review, viewmore,spe
 id(makeup#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of services]
 
 
-*Mehendi Artists(mehendi)
-id(makeup#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of services]
+->id(m#) category, title, address, stock, price
+[pacakge]
 
+
+*Mehendi Artists(mehendi)
+id(ma#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of services]
+
+->id(ma#) category, title, address, stock, price
+[pacakge]
 
 *Cakes(cake)
 id(cake#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of cake with weights and price]
-
+->id(c#) category, title, address, stock, 
+[pacakge weight price]
 
 *Invitation Cards(invitation)
 id(invitation#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of invitations and their price]
+
+->id(i#) category, title, address, stock, 
+[pacakge price]
 
 
 *Entertainment- Music, Band, Dance, Choreographers, Sound System(entertainment)

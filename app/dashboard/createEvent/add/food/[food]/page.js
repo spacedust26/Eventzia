@@ -54,8 +54,6 @@ const SingleFood = () => {
       title: product.title,
       address: product.address,
       stock: product.stock,
-      hall: product.hall,
-      time: product.time,
       price: product.price,
       menu:product.menu,
       quantity: 1

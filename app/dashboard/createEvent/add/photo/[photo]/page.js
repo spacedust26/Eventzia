@@ -21,7 +21,7 @@ const getData = async () => {
 };
 
 const SinglePhoto = () => {
-  const {addItemToCart} = useContext(CartContext);
+  const { addItemToCart } = useContext(CartContext);
   const pathname = usePathname();
   const photoName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
 
@@ -33,7 +33,7 @@ const SinglePhoto = () => {
       const data = await getData();
       if (!data) return notFound();
 
-      const filteredPhoto = data.photos.filter(v => v.title === photoName);
+      const filteredPhoto = data.photo.filter(v => v.title === photoName);
       setphotoData(filteredPhoto);
 
       const filteredphotoItems = data.items.filter(item => item.title === photoName);
@@ -54,10 +54,8 @@ const SinglePhoto = () => {
       title: product.title,
       address: product.address,
       stock: product.stock,
-      hall: product.hall,
-      time: product.time,
       price: product.price,
-      packages: product.packages,
+      package: product.package,
       quantity: 1
     });
   };
@@ -99,38 +97,16 @@ const SinglePhoto = () => {
               <div className='left bg-[#321E1E] rounded-lg p-8 flex flex-col gap-5 w-full'>
                 <p className='text-[#d4af37] font-bold text-lg text-center'>Overview</p>
 
-                <div className='flex flex-row gap-3 justify-around'>
-
-                  <div className="flex flex-col gap-7">
-                    <div className="flex flex-col">
-                      <span className='text-[#d4af37] font-bold'>Seating Capacity</span>
-                      <span>{v.seating}</span>
-                    </div>
-                    <div className="flex flex-col">
-                      <span className='text-[#d4af37] font-bold'>Timing Slots</span>
-                      {v.timings.map((timing, index) => (
-                        <span key={index}>{timing}</span>
+                <div className='flex flex-col gap-7'>
+                  <div className="flex flex-col">
+                    <span className='text-[#d4af37] font-bold'>Packages</span>
+                    {Object.entries(v.packages)
+                      .filter(([key]) => key !== '_id')
+                      .map(([packageName, price], index) => (
+                        <span key={index} className=''>
+                          {packageName}: {price}
+                        </span>
                       ))}
-                    </div>
-                    <div className="flex flex-col">
-                      <span className='text-[#d4af37] font-bold'>Working Since</span>
-                      <span>{v.since}</span>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col gap-7">
-                    <div className="flex flex-col">
-                      <span className='text-[#d4af37] font-bold'>Rooms available</span>
-                      <span>{v.roomsavailable}</span>
-                    </div>
-                    <div className="flex flex-col">
-                      <span className='text-[#d4af37] font-bold'>Hall pricing</span>
-                      <span>{v.avgprice}</span>
-                    </div>
-                    <div className="flex flex-col">
-                      <span className='text-[#d4af37] font-bold'>Cancellation policy</span>
-                      <span>{v.cancellation}</span>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -142,6 +118,8 @@ const SinglePhoto = () => {
                 ))}
               </div>
             </div>
+
+
             <div className="bg-[#321E1E] rounded-lg p-8 flex flex-col gap-3 w-full text-white">
               <p className='text-[#d4af37] font-bold text-lg'>Book Your Choice</p>
               <div className="">
@@ -149,8 +127,7 @@ const SinglePhoto = () => {
                   <table className='table-fixed w-full text-left'>
                     <thead>
                       <tr>
-                        <th className='p-2'>Hall Name</th>
-                        <th className='p-2'>Time Slot</th>
+                        <th className='p-2'>Package</th>
                         <th className='p-2'>Price</th>
                       </tr>
                     </thead>
@@ -159,8 +136,7 @@ const SinglePhoto = () => {
                       return (
                         <tbody key={vi.id}>
                           <tr>
-                            <td className='p-2'>{vi.hall}</td>
-                            <td className='p-2'>{vi.time}</td>
+                            <td className='p-2'>{vi.packages}</td>
                             <td className='p-2'>{vi.price}</td>
                             <td className='p-2 flex flex-row gap-2 items-center'>
                               <button

@@ -11,9 +11,6 @@ const Contact = () => {
 
   const handleSubmit = async (e) =>{
     e.preventDefault(); //prevents reloading the browser
-    // console.log(name);
-    // console.log(email);
-    // console.log(message);
 
     const res = await fetch("api/contact",{
       method: "POST",
@@ -28,7 +25,6 @@ const Contact = () => {
     const {msg, success} = await res.json();
     setError(msg);
     setSuccess(success)
-    // console.log(error)
     if(success){
       setName("");
       setEmail("");

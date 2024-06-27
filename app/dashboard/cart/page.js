@@ -1,5 +1,5 @@
 "use client";
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { CartContext } from '@/app/lib/CartContext';
 import Link from 'next/link';
 import axios from 'axios';
@@ -10,6 +10,24 @@ const formatPrice = (price) => {
 
 const Cart = () => {
   const { cart, addItemToCart, deleteItemFromCart } = useContext(CartContext);
+  const [eventDetails, setEventDetails] = useState({
+    eventname: "",
+    date: "",
+    desc: ""
+  });
+
+  // Load initial data from local storage
+  useEffect(() => {
+    const savedEventname = localStorage.getItem('eventname');
+    const savedDate = localStorage.getItem('date');
+    const savedDesc = localStorage.getItem('desc');
+
+    setEventDetails({
+      eventname: savedEventname || "",
+      date: savedDate || "",
+      desc: savedDesc || ""
+    });
+  }, []);
 
   const increaseQty = (cartItem) => {
     const newQty = cartItem?.quantity + 1;
@@ -25,21 +43,49 @@ const Cart = () => {
     addItemToCart(item);
   };
 
-  const amountWithoutTax = cart?.cartItems?.reduce((acc, item) => acc + item.quantity * item.price, 0)
+  const amountWithoutTax = cart?.cartItems?.reduce((acc, item) => acc + item.quantity * item.price, 0);
   const taxAmount = (amountWithoutTax * 0.05).toFixed(2);
-  const totalAmount = (Number(amountWithoutTax) + Number(taxAmount))
+  const totalAmount = (Number(amountWithoutTax) + Number(taxAmount));
 
-  const createCheckoutSession = () => {
-    axios.post('/api/checkout_sessions', { cartItems: cart.cartItems.map(item => ({ ...item, priceId: item.productId })) })
-      .then(res => {
-        console.log('Stripe session created:', res);
-        window.location = res.data.sessionURL;
-      })
-      .catch(err => {
-        console.error('Error creating checkout session:', err);
-      });
+  // const createCheckoutSession = () => {
+  //   //stripe payment
+  //   axios.post('/api/checkout_sessions', { cartItems: cart.cartItems.map(item => ({ ...item, priceId: item.productId })) })
+  //     .then(res => {
+  //       console.log('Stripe session created:', res);
+  //       window.location = res.data.sessionURL;
+  //     })
+  //     .catch(err => {
+  //       console.error('Error creating checkout session:', err);
+  //     });
+  // };
+
+  const saveCartData = async () => {
+    try {
+      const cartData = {
+        date: eventDetails.date,
+        eventName: eventDetails.eventname,
+        desc: eventDetails.desc,
+        totalAmount: totalAmount,
+        item_info: cart.cartItems
+      };
+      console.log(cartData);
+      
+      const response = await axios.post('/api/saveCart', cartData);
+      
+      if (response.data.success) {
+        console.log('Cart saved successfully:', response.data.data);
+      } else {
+        console.error('Error saving cart:', response.data.error);
+      }
+    } catch (error) {
+      console.error('Error saving cart:', error);
+    }
   };
-  
+
+  const handleContinueClick = () =>{
+    // createCheckoutSession();
+    saveCartData();
+  }
 
   return (
     <div className='flex justify-between max-md:flex-col space-x-4'>
@@ -64,6 +110,7 @@ const Cart = () => {
                         <div className="text-sm">
                           <p>{cartItem.hall}</p>
                           <p>{cartItem.time}</p>
+                          <p>{cartItem.packages}</p>
                         </div>
                         <div className="flex flex-col gap-1">
                           <div>Rs {formatPrice(cartItem.price * cartItem.quantity)}</div>
@@ -89,15 +136,20 @@ const Cart = () => {
         </div>
       </div>
 
-
       <aside className="md:w-1/4 m-8">
         <article className="bg-[#321E1E] shadow-sm rounded mb-5 p-3 lg:p-5">
+          <div className="mb-5 text-white">
+            <h2 className='text-lg font-bold mb-3'>Event Details</h2>
+            <p><strong>Event Name:</strong> {eventDetails.eventname}</p>
+            <p><strong>Date:</strong> {eventDetails.date}</p>
+            <p><strong>Notes:</strong> {eventDetails.desc}</p>
+          </div>
           <ul className="mb-5">
-            <li className="flex justify-between text-white  mb-1">
+            <li className="flex justify-between text-white mb-1">
               <span>Amount before Tax:</span>
               <span>Rs {formatPrice(amountWithoutTax)}</span>
             </li>
-            <li className="flex justify-between text-white  mb-1">
+            <li className="flex justify-between text-white mb-1">
               <span>Total Units:</span>
               <span className="text-[#d4af37]">
                 {cart?.cartItems?.reduce(
@@ -107,7 +159,7 @@ const Cart = () => {
                 (Units)
               </span>
             </li>
-            <li className="flex justify-between text-white  mb-1">
+            <li className="flex justify-between text-white mb-1">
               <span>TAX:</span>
               <span>Rs {formatPrice(taxAmount)}</span>
             </li>
@@ -117,7 +169,7 @@ const Cart = () => {
             </li>
           </ul>
 
-          <a className="py-1 px-2 mb-2 inline-block w-fit text-center font-medium text-[#321E1E] bg-[#d4af37] hover:bg-[#e1ba43] cursor-pointer" onClick={createCheckoutSession}>
+          <a className="py-1 px-2 mb-2 inline-block w-fit text-center font-medium text-[#321E1E] bg-[#d4af37] hover:bg-[#e1ba43] cursor-pointer" onClick={handleContinueClick}>
             Continue
           </a>
 
