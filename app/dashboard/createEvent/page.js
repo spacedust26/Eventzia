@@ -3,7 +3,6 @@ import Search from '@/components/dashboard/Search';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import Pagination from '@/components/dashboard/pagination';
-import axios from 'axios';
 
 const CreateEvent = ({ placeholder }) => {
   const [events, setEvents] = useState([]);
