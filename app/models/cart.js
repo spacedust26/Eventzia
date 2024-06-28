@@ -1,7 +1,6 @@
 import { Schema, models } from 'mongoose';
 import mongoose from 'mongoose';
 import Item from '@/app/models/item';
-import { RiNumber7 } from 'react-icons/ri';
 
 const currentDate = new Date();
 const minDate = new Date(currentDate);

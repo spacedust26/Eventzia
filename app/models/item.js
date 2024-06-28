@@ -9,7 +9,7 @@ const itemSchema = new Schema({
   stock: { type: Number},
   hall: { type: String},
   time: { type: String},
-  menu: { type: String},
+  menu: { type: [String]},
   packages :{ type: String},
   price: { type: Number, required: true},
 });
