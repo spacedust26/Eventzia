@@ -6,6 +6,7 @@ import Pagination from '@/components/dashboard/pagination';
 
 const CreateEvent = ({ placeholder }) => {
   const [events, setEvents] = useState([]);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     const fetchCartData = async () => {
@@ -30,7 +31,7 @@ const CreateEvent = ({ placeholder }) => {
   return (
     <div className='container bg-[#321E1E] p-[20px] rounded-lg mt-[20px] text-white'>
       <div className="top flex items-center justify-between">
-        <Search placeholder='Search for an event...' />
+        <Search onChange={(e) => setSearch(e.target.value)} placeholder='Search for an event...' />
         <Link href="/dashboard/createEvent/add">
           <button className='addButton p-[10px] text-[#321E1E] border-none rounded-lg cursor-pointer bg-[#d4af37] font-bold w-96'>Create Event</button>
         </Link>
@@ -49,21 +50,25 @@ const CreateEvent = ({ placeholder }) => {
         </thead>
         <tbody>
           {events.length > 0 ? (
-            events.map((event) => (
-              <tr key={event._id}>
-                <td className='p-[10px]'><div className='user flex gap-2 items-center flex-row'>{event.eventName}</div></td>
-                <td className='p-[10px]'>{event.date.substring(0, 10)}</td> {/* Format the date here */}
-                <td className='p-[10px]'>Rs {event.totalAmount}</td>
-                <td className='p-[10px]'>
-                  <div className="buttons flex gap-2">
-                    <Link href={`/dashboard/createEvent/${event._id}`}>
-                      <button className='button px-[5px] py-[10px] rounded-lg border-none cursor-pointer view bg-teal-500'>View</button>
-                    </Link>
-                    <button className='button px-[5px] py-[10px] rounded-lg cursor-pointer delete border-none bg-red-500'>Delete</button>
-                  </div>
-                </td>
-              </tr>
-            ))
+            events
+              .filter((item) => {
+                return search.toLowerCase() === '' || item.eventName.toLowerCase().includes(search.toLowerCase());
+              })
+              .map((event) => (
+                <tr key={event._id}>
+                  <td className='p-[10px]'><div className='user flex gap-2 items-center flex-row'>{event.eventName}</div></td>
+                  <td className='p-[10px]'>{event.date.substring(0, 10)}</td>
+                  <td className='p-[10px]'>Rs {event.totalAmount}</td>
+                  <td className='p-[10px]'>
+                    <div className="buttons flex gap-2">
+                      <Link href={`/dashboard/createEvent/${event.eventName}`}>
+                        <button className='button px-[5px] py-[10px] rounded-lg border-none cursor-pointer view bg-teal-500'>View</button>
+                      </Link>
+                      <button className='button px-[5px] py-[10px] rounded-lg cursor-pointer delete border-none bg-red-500'>Delete</button>
+                    </div>
+                  </td>
+                </tr>
+              ))
           ) : (
             <tr>
               <td colSpan="4" className='p-[10px] text-center'>No events found</td>

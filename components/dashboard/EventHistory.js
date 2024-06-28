@@ -32,7 +32,6 @@ const EventHistory = () => {
             <td className='p-[10px]'>Event Name</td>
             <td className='p-[10px]'>Event Date</td>
             <td className='p-[10px]'>Total Amount</td>
-            <td className='p-[10px]'>Actions</td>
           </tr>
         </thead>
         <tbody>
@@ -42,14 +41,6 @@ const EventHistory = () => {
                 <td className='p-[10px]'><div className='user flex gap-2 items-center flex-row'>{event.eventName}</div></td>
                 <td className='p-[10px]'>{event.date.substring(0, 10)}</td> {/* Format the date here */}
                 <td className='p-[10px]'>Rs {event.totalAmount}</td>
-                <td className='p-[10px]'>
-                  <div className="buttons flex gap-2">
-                    <Link href={`/dashboard/createEvent/${event._id}`}>
-                      <button className='button px-[5px] py-[10px] rounded-lg border-none cursor-pointer view bg-teal-500'>View</button>
-                    </Link>
-                    <button className='button px-[5px] py-[10px] rounded-lg cursor-pointer delete border-none bg-red-500'>Delete</button>
-                  </div>
-                </td>
               </tr>
             ))
           ) : (
