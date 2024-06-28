@@ -1,7 +1,7 @@
-"use client";
+"use client"
+import React, { useState, useEffect } from 'react';
 import Search from '@/components/dashboard/Search';
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
 import Pagination from '@/components/dashboard/pagination';
 
 const CreateEvent = ({ placeholder }) => {
@@ -26,7 +26,30 @@ const CreateEvent = ({ placeholder }) => {
     fetchCartData();
   }, []);
 
-  console.log('Events:', events);
+  const handleDelete = async (id) => {
+    const confirmed = confirm('Are you sure you want to delete this event?');
+    if (!confirmed) return;
+  
+    console.log(`Deleting event with ID: ${id}`);
+  
+    try {
+      const res = await fetch(`http://localhost:3000/api/deleteEvent`, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ id }),
+      });
+      if (res.ok) {
+        setEvents(events.filter(event => event._id !== id));
+      } else {
+        console.error('Failed to delete event', result.message);
+      }
+    } catch (error) {
+      console.error('Error deleting event:', error);
+    }
+  };
+  
 
   return (
     <div className='container bg-[#321E1E] p-[20px] rounded-lg mt-[20px] text-white'>
@@ -61,10 +84,12 @@ const CreateEvent = ({ placeholder }) => {
                   <td className='p-[10px]'>Rs {event.totalAmount}</td>
                   <td className='p-[10px]'>
                     <div className="buttons flex gap-2">
-                      <Link href={`/dashboard/createEvent/${event.eventName}`}>
-                        <button className='button px-[5px] py-[10px] rounded-lg border-none cursor-pointer view bg-teal-500'>View</button>
-                      </Link>
-                      <button className='button px-[5px] py-[10px] rounded-lg cursor-pointer delete border-none bg-red-500'>Delete</button>
+                      <button
+                        className='button px-[5px] py-[10px] rounded-lg cursor-pointer delete border-none bg-red-500'
+                        onClick={() => handleDelete(event._id)}
+                      >
+                        Delete
+                      </button>
                     </div>
                   </td>
                 </tr>

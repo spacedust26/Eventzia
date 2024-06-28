@@ -65,7 +65,7 @@ const menuItems = [
 const Sidebar = () => {
   const {data: session} = useSession()
   return (
-    <div className="container text-white top-[40px] sticky">
+    <div className="container text-white top-[40px] sticky h-[100vh]">
       <div className="user flex items-center gap-[20px] mb-[16px] bg-[#503C3C] p-4 rounded-lg">
         <div className="bg-[#352626] rounded-full"><Image className="rounded-full object-cover" src="/gif/avatar.gif" width={50} height={50} alt="avatar" unoptimized/></div>
         <div className="flex flex-col">
