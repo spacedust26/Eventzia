@@ -47,17 +47,17 @@ const Cart = () => {
   const taxAmount = (amountWithoutTax * 0.05).toFixed(2);
   const totalAmount = (Number(amountWithoutTax) + Number(taxAmount));
 
-  // const createCheckoutSession = () => {
-  //   //stripe payment
-  //   axios.post('/api/checkout_sessions', { cartItems: cart.cartItems.map(item => ({ ...item, priceId: item.productId })) })
-  //     .then(res => {
-  //       console.log('Stripe session created:', res);
-  //       window.location = res.data.sessionURL;
-  //     })
-  //     .catch(err => {
-  //       console.error('Error creating checkout session:', err);
-  //     });
-  // };
+  const createCheckoutSession = () => {
+    //stripe payment
+    axios.post('/api/checkout_sessions', { cartItems: cart.cartItems.map(item => ({ ...item, priceId: item.productId })) })
+      .then(res => {
+        console.log('Stripe session created:', res);
+        window.location = res.data.sessionURL;
+      })
+      .catch(err => {
+        console.error('Error creating checkout session:', err);
+      });
+  };
 
   const saveCartData = async () => {
     try {
@@ -74,6 +74,10 @@ const Cart = () => {
       
       if (response.data.success) {
         console.log('Cart saved successfully:', response.data.data);
+        localStorage.removeItem('eventname');
+        localStorage.removeItem('date');
+        localStorage.removeItem('desc');
+        localStorage.removeItem('item_info');
       } else {
         console.error('Error saving cart:', response.data.error);
       }
@@ -83,7 +87,7 @@ const Cart = () => {
   };
 
   const handleContinueClick = () =>{
-    // createCheckoutSession();
+    createCheckoutSession();
     saveCartData();
   }
 
