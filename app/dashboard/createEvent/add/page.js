@@ -214,7 +214,7 @@ const Add = () => {
           <textarea type="text" name='desc' id='desc' rows="8" placeholder='Write down important notes to refer later' className='p-3 bg-transparent border border-[#503C3C] rounded-lg' value={desc} onChange={(e) => setDesc(e.target.value)} />
         </div>
         {/* <Link href="/dashboard/cart"> */}
-        <button type='submit' className='p-5 bg-[#d4af37] rounded-lg text-[#321E1E] font-bold'>Go to Booking Cart</button>
+        <button type='submit' className='p-5 bg-[#d4af37] rounded-lg text-[#321E1E] font-bold hover:bg-[#e1ba43]' id='go-to-cart'>Go to Booking Cart</button>
         {/* </Link>         */}
       </form>
     </div>
