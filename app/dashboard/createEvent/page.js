@@ -27,29 +27,25 @@ const CreateEvent = ({ placeholder }) => {
   }, []);
 
   const handleDelete = async (id) => {
-    const confirmed = confirm('Are you sure you want to delete this event?');
-    if (!confirmed) return;
-  
-    console.log(`Deleting event with ID: ${id}`);
-  
     try {
-      const res = await fetch(`http://localhost:3000/api/deleteEvent`, {
+      const res = await fetch('/api/deleteEvent', {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ id }),
+        body: JSON.stringify({ id }), // Send ID in request body
       });
-      if (res.ok) {
-        setEvents(events.filter(event => event._id !== id));
+      const data = await res.json();
+      if (data.success) {
+        // Update state or notify the user about successful deletion
+        setEvents(events.filter((event) => event._id !== id));
       } else {
-        console.error('Failed to delete event', result.message);
+        console.error('Failed to delete event:', data.message);
       }
     } catch (error) {
       console.error('Error deleting event:', error);
     }
   };
-  
 
   return (
     <div className='container bg-[#321E1E] p-[20px] rounded-lg mt-[20px] text-white'>
