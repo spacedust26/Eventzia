@@ -7,7 +7,7 @@ import { CartContext } from '@/app/lib/CartContext';
 
 const Navbar = () => {
   const pathname = usePathname();
-  const {cart} = useContext(CartContext);
+  const { cart } = useContext(CartContext);
   const cartItems = cart?.cartItems;
   const createEventPath = pathname.split("/").pop().replaceAll("_", " ")
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
           <MdOutlineChat size={20} />
           <MdNotifications size={20} />
           <div className="flex">
-            <Link href={pathname === 'createEvent' ? "#go-to-cart" : "/dashboard/createEvent/add/#go-to-cart"}>
+            <Link href={pathname === '/dashboard/createEvent' ? "#go-to-cart" : "/dashboard/createEvent/add/#go-to-cart"}>
               <MdOutlineShoppingCart size={20} />
             </Link>
             <span className='relative text-[14px] -top-2 right-[8px] bg-red-600 h-[18px] w-[18px] rounded-full flex items-center justify-center text-white'>

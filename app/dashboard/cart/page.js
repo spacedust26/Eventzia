@@ -9,7 +9,7 @@ const formatPrice = (price) => {
 };
 
 const Cart = () => {
-  const { cart, addItemToCart, deleteItemFromCart } = useContext(CartContext);
+  const { cart, addItemToCart, deleteItemFromCart, clearItemFromCart } = useContext(CartContext);
   const [eventDetails, setEventDetails] = useState({
     eventname: "",
     date: "",
@@ -78,6 +78,7 @@ const Cart = () => {
         localStorage.removeItem('date');
         localStorage.removeItem('desc');
         localStorage.removeItem('item_info');
+        clearItemFromCart();
       } else {
         console.error('Error saving cart:', response.data.error);
       }
