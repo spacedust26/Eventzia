@@ -16,24 +16,12 @@
       "Memorial Ceremonies",
       "Grief Counseling"
     ],
-    "services": [
-      {
-        "service": "Traditional Funeral",
-        "price": "₹20,000 - ₹30,000"
-      },
-      {
-        "service": "Cremation Services",
-        "price": "₹15,000 - ₹25,000"
-      },
-      {
-        "service": "Memorial Ceremonies",
-        "price": "₹10,000 - ₹20,000"
-      },
-      {
-        "service": "Grief Counseling",
-        "price": "₹5,000 per session"
-      }
-    ]
+    "packages": {
+      "Traditional Funeral": "₹20,000 - ₹30,000",
+      "Cremation Services": "₹15,000 - ₹25,000",
+      "Memorial Ceremonies": "₹10,000 - ₹20,000",
+      "Grief Counseling": "₹5,000 per session"
+    }
   },
   {
     "id": "funeral2",
@@ -52,24 +40,12 @@
       "Ash Scattering",
       "Support Groups"
     ],
-    "services": [
-      {
-        "service": "Burial Services",
-        "price": "₹25,000 - ₹35,000"
-      },
-      {
-        "service": "Funeral Planning",
-        "price": "₹18,000 - ₹28,000"
-      },
-      {
-        "service": "Ash Scattering",
-        "price": "₹12,000 - ₹22,000"
-      },
-      {
-        "service": "Support Groups",
-        "price": "₹6,000 per session"
-      }
-    ]
+    "packages": {
+      "Burial Services": "₹25,000 - ₹35,000",
+      "Funeral Planning": "₹18,000 - ₹28,000",
+      "Ash Scattering": "₹12,000 - ₹22,000",
+      "Support Groups": "₹6,000 per session"
+    }
   },
   {
     "id": "funeral3",
@@ -88,24 +64,12 @@
       "Cremation Facilities",
       "Family Support"
     ],
-    "services": [
-      {
-        "service": "Memorial Services",
-        "price": "₹15,000 - ₹25,000"
-      },
-      {
-        "service": "Funeral Arrangements",
-        "price": "₹12,000 - ₹22,000"
-      },
-      {
-        "service": "Cremation Facilities",
-        "price": "₹10,000 - ₹20,000"
-      },
-      {
-        "service": "Family Support",
-        "price": "₹5,000 per session"
-      }
-    ]
+    "packages": {
+      "Memorial Services": "₹15,000 - ₹25,000",
+      "Funeral Arrangements": "₹12,000 - ₹22,000",
+      "Cremation Facilities": "₹10,000 - ₹20,000",
+      "Family Support": "₹5,000 per session"
+    }
   },
   {
     "id": "funeral4",
@@ -124,24 +88,12 @@
       "Grief Management",
       "Legal Documentation"
     ],
-    "services": [
-      {
-        "service": "Funeral Ceremonies",
-        "price": "₹18,000 - ₹28,000"
-      },
-      {
-        "service": "Ashes Interment",
-        "price": "₹10,000 - ₹20,000"
-      },
-      {
-        "service": "Grief Management",
-        "price": "₹8,000 - ₹15,000"
-      },
-      {
-        "service": "Legal Documentation",
-        "price": "₹5,000 per session"
-      }
-    ]
+    "packages": {
+      "Funeral Ceremonies": "₹18,000 - ₹28,000",
+      "Ashes Interment": "₹10,000 - ₹20,000",
+      "Grief Management": "₹8,000 - ₹15,000",
+      "Legal Documentation": "₹5,000 per session"
+    }
   },
   {
     "id": "funeral5",
@@ -160,24 +112,12 @@
       "Memorial Tributes",
       "Emotional Support"
     ],
-    "services": [
-      {
-        "service": "Funeral Planning",
-        "price": "₹20,000 - ₹30,000"
-      },
-      {
-        "service": "Burial Services",
-        "price": "₹15,000 - ₹25,000"
-      },
-      {
-        "service": "Memorial Tributes",
-        "price": "₹12,000 - ₹22,000"
-      },
-      {
-        "service": "Emotional Support",
-        "price": "₹6,000 per session"
-      }
-    ]
+    "packages": {
+      "Funeral Planning": "₹20,000 - ₹30,000",
+      "Burial Services": "₹15,000 - ₹25,000",
+      "Memorial Tributes": "₹12,000 - ₹22,000",
+      "Emotional Support": "₹6,000 per session"
+    }
   },
   {
     "id": "funeral6",
@@ -196,25 +136,14 @@
       "Grief Counseling",
       "Aftercare Support"
     ],
-    "services": [
-      {
-        "service": "Cremation Services",
-        "price": "₹18,000 - ₹28,000"
-      },
-      {
-        "service": "Funeral Arrangements",
-        "price": "₹12,000 - ₹22,000"
-      },
-      {
-        "service": "Grief Counseling",
-        "price": "₹8,000 - ₹15,000"
-      },
-      {
-        "service": "Aftercare Support",
-        "price": "₹5,000 per session"
-      }
-    ]
-  }, {
+    "packages": {
+      "Cremation Services": "₹18,000 - ₹28,000",
+      "Funeral Arrangements": "₹12,000 - ₹22,000",
+      "Grief Counseling": "₹8,000 - ₹15,000",
+      "Aftercare Support": "₹5,000 per session"
+    }
+  },
+  {
     "id": "funeral7",
     "img": "/category/funeral/img7.jpg",
     "title": "Eternal Peace Funerals",
@@ -231,24 +160,12 @@
       "Ash Scattering",
       "Family Counseling"
     ],
-    "services": [
-      {
-        "service": "Memorial Services",
-        "price": "₹15,000 - ₹25,000"
-      },
-      {
-        "service": "Burial Arrangements",
-        "price": "₹12,000 - ₹22,000"
-      },
-      {
-        "service": "Ash Scattering",
-        "price": "₹10,000 - ₹20,000"
-      },
-      {
-        "service": "Family Counseling",
-        "price": "₹5,000 per session"
-      }
-    ]
+    "packages": {
+      "Memorial Services": "₹15,000 - ₹25,000",
+      "Burial Arrangements": "₹12,000 - ₹22,000",
+      "Ash Scattering": "₹10,000 - ₹20,000",
+      "Family Counseling": "₹5,000 per session"
+    }
   },
   {
     "id": "funeral8",
@@ -267,23 +184,11 @@
       "Memorial Ceremonies",
       "Grief Support"
     ],
-    "services": [
-      {
-        "service": "Funeral Planning",
-        "price": "₹20,000 - ₹30,000"
-      },
-      {
-        "service": "Cremation Services",
-        "price": "₹15,000 - ₹25,000"
-      },
-      {
-        "service": "Memorial Ceremonies",
-        "price": "₹12,000 - ₹22,000"
-      },
-      {
-        "service": "Grief Support",
-        "price": "₹6,000 per session"
-      }
-    ]
+    "packages": {
+      "Funeral Planning": "₹20,000 - ₹30,000",
+      "Cremation Services": "₹15,000 - ₹25,000",
+      "Memorial Ceremonies": "₹12,000 - ₹22,000",
+      "Grief Support": "₹6,000 per session"
+    }
   }
 ]

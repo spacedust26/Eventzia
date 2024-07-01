@@ -2421,9 +2421,297 @@
     "id": "s31",
     "category": "Stalls & Exhibition",
     "title": "Speed Caricature Art",
-    "address": "234 Art Lane, Creative Corner, Mumbai, 400009",
+    "address": "123 Serenity Avenue, Tranquil City, Delhi, 110001",
     "stock": 1,
     "packages": "Group Caricatures",
     "price": 1500
+  },
+  {
+    "id": "fs1",
+    "category": "Funeral Services",
+    "title": "Peaceful Memorials",
+    "address": "123 Serenity Avenue, Tranquil City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Traditional Funeral",
+    "price": 25000
+  },
+  {
+    "id": "fs2",
+    "category": "Funeral Services",
+    "title": "Peaceful Memorials",
+    "address": "123 Serenity Avenue, Tranquil City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Cremation Services",
+    "price": 15000
+  },
+  {
+    "id": "fs3",
+    "category": "Funeral Services",
+    "title": "Peaceful Memorials",
+    "address": "123 Serenity Avenue, Tranquil City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Memorial Ceremonies",
+    "price": 10000
+  },
+  {
+    "id": "fs4",
+    "category": "Funeral Services",
+    "title": "Peaceful Memorials",
+    "address": "123 Serenity Avenue, Tranquil City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Grief Counseling",
+    "price": 5000
+  },
+  {
+    "id": "fs5",
+    "category": "Funeral Services",
+    "title": "Sacred Farewells",
+    "address": "456 Tranquility Road, Serene Town, Mumbai, 400001",
+    "stock": 1,
+    "packages": "Burial Services",
+    "price": 25000
+  },
+  {
+    "id": "fs6",
+    "category": "Funeral Services",
+    "title": "Sacred Farewells",
+    "address": "456 Tranquility Road, Serene Town, Mumbai, 400001",
+    "stock": 1,
+    "packages": "Funeral Planning",
+    "price": 18000
+  },
+  {
+    "id": "fs7",
+    "category": "Funeral Services",
+    "title": "Sacred Farewells",
+    "address": "456 Tranquility Road, Serene Town, Mumbai, 400001",
+    "stock": 1,
+    "packages": "Ash Scattering",
+    "price": 12000
+  },
+  {
+    "id": "fs8",
+    "category": "Funeral Services",
+    "title": "Sacred Farewells",
+    "address": "456 Tranquility Road, Serene Town, Mumbai, 400001",
+    "stock": 1,
+    "packages": "Support Groups",
+    "price": 6000
+  },
+  {
+    "id": "fs9",
+    "category": "Funeral Services",
+    "title": "Eternal Rest",
+    "address": "789 Eternal Peace Avenue, Tranquility Village, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Memorial Services",
+    "price": 15000
+  },
+  {
+    "id": "fs10",
+    "category": "Funeral Services",
+    "title": "Eternal Rest",
+    "address": "789 Eternal Peace Avenue, Tranquility Village, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Funeral Arrangements",
+    "price": 12000
+  },
+  {
+    "id": "fs11",
+    "category": "Funeral Services",
+    "title": "Eternal Rest",
+    "address": "789 Eternal Peace Avenue, Tranquility Village, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Cremation Facilities",
+    "price": 10000
+  },
+  {
+    "id": "fs12",
+    "category": "Funeral Services",
+    "title": "Eternal Rest",
+    "address": "789 Eternal Peace Avenue, Tranquility Village, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Family Support",
+    "price": 5000
+  },
+  {
+    "id": "fs13",
+    "category": "Funeral Services",
+    "title": "Serenity Funerals",
+    "address": "321 Tranquil Lane, Harmony City, Chennai, 600001",
+    "stock": 1,
+    "packages": "Funeral Ceremonies",
+    "price": 18000
+  },
+  {
+    "id": "fs14",
+    "category": "Funeral Services",
+    "title": "Serenity Funerals",
+    "address": "321 Tranquil Lane, Harmony City, Chennai, 600001",
+    "stock": 1,
+    "packages": "Ashes Interment",
+    "price": 10000
+  },
+  {
+    "id": "fs15",
+    "category": "Funeral Services",
+    "title": "Serenity Funerals",
+    "address": "321 Tranquil Lane, Harmony City, Chennai, 600001",
+    "stock": 1,
+    "packages": "Grief Management",
+    "price": 8000
+  },
+  {
+    "id": "fs16",
+    "category": "Funeral Services",
+    "title": "Serenity Funerals",
+    "address": "321 Tranquil Lane, Harmony City, Chennai, 600001",
+    "stock": 1,
+    "packages": "Legal Documentation",
+    "price": 5000
+  },
+  {
+    "id": "fs17",
+    "category": "Funeral Services",
+    "title": "Comforting Farewells",
+    "address": "567 Tranquil Road, Peaceful Town, Kolkata, 700001",
+    "stock": 1,
+    "packages": "Funeral Planning",
+    "price": 20000
+  },
+  {
+    "id": "fs18",
+    "category": "Funeral Services",
+    "title": "Comforting Farewells",
+    "address": "567 Tranquil Road, Peaceful Town, Kolkata, 700001",
+    "stock": 1,
+    "packages": "Burial Services",
+    "price": 15000
+  },
+  {
+    "id": "fs19",
+    "category": "Funeral Services",
+    "title": "Comforting Farewells",
+    "address": "567 Tranquil Road, Peaceful Town, Kolkata, 700001",
+    "stock": 1,
+    "packages": "Memorial Tributes",
+    "price": 12000
+  },
+  {
+    "id": "fs20",
+    "category": "Funeral Services",
+    "title": "Comforting Farewells",
+    "address": "567 Tranquil Road, Peaceful Town, Kolkata, 700001",
+    "stock": 1,
+    "packages": "Emotional Support",
+    "price": 6000
+  },
+  {
+    "id": "fs21",
+    "category": "Funeral Services",
+    "title": "Tranquil Memorials",
+    "address": "789 Serenity Lane, Peaceful Village, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Cremation Services",
+    "price": 18000
+  },
+  {
+    "id": "fs22",
+    "category": "Funeral Services",
+    "title": "Tranquil Memorials",
+    "address": "789 Serenity Lane, Peaceful Village, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Funeral Arrangements",
+    "price": 12000
+  },
+  {
+    "id": "fs23",
+    "category": "Funeral Services",
+    "title": "Tranquil Memorials",
+    "address": "789 Serenity Lane, Peaceful Village, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Grief Counseling",
+    "price": 8000
+  },
+  {
+    "id": "fs24",
+    "category": "Funeral Services",
+    "title": "Tranquil Memorials",
+    "address": "789 Serenity Lane, Peaceful Village, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Aftercare Support",
+    "price": 5000
+  },
+  {
+    "id": "fs25",
+    "category": "Funeral Services",
+    "title": "Eternal Peace Funerals",
+    "address": "910 Peaceful Avenue, Serene City, Jaipur, 302001",
+    "stock": 1,
+    "packages": "Memorial Services",
+    "price": 15000
+  },
+  {
+    "id": "fs26",
+    "category": "Funeral Services",
+    "title": "Eternal Peace Funerals",
+    "address": "910 Peaceful Avenue, Serene City, Jaipur, 302001",
+    "stock": 1,
+    "packages": "Burial Arrangements",
+    "price": 12000
+  },
+  {
+    "id": "fs27",
+    "category": "Funeral Services",
+    "title": "Eternal Peace Funerals",
+    "address": "910 Peaceful Avenue, Serene City, Jaipur, 302001",
+    "stock": 1,
+    "packages": "Ash Scattering",
+    "price": 10000
+  },
+  {
+    "id": "fs28",
+    "category": "Funeral Services",
+    "title": "Eternal Peace Funerals",
+    "address": "910 Peaceful Avenue, Serene City, Jaipur, 302001",
+    "stock": 1,
+    "packages": "Family Counseling",
+    "price": 5000
+  },
+  {
+    "id": "fs29",
+    "category": "Funeral Services",
+    "title": "Solace Funerals",
+    "address": "123 Tranquil Avenue, Peaceful Town, Ahmedabad, 380001",
+    "stock": 1,
+    "packages": "Funeral Planning",
+    "price": 20000
+  },
+  {
+    "id": "fs30",
+    "category": "Funeral Services",
+    "title": "Solace Funerals",
+    "address": "123 Tranquil Avenue, Peaceful Town, Ahmedabad, 380001",
+    "stock": 1,
+    "packages": "Cremation Services",
+    "price": 15000
+  },
+  {
+    "id": "fs31",
+    "category": "Funeral Services",
+    "title": "Solace Funerals",
+    "address": "123 Tranquil Avenue, Peaceful Town, Ahmedabad, 380001",
+    "stock": 1,
+    "packages": "Memorial Ceremonies",
+    "price": 12000
+  },
+  {
+    "id": "fs32",
+    "category": "Funeral Services",
+    "title": "Solace Funerals",
+    "address": "123 Tranquil Avenue, Peaceful Town, Ahmedabad, 380001",
+    "stock": 1,
+    "packages": "Grief Support",
+    "price": 6000
   }
 ]
