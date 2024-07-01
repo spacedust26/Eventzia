@@ -27,22 +27,25 @@ const CreateEvent = ({ placeholder }) => {
   }, []);
 
   const handleDelete = async (id) => {
-    try {
-      const res = await fetch('/api/deleteEvent', {
-        method: 'DELETE',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ id }), // Send ID in request body
-      });
-      const data = await res.json();
-      if (data.success) {
-        setEvents(events.filter((event) => event._id !== id));
-      } else {
-        console.error('Failed to delete event:', data.message);
+    var del = confirm('Are you sure you want to cancel the booking?');
+    if(del){
+      try {
+        const res = await fetch('/api/deleteEvent', {
+          method: 'DELETE',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ id }),
+        });
+        const data = await res.json();
+        if (data.success) {
+          setEvents(events.filter((event) => event._id !== id));
+        } else {
+          console.error('Failed to delete event:', data.message);
+        }
+      } catch (error) {
+        console.error('Error deleting event:', error);
       }
-    } catch (error) {
-      console.error('Error deleting event:', error);
     }
   };
 

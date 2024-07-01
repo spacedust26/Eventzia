@@ -22,6 +22,7 @@ const Add = () => {
     }
     if (Object.keys(formErrors).length > 0) {
       setErrors(formErrors);
+      alert('Please fill in all required fields.');
       return;
     }
     console.log('Form submitted with:', { eventname, date, desc });
@@ -49,7 +50,6 @@ const Add = () => {
   useEffect(() => {
     localStorage.setItem('desc', desc);
   }, [desc]);
-
 
   return (
     <div className='container bg-[#321E1E] p-8 rounded-lg mt-[20px] text-white mb-12'>
@@ -92,6 +92,10 @@ const Add = () => {
             }}
           />
           {errors.date && <p className="text-red-500 text-sm">{errors.date}</p>}
+        </div>
+
+        <div className="flex items-center justify-center">
+          <button className='category p-3 bg-[#d4af37] rounded-lg text-[#321E1E] w-fit cursor-default font-bold'>Select Category</button>
         </div>
         <div className="flex items-center justify-center">
           <button className='category p-3 bg-[#d4af37] rounded-lg text-[#321E1E] w-fit cursor-default font-bold'>Select Category</button>
@@ -210,12 +214,20 @@ const Add = () => {
           </Link>
         </div>
         <div className="flex flex-col gap-2">
-          <label htmlFor='desc' className='text-[#d4af37]'>Notes to self</label>
-          <textarea type="text" name='desc' id='desc' rows="8" placeholder='Write down important notes to refer later' className='p-3 bg-transparent border border-[#503C3C] rounded-lg' value={desc} onChange={(e) => setDesc(e.target.value)} />
+          <label htmlFor='desc' className='text-[#d4af37]'>Instructions</label>
+          <textarea
+            type="text"
+            name='desc'
+            id='desc'
+            rows="8"
+            placeholder='Do you have any instructions for us?'
+            className='p-3 bg-transparent border border-[#503C3C] rounded-lg'
+            value={desc}
+            onChange={(e) => setDesc(e.target.value)}
+          />
         </div>
-        {/* <Link href="/dashboard/cart"> */}
+
         <button type='submit' className='p-5 bg-[#d4af37] rounded-lg text-[#321E1E] font-bold hover:bg-[#e1ba43]' id='go-to-cart'>Go to Booking Cart</button>
-        {/* </Link>         */}
       </form>
     </div>
   );

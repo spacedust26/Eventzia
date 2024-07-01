@@ -21,6 +21,7 @@ const getData = async () => {
 };
 
 const SingleDecor = () => {
+  const notify = () => toast("Booking successful");
   const { addItemToCart } = useContext(CartContext);
   const pathname = usePathname();
   const decorName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
