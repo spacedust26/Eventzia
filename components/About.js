@@ -11,7 +11,7 @@ const About = () => {
             <Image src='/gif/EventziaLogo.png' className='object-contain' width={200} height={200} alt='img'/>
           </div>
           <div className='w-full md:w-3/4 text-base md:text-lg flex flex-col gap-5'>
-            <p>Welcome to Eventzia, your ultimate platform for seamless event management! Whether you're planning a dream wedding, a corporate gala, or a cozy birthday celebration, Eventzia offers an intuitive and comprehensive solution to bring your vision to life.</p>
+            <p>Welcome to Eventzia, your ultimate platform for seamless event management! Whether you&apos;re planning a dream wedding, a corporate gala, or a cozy birthday celebration, Eventzia offers an intuitive and comprehensive solution to bring your vision to life.</p>
             <p>With our user-friendly interface, wide range of options, and a vast network of trusted vendors, organizing any event becomes a breeze. From initial planning to flawless execution, Eventzia ensures every detail is handled with precision and care, making your special occasions truly unforgettable. Join Eventzia today and experience the ease of perfect event planning!</p>
           </div>
         </div>
@@ -20,7 +20,7 @@ const About = () => {
       <div className="flex flex-col md:flex-row m-4 md:m-10 gap-10 md:gap-36 justify-center items-center text-[#321E1E]">
         <div className='flex flex-col w-full md:w-72 justify-center items-center text-center'>
           <div className='bg-[#321E1E] rounded-full p-4 mb-2 flex justify-center items-center'>
-            <Image src="/gif/user-friendly.gif" alt="User Friendly" className='' width={16} height={16}/>
+            <Image src="/gif/user-friendly.gif" alt="User Friendly" className='w-16 md:w-20' width={16} height={16}/>
           </div>
           <h3 className='font-bold text-lg mb-2'>User Friendly</h3>
           <p>Easy for anyone to plan and manage events anywhere without any technical expertise</p>

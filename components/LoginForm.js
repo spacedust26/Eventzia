@@ -56,7 +56,7 @@ const LoginForm = () => {
 
         <button className='p-4 bg-[#d4af37] rounded-lg text-[#321E1E] border-none cursor-pointer w-full'>Login</button>
         <Link className="text-sm" href={"/register"}>
-          Don't have an account? <span className='underline'>Register</span>
+          Don&apos;t have an account? <span className='underline'>Register</span>
         </Link>
       </form>
     </div>

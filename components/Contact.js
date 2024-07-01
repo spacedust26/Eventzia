@@ -1,5 +1,4 @@
 "use client"
-import { redirect } from 'next/dist/server/api-utils';
 import React, { useState } from 'react';
 
 const Contact = () => {
@@ -10,8 +9,7 @@ const Contact = () => {
   const [success, setSuccess] = useState(false)
 
   const handleSubmit = async (e) =>{
-    e.preventDefault(); //prevents reloading the browser
-
+    e.preventDefault();
     const res = await fetch("api/contact",{
       method: "POST",
       headers:{
@@ -38,7 +36,7 @@ const Contact = () => {
       <form className='flex flex-col justify-center items-center w-full max-w-xl mx-auto p-6 bg-[#321E1E] shadow-lg rounded-xl text-[#d4af37]' onSubmit={handleSubmit}>
 
         <div className="w-full mb-4">
-          {error && error.map((e) => <div className={`${success ? "text-green-600" : "text-red-600"} text-sm`}>{e}</div>)}
+          {error && error.map((e, index) => <div key={index} className={`${success ? "text-green-600" : "text-red-600"} text-sm`}>{e}</div>)}
         </div>
 
         <div className='w-full mb-4'>
