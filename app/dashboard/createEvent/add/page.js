@@ -225,7 +225,7 @@ const Add = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <label htmlFor='desc' className='text-[#d4af37]'>Notes to self</label>
+          <label htmlFor='desc' className='text-[#d4af37]'>Instructions</label>
           <textarea
             type="text"
             name='desc'
