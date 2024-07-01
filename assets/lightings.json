@@ -20,7 +20,7 @@
       "LED Uplighting": "₹20,000 per event",
       "String Lights": "₹15,000 per event",
       "Spotlights and Floodlights": "₹25,000 per event",
-      "Gobo Lighting":  "₹30,000 per event"
+      "Gobo Lighting": "₹30,000 per event"
     }
   },
   {
@@ -40,24 +40,12 @@
       "Special Effects Lighting",
       "Installation and Setup"
     ],
-    "types": [
-      {
-        "type": "Fairy Lights",
-        "price": "₹18,000 per event"
-      },
-      {
-        "type": "Color Wash Lighting",
-        "price": "₹22,000 per event"
-      },
-      {
-        "type": "Intelligent Lighting",
-        "price": "₹28,000 per event"
-      },
-      {
-        "type": "Outdoor Lighting",
-        "price": "₹32,000 per event"
-      }
-    ]
+    "packages": {
+      "Fairy Lights": "₹18,000 per event",
+      "Color Wash Lighting": "₹22,000 per event",
+      "Intelligent Lighting": "₹28,000 per event",
+      "Outdoor Lighting": "₹32,000 per event"
+    }
   },
   {
     "id": "lightings3",
@@ -76,24 +64,12 @@
       "Special Effects Lighting",
       "Installation and Setup"
     ],
-    "types": [
-      {
-        "type": "Chandelier Lighting",
-        "price": "₹25,000 per event"
-      },
-      {
-        "type": "Monogram Lighting",
-        "price": "₹35,000 per event"
-      },
-      {
-        "type": "Projection Mapping",
-        "price": "₹40,000 per event"
-      },
-      {
-        "type": "Firework Lighting",
-        "price": "₹45,000 per event"
-      }
-    ]
+    "packages": {
+      "Chandelier Lighting": "₹25,000 per event",
+      "Monogram Lighting": "₹35,000 per event",
+      "Projection Mapping": "₹40,000 per event",
+      "Firework Lighting": "₹45,000 per event"
+    }
   },
   {
     "id": "lightings4",
@@ -112,24 +88,12 @@
       "Special Effects Lighting",
       "Installation and Setup"
     ],
-    "types": [
-      {
-        "type": "Twinkle Lights",
-        "price": "₹23,000 per event"
-      },
-      {
-        "type": "Ambient Lighting",
-        "price": "₹27,000 per event"
-      },
-      {
-        "type": "Pixel Mapping",
-        "price": "₹37,000 per event"
-      },
-      {
-        "type": "Neon Lighting",
-        "price": "₹42,000 per event"
-      }
-    ]
+    "packages": {
+      "Twinkle Lights": "₹23,000 per event",
+      "Ambient Lighting": "₹27,000 per event",
+      "Pixel Mapping": "₹37,000 per event",
+      "Neon Lighting": "₹42,000 per event"
+    }
   },
   {
     "id": "lightings5",
@@ -148,24 +112,12 @@
       "Special Effects Lighting",
       "Installation and Setup"
     ],
-    "types": [
-      {
-        "type": "Glow Sticks",
-        "price": "₹21,000 per event"
-      },
-      {
-        "type": "Disco Lights",
-        "price": "₹24,000 per event"
-      },
-      {
-        "type": "UV Lighting",
-        "price": "₹34,000 per event"
-      },
-      {
-        "type": "Festoon Lighting",
-        "price": "₹38,000 per event"
-      }
-    ]
+    "packages": {
+      "Glow Sticks": "₹21,000 per event",
+      "Disco Lights": "₹24,000 per event",
+      "UV Lighting": "₹34,000 per event",
+      "Festoon Lighting": "₹38,000 per event"
+    }
   },
   {
     "id": "lightings6",
@@ -184,24 +136,12 @@
       "Special Effects Lighting",
       "Installation and Setup"
     ],
-    "types": [
-      {
-        "type": "Fiber Optic Lighting",
-        "price": "₹29,000 per event"
-      },
-      {
-        "type": "Candlelight Effect",
-        "price": "₹32,000 per event"
-      },
-      {
-        "type": "Architectural Lighting",
-        "price": "₹36,000 per event"
-      },
-      {
-        "type": "Wireless LED Lighting",
-        "price": "₹39,000 per event"
-      }
-    ]
+    "packages": {
+      "Fiber Optic Lighting": "₹29,000 per event",
+      "Candlelight Effect": "₹32,000 per event",
+      "Architectural Lighting": "₹36,000 per event",
+      "Wireless LED Lighting": "₹39,000 per event"
+    }
   },
   {
     "id": "lightings7",
@@ -220,28 +160,13 @@
       "Special Effects Lighting",
       "Installation and Setup"
     ],
-    "types": [
-      {
-        "type": "Outdoor Festive Lighting",
-        "price": "₹26,000 per event"
-      },
-      {
-        "type": "Event Theme Lighting",
-        "price": "₹31,000 per event"
-      },
-      {
-        "type": "Interactive LED Panels",
-        "price": "₹33,000 per event"
-      },
-      {
-        "type": "Waterproof Lighting",
-        "price": "₹35,000 per event"
-      },
-      {
-        "type": "Crystal Chandeliers",
-        "price": "₹40,000 per event"
-      }
-    ]
+    "packages": {
+      "Outdoor Festive Lighting": "₹26,000 per event",
+      "Event Theme Lighting": "₹31,000 per event",
+      "Interactive LED Panels": "₹33,000 per event",
+      "Waterproof Lighting": "₹35,000 per event",
+      "Crystal Chandeliers": "₹40,000 per event"
+    }
   },
   {
     "id": "lightings8",
@@ -260,23 +185,11 @@
       "Special Effects Lighting",
       "Installation and Setup"
     ],
-    "types": [
-      {
-        "type": "Glowing Orbs",
-        "price": "₹28,000 per event"
-      },
-      {
-        "type": "Pixel LED Curtains",
-        "price": "₹30,000 per event"
-      },
-      {
-        "type": "Laser Show",
-        "price": "₹38,000 per event"
-      },
-      {
-        "type": "Starlight Effect",
-        "price": "₹42,000 per event"
-      }
-    ]
+    "packages": {
+      "Glowing Orbs": "₹28,000 per event",
+      "Pixel LED Curtains": "₹30,000 per event",
+      "Laser Show": "₹38,000 per event",
+      "Starlight Effect": "₹42,000 per event"
+    }
   }
 ]

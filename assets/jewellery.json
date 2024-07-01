@@ -16,24 +16,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Kundan Sets",
-        "price": "₹5000 - ₹50000"
-      },
-      {
-        "type": "Meenakari Bangles",
-        "price": "₹1500 - ₹10000"
-      },
-      {
-        "type": "Polki Necklaces",
-        "price": "₹8000 - ₹80000"
-      },
-      {
-        "type": "Temple Jewellery",
-        "price": "₹3000 - ₹30000"
-      }
-    ]
+    "packages": {
+      "Kundan Sets": "₹5000 - ₹50000",
+      "Meenakari Bangles": "₹1500 - ₹10000",
+      "Polki Necklaces": "₹8000 - ₹8000",
+      "Temple Jewellery": "₹3000 - ₹30000"
+    }
   },
   {
     "id": "jewellery2",
@@ -52,24 +40,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Statement Earrings",
-        "price": "₹1000 - ₹8000"
-      },
-      {
-        "type": "Layered Necklaces",
-        "price": "₹1500 - ₹12000"
-      },
-      {
-        "type": "Cocktail Rings",
-        "price": "₹800 - ₹6000"
-      },
-      {
-        "type": "Minimalist Bracelets",
-        "price": "₹500 - ₹4000"
-      }
-    ]
+    "packages": {
+      "Statement Earrings": "₹1000 - ₹8000",
+      "Layered Necklaces": "₹1500 - ₹12000",
+      "Cocktail Rings": "₹800 - ₹6000",
+      "Minimalist Bracelets": "₹500 - ₹4000"
+    }
   },
   {
     "id": "jewellery3",
@@ -88,24 +64,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Victorian Brooches",
-        "price": "₹2000 - ₹15000"
-      },
-      {
-        "type": "Art Deco Rings",
-        "price": "₹3000 - ₹25000"
-      },
-      {
-        "type": "Retro Chains",
-        "price": "₹2500 - ₹18000"
-      },
-      {
-        "type": "Edwardian Pendants",
-        "price": "₹3500 - ₹30000"
-      }
-    ]
+    "packages": {
+      "Victorian Brooches": "₹2000 - ₹15000",
+      "Art Deco Rings": "₹3000 - ₹25000",
+      "Retro Chains": "₹2500 - ₹18000",
+      "Edwardian Pendants": "₹3500 - ₹30000"
+    }
   },
   {
     "id": "jewellery4",
@@ -124,24 +88,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Bridal Necklaces",
-        "price": "₹10000 - ₹80000"
-      },
-      {
-        "type": "Maang Tikka Sets",
-        "price": "₹5000 - ₹25000"
-      },
-      {
-        "type": "Choker Sets",
-        "price": "₹8000 - ₹60000"
-      },
-      {
-        "type": "Bridal Bangles",
-        "price": "₹3000 - ₹20000"
-      }
-    ]
+    "packages": {
+      "Bridal Necklaces": "₹10000 - ₹80000",
+      "Maang Tikka Sets": "₹5000 - ₹25000",
+      "Choker Sets": "₹8000 - ₹60000",
+      "Bridal Bangles": "₹3000 - ₹20000"
+    }
   },
   {
     "id": "jewellery5",
@@ -160,24 +112,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Gold Necklaces",
-        "price": "₹20000 - ₹200000"
-      },
-      {
-        "type": "Diamond Rings",
-        "price": "₹15000 - ₹150000"
-      },
-      {
-        "type": "Platinum Bracelets",
-        "price": "₹25000 - ₹250000"
-      },
-      {
-        "type": "Designer Earrings",
-        "price": "₹10000 - ₹100000"
-      }
-    ]
+    "packages": {
+      "Gold Necklaces": "₹20000 - ₹200000",
+      "Diamond Rings": "₹15000 - ₹150000",
+      "Platinum Bracelets": "₹25000 - ₹250000",
+      "Designer Earrings": "₹10000 - ₹100000"
+    }
   },
   {
     "id": "jewellery6",
@@ -196,24 +136,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Ruby Necklaces",
-        "price": "₹5000 - ₹50000"
-      },
-      {
-        "type": "Emerald Rings",
-        "price": "₹4000 - ₹40000"
-      },
-      {
-        "type": "Sapphire Bracelets",
-        "price": "₹6000 - ₹60000"
-      },
-      {
-        "type": "Amethyst Pendants",
-        "price": "₹3000 - ₹30000"
-      }
-    ]
+    "packages": {
+      "Ruby Necklaces": "₹5000 - ₹50000",
+      "Emerald Rings": "₹4000 - ₹40000",
+      "Sapphire Bracelets": "₹6000 - ₹60000",
+      "Amethyst Pendants": "₹3000 - ₹30000"
+    }
   },
   {
     "id": "jewellery7",
@@ -232,24 +160,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Silver Earrings",
-        "price": "₹500 - ₹5000"
-      },
-      {
-        "type": "Silver Bracelets",
-        "price": "₹500 - ₹5000"
-      },
-      {
-        "type": "Silver Necklaces",
-        "price": "₹1000 - ₹10000"
-      },
-      {
-        "type": "Silver Rings",
-        "price": "₹600 - ₹6000"
-      }
-    ]
+    "packages": {
+      "Silver Earrings": "₹500 - ₹5000",
+      "Silver Bracelets": "₹500 - ₹5000",
+      "Silver Necklaces": "₹1000 - ₹10000",
+      "Silver Rings": "₹600 - ₹6000"
+    }
   },
   {
     "id": "jewellery8",
@@ -268,23 +184,11 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Custom Engagement Rings",
-        "price": "₹20000 and up"
-      },
-      {
-        "type": "Personalized Name Pendants",
-        "price": "₹5000 and up"
-      },
-      {
-        "type": "Unique Gemstone Settings",
-        "price": "Prices vary by gemstone"
-      },
-      {
-        "type": "Artisanal Gold Chains",
-        "price": "₹10000 - ₹80000"
-      }
-    ]
+    "packages": {
+      "Custom Engagement Rings": "₹20000 and up",
+      "Personalized Name Pendants": "₹5000 and up",
+      "Unique Gemstone Settings": "Prices vary by gemstone",
+      "Artisanal Gold Chains": "₹10000 - ₹80000"
+    }
   }
 ]

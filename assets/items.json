@@ -2148,6 +2148,294 @@
     "price": 20000
   },
   {
+    "id": "l2",
+    "category": "Lightings",
+    "title": "Luminous Lightings",
+    "address": "12 Glow Street, Radiance City, Delhi, 110007",
+    "stock": 1,
+    "packages": "String Lights",
+    "price": 15000
+  },
+  {
+    "id": "l3",
+    "category": "Lightings",
+    "title": "Luminous Lightings",
+    "address": "12 Glow Street, Radiance City, Delhi, 110007",
+    "stock": 1,
+    "packages": "Spotlights and Floodlights",
+    "price": 25000
+  },
+  {
+    "id": "l4",
+    "category": "Lightings",
+    "title": "Luminous Lightings",
+    "address": "12 Glow Street, Radiance City, Delhi, 110007",
+    "stock": 1,
+    "packages": "Gobo Lighting",
+    "price": 30000
+  },
+  {
+    "id": "l5",
+    "category": "Lightings",
+    "title": "Luminous Lightings",
+    "address": "12 Glow Street, Radiance City, Delhi, 110007",
+    "stock": 1,
+    "packages": "Fairy Lights",
+    "price": 18000
+  },
+  {
+    "id": "l6",
+    "category": "Lightings",
+    "title": "Luminous Lightings",
+    "address": "12 Glow Street, Radiance City, Delhi, 110007",
+    "stock": 1,
+    "packages": "Color Wash Lighting",
+    "price": 22000
+  },
+  {
+    "id": "l7",
+    "category": "Lightings",
+    "title": "Luminous Lightings",
+    "address": "12 Glow Street, Radiance City, Delhi, 110007",
+    "stock": 1,
+    "packages": "Intelligent Lighting",
+    "price": 28000
+  },
+  {
+    "id": "l8",
+    "category": "Lightings",
+    "title": "Luminous Lightings",
+    "address": "12 Glow Street, Radiance City, Delhi, 110007",
+    "stock": 1,
+    "packages": "Outdoor Lighting",
+    "price": 32000
+  },
+  {
+    "id": "l9",
+    "category": "Lightings",
+    "title": "Ethereal Illuminations",
+    "address": "56 Illumination Street, Sparkle Town, Bangalore, 560007",
+    "stock": 1,
+    "packages": "Chandelier Lighting",
+    "price": 25000
+  },
+  {
+    "id": "l10",
+    "category": "Lightings",
+    "title": "Ethereal Illuminations",
+    "address": "56 Illumination Street, Sparkle Town, Bangalore, 560007",
+    "stock": 1,
+    "packages": "Monogram Lighting",
+    "price": 35000
+  },
+  {
+    "id": "l11",
+    "category": "Lightings",
+    "title": "Ethereal Illuminations",
+    "address": "56 Illumination Street, Sparkle Town, Bangalore, 560007",
+    "stock": 1,
+    "packages": "Projection Mapping",
+    "price": 40000
+  },
+  {
+    "id": "l12",
+    "category": "Lightings",
+    "title": "Ethereal Illuminations",
+    "address": "56 Illumination Street, Sparkle Town, Bangalore, 560007",
+    "stock": 1,
+    "packages": "Firework Lighting",
+    "price": 45000
+  },
+  {
+    "id": "l13",
+    "category": "Lightings",
+    "title": "Radiant Rays",
+    "address": "78 Glow Lane, Bright City, Chennai, 600007",
+    "stock": 1,
+    "packages": "Twinkle Lights",
+    "price": 23000
+  },
+  {
+    "id": "l14",
+    "category": "Lightings",
+    "title": "Radiant Rays",
+    "address": "78 Glow Lane, Bright City, Chennai, 600007",
+    "stock": 1,
+    "packages": "Ambient Lighting",
+    "price": 27000
+  },
+  {
+    "id": "l15",
+    "category": "Lightings",
+    "title": "Radiant Rays",
+    "address": "78 Glow Lane, Bright City, Chennai, 600007",
+    "stock": 1,
+    "packages": "Pixel Mapping",
+    "price": 37000
+  },
+  {
+    "id": "l16",
+    "category": "Lightings",
+    "title": "Radiant Rays",
+    "address": "78 Glow Lane, Bright City, Chennai, 600007",
+    "stock": 1,
+    "packages": "Neon Lighting",
+    "price": 42000
+  },
+  {
+    "id": "l17",
+    "category": "Lightings",
+    "title": "Sparkle Spectrum",
+    "address": "90 Sparkle Boulevard, Shine City, Kolkata, 700007",
+    "stock": 1,
+    "packages": "Glow Sticks",
+    "price": 21000
+  },
+  {
+    "id": "l18",
+    "category": "Lightings",
+    "title": "Sparkle Spectrum",
+    "address": "90 Sparkle Boulevard, Shine City, Kolkata, 700007",
+    "stock": 1,
+    "packages": "Disco Lights",
+    "price": 24000
+  },
+  {
+    "id": "l19",
+    "category": "Lightings",
+    "title": "Sparkle Spectrum",
+    "address": "90 Sparkle Boulevard, Shine City, Kolkata, 700007",
+    "stock": 1,
+    "packages": "UV Lighting",
+    "price": 34000
+  },
+  {
+    "id": "l20",
+    "category": "Lightings",
+    "title": "Sparkle Spectrum",
+    "address": "90 Sparkle Boulevard, Shine City, Kolkata, 700007",
+    "stock": 1,
+    "packages": "Festoon Lighting",
+    "price": 38000
+  },
+  {
+    "id": "l21",
+    "category": "Lightings",
+    "title": "Dazzle Designs",
+    "address": "123 Dazzle Lane, Brilliance City, Jaipur, 302007",
+    "stock": 1,
+    "packages": "Fiber Optic Lighting",
+    "price": 29000
+  },
+  {
+    "id": "l22",
+    "category": "Lightings",
+    "title": "Dazzle Designs",
+    "address": "123 Dazzle Lane, Brilliance City, Jaipur, 302007",
+    "stock": 1,
+    "packages": "Candlelight Effect",
+    "price": 32000
+  },
+  {
+    "id": "l23",
+    "category": "Lightings",
+    "title": "Dazzle Designs",
+    "address": "123 Dazzle Lane, Brilliance City, Jaipur, 302007",
+    "stock": 1,
+    "packages": "Architectural Lighting",
+    "price": 36000
+  },
+  {
+    "id": "l24",
+    "category": "Lightings",
+    "title": "Dazzle Designs",
+    "address": "123 Dazzle Lane, Brilliance City, Jaipur, 302007",
+    "stock": 1,
+    "packages": "Wireless LED Lighting",
+    "price": 39000
+  },
+  {
+    "id": "l25",
+    "category": "Lightings",
+    "title": "Brilliant Bliss",
+    "address": "456 Blissful Street, Radiant Glow Town, Hyderabad, 500007",
+    "stock": 1,
+    "packages": "Outdoor Festive Lighting",
+    "price": 26000
+  },
+  {
+    "id": "l26",
+    "category": "Lightings",
+    "title": "Brilliant Bliss",
+    "address": "456 Blissful Street, Radiant Glow Town, Hyderabad, 500007",
+    "stock": 1,
+    "packages": "Event Theme Lighting",
+    "price": 31000
+  },
+  {
+    "id": "l27",
+    "category": "Lightings",
+    "title": "Brilliant Bliss",
+    "address": "456 Blissful Street, Radiant Glow Town, Hyderabad, 500007",
+    "stock": 1,
+    "packages": "Interactive LED Panels",
+    "price": 33000
+  },
+  {
+    "id": "l28",
+    "category": "Lightings",
+    "title": "Brilliant Bliss",
+    "address": "456 Blissful Street, Radiant Glow Town, Hyderabad, 500007",
+    "stock": 1,
+    "packages": "Waterproof Lighting",
+    "price": 35000
+  },
+  {
+    "id": "l29",
+    "category": "Lightings",
+    "title": "Brilliant Bliss",
+    "address": "456 Blissful Street, Radiant Glow Town, Hyderabad, 500007",
+    "stock": 1,
+    "packages": "Crystal Chandeliers",
+    "price": 40000
+  },
+  {
+    "id": "l30",
+    "category": "Lightings",
+    "title": "Twilight Illuminations",
+    "address": "789 Twilight Avenue, Glowville, Pune, 411007",
+    "stock": 1,
+    "packages": "Glowing Orbs",
+    "price": 28000
+  },
+  {
+    "id": "l31",
+    "category": "Lightings",
+    "title": "Twilight Illuminations",
+    "address": "789 Twilight Avenue, Glowville, Pune, 411007",
+    "stock": 1,
+    "packages": "Pixel LED Curtains",
+    "price": 30000
+  },
+  {
+    "id": "l32",
+    "category": "Lightings",
+    "title": "Twilight Illuminations",
+    "address": "789 Twilight Avenue, Glowville, Pune, 411007",
+    "stock": 1,
+    "packages": "Laser Show",
+    "price": 38000
+  },
+  {
+    "id": "l33",
+    "category": "Lightings",
+    "title": "Twilight Illuminations",
+    "address": "789 Twilight Avenue, Glowville, Pune, 411007",
+    "stock": 1,
+    "packages": "Starlight Effect",
+    "price": 42000
+  },
+  {
     "id": "s1",
     "category": "Stalls & Exhibition",
     "title": "Creative Crafts Expo",
@@ -2713,5 +3001,1139 @@
     "stock": 1,
     "packages": "Grief Support",
     "price": 6000
+  },
+  {
+    "id": "pr1",
+    "category": "Priests & Clergy",
+    "title": "Pandit Rajesh Sharma",
+    "address": "123 Vedic Lane, Divine City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Wedding Ceremony",
+    "price": 20000
+  },
+  {
+    "id": "pr2",
+    "category": "Priests & Clergy",
+    "title": "Pandit Rajesh Sharma",
+    "address": "123 Vedic Lane, Divine City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Griha Pravesh",
+    "price": 15000
+  },
+  {
+    "id": "pr3",
+    "category": "Priests & Clergy",
+    "title": "Pandit Rajesh Sharma",
+    "address": "123 Vedic Lane, Divine City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Satyanarayan Puja",
+    "price": 10000
+  },
+  {
+    "id": "pr4",
+    "category": "Priests & Clergy",
+    "title": "Pandit Rajesh Sharma",
+    "address": "123 Vedic Lane, Divine City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Astrological Consultation",
+    "price": 3000
+  },
+  {
+    "id": "pr1",
+    "category": "Priests & Clergy",
+    "title": "Pandit Rajesh Sharma",
+    "address": "123 Vedic Lane, Divine City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Wedding Ceremony",
+    "price": 20000
+  },
+  {
+    "id": "pr2",
+    "category": "Priests & Clergy",
+    "title": "Pandit Rajesh Sharma",
+    "address": "123 Vedic Lane, Divine City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Griha Pravesh",
+    "price": 15000
+  },
+  {
+    "id": "pr3",
+    "category": "Priests & Clergy",
+    "title": "Pandit Rajesh Sharma",
+    "address": "123 Vedic Lane, Divine City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Satyanarayan Puja",
+    "price": 10000
+  },
+  {
+    "id": "pr4",
+    "category": "Priests & Clergy",
+    "title": "Pandit Rajesh Sharma",
+    "address": "123 Vedic Lane, Divine City, Delhi, 110001",
+    "stock": 1,
+    "packages": "Astrological Consultation",
+    "price": 3000
+  },
+  {
+    "id": "pr5",
+    "category": "Priests & Clergy",
+    "title": "Father Michael Brown",
+    "address": "456 Serenity Lane, Grace City, Mumbai, 400001",
+    "stock": 1,
+    "packages": "Wedding Ceremony",
+    "price": 20000
+  },
+  {
+    "id": "pr6",
+    "category": "Priests & Clergy",
+    "title": "Father Michael Brown",
+    "address": "456 Serenity Lane, Grace City, Mumbai, 400001",
+    "stock": 1,
+    "packages": "Baptism Ceremony",
+    "price": 15000
+  },
+  {
+    "id": "pr7",
+    "category": "Priests & Clergy",
+    "title": "Father Michael Brown",
+    "address": "456 Serenity Lane, Grace City, Mumbai, 400001",
+    "stock": 1,
+    "packages": "Holy Communion",
+    "price": 18000
+  },
+  {
+    "id": "pr8",
+    "category": "Priests & Clergy",
+    "title": "Father Michael Brown",
+    "address": "456 Serenity Lane, Grace City, Mumbai, 400001",
+    "stock": 1,
+    "packages": "Confession",
+    "price": 5000
+  },
+  {
+    "id": "pr9",
+    "category": "Priests & Clergy",
+    "title": "Rabbi Sarah Cohen",
+    "address": "789 Torah Avenue, Unity Village, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Wedding Ceremony",
+    "price": 30000
+  },
+  {
+    "id": "pr10",
+    "category": "Priests & Clergy",
+    "title": "Rabbi Sarah Cohen",
+    "address": "789 Torah Avenue, Unity Village, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Bar/Bat Mitzvahs",
+    "price": 25000
+  },
+  {
+    "id": "pr11",
+    "category": "Priests & Clergy",
+    "title": "Rabbi Sarah Cohen",
+    "address": "789 Torah Avenue, Unity Village, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Baby Naming Ceremonies",
+    "price": 18000
+  },
+  {
+    "id": "pr12",
+    "category": "Priests & Clergy",
+    "title": "Rabbi Sarah Cohen",
+    "address": "789 Torah Avenue, Unity Village, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Shabbat Services",
+    "price": 15000
+  },
+  {
+    "id": "pr13",
+    "category": "Priests & Clergy",
+    "title": "Mufti Abdul Rahman",
+    "address": "321 Mosque Street, Peaceful City, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Nikah Ceremony",
+    "price": 20000
+  },
+  {
+    "id": "pr14",
+    "category": "Priests & Clergy",
+    "title": "Mufti Abdul Rahman",
+    "address": "321 Mosque Street, Peaceful City, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Aqiqah Ceremony",
+    "price": 15000
+  },
+  {
+    "id": "pr15",
+    "category": "Priests & Clergy",
+    "title": "Mufti Abdul Rahman",
+    "address": "321 Mosque Street, Peaceful City, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Khutbah (Sermon)",
+    "price": 12000
+  },
+  {
+    "id": "pr16",
+    "category": "Priests & Clergy",
+    "title": "Mufti Abdul Rahman",
+    "address": "321 Mosque Street, Peaceful City, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Islamic Counseling",
+    "price": 3000
+  },
+  {
+    "id": "pr17",
+    "category": "Priests & Clergy",
+    "title": "Guru Singh Sahib",
+    "address": "567 Gurudwara Road, Guru Nagar, Amritsar, 143001",
+    "stock": 1,
+    "packages": "Anand Karaj Ceremony",
+    "price": 25000
+  },
+  {
+    "id": "pr18",
+    "category": "Priests & Clergy",
+    "title": "Guru Singh Sahib",
+    "address": "567 Gurudwara Road, Guru Nagar, Amritsar, 143001",
+    "stock": 1,
+    "packages": "Amrit Sanchar Ceremony",
+    "price": 20000
+  },
+  {
+    "id": "pr19",
+    "category": "Priests & Clergy",
+    "title": "Guru Singh Sahib",
+    "address": "567 Gurudwara Road, Guru Nagar, Amritsar, 143001",
+    "stock": 1,
+    "packages": "Akhand Path",
+    "price": 15000
+  },
+  {
+    "id": "pr20",
+    "category": "Priests & Clergy",
+    "title": "Guru Singh Sahib",
+    "address": "567 Gurudwara Road, Guru Nagar, Amritsar, 143001",
+    "stock": 1,
+    "packages": "Sikh Religious Ceremonies",
+    "price": 5000
+  },
+  {
+    "id": "pr21",
+    "category": "Priests & Clergy",
+    "title": "Father Anthony D'Souza",
+    "address": "678 Cathedral Road, Blessed City, Goa, 403001",
+    "stock": 1,
+    "packages": "Catholic Mass",
+    "price": 15000
+  },
+  {
+    "id": "pr22",
+    "category": "Priests & Clergy",
+    "title": "Father Anthony D'Souza",
+    "address": "678 Cathedral Road, Blessed City, Goa, 403001",
+    "stock": 1,
+    "packages": "Sacraments (Baptism, Confirmation)",
+    "price": 18000
+  },
+  {
+    "id": "pr23",
+    "category": "Priests & Clergy",
+    "title": "Father Anthony D'Souza",
+    "address": "678 Cathedral Road, Blessed City, Goa, 403001",
+    "stock": 1,
+    "packages": "Pastoral Counseling",
+    "price": 12000
+  },
+  {
+    "id": "pr24",
+    "category": "Priests & Clergy",
+    "title": "Father Anthony D'Souza",
+    "address": "678 Cathedral Road, Blessed City, Goa, 403001",
+    "stock": 1,
+    "packages": "Community Outreach",
+    "price": 3000
+  },
+  {
+    "id": "pr25",
+    "category": "Priests & Clergy",
+    "title": "Maulana Akhtar Khan",
+    "address": "910 Mosque Lane, Peace City, Lucknow, 226001",
+    "stock": 1,
+    "packages": "Nikah Ceremony",
+    "price": 20000
+  },
+  {
+    "id": "pr26",
+    "category": "Priests & Clergy",
+    "title": "Maulana Akhtar Khan",
+    "address": "910 Mosque Lane, Peace City, Lucknow, 226001",
+    "stock": 1,
+    "packages": "Talaq Ceremony",
+    "price": 15000
+  },
+  {
+    "id": "pr27",
+    "category": "Priests & Clergy",
+    "title": "Maulana Akhtar Khan",
+    "address": "910 Mosque Lane, Peace City, Lucknow, 226001",
+    "stock": 1,
+    "packages": "Jumu'ah (Friday Prayer)",
+    "price": 12000
+  },
+  {
+    "id": "pr28",
+    "category": "Priests & Clergy",
+    "title": "Maulana Akhtar Khan",
+    "address": "910 Mosque Lane, Peace City, Lucknow, 226001",
+    "stock": 1,
+    "packages": "Islamic Counseling",
+    "price": 3000
+  },
+  {
+    "id": "pr29",
+    "category": "Priests & Clergy",
+    "title": "Swami Vivekananda Saraswati",
+    "address": "123 Ashram Road, Enlightenment City, Rishikesh, 249201",
+    "stock": 1,
+    "packages": "Havan (Fire Rituals)",
+    "price": 25000
+  },
+  {
+    "id": "pr30",
+    "category": "Priests & Clergy",
+    "title": "Swami Vivekananda Saraswati",
+    "address": "123 Ashram Road, Enlightenment City, Rishikesh, 249201",
+    "stock": 1,
+    "packages": "Yoga Sessions",
+    "price": 15000
+  },
+  {
+    "id": "pr31",
+    "category": "Priests & Clergy",
+    "title": "Swami Vivekananda Saraswati",
+    "address": "123 Ashram Road, Enlightenment City, Rishikesh, 249201",
+    "stock": 1,
+    "packages": "Vedanta Discourses",
+    "price": 18000
+  },
+  {
+    "id": "pr32",
+    "category": "Priests & Clergy",
+    "title": "Swami Vivekananda Saraswati",
+    "address": "123 Ashram Road, Enlightenment City, Rishikesh, 249201",
+    "stock": 1,
+    "packages": "Spiritual Retreats",
+    "price": 15000
+  },
+  {
+    "id": "ca1",
+    "category": "Vintage & Rental Cars",
+    "title": "Classic Vintage Rentals",
+    "address": "123 Classic Lane, Vintage Town, Delhi, 110008",
+    "stock": 1,
+    "packages": "Vintage Rolls-Royce",
+    "price": 50000
+  },
+  {
+    "id": "ca2",
+    "category": "Vintage & Rental Cars",
+    "title": "Classic Vintage Rentals",
+    "address": "123 Classic Lane, Vintage Town, Delhi, 110008",
+    "stock": 1,
+    "packages": "Classic Cadillac",
+    "price": 30000
+  },
+  {
+    "id": "ca3",
+    "category": "Vintage & Rental Cars",
+    "title": "Classic Vintage Rentals",
+    "address": "123 Classic Lane, Vintage Town, Delhi, 110008",
+    "stock": 1,
+    "packages": "Antique Mercedes-Benz",
+    "price": 25000
+  },
+  {
+    "id": "ca4",
+    "category": "Vintage & Rental Cars",
+    "title": "Classic Vintage Rentals",
+    "address": "123 Classic Lane, Vintage Town, Delhi, 110008",
+    "stock": 1,
+    "packages": "Oldsmobile Convertible",
+    "price": 10000
+  },
+  {
+    "id": "ca5",
+    "category": "Vintage & Rental Cars",
+    "title": "Retro Wheels Rentals",
+    "address": "456 Retro Road, Nostalgia Lane, Mumbai, 400008",
+    "stock": 1,
+    "packages": "Vintage Ford Mustang",
+    "price": 60000
+  },
+  {
+    "id": "ca6",
+    "category": "Vintage & Rental Cars",
+    "title": "Retro Wheels Rentals",
+    "address": "456 Retro Road, Nostalgia Lane, Mumbai, 400008",
+    "stock": 1,
+    "packages": "Classic Chevrolet Bel Air",
+    "price": 55000
+  },
+  {
+    "id": "ca7",
+    "category": "Vintage & Rental Cars",
+    "title": "Retro Wheels Rentals",
+    "address": "456 Retro Road, Nostalgia Lane, Mumbai, 400008",
+    "stock": 1,
+    "packages": "Antique Volkswagen Beetle",
+    "price": 40000
+  },
+  {
+    "id": "ca8",
+    "category": "Vintage & Rental Cars",
+    "title": "Retro Wheels Rentals",
+    "address": "456 Retro Road, Nostalgia Lane, Mumbai, 400008",
+    "stock": 1,
+    "packages": "Old School VW Camper",
+    "price": 50000
+  },
+  {
+    "id": "ca9",
+    "category": "Vintage & Rental Cars",
+    "title": "Heritage Car Rentals",
+    "address": "789 Heritage Drive, Classic City, Bangalore, 560008",
+    "stock": 1,
+    "packages": "Classic Jaguar E-Type",
+    "price": 70000
+  },
+  {
+    "id": "ca10",
+    "category": "Vintage & Rental Cars",
+    "title": "Heritage Car Rentals",
+    "address": "789 Heritage Drive, Classic City, Bangalore, 560008",
+    "stock": 1,
+    "packages": "Vintage Porsche 356",
+    "price": 65000
+  },
+  {
+    "id": "ca11",
+    "category": "Vintage & Rental Cars",
+    "title": "Heritage Car Rentals",
+    "address": "789 Heritage Drive, Classic City, Bangalore, 560008",
+    "stock": 1,
+    "packages": "Antique Bentley S1",
+    "price": 80000
+  },
+  {
+    "id": "ca12",
+    "category": "Vintage & Rental Cars",
+    "title": "Heritage Car Rentals",
+    "address": "789 Heritage Drive, Classic City, Bangalore, 560008",
+    "stock": 1,
+    "packages": "Retro Austin-Healey",
+    "price": 50000
+  },
+  {
+    "id": "ca13",
+    "category": "Vintage & Rental Cars",
+    "title": "Nostalgia Car Haven",
+    "address": "321 Nostalgia Street, Retro Village, Chennai, 600008",
+    "stock": 1,
+    "packages": "Classic Ford Thunderbird",
+    "price": 55000
+  },
+  {
+    "id": "ca14",
+    "category": "Vintage & Rental Cars",
+    "title": "Nostalgia Car Haven",
+    "address": "321 Nostalgia Street, Retro Village, Chennai, 600008",
+    "stock": 1,
+    "packages": "Antique Buick Roadmaster",
+    "price": 60000
+  },
+  {
+    "id": "ca15",
+    "category": "Vintage & Rental Cars",
+    "title": "Nostalgia Car Haven",
+    "address": "321 Nostalgia Street, Retro Village, Chennai, 600008",
+    "stock": 1,
+    "packages": "Vintage Chrysler Imperial",
+    "price": 65000
+  },
+  {
+    "id": "ca16",
+    "category": "Vintage & Rental Cars",
+    "title": "Nostalgia Car Haven",
+    "address": "321 Nostalgia Street, Retro Village, Chennai, 600008",
+    "stock": 1,
+    "packages": "Retro Chevrolet Corvette",
+    "price": 50000
+  },
+  {
+    "id": "ca17",
+    "category": "Vintage & Rental Cars",
+    "title": "Royal Vintage Rides",
+    "address": "567 Vintage Avenue, Royalty Plaza, Kolkata, 700008",
+    "stock": 1,
+    "packages": "Royal Rolls-Royce Phantom",
+    "price": 80000
+  },
+  {
+    "id": "ca18",
+    "category": "Vintage & Rental Cars",
+    "title": "Royal Vintage Rides",
+    "address": "567 Vintage Avenue, Royalty Plaza, Kolkata, 700008",
+    "stock": 1,
+    "packages": "Vintage Bentley Mulsanne",
+    "price": 90000
+  },
+  {
+    "id": "ca19",
+    "category": "Vintage & Rental Cars",
+    "title": "Royal Vintage Rides",
+    "address": "567 Vintage Avenue, Royalty Plaza, Kolkata, 700008",
+    "stock": 1,
+    "packages": "Antique Daimler Limousine",
+    "price": 75000
+  },
+  {
+    "id": "ca20",
+    "category": "Vintage & Rental Cars",
+    "title": "Royal Vintage Rides",
+    "address": "567 Vintage Avenue, Royalty Plaza, Kolkata, 700008",
+    "stock": 1,
+    "packages": "Classic Jaguar Mark 2",
+    "price": 85000
+  },
+  {
+    "id": "ca21",
+    "category": "Vintage & Rental Cars",
+    "title": "Antique Auto Rentals",
+    "address": "890 Antique Drive, Heritage Lane, Hyderabad, 500008",
+    "stock": 1,
+    "packages": "Antique Ford Model T",
+    "price": 60000
+  },
+  {
+    "id": "ca22",
+    "category": "Vintage & Rental Cars",
+    "title": "Antique Auto Rentals",
+    "address": "890 Antique Drive, Heritage Lane, Hyderabad, 500008",
+    "stock": 1,
+    "packages": "Classic Packard Twelve",
+    "price": 70000
+  },
+  {
+    "id": "ca23",
+    "category": "Vintage & Rental Cars",
+    "title": "Antique Auto Rentals",
+    "address": "890 Antique Drive, Heritage Lane, Hyderabad, 500008",
+    "stock": 1,
+    "packages": "Retro Cadillac V16",
+    "price": 65000
+  },
+  {
+    "id": "ca24",
+    "category": "Vintage & Rental Cars",
+    "title": "Antique Auto Rentals",
+    "address": "890 Antique Drive, Heritage Lane, Hyderabad, 500008",
+    "stock": 1,
+    "packages": "Vintage Stutz Bearcat",
+    "price": 55000
+  },
+  {
+    "id": "ca25",
+    "category": "Vintage & Rental Cars",
+    "title": "Timeless Treasures Rentals",
+    "address": "234 Timeless Road, Elegance District, Pune, 411008",
+    "stock": 1,
+    "packages": "Vintage Aston Martin DB5",
+    "price": 75000
+  },
+  {
+    "id": "ca26",
+    "category": "Vintage & Rental Cars",
+    "title": "Timeless Treasures Rentals",
+    "address": "234 Timeless Road, Elegance District, Pune, 411008",
+    "stock": 1,
+    "packages": "Classic Alfa Romeo Spider",
+    "price": 70000
+  },
+  {
+    "id": "ca27",
+    "category": "Vintage & Rental Cars",
+    "title": "Timeless Treasures Rentals",
+    "address": "234 Timeless Road, Elegance District, Pune, 411008",
+    "stock": 1,
+    "packages": "Antique Fiat 500",
+    "price": 50000
+  },
+  {
+    "id": "ca28",
+    "category": "Vintage & Rental Cars",
+    "title": "Timeless Treasures Rentals",
+    "address": "234 Timeless Road, Elegance District, Pune, 411008",
+    "stock": 1,
+    "packages": "Retro Lamborghini Miura",
+    "price": 80000
+  },
+  {
+    "id": "ca29",
+    "category": "Vintage & Rental Cars",
+    "title": "Vintage Visions",
+    "address": "678 Vintage Lane, Classic City, Jaipur, 302008",
+    "stock": 1,
+    "packages": "Vintage Bentley Continental",
+    "price": 90000
+  },
+  {
+    "id": "ca30",
+    "category": "Vintage & Rental Cars",
+    "title": "Vintage Visions",
+    "address": "678 Vintage Lane, Classic City, Jaipur, 302008",
+    "stock": 1,
+    "packages": "Classic Rolls-Royce Silver Cloud",
+    "price": 85000
+  },
+  {
+    "id": "ca31",
+    "category": "Vintage & Rental Cars",
+    "title": "Vintage Visions",
+    "address": "678 Vintage Lane, Classic City, Jaipur, 302008",
+    "stock": 1,
+    "packages": "Antique Cadillac Fleetwood",
+    "price": 88000
+  },
+  {
+    "id": "ca32",
+    "category": "Vintage & Rental Cars",
+    "title": "Vintage Visions",
+    "address": "678 Vintage Lane, Classic City, Jaipur, 302008",
+    "stock": 1,
+    "packages": "Retro Mercedes-Benz 300SL",
+    "price": 95000
+  },
+  {
+    "id": "cf1",
+    "category": "Clothing & Fashion Designers",
+    "title": "Ethnic Couture Creations",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "stock": 10,
+    "packages": "Lehengas",
+    "price": 95000
+  },
+  {
+    "id": "cf2",
+    "category": "Clothing & Fashion Designers",
+    "title": "Ethnic Couture Creations",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "stock": 10,
+    "packages": "Sarees",
+    "price": 30000
+  },
+  {
+    "id": "cf3",
+    "category": "Clothing & Fashion Designers",
+    "title": "Ethnic Couture Creations",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "stock": 10,
+    "packages": "Anarkalis",
+    "price": 10000
+  },
+  {
+    "id": "cf4",
+    "category": "Clothing & Fashion Designers",
+    "title": "Ethnic Couture Creations",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "stock": 10,
+    "packages": "Kurtas and Kurtis",
+    "price": 10000
+  },
+  {
+    "id": "cf5",
+    "category": "Clothing & Fashion Designers",
+    "title": "Modern Chic Studios",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "stock": 10,
+    "packages": "Party Dresses",
+    "price": 11000
+  },
+  {
+    "id": "cf6",
+    "category": "Clothing & Fashion Designers",
+    "title": "Modern Chic Studios",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "stock": 10,
+    "packages": "Formal Wear",
+    "price": 14000
+  },
+  {
+    "id": "cf7",
+    "category": "Clothing & Fashion Designers",
+    "title": "Modern Chic Studios",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "stock": 10,
+    "packages": "Casual Outfits",
+    "price": 4500
+  },
+  {
+    "id": "cf8",
+    "category": "Clothing & Fashion Designers",
+    "title": "Modern Chic Studios",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "stock": 10,
+    "packages": "Designer Suits",
+    "price": 22500
+  },
+  {
+    "id": "cf9",
+    "category": "Clothing & Fashion Designers",
+    "title": "Bridal Ensemble Boutique",
+    "address": "789 Bridal Lane, Wedding Mall, Bangalore, 560008",
+    "stock": 10,
+    "packages": "Bridal Lehengas",
+    "price": 87500
+  },
+  {
+    "id": "cf10",
+    "category": "Clothing & Fashion Designers",
+    "title": "Bridal Ensemble Boutique",
+    "address": "789 Bridal Lane, Wedding Mall, Bangalore, 560008",
+    "stock": 10,
+    "packages": "Sherwanis",
+    "price": 60000
+  },
+  {
+    "id": "cf11",
+    "category": "Clothing & Fashion Designers",
+    "title": "Bridal Ensemble Boutique",
+    "address": "789 Bridal Lane, Wedding Mall, Bangalore, 560008",
+    "stock": 10,
+    "packages": "Bridal Sarees",
+    "price": 50000
+  },
+  {
+    "id": "cf12",
+    "category": "Clothing & Fashion Designers",
+    "title": "Bridal Ensemble Boutique",
+    "address": "789 Bridal Lane, Wedding Mall, Bangalore, 560008",
+    "stock": 10,
+    "packages": "Groom's Wear",
+    "price": 45000
+  },
+  {
+    "id": "cf13",
+    "category": "Clothing & Fashion Designers",
+    "title": "Designer Couture Hub",
+    "address": "321 Couture Road, Fashion District, Chennai, 600008",
+    "stock": 10,
+    "packages": "Haute Couture Dresses",
+    "price": 175000
+  },
+  {
+    "id": "cf14",
+    "category": "Clothing & Fashion Designers",
+    "title": "Designer Couture Hub",
+    "address": "321 Couture Road, Fashion District, Chennai, 600008",
+    "stock": 10,
+    "packages": "Designer Gowns",
+    "price": 145000
+  },
+  {
+    "id": "cf15",
+    "category": "Clothing & Fashion Designers",
+    "title": "Designer Couture Hub",
+    "address": "321 Couture Road, Fashion District, Chennai, 600008",
+    "stock": 10,
+    "packages": "Luxury Pret",
+    "price": 60000
+  },
+  {
+    "id": "cf16",
+    "category": "Clothing & Fashion Designers",
+    "title": "Designer Couture Hub",
+    "address": "321 Couture Road, Fashion District, Chennai, 600008",
+    "stock": 10,
+    "packages": "Fashion Accessories",
+    "price": 27500
+  },
+  {
+    "id": "cf17",
+    "category": "Clothing & Fashion Designers",
+    "title": "Casual Chic Boutique",
+    "address": "567 Chic Avenue, Trendy Market, Kolkata, 700008",
+    "stock": 10,
+    "packages": "Casual Dresses",
+    "price": 5500
+  },
+  {
+    "id": "cf18",
+    "category": "Clothing & Fashion Designers",
+    "title": "Casual Chic Boutique",
+    "address": "567 Chic Avenue, Trendy Market, Kolkata, 700008",
+    "stock": 10,
+    "packages": "Denim Collection",
+    "price": 6750
+  },
+  {
+    "id": "cf19",
+    "category": "Clothing & Fashion Designers",
+    "title": "Casual Chic Boutique",
+    "address": "567 Chic Avenue, Trendy Market, Kolkata, 700008",
+    "stock": 10,
+    "packages": "Tops and Tees",
+    "price": 2250
+  },
+  {
+    "id": "cf20",
+    "category": "Clothing & Fashion Designers",
+    "title": "Casual Chic Boutique",
+    "address": "567 Chic Avenue, Trendy Market, Kolkata, 700008",
+    "stock": 10,
+    "packages": "Athleisure Wear",
+    "price": 8500
+  },
+  {
+    "id": "cf21",
+    "category": "Clothing & Fashion Designers",
+    "title": "Bohemian Chic Creations",
+    "address": "890 Boho Lane, Hippie District, Hyderabad, 500008",
+    "stock": 10,
+    "packages": "Boho Dresses",
+    "price": 11000
+  },
+  {
+    "id": "cf22",
+    "category": "Clothing & Fashion Designers",
+    "title": "Bohemian Chic Creations",
+    "address": "890 Boho Lane, Hippie District, Hyderabad, 500008",
+    "stock": 10,
+    "packages": "Ethnic Skirts",
+    "price": 6750
+  },
+  {
+    "id": "cf23",
+    "category": "Clothing & Fashion Designers",
+    "title": "Bohemian Chic Creations",
+    "address": "890 Boho Lane, Hippie District, Hyderabad, 500008",
+    "stock": 10,
+    "packages": "Gypsy Tops",
+    "price": 3400
+  },
+  {
+    "id": "cf24",
+    "category": "Clothing & Fashion Designers",
+    "title": "Bohemian Chic Creations",
+    "address": "890 Boho Lane, Hippie District, Hyderabad, 500008",
+    "stock": 10,
+    "packages": "Boho Accessories",
+    "price": 2250
+  },
+  {
+    "id": "cf25",
+    "category": "Clothing & Fashion Designers",
+    "title": "Streetwear Studio",
+    "address": "234 Urban Avenue, Street Style Zone, Pune, 411008",
+    "stock": 10,
+    "packages": "Urban Hoodies",
+    "price": 2750
+  },
+  {
+    "id": "cf26",
+    "category": "Clothing & Fashion Designers",
+    "title": "Streetwear Studio",
+    "address": "234 Urban Avenue, Street Style Zone, Pune, 411008",
+    "stock": 10,
+    "packages": "Skateboarder Jeans",
+    "price": 4500
+  },
+  {
+    "id": "cf27",
+    "category": "Clothing & Fashion Designers",
+    "title": "Streetwear Studio",
+    "address": "234 Urban Avenue, Street Style Zone, Pune, 411008",
+    "stock": 10,
+    "packages": "Ethnic Skirts",
+    "price": 6750
+  },
+  {
+    "id": "cf28",
+    "category": "Clothing & Fashion Designers",
+    "title": "Luxury Bridal Atelier",
+    "address": "678 Bridal Lane, Luxury Mall, Jaipur, 302008",
+    "stock": 10,
+    "packages": "Couture Bridal Gowns",
+    "price": 275000
+  },
+  {
+    "id": "cf29",
+    "category": "Clothing & Fashion Designers",
+    "title": "Luxury Bridal Atelier",
+    "address": "678 Bridal Lane, Luxury Mall, Jaipur, 302008",
+    "stock": 10,
+    "packages": "Royal Sherwanis",
+    "price": 170000
+  },
+  {
+    "id": "cf30",
+    "category": "Clothing & Fashion Designers",
+    "title": "Luxury Bridal Atelier",
+    "address": "678 Bridal Lane, Luxury Mall, Jaipur, 302008",
+    "stock": 10,
+    "packages": "Luxury Bridal Lehengas",
+    "price": 330000
+  },
+  {
+    "id": "cf31",
+    "category": "Clothing & Fashion Designers",
+    "title": "Luxury Bridal Atelier",
+    "address": "678 Bridal Lane, Luxury Mall, Jaipur, 302008",
+    "stock": 10,
+    "packages": "Handcrafted Bridal Jewelry",
+    "price": 110000
+  },
+  {
+    "id": "j1",
+    "category": "Jewellery",
+    "title": "Ethnic Elegance Jewels",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "stock": 10,
+    "packages": "Kundan Sets",
+    "price": 20000
+  },
+  {
+    "id": "j2",
+    "category": "Jewellery",
+    "title": "Ethnic Elegance Jewels",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "stock": 10,
+    "packages": "Meenakari Bangles",
+    "price": 5000
+  },
+  {
+    "id": "j3",
+    "category": "Jewellery",
+    "title": "Ethnic Elegance Jewels",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "stock": 10,
+    "packages": "Polki Necklaces",
+    "price": 8000
+  },
+  {
+    "id": "j4",
+    "category": "Jewellery",
+    "title": "Ethnic Elegance Jewels",
+    "address": "123 Heritage Street, Ethnic Plaza, Delhi, 110008",
+    "stock": 10,
+    "packages": "Temple Jewellery",
+    "price": 5000
+  },
+  {
+    "id": "j5",
+    "category": "Jewellery",
+    "title": "Modern Chic Creations",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "stock": 10,
+    "packages": "Statement Earrings",
+    "price": 5000
+  },
+  {
+    "id": "j6",
+    "category": "Jewellery",
+    "title": "Modern Chic Creations",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "stock": 10,
+    "packages": "Layered Necklaces",
+    "price": 15000
+  },
+  {
+    "id": "j7",
+    "category": "Jewellery",
+    "title": "Modern Chic Creations",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "stock": 10,
+    "packages": "Cocktail Rings",
+    "price": 800
+  },
+  {
+    "id": "j8",
+    "category": "Jewellery",
+    "title": "Modern Chic Creations",
+    "address": "456 Trendy Avenue, Fashion Hub, Mumbai, 400008",
+    "stock": 10,
+    "packages": "Minimalist Bracelets",
+    "price": 500
+  },
+  {
+    "id": "j9",
+    "category": "Jewellery",
+    "title": "Vintage Treasures",
+    "address": "789 Antique Lane, Heritage Market, Bangalore, 560008",
+    "stock": 10,
+    "packages": "Victorian Brooches",
+    "price": 8000
+  },
+  {
+    "id": "j10",
+    "category": "Jewellery",
+    "title": "Vintage Treasures",
+    "address": "789 Antique Lane, Heritage Market, Bangalore, 560008",
+    "stock": 10,
+    "packages": "Art Deco Rings",
+    "price": 30000
+  },
+  {
+    "id": "j11",
+    "category": "Jewellery",
+    "title": "Vintage Treasures",
+    "address": "789 Antique Lane, Heritage Market, Bangalore, 560008",
+    "stock": 10,
+    "packages": "Retro Chains",
+    "price": 10000
+  },
+  {
+    "id": "j12",
+    "category": "Jewellery",
+    "title": "Vintage Treasures",
+    "address": "789 Antique Lane, Heritage Market, Bangalore, 560008",
+    "stock": 10,
+    "packages": "Edwardian Pendants",
+    "price": 15000
+  },
+  {
+    "id": "j13",
+    "category": "Jewellery",
+    "title": "Bridal Bliss Jewels",
+    "address": "321 Bridal Avenue, Wedding Mall, Chennai, 600008",
+    "stock": 10,
+    "packages": "Bridal Necklaces",
+    "price": 80000
+  },
+  {
+    "id": "j14",
+    "category": "Jewellery",
+    "title": "Bridal Bliss Jewels",
+    "address": "321 Bridal Avenue, Wedding Mall, Chennai, 600008",
+    "stock": 10,
+    "packages": "Maang Tikka Sets",
+    "price": 5000
+  },
+  {
+    "id": "j15",
+    "category": "Jewellery",
+    "title": "Bridal Bliss Jewels",
+    "address": "321 Bridal Avenue, Wedding Mall, Chennai, 600008",
+    "stock": 10,
+    "packages": "Choker Sets",
+    "price": 8000
+  },
+  {
+    "id": "j16",
+    "category": "Jewellery",
+    "title": "Bridal Bliss Jewels",
+    "address": "321 Bridal Avenue, Wedding Mall, Chennai, 600008",
+    "stock": 10,
+    "packages": "Bridal Bangles",
+    "price": 3000
+  },
+  {
+    "id": "j17",
+    "category": "Jewellery",
+    "title": "Gold and Diamond Galore",
+    "address": "567 Luxury Lane, Jewel Plaza, Kolkata, 700008",
+    "stock": 10,
+    "packages": "Gold Necklaces",
+    "price": 20000
+  },
+  {
+    "id": "j18",
+    "category": "Jewellery",
+    "title": "Gold and Diamond Galore",
+    "address": "567 Luxury Lane, Jewel Plaza, Kolkata, 700008",
+    "stock": 10,
+    "packages": "Diamond Rings",
+    "price": 30000
+  },
+  {
+    "id": "j19",
+    "category": "Jewellery",
+    "title": "Gold and Diamond Galore",
+    "address": "567 Luxury Lane, Jewel Plaza, Kolkata, 700008",
+    "stock": 10,
+    "packages": "Platinum Bracelets",
+    "price": 25000
+  },
+  {
+    "id": "j20",
+    "category": "Jewellery",
+    "title": "Gold and Diamond Galore",
+    "address": "567 Luxury Lane, Jewel Plaza, Kolkata, 700008",
+    "stock": 10,
+    "packages": "Designer Earrings",
+    "price": 10000
+  },
+  {
+    "id": "j21",
+    "category": "Jewellery",
+    "title": "Gemstone Creations",
+    "address": "890 Gem Avenue, Precious Stones Center, Hyderabad, 500008",
+    "stock": 10,
+    "packages": "Ruby Necklaces",
+    "price": 30000
+  },
+  {
+    "id": "j22",
+    "category": "Jewellery",
+    "title": "Gemstone Creations",
+    "address": "890 Gem Avenue, Precious Stones Center, Hyderabad, 500008",
+    "stock": 10,
+    "packages": "Emerald Rings",
+    "price": 5000
+  },
+  {
+    "id": "j23",
+    "category": "Jewellery",
+    "title": "Gemstone Creations",
+    "address": "890 Gem Avenue, Precious Stones Center, Hyderabad, 500008",
+    "stock": 10,
+    "packages": "Sapphire Bracelets",
+    "price": 60000
+  },
+  {
+    "id": "j24",
+    "category": "Jewellery",
+    "title": "Gemstone Creations",
+    "address": "890 Gem Avenue, Precious Stones Center, Hyderabad, 500008",
+    "stock": 10,
+    "packages": "Amethyst Pendants",
+    "price": 3000
+  },
+  {
+    "id": "j25",
+    "category": "Jewellery",
+    "title": "Silver Charms and Trinkets",
+    "address": "234 Silver Lane, Charm Plaza, Pune, 411008",
+    "stock": 10,
+    "packages": "Silver Earrings",
+    "price": 500
+  },
+  {
+    "id": "j26",
+    "category": "Jewellery",
+    "title": "Silver Charms and Trinkets",
+    "address": "234 Silver Lane, Charm Plaza, Pune, 411008",
+    "stock": 10,
+    "packages": "Silver Bracelets",
+    "price": 500
+  },
+  {
+    "id": "j27",
+    "category": "Jewellery",
+    "title": "Silver Charms and Trinkets",
+    "address": "234 Silver Lane, Charm Plaza, Pune, 411008",
+    "stock": 10,
+    "packages": "Silver Necklaces",
+    "price": 1000
   }
 ]

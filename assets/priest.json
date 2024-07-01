@@ -16,24 +16,12 @@
       "Satyanarayan Puja",
       "Astrological Consultation"
     ],
-    "occasions": [
-      {
-        "occasion": "Wedding Ceremony",
-        "price": "₹10,000 - ₹20,000"
-      },
-      {
-        "occasion": "Griha Pravesh",
-        "price": "₹8,000 - ₹15,000"
-      },
-      {
-        "occasion": "Satyanarayan Puja",
-        "price": "₹5,000 - ₹12,000"
-      },
-      {
-        "occasion": "Astrological Consultation",
-        "price": "₹3,000 per session"
-      }
-    ]
+    "packages": {
+      "Wedding Ceremony": "₹10,000 - ₹20,000",
+      "Griha Pravesh": "₹8,000 - ₹15,000",
+      "Satyanarayan Puja": "₹5,000 - ₹12,000",
+      "Astrological Consultation": "₹3,000 per session"
+    }
   },
   {
     "id": "priest2",
@@ -52,24 +40,12 @@
       "Holy Communion",
       "Confession"
     ],
-    "occasions": [
-      {
-        "occasion": "Wedding Ceremony",
-        "price": "₹12,000 - ₹20,000"
-      },
-      {
-        "occasion": "Baptism Ceremony",
-        "price": "₹8,000 - ₹15,000"
-      },
-      {
-        "occasion": "Holy Communion",
-        "price": "₹10,000 - ₹18,000"
-      },
-      {
-        "occasion": "Confession",
-        "price": "₹5,000 per session"
-      }
-    ]
+    "packages": {
+      "Wedding Ceremony": "₹12,000 - ₹20,000",
+      "Baptism Ceremony": "₹8,000 - ₹15,000",
+      "Holy Communion": "₹10,000 - ₹18,000",
+      "Confession": "₹5,000 per session"
+    }
   },
   {
     "id": "priest3",
@@ -88,24 +64,12 @@
       "Baby Naming Ceremonies",
       "Shabbat Services"
     ],
-    "occasions": [
-      {
-        "occasion": "Wedding Ceremony",
-        "price": "₹15,000 - ₹30,000"
-      },
-      {
-        "occasion": "Bar/Bat Mitzvahs",
-        "price": "₹12,000 - ₹25,000"
-      },
-      {
-        "occasion": "Baby Naming Ceremonies",
-        "price": "₹10,000 - ₹18,000"
-      },
-      {
-        "occasion": "Shabbat Services",
-        "price": "₹8,000 - ₹15,000"
-      }
-    ]
+    "packages": {
+      "Wedding Ceremony": "₹15,000 - ₹30,000",
+      "Bar/Bat Mitzvahs": "₹12,000 - ₹25,000",
+      "Baby Naming Ceremonies": "₹10,000 - ₹18,000",
+      "Shabbat Services": "₹8,000 - ₹15,000"
+    }
   },
   {
     "id": "priest4",
@@ -124,24 +88,12 @@
       "Khutbah (Sermon)",
       "Islamic Counseling"
     ],
-    "occasions": [
-      {
-        "occasion": "Nikah Ceremony",
-        "price": "₹10,000 - ₹20,000"
-      },
-      {
-        "occasion": "Aqiqah Ceremony",
-        "price": "₹8,000 - ₹15,000"
-      },
-      {
-        "occasion": "Khutbah (Sermon)",
-        "price": "₹5,000 - ₹12,000"
-      },
-      {
-        "occasion": "Islamic Counseling",
-        "price": "₹3,000 per session"
-      }
-    ]
+    "packages": {
+      "Nikah Ceremony": "₹10,000 - ₹20,000",
+      "Aqiqah Ceremony": "₹8,000 - ₹15,000",
+      "Khutbah (Sermon)": "₹5,000 - ₹12,000",
+      "Islamic Counseling": "₹3,000 per session"
+    }
   },
   {
     "id": "priest5",
@@ -160,24 +112,12 @@
       "Akhand Path (Continuous Reading)",
       "Sikh Religious Ceremonies"
     ],
-    "occasions": [
-      {
-        "occasion": "Anand Karaj Ceremony",
-        "price": "₹12,000 - ₹25,000"
-      },
-      {
-        "occasion": "Amrit Sanchar Ceremony",
-        "price": "₹10,000 - ₹20,000"
-      },
-      {
-        "occasion": "Akhand Path",
-        "price": "₹8,000 - ₹15,000"
-      },
-      {
-        "occasion": "Sikh Religious Ceremonies",
-        "price": "₹5,000 per session"
-      }
-    ]
+    "packages": {
+      "Anand Karaj Ceremony": "₹12,000 - ₹25,000",
+      "Amrit Sanchar Ceremony": "₹10,000 - ₹20,000",
+      "Akhand Path": "₹8,000 - ₹15,000",
+      "Sikh Religious Ceremonies": "₹5,000 per session"
+    }
   },
   {
     "id": "priest6",
@@ -196,25 +136,14 @@
       "Pastoral Counseling",
       "Community Outreach"
     ],
-    "occasions": [
-      {
-        "occasion": "Catholic Mass",
-        "price": "₹8,000 - ₹15,000"
-      },
-      {
-        "occasion": "Sacraments (Baptism, Confirmation)",
-        "price": "₹10,000 - ₹18,000"
-      },
-      {
-        "occasion": "Pastoral Counseling",
-        "price": "₹5,000 - ₹12,000"
-      },
-      {
-        "occasion": "Community Outreach",
-        "price": "₹3,000 per session"
-      }
-    ]
-  },{
+    "packages": {
+      "Catholic Mass": "₹8,000 - ₹15,000",
+      "Sacraments (Baptism, Confirmation)": "₹10,000 - ₹18,000",
+      "Pastoral Counseling": "₹5,000 - ₹12,000",
+      "Community Outreach": "₹3,000 per session"
+    }
+  },
+  {
     "id": "priest7",
     "img": "/category/priest/img7.jpg",
     "title": "Maulana Akhtar Khan",
@@ -231,24 +160,12 @@
       "Jumu'ah (Friday Prayer)",
       "Islamic Counseling"
     ],
-    "occasions": [
-      {
-        "occasion": "Nikah Ceremony",
-        "price": "₹10,000 - ₹20,000"
-      },
-      {
-        "occasion": "Talaq Ceremony",
-        "price": "₹8,000 - ₹15,000"
-      },
-      {
-        "occasion": "Jumu'ah (Friday Prayer)",
-        "price": "₹5,000 - ₹12,000"
-      },
-      {
-        "occasion": "Islamic Counseling",
-        "price": "₹3,000 per session"
-      }
-    ]
+    "packages": {
+      "Nikah Ceremony": "₹10,000 - ₹20,000",
+      "Talaq Ceremony": "₹8,000 - ₹15,000",
+      "Jumu'ah (Friday Prayer)": "₹5,000 - ₹12,000",
+      "Islamic Counseling": "₹3,000 per session"
+    }
   },
   {
     "id": "priest8",
@@ -267,23 +184,11 @@
       "Vedanta Discourses",
       "Spiritual Retreats"
     ],
-    "occasions": [
-      {
-        "occasion": "Havan (Fire Rituals)",
-        "price": "₹12,000 - ₹25,000"
-      },
-      {
-        "occasion": "Yoga Sessions",
-        "price": "₹8,000 - ₹15,000"
-      },
-      {
-        "occasion": "Vedanta Discourses",
-        "price": "₹10,000 - ₹18,000"
-      },
-      {
-        "occasion": "Spiritual Retreats",
-        "price": "₹15,000 per session"
-      }
-    ]
+    "packages": {
+      "Havan (Fire Rituals)": "₹12,000 - ₹25,000",
+      "Yoga Sessions": "₹8,000 - ₹15,000",
+      "Vedanta Discourses": "₹10,000 - ₹18,000",
+      "Spiritual Retreats": "₹15,000 per session"
+    }
   }
 ]

@@ -16,24 +16,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Lehengas",
-        "price": "₹10000 - ₹80000"
-      },
-      {
-        "type": "Sarees",
-        "price": "₹5000 - ₹50000"
-      },
-      {
-        "type": "Anarkalis",
-        "price": "₹8000 - ₹60000"
-      },
-      {
-        "type": "Kurtas and Kurtis",
-        "price": "₹3000 - ₹25000"
-      }
-    ]
+    "packages": {
+      "Lehengas": "₹10000 - ₹80000",
+      "Sarees": "₹5000 - ₹50000",
+      "Anarkalis": "₹8000 - ₹60000",
+      "Kurtas and Kurtis": "₹3000 - ₹25000"
+    }
   },
   {
     "id": "clothing2",
@@ -52,24 +40,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Party Dresses",
-        "price": "₹2000 - ₹20000"
-      },
-      {
-        "type": "Formal Wear",
-        "price": "₹3000 - ₹25000"
-      },
-      {
-        "type": "Casual Outfits",
-        "price": "₹1000 - ₹8000"
-      },
-      {
-        "type": "Designer Suits",
-        "price": "₹5000 - ₹40000"
-      }
-    ]
+    "packages": {
+      "Party Dresses": "₹2000 - ₹20000",
+      "Formal Wear": "₹3000 - ₹25000",
+      "Casual Outfits": "₹1000 - ₹8000",
+      "Designer Suits": "₹5000 - ₹40000"
+    }
   },
   {
     "id": "clothing3",
@@ -88,24 +64,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Bridal Lehengas",
-        "price": "₹25000 - ₹150000"
-      },
-      {
-        "type": "Sherwanis",
-        "price": "₹20000 - ₹100000"
-      },
-      {
-        "type": "Bridal Sarees",
-        "price": "₹20000 - ₹80000"
-      },
-      {
-        "type": "Groom's Wear",
-        "price": "₹15000 - ₹75000"
-      }
-    ]
+    "packages": {
+      "Bridal Lehengas": "₹25000 - ₹150000",
+      "Sherwanis": "₹20000 - ₹100000",
+      "Bridal Sarees": "₹20000 - ₹80000",
+      "Groom's Wear": "₹15000 - ₹75000"
+    }
   },
   {
     "id": "clothing4",
@@ -124,24 +88,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Haute Couture Dresses",
-        "price": "₹50000 - ₹300000"
-      },
-      {
-        "type": "Designer Gowns",
-        "price": "₹40000 - ₹250000"
-      },
-      {
-        "type": "Luxury Pret",
-        "price": "₹20000 - ₹100000"
-      },
-      {
-        "type": "Fashion Accessories",
-        "price": "₹5000 - ₹50000"
-      }
-    ]
+    "packages": {
+      "Haute Couture Dresses": "₹50000 - ₹300000",
+      "Designer Gowns": "₹40000 - ₹250000",
+      "Luxury Pret": "₹20000 - ₹100000",
+      "Fashion Accessories": "₹5000 - ₹50000"
+    }
   },
   {
     "id": "clothing5",
@@ -160,24 +112,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Casual Dresses",
-        "price": "₹1000 - ₹10000"
-      },
-      {
-        "type": "Denim Collection",
-        "price": "₹1500 - ₹12000"
-      },
-      {
-        "type": "Tops and Tees",
-        "price": "₹500 - ₹4000"
-      },
-      {
-        "type": "Athleisure Wear",
-        "price": "₹2000 - ₹15000"
-      }
-    ]
+    "packages": {
+      "Casual Dresses": "₹1000 - ₹10000",
+      "Denim Collection": "₹1500 - ₹12000",
+      "Tops and Tees": "₹500 - ₹4000",
+      "Athleisure Wear": "₹2000 - ₹15000"
+    }
   },
   {
     "id": "clothing6",
@@ -196,24 +136,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Boho Dresses",
-        "price": "₹2000 - ₹20000"
-      },
-      {
-        "type": "Ethnic Skirts",
-        "price": "₹1500 - ₹12000"
-      },
-      {
-        "type": "Gypsy Tops",
-        "price": "₹800 - ₹6000"
-      },
-      {
-        "type": "Boho Accessories",
-        "price": "₹500 - ₹4000"
-      }
-    ]
+    "packages": {
+      "Boho Dresses": "₹2000 - ₹20000",
+      "Ethnic Skirts": "₹1500 - ₹12000",
+      "Gypsy Tops": "₹800 - ₹6000",
+      "Boho Accessories": "₹500 - ₹4000"
+    }
   },
   {
     "id": "clothing7",
@@ -232,20 +160,11 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Urban Hoodies",
-        "price": "₹500 - ₹5000"
-      },
-      {
-        "type": "Skateboarder Jeans",
-        "price": "₹1000 - ₹8000"
-      },
-      {
-        "type": "Ethnic Skirts",
-        "price": "₹1500 - ₹12000"
-      }
-    ]
+    "packages": {
+      "Urban Hoodies": "₹500 - ₹5000",
+      "Skateboarder Jeans": "₹1000 - ₹8000",
+      "Ethnic Skirts": "₹1500 - ₹12000"
+    }
   },
   {
     "id": "clothing8",
@@ -264,23 +183,11 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Couture Bridal Gowns",
-        "price": "₹50000 - ₹500000"
-      },
-      {
-        "type": "Royal Sherwanis",
-        "price": "₹40000 - ₹300000"
-      },
-      {
-        "type": "Luxury Bridal Lehengas",
-        "price": "₹60000 - ₹600000"
-      },
-      {
-        "type": "Handcrafted Bridal Jewelry",
-        "price": "₹20000 - ₹200000"
-      }
-    ]
+    "packages": {
+      "Couture Bridal Gowns": "₹50000 - ₹500000",
+      "Royal Sherwanis": "₹40000 - ₹300000",
+      "Luxury Bridal Lehengas": "₹60000 - ₹600000",
+      "Handcrafted Bridal Jewelry": "₹20000 - ₹200000"
+    }
   }
 ]
