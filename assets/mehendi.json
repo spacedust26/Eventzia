@@ -40,24 +40,12 @@
       "Indo-Arabic Mehendi",
       "Black Mehendi"
     ],
-    "services": [
-      {
-        "service": "Bridal Mehendi",
-        "price": "₹5,000 - ₹8,000"
-      },
-      {
-        "service": "Rajasthani Mehendi",
-        "price": "₹4,000 - ₹7,000"
-      },
-      {
-        "service": "Indo-Arabic Mehendi",
-        "price": "₹4,500 - ₹7,500"
-      },
-      {
-        "service": "Black Mehendi",
-        "price": "₹5,500 - ₹9,000"
-      }
-    ]
+    "packages": {
+      "Bridal Mehendi": "₹5,000 - ₹8,000",
+      "Rajasthani Mehendi": "₹4,000 - ₹7,000",
+      "Indo-Arabic Mehendi": "₹4,500 - ₹7,500",
+      "Black Mehendi": "₹5,500 - ₹9,000"
+    }
   },
   {
     "id": "mehendi3",
@@ -76,24 +64,12 @@
       "Pakistani Mehendi",
       "Multi-color Mehendi"
     ],
-    "services": [
-      {
-        "service": "Bridal Mehendi",
-        "price": "₹6,000 - ₹10,000"
-      },
-      {
-        "service": "Marwari Mehendi",
-        "price": "₹4,500 - ₹8,000"
-      },
-      {
-        "service": "Pakistani Mehendi",
-        "price": "₹5,500 - ₹9,000"
-      },
-      {
-        "service": "Multi-color Mehendi",
-        "price": "₹5,000 - ₹8,500"
-      }
-    ]
+    "packages": {
+      "Bridal Mehendi": "₹6,000 - ₹10,000",
+      "Marwari Mehendi": "₹4,500 - ₹8,000",
+      "Pakistani Mehendi": "₹5,500 - ₹9,000",
+      "Multi-color Mehendi": "₹5,000 - ₹8,500"
+    }
   },
   {
     "id": "mehendi4",
@@ -112,24 +88,12 @@
       "Egyptian Mehendi",
       "Color Mehendi"
     ],
-    "services": [
-      {
-        "service": "Bridal Mehendi",
-        "price": "₹5,500 - ₹9,000"
-      },
-      {
-        "service": "Gujarati Mehendi",
-        "price": "₹4,500 - ₹8,000"
-      },
-      {
-        "service": "Egyptian Mehendi",
-        "price": "₹5,000 - ₹8,500"
-      },
-      {
-        "service": "Color Mehendi",
-        "price": "₹5,500 - ₹9,500"
-      }
-    ]
+    "packages": {
+    "Bridal Mehendi": "₹5,500 - ₹9,000",
+    "Gujarati Mehendi": "₹4,500 - ₹8,000",
+    "Egyptian Mehendi": "₹5,000 - ₹8,500",
+    "Color Mehendi": "₹5,500 - ₹9,500"
+  }
   },
   {
     "id": "mehendi5",
@@ -148,24 +112,12 @@
       "Moroccan Mehendi",
       "Glitter Mehendi"
     ],
-    "services": [
-      {
-        "service": "Bridal Mehendi",
-        "price": "₹6,000 - ₹10,000"
-      },
-      {
-        "service": "Punjabi Mehendi",
-        "price": "₹5,000 - ₹8,000"
-      },
-      {
-        "service": "Moroccan Mehendi",
-        "price": "₹5,500 - ₹9,000"
-      },
-      {
-        "service": "Glitter Mehendi",
-        "price": "₹4,500 - ₹7,500"
-      }
-    ]
+   "packages": {
+    "Bridal Mehendi": "₹6,000 - ₹10,000",
+    "Punjabi Mehendi": "₹5,000 - ₹8,000",
+    "Moroccan Mehendi": "₹5,500 - ₹9,000",
+    "Glitter Mehendi": "₹4,500 - ₹7,500"
+  }
   },
   {
     "id": "mehendi6",
@@ -184,24 +136,12 @@
       "Rajasthani Mehendi",
       "Modern Mehendi"
     ],
-    "services": [
-      {
-        "service": "Bridal Mehendi",
-        "price": "₹5,500 - ₹9,000"
-      },
-      {
-        "service": "Arabic Mehendi",
-        "price": "₹4,500 - ₹8,000"
-      },
-      {
-        "service": "Rajasthani Mehendi",
-        "price": "₹4,500 - ₹8,000"
-      },
-      {
-        "service": "Modern Mehendi",
-        "price": "₹5,000 - ₹8,500"
-      }
-    ]
+    "packages": {
+    "Bridal Mehendi": "₹5,500 - ₹9,000",
+    "Arabic Mehendi": "₹4,500 - ₹8,000",
+    "Rajasthani Mehendi": "₹4,500 - ₹8,000",
+    "Modern Mehendi": "₹5,000 - ₹8,500"
+  }
   },{
     "id": "mehendi7",
     "img": "/category/mehendi/img7.jpg",
@@ -219,24 +159,12 @@
       "Bengali Mehendi",
       "Minimalist Mehendi"
     ],
-    "services": [
-      {
-        "service": "Bridal Mehendi",
-        "price": "₹5,500 - ₹9,000"
-      },
-      {
-        "service": "Gulf Mehendi",
-        "price": "₹4,500 - ₹8,000"
-      },
-      {
-        "service": "Bengali Mehendi",
-        "price": "₹4,500 - ₹8,000"
-      },
-      {
-        "service": "Minimalist Mehendi",
-        "price": "₹5,000 - ₹8,500"
-      }
-    ]
+    "packages": {
+    "Bridal Mehendi": "₹5,500 - ₹9,000",
+    "Gulf Mehendi": "₹4,500 - ₹8,000",
+    "Bengali Mehendi": "₹4,500 - ₹8,000",
+    "Minimalist Mehendi": "₹5,000 - ₹8,500"
+  }
   },
   {
     "id": "mehendi8",
@@ -255,23 +183,11 @@
       "Parsi Mehendi",
       "Fusion Mehendi"
     ],
-    "services": [
-      {
-        "service": "Bridal Mehendi",
-        "price": "₹6,000 - ₹10,000"
-      },
-      {
-        "service": "Mughlai Mehendi",
-        "price": "₹5,000 - ₹8,000"
-      },
-      {
-        "service": "Parsi Mehendi",
-        "price": "₹5,500 - ₹9,000"
-      },
-      {
-        "service": "Fusion Mehendi",
-        "price": "₹5,000 - ₹8,500"
-      }
-    ]
+    "packages": {
+    "Bridal Mehendi": "₹6,000 - ₹10,000",
+    "Mughlai Mehendi": "₹5,000 - ₹8,000",
+    "Parsi Mehendi": "₹5,500 - ₹9,000",
+    "Fusion Mehendi": "₹5,000 - ₹8,500"
+  }
   }
 ]

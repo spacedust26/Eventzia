@@ -10,7 +10,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 const getData = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/cake", { cache: "no-store" });
+    const res = await fetch("http://localhost:3000/api/mehendi", { cache: "no-store" });
     if (!res.ok) {
       return null;
     }
@@ -24,28 +24,28 @@ const getData = async () => {
 const SingleDecor = () => {
   const { addItemToCart } = useContext(CartContext);
   const pathname = usePathname();
-  const cakeName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
+  const mehendiName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
 
-  const [cakeData, setCakedata] = useState([]);
-  const [cakeItems, setCakeitems] = useState([]);
+  const [mehendiData, setMehendidata] = useState([]);
+  const [mehendiItems, setMehendiItems] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await getData();
       if (!data) return notFound();
 
-      const filteredDecor = data.cake.filter(v => v.title === cakeName);
-      setCakedata(filteredDecor);
+      const filteredMehendi = data.mehendi.filter(v => v.title === mehendiName);
+      setMehendidata(filteredMehendi);
 
-      const filteredcakeItems = data.items.filter(item => item.title === cakeName);
-     setCakeitems(filteredcakeItems);
+      const filteredmehendiItems = data.items.filter(item => item.title === mehendiName);
+      setMehendiItems(filteredmehendiItems);
     };
 
     fetchData();
-  }, [cakeName]);
+  }, [mehendiName]);
 
-  if (cakeData.length === 0) {
-    return <div className="text-[#321E1E] text-center text-2xl m-12">Cakes & Confectionary not found</div>;
+  if (mehendiData.length === 0) {
+    return <div className="text-[#321E1E] text-center text-2xl m-12">Mehendi Artists not found</div>;
   }
 
   const addToCartHandler = (product) => {
@@ -65,13 +65,13 @@ const SingleDecor = () => {
   return (
     <>
       <Toaster />
-      <Link href="/dashboard/createEvent/add/cake" passHref>
+      <Link href="/dashboard/createEvent/add/mehendi" passHref>
         <div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'>
           <MdOutlineArrowBackIosNew />
         </div>
       </Link>
       <form className='flex items-center justify-center flex-col m-8 gap-8'>
-        {cakeData.map((v) => (
+        {mehendiData.map((v) => (
           <React.Fragment key={v.id}>
             <div className="top flex items-center justify-start flex-row gap-8 bg-[#321E1E] p-8 text-white rounded-lg">
               <div className="left rounded-lg">
@@ -134,7 +134,7 @@ const SingleDecor = () => {
                         <th className='p-2'>Price</th>
                       </tr>
                     </thead>
-                    {cakeItems.map((vi) => {
+                    {mehendiItems.map((vi) => {
                       const inStock = vi.stock >= 1;
                       return (
                         <tbody key={vi.id}>

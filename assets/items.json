@@ -1138,5 +1138,581 @@
     "stock": 2,
     "packages": "Pedicure",
     "price": 4500
+  },
+  {
+    "id": "ma1",
+    "category": "Mehendi Artists",
+    "title": "Artistic Henna",
+    "address": "123 Mehendi Lane, Mehendi Nagar, Delhi, 110001",
+    "stock": 10,
+    "packages": "Traditional Mehendi",
+    "price": 4200
+  },
+  {
+    "id": "ma2",
+    "category": "Mehendi Artists",
+    "title": "Artistic Henna",
+    "address": "123 Mehendi Lane, Mehendi Nagar, Delhi, 110001",
+    "stock": 10,
+    "packages": "Bridal Mehendi",
+    "price": 300
+  },
+  {
+    "id": "ma3",
+    "category": "Mehendi Artists",
+    "title": "Artistic Henna",
+    "address": "123 Mehendi Lane, Mehendi Nagar, Delhi, 110001",
+    "stock": 10,
+    "packages": "Arabic Mehendi",
+    "price": 4500
+  },
+  {
+    "id": "ma4",
+    "category": "Mehendi Artists",
+    "title": "Artistic Henna",
+    "address": "123 Mehendi Lane, Mehendi Nagar, Delhi, 110001",
+    "stock": 10,
+    "packages": "Glitter Mehendi",
+    "price": 5000
+  },
+  {
+    "id": "ma5",
+    "category": "Mehendi Artists",
+    "title": "Divine Mehendi",
+    "address": "456 Henna Road, Mehendi City, Mumbai, 400001",
+    "stock": 8,
+    "packages": "Bridal Mehendi",
+    "price": 6800
+  },
+  {
+    "id": "ma6",
+    "category": "Mehendi Artists",
+    "title": "Divine Mehendi",
+    "address": "456 Henna Road, Mehendi City, Mumbai, 400001",
+    "stock": 5,
+    "packages": "Rajasthani Mehendi",
+    "price": 5900
+  },
+  {
+    "id": "ma7",
+    "category": "Mehendi Artists",
+    "title": "Divine Mehendi",
+    "address": "456 Henna Road, Mehendi City, Mumbai, 400001",
+    "stock": 7,
+    "packages": "Indo-Arabic Mehendi",
+    "price": 6300
+  },
+  {
+    "id": "ma8",
+    "category": "Mehendi Artists",
+    "title": "Divine Mehendi",
+    "address": "456 Henna Road, Mehendi City, Mumbai, 400001",
+    "stock": 6,
+    "packages": "Black Mehendi",
+    "price": 7400
+  },
+  {
+    "id": "ma9",
+    "category": "Mehendi Artists",
+    "title": "Royal Henna Art",
+    "address": "789 Mehendi Avenue, Henna Town, Bangalore, 560001",
+    "stock": 8,
+    "packages": "Bridal Mehendi",
+    "price": 8000
+  },
+  {
+    "id": "ma10",
+    "category": "Mehendi Artists",
+    "title": "Royal Henna Art",
+    "address": "789 Mehendi Avenue, Henna Town, Bangalore, 560001",
+    "stock": 6,
+    "packages": "Marwari Mehendi",
+    "price": 6200
+  },
+  {
+    "id": "ma11",
+    "category": "Mehendi Artists",
+    "title": "Royal Henna Art",
+    "address": "789 Mehendi Avenue, Henna Town, Bangalore, 560001",
+    "stock": 7,
+    "packages": "Pakistani Mehendi",
+    "price": 7200
+  },
+  {
+    "id": "ma12",
+    "category": "Mehendi Artists",
+    "title": "Royal Henna Art",
+    "address": "789 Mehendi Avenue, Henna Town, Bangalore, 560001",
+    "stock": 9,
+    "packages": "Multi-color Mehendi",
+    "price": 6800
+  },
+  {
+    "id": "ma13",
+    "category": "Mehendi Artists",
+    "title": "Golden Mehendi",
+    "address": "321 Mehendi Street, Mehendi Nagar, Chennai, 600001",
+    "stock": 7,
+    "packages": "Bridal Mehendi",
+    "price": 7800
+  },
+  {
+    "id": "ma14",
+    "category": "Mehendi Artists",
+    "title": "Golden Mehendi",
+    "address": "321 Mehendi Street, Mehendi Nagar, Chennai, 600001",
+    "stock": 9,
+    "packages": "Gujarati Mehendi",
+    "price": 6200
+  },
+  {
+    "id": "ma15",
+    "category": "Mehendi Artists",
+    "title": "Golden Mehendi",
+    "address": "321 Mehendi Street, Mehendi Nagar, Chennai, 600001",
+    "stock": 6,
+    "packages": "Egyptian Mehendi",
+    "price": 6700
+  },
+  {
+    "id": "ma16",
+    "category": "Mehendi Artists",
+    "title": "Golden Mehendi",
+    "address": "321 Mehendi Street, Mehendi Nagar, Chennai, 600001",
+    "stock": 8,
+    "packages": "Color Mehendi",
+    "price": 7000
+  },
+  {
+    "id": "ma17",
+    "category": "Mehendi Artists",
+    "title": "Celestial Mehendi",
+    "address": "567 Celestial Avenue, Henna City, Kolkata, 700001",
+    "stock": 9,
+    "packages": "Bridal Mehendi",
+    "price": 7500
+  },
+  {
+    "id": "ma18",
+    "category": "Mehendi Artists",
+    "title": "Celestial Mehendi",
+    "address": "567 Celestial Avenue, Henna City, Kolkata, 700001",
+    "stock": 7,
+    "packages": "Punjabi Mehendi",
+    "price": 6200
+  },
+  {
+    "id": "ma19",
+    "category": "Mehendi Artists",
+    "title": "Celestial Mehendi",
+    "address": "567 Celestial Avenue, Henna City, Kolkata, 700001",
+    "stock": 8,
+    "packages": "Moroccan Mehendi",
+    "price": 6500
+  },
+  {
+    "id": "ma20",
+    "category": "Mehendi Artists",
+    "title": "Celestial Mehendi",
+    "address": "567 Celestial Avenue, Henna City, Kolkata, 700001",
+    "stock": 6,
+    "packages": "Glitter Mehendi",
+    "price": 6000
+  },
+  {
+    "id": "ma21",
+    "category": "Mehendi Artists",
+    "title": "Traditional Henna Art",
+    "address": "890 Henna Lane, Mehendi Nagar, Hyderabad, 500001",
+    "stock": 8,
+    "packages": "Bridal Mehendi",
+    "price": 8000
+  },
+  {
+    "id": "ma22",
+    "category": "Mehendi Artists",
+    "title": "Traditional Henna Art",
+    "address": "890 Henna Lane, Mehendi Nagar, Hyderabad, 500001",
+    "stock": 6,
+    "packages": "Arabic Mehendi",
+    "price": 6200
+  },
+  {
+    "id": "ma23",
+    "category": "Mehendi Artists",
+    "title": "Traditional Henna Art",
+    "address": "890 Henna Lane, Mehendi Nagar, Hyderabad, 500001",
+    "stock": 7,
+    "packages": "Rajasthani Mehendi",
+    "price": 6500
+  },
+  {
+    "id": "ma24",
+    "category": "Mehendi Artists",
+    "title": "Traditional Henna Art",
+    "address": "890 Henna Lane, Mehendi Nagar, Hyderabad, 500001",
+    "stock": 9,
+    "packages": "Modern Mehendi",
+    "price": 7000
+  },
+  {
+    "id": "ma25",
+    "category": "Mehendi Artists",
+    "title": "Elegant Mehendi Designs",
+    "address": "678 Mehendi Street, Mehendi Nagar, Jaipur, 302001",
+    "stock": 7,
+    "packages": "Bridal Mehendi",
+    "price": 8000
+  },
+  {
+    "id": "ma26",
+    "category": "Mehendi Artists",
+    "title": "Elegant Mehendi Designs",
+    "address": "678 Mehendi Street, Mehendi Nagar, Jaipur, 302001",
+    "stock": 9,
+    "packages": "Gulf Mehendi",
+    "price": 6700
+  },
+  {
+    "id": "ma27",
+    "category": "Mehendi Artists",
+    "title": "Elegant Mehendi Designs",
+    "address": "678 Mehendi Street, Mehendi Nagar, Jaipur, 302001",
+    "stock": 6,
+    "packages": "Bengali Mehendi",
+    "price": 5600
+  },
+  {
+    "id": "ma28",
+    "category": "Mehendi Artists",
+    "title": "Elegant Mehendi Designs",
+    "address": "678 Mehendi Street, Mehendi Nagar, Jaipur, 302001",
+    "stock": 8,
+    "packages": "Minimalist Mehendi",
+    "price": 6250
+  },
+  {
+    "id": "ma29",
+    "category": "Mehendi Artists",
+    "title": "Royal Mehendi Artistry",
+    "address": "890 Mehendi Lane, Mehendi Town, Chandigarh, 160001",
+    "stock": 9,
+    "packages": "Bridal Mehendi",
+    "price": 8000
+  },
+  {
+    "id": "ma30",
+    "category": "Mehendi Artists",
+    "title": "Royal Mehendi Artistry",
+    "address": "890 Mehendi Lane, Mehendi Town, Chandigarh, 160001",
+    "stock": 7,
+    "packages": "Mughlai Mehendi",
+    "price": 6500
+  },
+  {
+    "id": "ma31",
+    "category": "Mehendi Artists",
+    "title": "Royal Mehendi Artistry",
+    "address": "890 Mehendi Lane, Mehendi Town, Chandigarh, 160001",
+    "stock": 8,
+    "packages": "Parsi Mehendi",
+    "price": 7000
+  },
+  {
+    "id": "ma32",
+    "category": "Mehendi Artists",
+    "title": "Royal Mehendi Artistry",
+    "address": "890 Mehendi Lane, Mehendi Town, Chandigarh, 160001",
+    "stock": 6,
+    "packages": "Fusion Mehendi",
+    "price": 6500
+  },
+  {
+    "id": "c1",
+    "category": "Cakes & Confectionary",
+    "title": "Sweet Delights",
+    "address": "12 Confectionery Street, Sugar Town, Delhi, 110004",
+    "stock": 6,
+    "packages": "Chocolate Cake",
+    "price": 1300
+  },
+  {
+    "id": "c2",
+    "category": "Cakes & Confectionary",
+    "title": "Sweet Delights",
+    "address": "12 Confectionery Street, Sugar Town, Delhi, 110004",
+    "stock": 6,
+    "packages": "Vanilla Cake",
+    "price": 1200
+  },
+  {
+    "id": "c3",
+    "category": "Cakes & Confectionary",
+    "title": "Sweet Delights",
+    "address": "12 Confectionery Street, Sugar Town, Delhi, 110004",
+    "stock": 6,
+    "packages": "Red Velvet Cake",
+    "price": 1500
+  },
+  {
+    "id": "c4",
+    "category": "Cakes & Confectionary",
+    "title": "Sweet Delights",
+    "address": "12 Confectionery Street, Sugar Town, Delhi, 110004",
+    "stock": 6,
+    "packages": "Fruit Cake",
+    "price": 1400
+  },
+  {
+    "id": "c5",
+    "category": "Cakes & Confectionary",
+    "title": "Cake Couture",
+    "address": "34 Frosting Avenue, Pastry Ville, Mumbai, 400004",
+    "stock": 6,
+    "packages": "Black Forest Cake",
+    "price": 1300
+  },
+  {
+    "id": "c6",
+    "category": "Cakes & Confectionary",
+    "title": "Cake Couture",
+    "address": "34 Frosting Avenue, Pastry Ville, Mumbai, 400004",
+    "stock": 6,
+    "packages": "Butterscotch Cake",
+    "price": 1200
+  },
+  {
+    "id": "c7",
+    "category": "Cakes & Confectionary",
+    "title": "Cake Couture",
+    "address": "34 Frosting Avenue, Pastry Ville, Mumbai, 400004",
+    "stock": 6,
+    "packages": "Pineapple Cake",
+    "price": 1500
+  },
+  {
+    "id": "c8",
+    "category": "Cakes & Confectionary",
+    "title": "Cake Couture",
+    "address": "34 Frosting Avenue, Pastry Ville, Mumbai, 400004",
+    "stock": 6,
+    "packages": "Coffee Cake",
+    "price": 1400
+  },
+  {
+    "id": "c9",
+    "category": "Cakes & Confectionary",
+    "title": "Dreamy Desserts",
+    "address": "56 Sugar Lane, Sweet City, Bangalore, 560004",
+    "stock": 6,
+    "packages": "Strawberry Cake",
+    "price": 1300
+  },
+  {
+    "id": "c10",
+    "category": "Cakes & Confectionary",
+    "title": "Dreamy Desserts",
+    "address": "56 Sugar Lane, Sweet City, Bangalore, 560004",
+    "stock": 6,
+    "packages": "Cheesecake",
+    "price": 1200
+  },
+  {
+    "id": "c11",
+    "category": "Cakes & Confectionary",
+    "title": "Dreamy Desserts",
+    "address": "56 Sugar Lane, Sweet City, Bangalore, 560004",
+    "stock": 6,
+    "packages": "Lemon Cake",
+    "price": 1500
+  },
+  {
+    "id": "c12",
+    "category": "Cakes & Confectionary",
+    "title": "Dreamy Desserts",
+    "address": "56 Sugar Lane, Sweet City, Bangalore, 560004",
+    "stock": 6,
+    "packages": "Carrot Cake",
+    "price": 1400
+  },
+  {
+    "id": "c13",
+    "category": "Cakes & Confectionary",
+    "title": "Heavenly Bites",
+    "address": "78 Baker Street, Confection Town, Chennai, 600004",
+    "stock": 6,
+    "packages": "Mango Cake",
+    "price": 1300
+  },
+  {
+    "id": "c14",
+    "category": "Cakes & Confectionary",
+    "title": "Heavenly Bites",
+    "address": "78 Baker Street, Confection Town, Chennai, 600004",
+    "stock": 6,
+    "packages": "Oreo Cake",
+    "price": 1200
+  },
+  {
+    "id": "c15",
+    "category": "Cakes & Confectionary",
+    "title": "Heavenly Bites",
+    "address": "78 Baker Street, Confection Town, Chennai, 600004",
+    "stock": 6,
+    "packages": "Tiramisu",
+    "price": 1500
+  },
+  {
+    "id": "c16",
+    "category": "Cakes & Confectionary",
+    "title": "Heavenly Bites",
+    "address": "78 Baker Street, Confection Town, Chennai, 600004",
+    "stock": 6,
+    "packages": "Banana Cake",
+    "price": 1400
+  },
+  {
+    "id": "c17",
+    "category": "Cakes & Confectionary",
+    "title": "Fantasy Cakes",
+    "address": "90 Cupcake Corner, Dessert Town, Kolkata, 700004",
+    "stock": 6,
+    "packages": "Chocolate Truffle Cake",
+    "price": 1300
+  },
+  {
+    "id": "c18",
+    "category": "Cakes & Confectionary",
+    "title": "Fantasy Cakes",
+    "address": "90 Cupcake Corner, Dessert Town, Kolkata, 700004",
+    "stock": 6,
+    "packages": "Blueberry Cake",
+    "price": 1200
+  },
+  {
+    "id": "c19",
+    "category": "Cakes & Confectionary",
+    "title": "Fantasy Cakes",
+    "address": "90 Cupcake Corner, Dessert Town, Kolkata, 700004",
+    "stock": 6,
+    "packages": "Coconut Cake",
+    "price": 1500
+  },
+  {
+    "id": "c20",
+    "category": "Cakes & Confectionary",
+    "title": "Fantasy Cakes",
+    "address": "90 Cupcake Corner, Dessert Town, Kolkata, 700004",
+    "stock": 6,
+    "packages": "Raspberry Cake",
+    "price": 1400
+  },
+  {
+    "id": "c21",
+    "category": "Cakes & Confectionary",
+    "title": "Bake Bliss",
+    "address": "123 Sweet Tooth Lane, Dessert City, Pune, 411004",
+    "stock": 6,
+    "packages": "Chocolate Fudge Cake",
+    "price": 1300
+  },
+  {
+    "id": "c22",
+    "category": "Cakes & Confectionary",
+    "title": "Bake Bliss",
+    "address": "123 Sweet Tooth Lane, Dessert City, Pune, 411004",
+    "stock": 6,
+    "packages": "Vanilla Bean Cake",
+    "price": 1200
+  },
+  {
+    "id": "c23",
+    "category": "Cakes & Confectionary",
+    "title": "Bake Bliss",
+    "address": "123 Sweet Tooth Lane, Dessert City, Pune, 411004",
+    "stock": 6,
+    "packages": "Salted Caramel Cake",
+    "price": 1500
+  },
+  {
+    "id": "c24",
+    "category": "Cakes & Confectionary",
+    "title": "Bake Bliss",
+    "address": "123 Sweet Tooth Lane, Dessert City, Pune, 411004",
+    "stock": 6,
+    "packages": "Matcha Green Tea Cake",
+    "price": 1400
+  },
+  {
+    "id": "c25",
+    "category": "Cakes & Confectionary",
+    "title": "Whisk and Cream",
+    "address": "456 Baker's Row, Pastry Park, Hyderabad, 500004",
+    "stock": 6,
+    "packages": "Chocolate Mousse Cake",
+    "price": 1300
+  },
+  {
+    "id": "c26",
+    "category": "Cakes & Confectionary",
+    "title": "Whisk and Cream",
+    "address": "456 Baker's Row, Pastry Park, Hyderabad, 500004",
+    "stock": 6,
+    "packages": "Red Velvet Cheesecake",
+    "price": 1200
+  },
+  {
+    "id": "c27",
+    "category": "Cakes & Confectionary",
+    "title": "Whisk and Cream",
+    "address": "456 Baker's Row, Pastry Park, Hyderabad, 500004",
+    "stock": 6,
+    "packages": "Banana Walnut Cake",
+    "price": 1500
+  },
+  {
+    "id": "c28",
+    "category": "Cakes & Confectionary",
+    "title": "Whisk and Cream",
+    "address": "456 Baker's Row, Pastry Park, Hyderabad, 500004",
+    "stock": 6,
+    "packages": "Almond Praline Cake",
+    "price": 1400
+  },
+  {
+    "id": "c29",
+    "category": "Cakes & Confectionary",
+    "title": "Sugar and Spice",
+    "address": "789 Confection Street, Sweet Haven, Ahmedabad, 380004",
+    "stock": 6,
+    "packages": "Hazelnut Cake",
+    "price": 1300
+  },
+  {
+    "id": "c30",
+    "category": "Cakes & Confectionary",
+    "title": "Sugar and Spice",
+    "address": "789 Confection Street, Sweet Haven, Ahmedabad, 380004",
+    "stock": 6,
+    "packages": "Lemon Blueberry Cake",
+    "price": 1200
+  },
+  {
+    "id": "c31",
+    "category": "Cakes & Confectionary",
+    "title": "Sugar and Spice",
+    "address": "789 Confection Street, Sweet Haven, Ahmedabad, 380004",
+    "stock": 6,
+    "packages": "Coconut Lime Cake",
+    "price": 1500
+  },
+  {
+    "id": "c32",
+    "category": "Cakes & Confectionary",
+    "title": "Sugar and Spice",
+    "address": "789 Confection Street, Sweet Haven, Ahmedabad, 380004",
+    "stock": 6,
+    "packages": "Peach Cobbler Cake",
+    "price": 1400
   }
 ]

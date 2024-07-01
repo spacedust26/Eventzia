@@ -65,7 +65,7 @@ const SinglePhoto = () => {
   return (
     <>
       <Toaster />
-      <Link href="/dashboard/createEvent/add/venue" passHref>
+      <Link href="/dashboard/createEvent/add/photo" passHref>
         <div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'>
           <MdOutlineArrowBackIosNew />
         </div>
