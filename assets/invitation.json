@@ -24,255 +24,171 @@
     }
   },
   {
-    "id": "invitation2",
-    "img": "/category/invitation/img2.jpg",
-    "title": "Charming Cards",
-    "address": "34 Card Avenue, Envelope City, Mumbai, 400005",
-    "email": "contact@charmingcards.com",
-    "contact": "+91 9876543251",
-    "star": "4.9",
-    "review": "55",
-    "viewmore": "/dashboard/createEvent/add/invitation/Charming_Cards",
-    "about": "Charming Cards in Mumbai specializes in creating charming and personalized invitation cards for all occasions. With a focus on creativity and quality, our cards are designed to reflect your unique style.",
-    "specifications": [
-      "Custom Designs",
-      "Premium Paper Quality",
-      "Embossing and Foiling",
-      "Delivery Available"
-    ],
-    "typesofinvitations": [
-      {
-        "type": "Rustic Wedding Invitation",
-        "price": "₹55 per card"
-      },
-      {
-        "type": "Contemporary Artistic Invitation",
-        "price": "₹65 per card"
-      },
-      {
-        "type": "Elegant Gold Foil Invitation",
-        "price": "₹75 per card"
-      },
-      {
-        "type": "Classic Monogram Invitation",
-        "price": "₹85 per card"
+      "id": "invitation2",
+      "img": "/category/invitation/img2.jpg",
+      "title": "Charming Cards",
+      "address": "34 Card Avenue, Envelope City, Mumbai, 400005",
+      "email": "contact@charmingcards.com",
+      "contact": "+91 9876543251",
+      "star": "4.9",
+      "review": "55",
+      "viewmore": "/dashboard/createEvent/add/invitation/Charming_Cards",
+      "about": "Charming Cards in Mumbai specializes in creating charming and personalized invitation cards for all occasions. With a focus on creativity and quality, our cards are designed to reflect your unique style.",
+      "specifications": [
+        "Custom Designs",
+        "Premium Paper Quality",
+        "Embossing and Foiling",
+        "Delivery Available"
+      ],
+      "packages": {
+        "Rustic Wedding Invitation": "₹55 per card",
+        "Contemporary Artistic Invitation": "₹65 per card",
+        "Elegant Gold Foil Invitation": "₹75 per card",
+        "Classic Monogram Invitation": "₹85 per card"
       }
-    ]
-  },
-  {
-    "id": "invitation3",
-    "img": "/category/invitation/img3.jpg",
-    "title": "Whimsical Prints",
-    "address": "56 Print Lane, Artistic Stationery City, Bangalore, 560005",
-    "email": "contact@whimsicalprints.com",
-    "contact": "+91 9876543252",
-    "star": "4.8",
-    "review": "50",
-    "viewmore": "/dashboard/createEvent/add/invitation/Whimsical_Prints",
-    "about": "Whimsical Prints in Bangalore offers whimsically designed invitation cards that add a touch of magic to your celebrations. Each card is crafted with artistic flair and attention to detail.",
-    "specifications": [
-      "Custom Designs",
-      "Premium Paper Quality",
-      "Embossing and Foiling",
-      "Delivery Available"
-    ],
-    "typesofinvitations": [
-      {
-        "type": "Fairy Tale Wedding Invitation",
-        "price": "₹60 per card"
-      },
-      {
-        "type": "Botanical Garden Invitation",
-        "price": "₹70 per card"
-      },
-      {
-        "type": "Watercolor Splash Invitation",
-        "price": "₹80 per card"
-      },
-      {
-        "type": "Gilded Edge Invitation",
-        "price": "₹90 per card"
+    },
+    {
+      "id": "invitation3",
+      "img": "/category/invitation/img3.jpg",
+      "title": "Whimsical Prints",
+      "address": "56 Print Lane, Artistic Stationery City, Bangalore, 560005",
+      "email": "contact@whimsicalprints.com",
+      "contact": "+91 9876543252",
+      "star": "4.8",
+      "review": "50",
+      "viewmore": "/dashboard/createEvent/add/invitation/Whimsical_Prints",
+      "about": "Whimsical Prints in Bangalore offers whimsically designed invitation cards that add a touch of magic to your celebrations. Each card is crafted with artistic flair and attention to detail.",
+      "specifications": [
+        "Custom Designs",
+        "Premium Paper Quality",
+        "Embossing and Foiling",
+        "Delivery Available"
+      ],
+      "packages": {
+        "Fairy Tale Wedding Invitation": "₹60 per card",
+        "Botanical Garden Invitation": "₹70 per card",
+        "Watercolor Splash Invitation": "₹80 per card",
+        "Gilded Edge Invitation": "₹90 per card"
       }
-    ]
-  },
-  {
-    "id": "invitation4",
-    "img": "/category/invitation/img4.jpg",
-    "title": "Royal Cards",
-    "address": "78 Invitation Street, Regal City, Chennai, 600005",
-    "email": "contact@royalcards.com",
-    "contact": "+91 9876543253",
-    "star": "4.7",
-    "review": "48",
-    "viewmore": "/dashboard/createEvent/add/invitation/Royal_Cards",
-    "about": "Royal Cards in Chennai specializes in luxurious and regal invitation cards that exude elegance and sophistication. Our cards are designed to set the tone for your grand celebrations.",
-    "specifications": [
-      "Custom Designs",
-      "Premium Paper Quality",
-      "Embossing and Foiling",
-      "Delivery Available"
-    ],
-    "typesofinvitations": [
-      {
-        "type": "Palace Wedding Invitation",
-        "price": "₹65 per card"
-      },
-      {
-        "type": "Royal Crest Invitation",
-        "price": "₹75 per card"
-      },
-      {
-        "type": "Baroque Style Invitation",
-        "price": "₹85 per card"
-      },
-      {
-        "type": "Regal Scroll Invitation",
-        "price": "₹95 per card"
+    },
+    {
+      "id": "invitation4",
+      "img": "/category/invitation/img4.jpg",
+      "title": "Royal Cards",
+      "address": "78 Invitation Street, Regal City, Chennai, 600005",
+      "email": "contact@royalcards.com",
+      "contact": "+91 9876543253",
+      "star": "4.7",
+      "review": "48",
+      "viewmore": "/dashboard/createEvent/add/invitation/Royal_Cards",
+      "about": "Royal Cards in Chennai specializes in luxurious and regal invitation cards that exude elegance and sophistication. Our cards are designed to set the tone for your grand celebrations.",
+      "specifications": [
+        "Custom Designs",
+        "Premium Paper Quality",
+        "Embossing and Foiling",
+        "Delivery Available"
+      ],
+      "packages": {
+        "Palace Wedding Invitation": "₹65 per card",
+        "Royal Crest Invitation": "₹75 per card",
+        "Baroque Style Invitation": "₹85 per card",
+        "Regal Scroll Invitation": "₹95 per card"
       }
-    ]
-  },
-  {
-    "id": "invitation5",
-    "img": "/category/invitation/img5.jpg",
-    "title": "Golden Touch Invites",
-    "address": "90 Invitation Avenue, Gold City, Kolkata, 700005",
-    "email": "contact@goldentouchinvites.com",
-    "contact": "+91 9876543254",
-    "star": "4.9",
-    "review": "60",
-    "viewmore": "/dashboard/createEvent/add/invitation/Golden_Touch_Invites",
-    "about": "Golden Touch Invites in Kolkata specializes in creating luxurious and personalized invitation cards with a touch of gold. Our cards are crafted to make a statement and leave a lasting impression.",
-    "specifications": [
-      "Custom Designs",
-      "Premium Paper Quality",
-      "Embossing and Foiling",
-      "Delivery Available"
-    ],
-    "typesofinvitations": [
-      {
-        "type": "Golden Elegance Invitation",
-        "price": "₹70 per card"
-      },
-      {
-        "type": "Vintage Gold Foil Invitation",
-        "price": "₹80 per card"
-      },
-      {
-        "type": "Art Deco Style Invitation",
-        "price": "₹90 per card"
-      },
-      {
-        "type": "Luxury Gold Leaf Invitation",
-        "price": "₹100 per card"
+    },
+    {
+      "id": "invitation5",
+      "img": "/category/invitation/img5.jpg",
+      "title": "Golden Touch Invites",
+      "address": "90 Invitation Avenue, Gold City, Kolkata, 700005",
+      "email": "contact@goldentouchinvites.com",
+      "contact": "+91 9876543254",
+      "star": "4.9",
+      "review": "60",
+      "viewmore": "/dashboard/createEvent/add/invitation/Golden_Touch_Invites",
+      "about": "Golden Touch Invites in Kolkata specializes in creating luxurious and personalized invitation cards with a touch of gold. Our cards are crafted to make a statement and leave a lasting impression.",
+      "specifications": [
+        "Custom Designs",
+        "Premium Paper Quality",
+        "Embossing and Foiling",
+        "Delivery Available"
+      ],
+      "packages": {
+        "Golden Elegance Invitation": "₹70 per card",
+        "Vintage Gold Foil Invitation": "₹80 per card",
+        "Art Deco Style Invitation": "₹90 per card",
+        "Luxury Gold Leaf Invitation": "₹100 per card"
       }
-    ]
-  },
-  {
-    "id": "invitation6",
-    "img": "/category/invitation/img6.jpg",
-    "title": "Enchanted Cards",
-    "address": "123 Enchantment Lane, Fairy Tale City, Jaipur, 302005",
-    "email": "contact@enchantedcards.com",
-    "contact": "+91 9876543255",
-    "star": "4.8",
-    "review": "55",
-    "viewmore": "/dashboard/createEvent/add/invitation/Enchanted_Cards",
-    "about": "Enchanted Cards in Jaipur specializes in creating whimsical and enchanting invitation cards that add a magical touch to your events. Each card is designed with intricate details and personalized to reflect your style.",
-    "specifications": [
-      "Custom Designs",
-      "Premium Paper Quality",
-      "Embossing and Foiling",
-      "Delivery Available"
-    ],
-    "typesofinvitations": [
-      {
-        "type": "Fairy Tale Castle Invitation",
-        "price": "₹75 per card"
-      },
-      {
-        "type": "Enchanted Forest Invitation",
-        "price": "₹85 per card"
-      },
-      {
-        "type": "Magical Unicorn Invitation",
-        "price": "₹95 per card"
-      },
-      {
-        "type": "Whimsical Mermaid Invitation",
-        "price": "₹105 per card"
+    },
+    {
+      "id": "invitation6",
+      "img": "/category/invitation/img6.jpg",
+      "title": "Enchanted Cards",
+      "address": "123 Enchantment Lane, Fairy Tale City, Jaipur, 302005",
+      "email": "contact@enchantedcards.com",
+      "contact": "+91 9876543255",
+      "star": "4.8",
+      "review": "55",
+      "viewmore": "/dashboard/createEvent/add/invitation/Enchanted_Cards",
+      "about": "Enchanted Cards in Jaipur specializes in creating whimsical and enchanting invitation cards that add a magical touch to your events. Each card is designed with intricate details and personalized to reflect your style.",
+      "specifications": [
+        "Custom Designs",
+        "Premium Paper Quality",
+        "Embossing and Foiling",
+        "Delivery Available"
+      ],
+      "packages": {
+        "Fairy Tale Castle Invitation": "₹75 per card",
+        "Enchanted Forest Invitation": "₹85 per card",
+        "Magical Unicorn Invitation": "₹95 per card",
+        "Whimsical Mermaid Invitation": "₹105 per card"
       }
-    ]
-  },
-  {
-    "id": "invitation7",
-    "img": "/category/invitation/img7.jpg",
-    "title": "Celebrate Cards",
-    "address": "456 Celebration Street, Festive City, Hyderabad, 500005",
-    "email": "contact@celebratecards.com",
-    "contact": "+91 9876543256",
-    "star": "4.9",
-    "review": "60",
-    "viewmore": "/dashboard/createEvent/add/invitation/Celebrate_Cards",
-    "about": "Celebrate Cards in Hyderabad offers a variety of stylish and contemporary invitation cards designed to enhance your celebrations. Our cards are crafted with attention to detail and personalized to suit your event.",
-    "specifications": [
-      "Custom Designs",
-      "Premium Paper Quality",
-      "Embossing and Foiling",
-      "Delivery Available"
-    ],
-    "typesofinvitations": [
-      {
-        "type": "Modern Geometric Invitation",
-        "price": "₹80 per card"
-      },
-      {
-        "type": "Chic Floral Invitation",
-        "price": "₹90 per card"
-      },
-      {
-        "type": "Elegant Watercolor Invitation",
-        "price": "₹100 per card"
-      },
-      {
-        "type": "Minimalist Marble Invitation",
-        "price": "₹110 per card"
+    },
+    {
+      "id": "invitation7",
+      "img": "/category/invitation/img7.jpg",
+      "title": "Celebrate Cards",
+      "address": "456 Celebration Street, Festive City, Hyderabad, 500005",
+      "email": "contact@celebratecards.com",
+      "contact": "+91 9876543256",
+      "star": "4.9",
+      "review": "60",
+      "viewmore": "/dashboard/createEvent/add/invitation/Celebrate_Cards",
+      "about": "Celebrate Cards in Hyderabad offers a variety of stylish and contemporary invitation cards designed to enhance your celebrations. Our cards are crafted with attention to detail and personalized to suit your event.",
+      "specifications": [
+        "Custom Designs",
+        "Premium Paper Quality",
+        "Embossing and Foiling",
+        "Delivery Available"
+      ],
+      "packages": {
+        "Modern Geometric Invitation": "₹80 per card",
+        "Chic Floral Invitation": "₹90 per card",
+        "Elegant Watercolor Invitation": "₹100 per card",
+        "Minimalist Marble Invitation": "₹110 per card"
       }
-    ]
-  },
-  {
-    "id": "invitation8",
-    "img": "/category/invitation/img8.jpg",
-    "title": "Grandeur Invites",
-    "address": "789 Grand Avenue, Opulent City, Ahmedabad, 380005",
-    "email": "contact@grandeurinvites.com",
-    "contact": "+91 9876543257",
-    "star": "4.8",
-    "review": "57",
-    "viewmore": "/dashboard/createEvent/add/invitation/Grandeur_Invites",
-    "about": "Grandeur Invites in Ahmedabad specializes in creating luxurious and grand invitation cards that make a statement. Our cards are designed with opulence and elegance to set the tone for your prestigious events.",
-    "specifications": [
-      "Custom Designs",
-      "Premium Paper Quality",
-      "Embossing and Foiling",
-      "Delivery Available"
-    ],
-    "typesofinvitations": [
-      {
-        "type": "Regal Palace Invitation",
-        "price": "₹85 per card"
-      },
-      {
-        "type": "Luxury Marble Invitation",
-        "price": "₹95 per card"
-      },
-      {
-        "type": "Gold Embossed Invitation",
-        "price": "₹105 per card"
-      },
-      {
-        "type": "Crystal Elegance Invitation",
-        "price": "₹115 per card"
+    },
+    {
+      "id": "invitation8",
+      "img": "/category/invitation/img8.jpg",
+      "title": "Grandeur Invites",
+      "address": "789 Grand Avenue, Opulent City, Ahmedabad, 380005",
+      "email": "contact@grandeurinvites.com",
+      "contact": "+91 9876543257",
+      "star": "4.8",
+      "review": "57",
+      "viewmore": "/dashboard/createEvent/add/invitation/Grandeur_Invites",
+      "about": "Grandeur Invites in Ahmedabad specializes in creating luxurious and grand invitation cards that make a statement. Our cards are designed with opulence and elegance to set the tone for your prestigious events.",
+      "specifications": [
+        "Custom Designs",
+        "Premium Paper Quality",
+        "Embossing and Foiling",
+        "Delivery Available"
+      ],
+      "packages": {
+        "Regal Palace Invitation": "₹85 per card",
+        "Luxury Marble Invitation": "₹95 per card",
+        "Gold Embossed Invitation": "₹105 per card",
+        "Crystal Elegance Invitation": "₹115 per card"
       }
-    ]
-  }
+    }
 ]

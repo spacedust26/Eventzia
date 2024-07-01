@@ -21,7 +21,7 @@ const getData = async () => {
   }
 };
 
-const SingleDecor = () => {
+const SingleCake = () => {
   const { addItemToCart } = useContext(CartContext);
   const pathname = usePathname();
   const cakeName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
@@ -166,4 +166,4 @@ const SingleDecor = () => {
   );
 };
 
-export default SingleDecor;
+export default SingleCake;

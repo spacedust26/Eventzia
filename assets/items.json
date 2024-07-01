@@ -1849,5 +1849,302 @@
     "stock": 1,
     "packages": "Sound System Rental (Full Coverage with DJ and Effects)",
     "price": 28000
+  },
+  {
+    "id": "i1",
+    "category": "Invitation & Gifts",
+    "title": "Elegant Invites",
+    "address": "12 Stationery Lane, Paper Town, Delhi, 110005",
+    "stock": 100,
+    "packages": "Traditional Wedding Invitation",
+    "price": 50
+  },
+  {
+    "id": "i2",
+    "category": "Invitation & Gifts",
+    "title": "Elegant Invites",
+    "address": "12 Stationery Lane, Paper Town, Delhi, 110005",
+    "stock": 100,
+    "packages": "Modern Minimalist Invitation",
+    "price": 60
+  },
+  {
+    "id": "i3",
+    "category": "Invitation & Gifts",
+    "title": "Elegant Invites",
+    "address": "12 Stationery Lane, Paper Town, Delhi, 110005",
+    "stock": 100,
+    "packages": "Vintage Floral Invitation",
+    "price": 70
+  },
+  {
+    "id": "i4",
+    "category": "Invitation & Gifts",
+    "title": "Elegant Invites",
+    "address": "12 Stationery Lane, Paper Town, Delhi, 110005",
+    "stock": 100,
+    "packages": "Luxury Foil Stamped Invitation",
+    "price": 80
+  },
+  {
+    "id": "i5",
+    "category": "Invitation & Gifts",
+    "title": "Charming Cards",
+    "address": "34 Card Avenue, Envelope City, Mumbai, 400005",
+    "stock": 100,
+    "packages": "Rustic Wedding Invitation",
+    "price": 55
+  },
+  {
+    "id": "i6",
+    "category": "Invitation & Gifts",
+    "title": "Charming Cards",
+    "address": "34 Card Avenue, Envelope City, Mumbai, 400005",
+    "stock": 100,
+    "packages": "Contemporary Artistic Invitation",
+    "price": 65
+  },
+  {
+    "id": "i7",
+    "category": "Invitation & Gifts",
+    "title": "Charming Cards",
+    "address": "34 Card Avenue, Envelope City, Mumbai, 400005",
+    "stock": 100,
+    "packages": "Elegant Gold Foil Invitation",
+    "price": 75
+  },
+  {
+    "id": "i8",
+    "category": "Invitation & Gifts",
+    "title": "Charming Cards",
+    "address": "34 Card Avenue, Envelope City, Mumbai, 400005",
+    "stock": 100,
+    "packages": "Classic Monogram Invitation",
+    "price": 85
+  },
+  {
+    "id": "i9",
+    "category": "Invitation & Gifts",
+    "title": "Whimsical Prints",
+    "address": "56 Print Lane, Artistic Stationery City, Bangalore, 560005",
+    "stock": 100,
+    "packages": "Fairy Tale Wedding Invitation",
+    "price": 60
+  },
+  {
+    "id": "i10",
+    "category": "Invitation & Gifts",
+    "title": "Whimsical Prints",
+    "address": "56 Print Lane, Artistic Stationery City, Bangalore, 560005",
+    "stock": 100,
+    "packages": "Botanical Garden Invitation",
+    "price": 70
+  },
+  {
+    "id": "i11",
+    "category": "Invitation & Gifts",
+    "title": "Whimsical Prints",
+    "address": "56 Print Lane, Artistic Stationery City, Bangalore, 560005",
+    "stock": 100,
+    "packages": "Watercolor Splash Invitation",
+    "price": 80
+  },
+  {
+    "id": "i12",
+    "category": "Invitation & Gifts",
+    "title": "Whimsical Prints",
+    "address": "56 Print Lane, Artistic Stationery City, Bangalore, 560005",
+    "stock": 100,
+    "packages": "Gilded Edge Invitation",
+    "price": 90
+  },
+  {
+    "id": "i13",
+    "category": "Invitation & Gifts",
+    "title": "Royal Cards",
+    "address": "78 Invitation Street, Regal City, Chennai, 600005",
+    "stock": 100,
+    "packages": "Palace Wedding Invitation",
+    "price": 65
+  },
+  {
+    "id": "i14",
+    "category": "Invitation & Gifts",
+    "title": "Royal Cards",
+    "address": "78 Invitation Street, Regal City, Chennai, 600005",
+    "stock": 100,
+    "packages": "Royal Crest Invitation",
+    "price": 75
+  },
+  {
+    "id": "i15",
+    "category": "Invitation & Gifts",
+    "title": "Royal Cards",
+    "address": "78 Invitation Street, Regal City, Chennai, 600005",
+    "stock": 100,
+    "packages": "Baroque Style Invitation",
+    "price": 85
+  },
+  {
+    "id": "i16",
+    "category": "Invitation & Gifts",
+    "title": "Royal Cards",
+    "address": "78 Invitation Street, Regal City, Chennai, 600005",
+    "stock": 100,
+    "packages": "Regal Scroll Invitation",
+    "price": 95
+  },
+  {
+    "id": "i17",
+    "category": "Invitation & Gifts",
+    "title": "Golden Touch Invites",
+    "address": "90 Invitation Avenue, Gold City, Kolkata, 700005",
+    "stock": 100,
+    "packages": "Golden Elegance Invitation",
+    "price": 70
+  },
+  {
+    "id": "i18",
+    "category": "Invitation & Gifts",
+    "title": "Golden Touch Invites",
+    "address": "90 Invitation Avenue, Gold City, Kolkata, 700005",
+    "stock": 100,
+    "packages": "Vintage Gold Foil Invitation",
+    "price": 80
+  },
+  {
+    "id": "i19",
+    "category": "Invitation & Gifts",
+    "title": "Golden Touch Invites",
+    "address": "90 Invitation Avenue, Gold City, Kolkata, 700005",
+    "stock": 100,
+    "packages": "Art Deco Style Invitation",
+    "price": 90
+  },
+  {
+    "id": "i20",
+    "category": "Invitation & Gifts",
+    "title": "Golden Touch Invites",
+    "address": "90 Invitation Avenue, Gold City, Kolkata, 700005",
+    "stock": 100,
+    "packages": "Luxury Gold Leaf Invitation",
+    "price": 100
+  },
+  {
+    "id": "i21",
+    "category": "Invitation & Gifts",
+    "title": "Enchanted Cards",
+    "address": "123 Enchantment Lane, Fairy Tale City, Jaipur, 302005",
+    "stock": 100,
+    "packages": "Fairy Tale Castle Invitation",
+    "price": 75
+  },
+  {
+    "id": "i22",
+    "category": "Invitation & Gifts",
+    "title": "Enchanted Cards",
+    "address": "123 Enchantment Lane, Fairy Tale City, Jaipur, 302005",
+    "stock": 100,
+    "packages": "Enchanted Forest Invitation",
+    "price": 85
+  },
+  {
+    "id": "i23",
+    "category": "Invitation & Gifts",
+    "title": "Enchanted Cards",
+    "address": "123 Enchantment Lane, Fairy Tale City, Jaipur, 302005",
+    "stock": 100,
+    "packages": "Magical Unicorn Invitation",
+    "price": 95
+  },
+  {
+    "id": "i24",
+    "category": "Invitation & Gifts",
+    "title": "Enchanted Cards",
+    "address": "123 Enchantment Lane, Fairy Tale City, Jaipur, 302005",
+    "stock": 100,
+    "packages": "Whimsical Mermaid Invitation",
+    "price": 105
+  },
+  {
+    "id": "i25",
+    "category": "Invitation & Gifts",
+    "title": "Celebrate Cards",
+    "address": "456 Celebration Street, Festive City, Hyderabad, 500005",
+    "stock": 100,
+    "packages": "Modern Geometric Invitation",
+    "price": 80
+  },
+  {
+    "id": "i26",
+    "category": "Invitation & Gifts",
+    "title": "Celebrate Cards",
+    "address": "456 Celebration Street, Festive City, Hyderabad, 500005",
+    "stock": 100,
+    "packages": "Chic Floral Invitation",
+    "price": 90
+  },
+  {
+    "id": "i27",
+    "category": "Invitation & Gifts",
+    "title": "Celebrate Cards",
+    "address": "456 Celebration Street, Festive City, Hyderabad, 500005",
+    "stock": 100,
+    "packages": "Elegant Watercolor Invitation",
+    "price": 100
+  },
+  {
+    "id": "i28",
+    "category": "Invitation & Gifts",
+    "title": "Celebrate Cards",
+    "address": "456 Celebration Street, Festive City, Hyderabad, 500005",
+    "stock": 100,
+    "packages": "Minimalist Marble Invitation",
+    "price": 110
+  },
+  {
+    "id": "i29",
+    "category": "Invitation & Gifts",
+    "title": "Grandeur Invites",
+    "address": "789 Grand Avenue, Opulent City, Ahmedabad, 380005",
+    "stock": 100,
+    "packages": "Regal Palace Invitation",
+    "price": 85
+  },
+  {
+    "id": "i30",
+    "category": "Invitation & Gifts",
+    "title": "Grandeur Invites",
+    "address": "789 Grand Avenue, Opulent City, Ahmedabad, 380005",
+    "stock": 100,
+    "packages": "Luxury Marble Invitation",
+    "price": 95
+  },
+  {
+    "id": "i31",
+    "category": "Invitation & Gifts",
+    "title": "Grandeur Invites",
+    "address": "789 Grand Avenue, Opulent City, Ahmedabad, 380005",
+    "stock": 100,
+    "packages": "Gold Embossed Invitation",
+    "price": 105
+  },
+  {
+    "id": "i32",
+    "category": "Invitation & Gifts",
+    "title": "Grandeur Invites",
+    "address": "789 Grand Avenue, Opulent City, Ahmedabad, 380005",
+    "stock": 100,
+    "packages": "Crystal Elegance Invitation",
+    "price": 115
+  },
+  {
+    "id": "l1",
+    "category": "Lightings",
+    "title": "Luminous Lightings",
+    "address": "12 Glow Street, Radiance City, Delhi, 110007",
+    "stock": 1,
+    "packages": "LED Uplighting",
+    "price": 20000
   }
 ]
