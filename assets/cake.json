@@ -16,36 +16,12 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "typesofcake": [
-      {
-        "type": "Chocolate Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹700"},
-          {"weight": "1kg", "price": "₹1,300"}
-        ]
-      },
-      {
-        "type": "Vanilla Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹600"},
-          {"weight": "1kg", "price": "₹1,200"}
-        ]
-      },
-      {
-        "type": "Red Velvet Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹800"},
-          {"weight": "1kg", "price": "₹1,500"}
-        ]
-      },
-      {
-        "type": "Fruit Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹750"},
-          {"weight": "1kg", "price": "₹1,400"}
-        ]
-      }
-    ]
+    "packages": {
+      "Chocolate Cake": "₹1300/kg",
+      "Vanilla Cake": "₹1200/kg",
+      "Red Velvet Cake": "₹1500/kg",
+      "Fruit Cake": "₹1,400/kg"
+    }
   },
   {
     "id": "cake2",
@@ -64,36 +40,12 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "typesofcake": [
-      {
-        "type": "Black Forest Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹750"},
-          {"weight": "1kg", "price": "₹1,400"}
-        ]
-      },
-      {
-        "type": "Butterscotch Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹700"},
-          {"weight": "1kg", "price": "₹1,300"}
-        ]
-      },
-      {
-        "type": "Pineapple Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹650"},
-          {"weight": "1kg", "price": "₹1,200"}
-        ]
-      },
-      {
-        "type": "Coffee Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹800"},
-          {"weight": "1kg", "price": "₹1,500"}
-        ]
-      }
-    ]
+    "packages": {
+      "Black Forest Cake": "₹1300/kg",
+      "Butterscotch Cake": "₹1200/kg",
+      "Pineapple Cake": "₹1500/kg",
+      "Coffee Cake": "₹1,400/kg"
+    }
   },
   {
     "id": "cake3",
@@ -112,36 +64,12 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "typesofcake": [
-      {
-        "type": "Strawberry Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹700"},
-          {"weight": "1kg", "price": "₹1,300"}
-        ]
-      },
-      {
-        "type": "Cheesecake",
-        "weights": [
-          {"weight": "500g", "price": "₹850"},
-          {"weight": "1kg", "price": "₹1,600"}
-        ]
-      },
-      {
-        "type": "Lemon Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹650"},
-          {"weight": "1kg", "price": "₹1,200"}
-        ]
-      },
-      {
-        "type": "Carrot Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹750"},
-          {"weight": "1kg", "price": "₹1,400"}
-        ]
-      }
-    ]
+    "packages": {
+      "Strawberry Cake": "₹1300/kg",
+      "Cheesecake": "₹1200/kg",
+      "Lemon Cake": "₹1500/kg",
+      "Carrot Cake": "₹1,400/kg"
+    }
   },
   {
     "id": "cake4",
@@ -160,36 +88,12 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "typesofcake": [
-      {
-        "type": "Mango Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹700"},
-          {"weight": "1kg", "price": "₹1,300"}
-        ]
-      },
-      {
-        "type": "Oreo Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹750"},
-          {"weight": "1kg", "price": "₹1,400"}
-        ]
-      },
-      {
-        "type": "Tiramisu",
-        "weights": [
-          {"weight": "500g", "price": "₹850"},
-          {"weight": "1kg", "price": "₹1,600"}
-        ]
-      },
-      {
-        "type": "Banana Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹600"},
-          {"weight": "1kg", "price": "₹1,200"}
-        ]
-      }
-    ]
+    "packages": {
+      "Mango Cake": "₹1300/kg",
+      "Oreo Cake": "₹1200/kg",
+      "Tiramisu": "₹1500/kg",
+      "Banana Cake": "₹1,400/kg"
+    }
   },
   {
     "id": "cake5",
@@ -208,37 +112,14 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "typesofcake": [
-      {
-        "type": "Chocolate Truffle Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹800"},
-          {"weight": "1kg", "price": "₹1,500"}
-        ]
-      },
-      {
-        "type": "Blueberry Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹850"},
-          {"weight": "1kg", "price": "₹1,600"}
-        ]
-      },
-      {
-        "type": "Coconut Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹700"},
-          {"weight": "1kg", "price": "₹1,300"}
-        ]
-      },
-      {
-        "type": "Raspberry Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹750"},
-          {"weight": "1kg", "price": "₹1,400"}
-        ]
-      }
-    ]
-  },{
+    "packages": {
+      "Chocolate Truffle Cake": "₹1300/kg",
+      "Blueberry Cake": "₹1200/kg",
+      "Coconut Cake": "₹1500/kg",
+      "Raspberry Cake": "₹1,400/kg"
+    }
+  },
+  {
     "id": "cake6",
     "img": "/category/cake/img6.jpg",
     "title": "Bake Bliss",
@@ -255,36 +136,12 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "typesofcake": [
-      {
-        "type": "Chocolate Fudge Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹800"},
-          {"weight": "1kg", "price": "₹1,500"}
-        ]
-      },
-      {
-        "type": "Vanilla Bean Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹700"},
-          {"weight": "1kg", "price": "₹1,300"}
-        ]
-      },
-      {
-        "type": "Salted Caramel Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹850"},
-          {"weight": "1kg", "price": "₹1,600"}
-        ]
-      },
-      {
-        "type": "Matcha Green Tea Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹900"},
-          {"weight": "1kg", "price": "₹1,700"}
-        ]
-      }
-    ]
+    "packages": {
+      "Chocolate Fudge Cake": "₹1300/kg",
+      "Vanilla Bean Cake": "₹1200/kg",
+      "Salted Caramel Cake": "₹1500/kg",
+      "Matcha Green Tea Cake": "₹1,400/kg"
+    }
   },
   {
     "id": "cake7",
@@ -303,36 +160,12 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "typesofcake": [
-      {
-        "type": "Chocolate Mousse Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹850"},
-          {"weight": "1kg", "price": "₹1,600"}
-        ]
-      },
-      {
-        "type": "Red Velvet Cheesecake",
-        "weights": [
-          {"weight": "500g", "price": "₹900"},
-          {"weight": "1kg", "price": "₹1,700"}
-        ]
-      },
-      {
-        "type": "Banana Walnut Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹700"},
-          {"weight": "1kg", "price": "₹1,300"}
-        ]
-      },
-      {
-        "type": "Almond Praline Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹950"},
-          {"weight": "1kg", "price": "₹1,800"}
-        ]
-      }
-    ]
+    "packages": {
+      "Chocolate Mousse Cake": "₹1300/kg",
+      "Red Velvet Cheesecake": "₹1200/kg",
+      "Banana Walnut Cake": "₹1500/kg",
+      "Almond Praline Cake": "₹1,400/kg"
+    }
   },
   {
     "id": "cake8",
@@ -351,35 +184,11 @@
       "Gluten-Free Options",
       "Delivery Available"
     ],
-    "typesofcake": [
-      {
-        "type": "Hazelnut Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹800"},
-          {"weight": "1kg", "price": "₹1,500"}
-        ]
-      },
-      {
-        "type": "Lemon Blueberry Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹850"},
-          {"weight": "1kg", "price": "₹1,600"}
-        ]
-      },
-      {
-        "type": "Coconut Lime Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹750"},
-          {"weight": "1kg", "price": "₹1,400"}
-        ]
-      },
-      {
-        "type": "Peach Cobbler Cake",
-        "weights": [
-          {"weight": "500g", "price": "₹800"},
-          {"weight": "1kg", "price": "₹1,500"}
-        ]
-      }
-    ]
+    "packages": {
+      "Hazelnut Cake": "₹1300/kg",
+      "Lemon Blueberry Cake": "₹1200/kg",
+      "Coconut Lime Cake": "₹1500/kg",
+      "Peach Cobbler Cake": "₹1,400/kg"
+    }
   }
 ]

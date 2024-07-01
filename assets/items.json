@@ -960,22 +960,183 @@
     "price": 4200
   },
   {
-    "id": "ma1",
-    "category": "Mehendi Artists",
-    "title": "Artistic Henna",
-    "address": "123 Mehendi Lane, Mehendi Nagar, Delhi, 110001",
-    "stock": 10,
-    "packages": "Traditional Mehendi",
+    "id": "m13",
+    "category": "Bridal Makeup & Hair",
+    "title": "Enchanting Elegance",
+    "address": "404 Beauty Boulevard, Glamour Town, Chennai, 600003",
+    "stock": 5,
+    "packages": "Bridal Makeup",
     "price": 4200
   },
   {
-    "id": "ma2",
-    "category": "Mehendi Artists",
-    "title": "Artistic Henna",
-    "address": "123 Mehendi Lane, Mehendi Nagar, Delhi, 110001",
-    "stock": 10,
-    "packages": "Bridal Mehendi",
-    "price": 300
+    "id": "m14",
+    "category": "Bridal Makeup & Hair",
+    "title": "Enchanting Elegance",
+    "address": "404 Beauty Boulevard, Glamour Town, Chennai, 600003",
+    "stock": 5,
+    "packages": "Bridesmaid Makeup",
+    "price": 15000
+  },
+  {
+    "id": "m15",
+    "category": "Bridal Makeup & Hair",
+    "title": "Enchanting Elegance",
+    "address": "404 Beauty Boulevard, Glamour Town, Chennai, 600003",
+    "stock": 4,
+    "packages": "Hair Spa",
+    "price": 8000
+  },
+  {
+    "id": "m16",
+    "category": "Bridal Makeup & Hair",
+    "title": "Enchanting Elegance",
+    "address": "404 Beauty Boulevard, Glamour Town, Chennai, 600003",
+    "stock": 2,
+    "packages": "Hair Extensions",
+    "price": 5000
+  },
+  {
+    "id": "m17",
+    "category": "Bridal Makeup & Hair",
+    "title": "Divine Beauty",
+    "address": "505 Radiance Street, Beauty Ville, Kolkata, 700003",
+    "stock": 5,
+    "packages": "Bridal Makeup",
+    "price": 15000
+  },
+  {
+    "id": "m18",
+    "category": "Bridal Makeup & Hair",
+    "title": "Divine Beauty",
+    "address": "505 Radiance Street, Beauty Ville, Kolkata, 700003",
+    "stock": 5,
+    "packages": "Reception Makeup",
+    "price": 8000
+  },
+  {
+    "id": "m19",
+    "category": "Bridal Makeup & Hair",
+    "title": "Divine Beauty",
+    "address": "505 Radiance Street, Beauty Ville, Kolkata, 700003",
+    "stock": 4,
+    "packages": "Hair Smoothing",
+    "price": 5000
+  },
+  {
+    "id": "m20",
+    "category": "Bridal Makeup & Hair",
+    "title": "Divine Beauty",
+    "address": "505 Radiance Street, Beauty Ville, Kolkata, 700003",
+    "stock": 2,
+    "packages": "Facials",
+    "price": 4500
+  },
+  {
+    "id": "m21",
+    "category": "Bridal Makeup & Hair",
+    "title": "Bridal Bliss",
+    "address": "606 Bridal Lane, Wedding Town, Hyderabad, 500003",
+    "stock": 5,
+    "packages": "Bridal Makeup",
+    "price": 15000
+  },
+  {
+    "id": "m22",
+    "category": "Bridal Makeup & Hair",
+    "title": "Bridal Bliss",
+    "address": "606 Bridal Lane, Wedding Town, Hyderabad, 500003",
+    "stock": 5,
+    "packages": "Engagement Makeup",
+    "price": 8000
+  },
+  {
+    "id": "m23",
+    "category": "Bridal Makeup & Hair",
+    "title": "Bridal Bliss",
+    "address": "606 Bridal Lane, Wedding Town, Hyderabad, 500003",
+    "stock": 4,
+    "packages": "Hair Highlights",
+    "price": 5000
+  },
+  {
+    "id": "m24",
+    "category": "Bridal Makeup & Hair",
+    "title": "Bridal Bliss",
+    "address": "606 Bridal Lane, Wedding Town, Hyderabad, 500003",
+    "stock": 2,
+    "packages": "Waxing",
+    "price": 4500
+  },
+  {
+    "id": "m25",
+    "category": "Bridal Makeup & Hair",
+    "title": "Radiance Artistry",
+    "address": "707 Glamour Avenue, Beauty Bay, Pune, 411003",
+    "stock": 5,
+    "packages": "Bridal Makeup",
+    "price": 15000
+  },
+  {
+    "id": "m26",
+    "category": "Bridal Makeup & Hair",
+    "title": "Radiance Artistry",
+    "address": "707 Glamour Avenue, Beauty Bay, Pune, 411003",
+    "stock": 5,
+    "packages": "Sangeet Makeup",
+    "price": 8000
+  },
+  {
+    "id": "m27",
+    "category": "Bridal Makeup & Hair",
+    "title": "Radiance Artistry",
+    "address": "707 Glamour Avenue, Beauty Bay, Pune, 411003",
+    "stock": 4,
+    "packages": "Hair Cut",
+    "price": 5000
+  },
+  {
+    "id": "m28",
+    "category": "Bridal Makeup & Hair",
+    "title": "Radiance Artistry",
+    "address": "707 Glamour Avenue, Beauty Bay, Pune, 411003",
+    "stock": 2,
+    "packages": "Manicure",
+    "price": 4500
+  },
+  {
+    "id": "m29",
+    "category": "Bridal Makeup & Hair",
+    "title": "Elegance Essence",
+    "address": "808 Beauty Boulevard, Glam Town, Jaipur, 302003",
+    "stock": 5,
+    "packages": "Bridal Makeup",
+    "price": 15000
+  },
+  {
+    "id": "m30",
+    "category": "Bridal Makeup & Hair",
+    "title": "Elegance Essence",
+    "address": "808 Beauty Boulevard, Glam Town, Jaipur, 302003",
+    "stock": 5,
+    "packages": "Pre-Wedding Shoot Makeup",
+    "price": 8000
+  },
+  {
+    "id": "m31",
+    "category": "Bridal Makeup & Hair",
+    "title": "Elegance Essence",
+    "address": "808 Beauty Boulevard, Glam Town, Jaipur, 302003",
+    "stock": 4,
+    "packages": "Hair Treatments",
+    "price": 5000
+  },
+  {
+    "id": "m32",
+    "category": "Bridal Makeup & Hair",
+    "title": "Elegance Essence",
+    "address": "808 Beauty Boulevard, Glam Town, Jaipur, 302003",
+    "stock": 2,
+    "packages": "Pedicure",
+    "price": 4500
   }
-
 ]

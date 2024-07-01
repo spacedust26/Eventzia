@@ -16,24 +16,12 @@
       "Embossing and Foiling",
       "Delivery Available"
     ],
-    "typesofinvitations": [
-      {
-        "type": "Traditional Wedding Invitation",
-        "price": "₹50 per card"
-      },
-      {
-        "type": "Modern Minimalist Invitation",
-        "price": "₹60 per card"
-      },
-      {
-        "type": "Vintage Floral Invitation",
-        "price": "₹70 per card"
-      },
-      {
-        "type": "Luxury Foil Stamped Invitation",
-        "price": "₹80 per card"
-      }
-    ]
+    "packages":{
+      "Traditional Wedding Invitation":"₹50 per card",
+      "Modern Minimalist Invitation":"₹60 per card",
+      "Vintage Floral Invitation": "₹70 per card",
+      "Luxury Foil Stamped Invitation" :"₹80 per card"
+    }
   },
   {
     "id": "invitation2",

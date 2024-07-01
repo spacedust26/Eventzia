@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useContext, useEffect, useState } from 'react';
 import Image from 'next/image';
 import { notFound, usePathname } from 'next/navigation';
@@ -10,7 +10,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 const getData = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/makeup", { cache: "no-store" });
+    const res = await fetch("http://localhost:3000/api/cake", { cache: "no-store" });
     if (!res.ok) {
       return null;
     }
@@ -21,31 +21,31 @@ const getData = async () => {
   }
 };
 
-const SingleMakeup = () => {
+const SingleDecor = () => {
   const { addItemToCart } = useContext(CartContext);
   const pathname = usePathname();
-  const makeupName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
+  const cakeName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
 
-  const [makeupData, setmakeupData] = useState([]);
-  const [makeupItems, setmakeupItems] = useState([]);
+  const [cakeData, setCakedata] = useState([]);
+  const [cakeItems, setCakeitems] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await getData();
       if (!data) return notFound();
 
-      const filteredMakeup = data.makeup.filter(v => v.title === makeupName);
-      setmakeupData(filteredMakeup);
+      const filteredDecor = data.cake.filter(v => v.title === cakeName);
+      setCakedata(filteredDecor);
 
-      const filteredmakeupItems = data.items.filter(item => item.title === makeupName);
-      setmakeupItems(filteredmakeupItems);
+      const filteredcakeItems = data.items.filter(item => item.title === cakeName);
+     setCakeitems(filteredcakeItems);
     };
 
     fetchData();
-  }, [makeupName]);
+  }, [cakeName]);
 
-  if (makeupData.length === 0) {
-    return <div className="text-[#321E1E] text-center text-2xl m-12">Bridal Makeup & Hair not found</div>;
+  if (cakeData.length === 0) {
+    return <div className="text-[#321E1E] text-center text-2xl m-12">Cakes & Confectionary not found</div>;
   }
 
   const addToCartHandler = (product) => {
@@ -71,7 +71,7 @@ const SingleMakeup = () => {
         </div>
       </Link>
       <form className='flex items-center justify-center flex-col m-8 gap-8'>
-        {makeupData.map((v) => (
+        {cakeData.map((v) => (
           <React.Fragment key={v.id}>
             <div className="top flex items-center justify-start flex-row gap-8 bg-[#321E1E] p-8 text-white rounded-lg">
               <div className="left rounded-lg">
@@ -123,7 +123,7 @@ const SingleMakeup = () => {
             </div>
 
 
-            <div className="bg-[#321E1E] rounded-lg p-8 flex flex-col gap-3 w-full text-white">
+            {/* <div className="bg-[#321E1E] rounded-lg p-8 flex flex-col gap-3 w-full text-white">
               <p className='text-[#d4af37] font-bold text-lg'>Book Your Choice</p>
               <div className="">
                 <div className="flex flex-row gap-3">
@@ -134,7 +134,7 @@ const SingleMakeup = () => {
                         <th className='p-2'>Price</th>
                       </tr>
                     </thead>
-                    {makeupItems.map((vi) => {
+                    {cakeItems.map((vi) => {
                       const inStock = vi.stock >= 1;
                       return (
                         <tbody key={vi.id}>
@@ -158,7 +158,7 @@ const SingleMakeup = () => {
                   </table>
                 </div>
               </div>
-            </div>
+            </div> */}
           </React.Fragment>
         ))}
       </form>
@@ -166,4 +166,4 @@ const SingleMakeup = () => {
   );
 };
 
-export default SingleMakeup;
+export default SingleDecor;
