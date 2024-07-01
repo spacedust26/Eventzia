@@ -958,5 +958,24 @@
     "stock": 1,
     "packages": "Hair Extensions",
     "price": 4200
+  },
+  {
+    "id": "ma1",
+    "category": "Mehendi Artists",
+    "title": "Artistic Henna",
+    "address": "123 Mehendi Lane, Mehendi Nagar, Delhi, 110001",
+    "stock": 10,
+    "packages": "Traditional Mehendi",
+    "price": 4200
+  },
+  {
+    "id": "ma2",
+    "category": "Mehendi Artists",
+    "title": "Artistic Henna",
+    "address": "123 Mehendi Lane, Mehendi Nagar, Delhi, 110001",
+    "stock": 10,
+    "packages": "Bridal Mehendi",
+    "price": 300
   }
+
 ]
