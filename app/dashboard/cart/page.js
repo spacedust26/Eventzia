@@ -87,9 +87,14 @@ const Cart = () => {
     }
   };
 
-  const handleContinueClick = () =>{
-    createCheckoutSession();
-    saveCartData();
+  const handleContinueClick = async () => {
+    await createCheckoutSession();
+    await saveCartData();
+    clearItemFromCart();
+    localStorage.removeItem('eventname');
+    localStorage.removeItem('date');
+    localStorage.removeItem('desc');
+    localStorage.removeItem('item_info');
   }
 
   return (

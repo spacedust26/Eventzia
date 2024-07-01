@@ -37,7 +37,6 @@ const CreateEvent = ({ placeholder }) => {
       });
       const data = await res.json();
       if (data.success) {
-        // Update state or notify the user about successful deletion
         setEvents(events.filter((event) => event._id !== id));
       } else {
         console.error('Failed to delete event:', data.message);
@@ -48,7 +47,7 @@ const CreateEvent = ({ placeholder }) => {
   };
 
   return (
-    <div className='container bg-[#321E1E] p-[20px] rounded-lg mt-[20px] text-white'>
+    <div className='container bg-[#321E1E] p-[20px] rounded-lg mt-[20px] text-white mb-12'>
       <div className="top flex items-center justify-between">
         <Search onChange={(e) => setSearch(e.target.value)} placeholder='Search for an event...' />
         <Link href="/dashboard/createEvent/add">

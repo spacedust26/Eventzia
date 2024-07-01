@@ -23,6 +23,7 @@ v,f,p,d,m,ma,c,i
 
 *Decorators & Florists(decor)
 id(food#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications, [types of decorations]
+
 ->id(f#) category, title, address, stock, price
 [package]
 

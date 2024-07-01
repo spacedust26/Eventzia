@@ -68,6 +68,7 @@ export const CartProvider = ({ children }) => {
   };
 
   const clearItemFromCart = () => {
+    localStorage.removeItem("cart");
     setCart({ cartItems: [] });
   };
 

@@ -16,24 +16,12 @@
       "Setup and Cleanup",
       "On-Site Coordination"
     ],
-    "types": [
-      {
-        "type": "Weddings",
-        "price": "₹50,000"
-      },
-      {
-        "type": "Corporate Events",
-        "price": "₹40,000"
-      },
-      {
-        "type": "Birthday Parties",
-        "price": "₹30,000"
-      },
-      {
-        "type": "Anniversaries",
-        "price": "₹35,000"
-      }
-    ]
+    "packages": {
+      "Weddings": "₹50,000",
+      "Corporate Events": "₹40,000",
+      "Birthday Parties": "₹30,000",
+      "Anniversaries": "₹35,000"
+    }
   },
   {
     "id": "decor2",
@@ -52,24 +40,12 @@
       "Setup and Cleanup",
       "On-Site Coordination"
     ],
-    "types": [
-      {
-        "type": "Weddings",
-        "price": "₹55,000"
-      },
-      {
-        "type": "Corporate Events",
-        "price": "₹45,000"
-      },
-      {
-        "type": "Birthday Parties",
-        "price": "₹35,000"
-      },
-      {
-        "type": "Anniversaries",
-        "price": "₹40,000"
-      }
-    ]
+    "packages": {
+      "Weddings": "₹55,000",
+      "Corporate Events": "₹45,000",
+      "Birthday Parties": "₹35,000",
+      "Anniversaries": "₹40,000"
+    }
   },
   {
     "id": "decor3",
@@ -88,24 +64,12 @@
       "Setup and Cleanup",
       "On-Site Coordination"
     ],
-    "types": [
-      {
-        "type": "Weddings",
-        "price": "₹52,000"
-      },
-      {
-        "type": "Corporate Events",
-        "price": "₹42,000"
-      },
-      {
-        "type": "Birthday Parties",
-        "price": "₹32,000"
-      },
-      {
-        "type": "Anniversaries",
-        "price": "₹37,000"
-      }
-    ]
+    "packages": {
+      "Weddings": "₹52,000",
+      "Corporate Events": "₹42,000",
+      "Birthday Parties": "₹32,000",
+      "Anniversaries": "₹37,000"
+    }
   },
   {
     "id": "decor4",
@@ -117,31 +81,19 @@
     "star": "4.7",
     "review": "28",
     "viewmore": "/dashboard/createEvent/add/decor/Dreamscape_Decor",
-    "about": "Dreamscape Decor in Chennai offers creative and luxurious decorations for all types of events. Our talented team works meticulously to bring your vision to life, ensuring every detail is perfect.",
+    "about": "Dreamscape Decor in Chennai offers creative and luxurious decorations for all packages of events. Our talented team works meticulously to bring your vision to life, ensuring every detail is perfect.",
     "specifications": [
       "Event Planning",
       "Custom Designs",
       "Setup and Cleanup",
       "On-Site Coordination"
     ],
-    "types": [
-      {
-        "type": "Weddings",
-        "price": "₹60,000"
-      },
-      {
-        "type": "Corporate Events",
-        "price": "₹50,000"
-      },
-      {
-        "type": "Birthday Parties",
-        "price": "₹40,000"
-      },
-      {
-        "type": "Anniversaries",
-        "price": "₹45,000"
-      }
-    ]
+    "packages": {
+      "Weddings": "₹60,000",
+      "Corporate Events": "₹50,000",
+      "Birthday Parties": "₹40,000",
+      "Anniversaries": "₹45,000"
+    }
   },
   {
     "id": "decor5",
@@ -160,24 +112,12 @@
       "Setup and Cleanup",
       "On-Site Coordination"
     ],
-    "types": [
-      {
-        "type": "Weddings",
-        "price": "₹58,000"
-      },
-      {
-        "type": "Corporate Events",
-        "price": "₹48,000"
-      },
-      {
-        "type": "Birthday Parties",
-        "price": "₹38,000"
-      },
-      {
-        "type": "Anniversaries",
-        "price": "₹43,000"
-      }
-    ]
+    "packages": {
+      "Weddings": "₹58,000",
+      "Corporate Events": "₹48,000",
+      "Birthday Parties": "₹38,000",
+      "Anniversaries": "₹43,000"
+    }
   },
   {
     "id": "decor6",
@@ -196,24 +136,12 @@
       "Setup and Cleanup",
       "On-Site Coordination"
     ],
-    "types": [
-      {
-        "type": "Weddings",
-        "price": "₹62,000"
-      },
-      {
-        "type": "Corporate Events",
-        "price": "₹52,000"
-      },
-      {
-        "type": "Birthday Parties",
-        "price": "₹42,000"
-      },
-      {
-        "type": "Anniversaries",
-        "price": "₹47,000"
-      }
-    ]
+    "packages": {
+      "Weddings": "₹62,000",
+      "Corporate Events": "₹52,000",
+      "Birthday Parties": "₹42,000",
+      "Anniversaries": "₹47,000"
+    }
   },
   {
     "id": "decor7",
@@ -225,31 +153,19 @@
     "star": "4.6",
     "review": "24",
     "viewmore": "/dashboard/createEvent/add/decor/Celebration_Central",
-    "about": "Celebration Central in Pune offers vibrant and innovative decoration solutions for all types of events. Our dedicated team ensures that every event is decorated to perfection, making your celebrations unforgettable.",
+    "about": "Celebration Central in Pune offers vibrant and innovative decoration solutions for all packages of events. Our dedicated team ensures that every event is decorated to perfection, making your celebrations unforgettable.",
     "specifications": [
       "Event Planning",
       "Custom Designs",
       "Setup and Cleanup",
       "On-Site Coordination"
     ],
-    "types": [
-      {
-        "type": "Weddings",
-        "price": "₹54,000"
-      },
-      {
-        "type": "Corporate Events",
-        "price": "₹44,000"
-      },
-      {
-        "type": "Birthday Parties",
-        "price": "₹34,000"
-      },
-      {
-        "type": "Anniversaries",
-        "price": "₹39,000"
-      }
-    ]
+    "packages": {
+      "Weddings": "₹54,000",
+      "Corporate Events": "₹44,000",
+      "Birthday Parties": "₹34,000",
+      "Anniversaries": "₹39,000"
+    }
   },
   {
     "id": "decor8",
@@ -261,30 +177,18 @@
     "star": "4.7",
     "review": "29",
     "viewmore": "/dashboard/createEvent/add/decor/Event_Elegance",
-    "about": "Event Elegance in Jaipur is dedicated to providing top-notch decoration services for all types of events. Our creative team ensures that each event is beautifully decorated, leaving a lasting impression on your guests.",
+    "about": "Event Elegance in Jaipur is dedicated to providing top-notch decoration services for all packages of events. Our creative team ensures that each event is beautifully decorated, leaving a lasting impression on your guests.",
     "specifications": [
       "Event Planning",
       "Custom Designs",
       "Setup and Cleanup",
       "On-Site Coordination"
     ],
-    "types": [
-      {
-        "type": "Weddings",
-        "price": "₹57,000"
-      },
-      {
-        "type": "Corporate Events",
-        "price": "₹47,000"
-      },
-      {
-        "type": "Birthday Parties",
-        "price": "₹37,000"
-      },
-      {
-        "type": "Anniversaries",
-        "price": "₹42,000"
-      }
-    ]
+    "packages": {
+      "Weddings": "₹57,000",
+      "Corporate Events": "₹47,000",
+      "Birthday Parties": "₹37,000",
+      "Anniversaries": "₹42,000"
+    }
   }
 ]

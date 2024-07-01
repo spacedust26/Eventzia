@@ -373,7 +373,7 @@
     "stock": 1,
     "packages": "Deluxe",
     "price": 30000
-  }, 
+  },
   {
     "id": "p4",
     "category": "Photography & Videography",
@@ -400,5 +400,563 @@
     "stock": 1,
     "packages": "Deluxe",
     "price": 32000
+  },
+  {
+    "id": "p7",
+    "category": "Photography & Videography",
+    "title": "EShutter Speed",
+    "address": "789 Flash Avenue, Lensville, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Basic",
+    "price": 15000
+  },
+  {
+    "id": "p8",
+    "category": "Photography & Videography",
+    "title": "EShutter Speed",
+    "address": "789 Flash Avenue, Lensville, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Premium",
+    "price": 25000
+  },
+  {
+    "id": "p9",
+    "category": "Photography & Videography",
+    "title": "EShutter Speed",
+    "address": "789 Flash Avenue, Lensville, Bangalore, 560001",
+    "stock": 1,
+    "packages": "Deluxe",
+    "price": 35000
+  },
+  {
+    "id": "p10",
+    "category": "Photography & Videography",
+    "title": "Picture Perfect",
+    "address": "321 Frame Road, Exposure Town, Chennai, 600001",
+    "stock": 1,
+    "packages": "Pre-Wedding Photo Shoot",
+    "price": 15000
+  },
+  {
+    "id": "p11",
+    "category": "Photography & Videography",
+    "title": "Picture Perfect",
+    "address": "321 Frame Road, Exposure Town, Chennai, 600001",
+    "stock": 1,
+    "packages": "Premium Wedding Videography",
+    "price": 25000
+  },
+  {
+    "id": "p12",
+    "category": "Photography & Videography",
+    "title": "Picture Perfect",
+    "address": "321 Frame Road, Exposure Town, Chennai, 600001",
+    "stock": 1,
+    "packages": "Miscelleneous Shootings",
+    "price": 15000
+  },
+  {
+    "id": "p13",
+    "category": "Photography & Videography",
+    "title": "Capture Moments",
+    "address": "567 Aperture Boulevard, Focus City, Kolkata, 700001",
+    "stock": 1,
+    "packages": "Basic",
+    "price": 15000
+  },
+  {
+    "id": "p14",
+    "category": "Photography & Videography",
+    "title": "Capture Moments",
+    "address": "567 Aperture Boulevard, Focus City, Kolkata, 700001",
+    "stock": 1,
+    "packages": "Premium",
+    "price": 25000
+  },
+  {
+    "id": "p15",
+    "category": "Photography & Videography",
+    "title": "Capture Moments",
+    "address": "567 Aperture Boulevard, Focus City, Kolkata, 700001",
+    "stock": 1,
+    "packages": "Deluxe",
+    "price": 35000
+  },
+  {
+    "id": "p16",
+    "category": "Photography & Videography",
+    "title": "Frame Focus",
+    "address": "890 Viewpoint Street, Camera Town, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Basic",
+    "price": 15000
+  },
+  {
+    "id": "p17",
+    "category": "Photography & Videography",
+    "title": "Frame Focus",
+    "address": "890 Viewpoint Street, Camera Town, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Premium",
+    "price": 25000
+  },
+  {
+    "id": "p18",
+    "category": "Photography & Videography",
+    "title": "Frame Focus",
+    "address": "890 Viewpoint Street, Camera Town, Hyderabad, 500001",
+    "stock": 1,
+    "packages": "Deluxe",
+    "price": 35000
+  },
+  {
+    "id": "p19",
+    "category": "Photography & Videography",
+    "title": "Lens Legend",
+    "address": "234 Flash Lane, Snapshot Village, Pune, 411001",
+    "stock": 1,
+    "packages": "Basic",
+    "price": 15000
+  },
+  {
+    "id": "p20",
+    "category": "Photography & Videography",
+    "title": "Lens Legend",
+    "address": "234 Flash Lane, Snapshot Village, Pune, 411001",
+    "stock": 1,
+    "packages": "Premium",
+    "price": 25000
+  },
+  {
+    "id": "p21",
+    "category": "Photography & Videography",
+    "title": "Lens Legend",
+    "address": "234 Flash Lane, Snapshot Village, Pune, 411001",
+    "stock": 1,
+    "packages": "Deluxe",
+    "price": 35000
+  },
+  {
+    "id": "p22",
+    "category": "Photography & Videography",
+    "title": "Snapshot Studio",
+    "address": "678 Lens Avenue, Picture City, Jaipur, 302001",
+    "stock": 1,
+    "packages": "Basic",
+    "price": 15000
+  },
+  {
+    "id": "p23",
+    "category": "Photography & Videography",
+    "title": "Snapshot Studio",
+    "address": "678 Lens Avenue, Picture City, Jaipur, 302001",
+    "stock": 1,
+    "packages": "Premium",
+    "price": 25000
+  },
+  {
+    "id": "p24",
+    "category": "Photography & Videography",
+    "title": "Snapshot Studio",
+    "address": "678 Lens Avenue, Picture City, Jaipur, 302001",
+    "stock": 1,
+    "packages": "Deluxe",
+    "price": 35000
+  },
+  {
+    "id": "d1",
+    "category": "Decorators & Florists",
+    "title": "Blossom Decor",
+    "address": "101 Flower Street, Garden City, Delhi, 110002",
+    "stock": 1,
+    "packages": "Weddings",
+    "price": 5000
+  },
+  {
+    "id": "d2",
+    "category": "Decorators & Florists",
+    "title": "Blossom Decor",
+    "address": "101 Flower Street, Garden City, Delhi, 110002",
+    "stock": 1,
+    "packages": "Corporate Events",
+    "price": 1500
+  },
+  {
+    "id": "d3",
+    "category": "Decorators & Florists",
+    "title": "Blossom Decor",
+    "address": "101 Flower Street, Garden City, Delhi, 110002",
+    "stock": 1,
+    "packages": "Birthday Parties",
+    "price": 2000
+  },
+  {
+    "id": "d4",
+    "category": "Decorators & Florists",
+    "title": "Blossom Decor",
+    "address": "101 Flower Street, Garden City, Delhi, 110002",
+    "stock": 1,
+    "packages": "Anniversaries",
+    "price": 3500
+  },
+  {
+    "id": "d5",
+    "category": "Decorators & Florists",
+    "title": "Elegant Affairs",
+    "address": "202 Celebration Lane, Festive Town, Mumbai, 400002",
+    "stock": 1,
+    "packages": "Weddings",
+    "price": 5000
+  },
+  {
+    "id": "d6",
+    "category": "Decorators & Florists",
+    "title": "Elegant Affairs",
+    "address": "202 Celebration Lane, Festive Town, Mumbai, 400002",
+    "stock": 1,
+    "packages": "Corporate Events",
+    "price": 4000
+  },
+  {
+    "id": "d7",
+    "category": "Decorators & Florists",
+    "title": "Elegant Affairs",
+    "address": "202 Celebration Lane, Festive Town, Mumbai, 400002",
+    "stock": 1,
+    "packages": "Birthday Parties",
+    "price": 3000
+  },
+  {
+    "id": "d8",
+    "category": "Decorators & Florists",
+    "title": "Elegant Affairs",
+    "address": "202 Celebration Lane, Festive Town, Mumbai, 400002",
+    "stock": 1,
+    "packages": "Anniversaries",
+    "price": 4000
+  },
+  {
+    "id": "d9",
+    "category": "Decorators & Florists",
+    "title": "Floral Fantasy",
+    "address": "303 Blossom Boulevard, Bloom Town, Bangalore, 560002",
+    "stock": 1,
+    "packages": "Weddings",
+    "price": 5000
+  },
+  {
+    "id": "d10",
+    "category": "Decorators & Florists",
+    "title": "Floral Fantasy",
+    "address": "303 Blossom Boulevard, Bloom Town, Bangalore, 560002",
+    "stock": 1,
+    "packages": "Corporate Events",
+    "price": 2000
+  },
+  {
+    "id": "d11",
+    "category": "Decorators & Florists",
+    "title": "Floral Fantasy",
+    "address": "303 Blossom Boulevard, Bloom Town, Bangalore, 560002",
+    "stock": 1,
+    "packages": "Birthday Parties",
+    "price": 3000
+  },
+  {
+    "id": "d12",
+    "category": "Decorators & Florists",
+    "title": "Floral Fantasy",
+    "address": "303 Blossom Boulevard, Bloom Town, Bangalore, 560002",
+    "stock": 1,
+    "packages": "Anniversaries",
+    "price": 3700
+  },
+  {
+    "id": "d13",
+    "category": "Decorators & Florists",
+    "title": "Dreamscape Decor",
+    "address": "404 Celebration Street, Event City, Chennai, 600002",
+    "stock": 1,
+    "packages": "Weddings",
+    "price": 6000
+  },
+  {
+    "id": "d14",
+    "category": "Decorators & Florists",
+    "title": "Dreamscape Decor",
+    "address": "404 Celebration Street, Event City, Chennai, 600002",
+    "stock": 1,
+    "packages": "Corporate Events",
+    "price": 5000
+  },
+  {
+    "id": "d15",
+    "category": "Decorators & Florists",
+    "title": "Dreamscape Decor",
+    "address": "404 Celebration Street, Event City, Chennai, 600002",
+    "stock": 1,
+    "packages": "Birthday Parties",
+    "price": 4000
+  },
+  {
+    "id": "d16",
+    "category": "Decorators & Florists",
+    "title": "Dreamscape Decor",
+    "address": "404 Celebration Street, Event City, Chennai, 600002",
+    "stock": 1,
+    "packages": "Anniversaries",
+    "price": 4000
+  },
+  {
+    "id": "d17",
+    "category": "Decorators & Florists",
+    "title": "Elegant Touch",
+    "address": "505 Gala Avenue, Festival Town, Kolkata, 700002",
+    "stock": 1,
+    "packages": "Weddings",
+    "price": 5800
+  },
+  {
+    "id": "d18",
+    "category": "Decorators & Florists",
+    "title": "Elegant Touch",
+    "address": "505 Gala Avenue, Festival Town, Kolkata, 700002",
+    "stock": 1,
+    "packages": "Corporate Events",
+    "price": 4800
+  },
+  {
+    "id": "d19",
+    "category": "Decorators & Florists",
+    "title": "Elegant Touch",
+    "address": "505 Gala Avenue, Festival Town, Kolkata, 700002",
+    "stock": 1,
+    "packages": "Birthday Parties",
+    "price": 3000
+  },
+  {
+    "id": "d20",
+    "category": "Decorators & Florists",
+    "title": "Elegant Touch",
+    "address": "505 Gala Avenue, Festival Town, Kolkata, 700002",
+    "stock": 1,
+    "packages": "Anniversaries",
+    "price": 4300
+  },
+  {
+    "id": "d21",
+    "category": "Decorators & Florists",
+    "title": "Heavenly Decor",
+    "address": "606 Paradise Street, Celebration City, Hyderabad, 500002",
+    "stock": 1,
+    "packages": "Weddings",
+    "price": 6200
+  },
+  {
+    "id": "d22",
+    "category": "Decorators & Florists",
+    "title": "Heavenly Decor",
+    "address": "606 Paradise Street, Celebration City, Hyderabad, 500002",
+    "stock": 1,
+    "packages": "Corporate Events",
+    "price": 5000
+  },
+  {
+    "id": "d23",
+    "category": "Decorators & Florists",
+    "title": "Heavenly Decor",
+    "address": "606 Paradise Street, Celebration City, Hyderabad, 500002",
+    "stock": 1,
+    "packages": "Birthday Parties",
+    "price": 4200
+  },
+  {
+    "id": "d24",
+    "category": "Decorators & Florists",
+    "title": "Heavenly Decor",
+    "address": "606 Paradise Street, Celebration City, Hyderabad, 500002",
+    "stock": 1,
+    "packages": "Anniversaries",
+    "price": 4700
+  },
+  {
+    "id": "d25",
+    "category": "Decorators & Florists",
+    "title": "Celebration Central",
+    "address": "707 Party Lane, Joy Town, Pune, 411002",
+    "stock": 1,
+    "packages": "Weddings",
+    "price": 5400
+  },
+  {
+    "id": "d26",
+    "category": "Decorators & Florists",
+    "title": "Celebration Central",
+    "address": "707 Party Lane, Joy Town, Pune, 411002",
+    "stock": 1,
+    "packages": "Corporate Events",
+    "price": 4400
+  },
+  {
+    "id": "d27",
+    "category": "Decorators & Florists",
+    "title": "Celebration Central",
+    "address": "707 Party Lane, Joy Town, Pune, 411002",
+    "stock": 1,
+    "packages": "Birthday Parties",
+    "price": 3400
+  },
+  {
+    "id": "d28",
+    "category": "Decorators & Florists",
+    "title": "Celebration Central",
+    "address": "707 Party Lane, Joy Town, Pune, 411002",
+    "stock": 1,
+    "packages": "Anniversaries",
+    "price": 3900
+  },
+  {
+    "id": "d29",
+    "category": "Decorators & Florists",
+    "title": "Event Elegance",
+    "address": "808 Gala Boulevard, Festive Town, Jaipur, 302002",
+    "stock": 1,
+    "packages": "Weddings",
+    "price": 5700
+  },
+  {
+    "id": "d30",
+    "category": "Decorators & Florists",
+    "title": "Event Elegance",
+    "address": "808 Gala Boulevard, Festive Town, Jaipur, 302002",
+    "stock": 1,
+    "packages": "Corporate Events",
+    "price": 4700
+  },
+  {
+    "id": "d31",
+    "category": "Decorators & Florists",
+    "title": "Event Elegance",
+    "address": "808 Gala Boulevard, Festive Town, Jaipur, 302002",
+    "stock": 1,
+    "packages": "Birthday Parties",
+    "price": 3700
+  },
+  {
+    "id": "d32",
+    "category": "Decorators & Florists",
+    "title": "Event Elegance",
+    "address": "808 Gala Boulevard, Festive Town, Jaipur, 302002",
+    "stock": 1,
+    "packages": "Anniversaries",
+    "price": 4200
+  },
+  {
+    "id": "m1",
+    "category": "Bridal Makeup & Hair",
+    "title": "Glamour Glow",
+    "address": "101 Beauty Avenue, Radiance City, Delhi, 110003",
+    "stock": 1,
+    "packages": "Bridal Makeup",
+    "price": 5700
+  },
+  {
+    "id": "m2",
+    "category": "Bridal Makeup & Hair",
+    "title": "Glamour Glow",
+    "address": "101 Beauty Avenue, Radiance City, Delhi, 110003",
+    "stock": 1,
+    "packages": "Party Makeup",
+    "price": 4700
+  },
+  {
+    "id": "m3",
+    "category": "Bridal Makeup & Hair",
+    "title": "Glamour Glow",
+    "address": "101 Beauty Avenue, Radiance City, Delhi, 110003",
+    "stock": 1,
+    "packages": "Hair Styling",
+    "price": 3700
+  },
+  {
+    "id": "m4",
+    "category": "Bridal Makeup & Hair",
+    "title": "Glamour Glow",
+    "address": "101 Beauty Avenue, Radiance City, Delhi, 110003",
+    "stock": 1,
+    "packages": "Bridal Packages",
+    "price": 4200
+  },
+  {
+    "id": "m5",
+    "category": "Bridal Makeup & Hair",
+    "title": "Beauty Bliss",
+    "address": "202 Radiant Road, Glam Town, Mumbai, 400003",
+    "stock": 1,
+    "packages": "Engagement Makeup",
+    "price": 5700
+  },
+  {
+    "id": "m6",
+    "category": "Bridal Makeup & Hair",
+    "title": "Reception Makeup",
+    "address": "202 Radiant Road, Glam Town, Mumbai, 400003",
+    "stock": 1,
+    "packages": "Party Makeup",
+    "price": 4700
+  },
+  {
+    "id": "m7",
+    "category": "Bridal Makeup & Hair",
+    "title": "Beauty Bliss",
+    "address": "202 Radiant Road, Glam Town, Mumbai, 400003",
+    "stock": 1,
+    "packages": "Hair Coloring",
+    "price": 3700
+  },
+  {
+    "id": "m8",
+    "category": "Bridal Makeup & Hair",
+    "title": "Beauty Bliss",
+    "address": "202 Radiant Road, Glam Town, Mumbai, 400003",
+    "stock": 1,
+    "packages": "Saree Draping",
+    "price": 4200
+  },
+  {
+    "id": "m9",
+    "category": "Bridal Makeup & Hair",
+    "title": "Radiant Reflections",
+    "address": "303 Shine Lane, Beauty Hub, Bangalore, 560003",
+    "stock": 1,
+    "packages": "Bridal Makeup",
+    "price": 5700
+  },
+  {
+    "id": "m10",
+    "category": "Bridal Makeup & Hair",
+    "title": "Radiant Reflections",
+    "address": "303 Shine Lane, Beauty Hub, Bangalore, 560003",
+    "stock": 1,
+    "packages": "Cocktail Party Makeup",
+    "price": 4700
+  },
+  {
+    "id": "m11",
+    "category": "Bridal Makeup & Hair",
+    "title": "Radiant Reflections",
+    "address": "303 Shine Lane, Beauty Hub, Bangalore, 560003",
+    "stock": 1,
+    "packages": "Mehndi Ceremony Makeup",
+    "price": 3700
+  },
+  {
+    "id": "m12",
+    "category": "Bridal Makeup & Hair",
+    "title": "Radiant Reflections",
+    "address": "303 Shine Lane, Beauty Hub, Bangalore, 560003",
+    "stock": 1,
+    "packages": "Hair Extensions",
+    "price": 4200
   }
 ]

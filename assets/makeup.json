@@ -16,24 +16,12 @@
       "Hair Styling",
       "Bridal Packages"
     ],
-    "types": [
-      {
-        "type": "Bridal Makeup",
-        "price": "₹15,000"
-      },
-      {
-        "type": "Party Makeup",
-        "price": "₹8,000"
-      },
-      {
-        "type": "Hair Styling",
-        "price": "₹5,000"
-      },
-      {
-        "type": "Pre-Wedding Shoot Makeup",
-        "price": "₹10,000"
-      }
-    ]
+    "packages": {
+      "Bridal Makeup": "₹15,000",
+      "Party Makeup": "₹8,000",
+      "Hair Styling": "₹5,000",
+      "Pre-Wedding Shoot Makeup": "₹10,000"
+    }
   },
   {
     "id": "makeup2",
@@ -52,24 +40,12 @@
       "Hair Styling",
       "Bridal Packages"
     ],
-    "types": [
-      {
-        "type": "Engagement Makeup",
-        "price": "₹14,000"
-      },
-      {
-        "type": "Reception Makeup",
-        "price": "₹12,000"
-      },
-      {
-        "type": "Hair Coloring",
-        "price": "₹7,000"
-      },
-      {
-        "type": "Saree Draping",
-        "price": "₹4,000"
-      }
-    ]
+    "packages": {
+      "Engagement Makeup": "₹15,000",
+      "Reception Makeup": "₹8,000",
+      "Hair Coloring": "₹5,000",
+      "Saree Draping": "₹10,000"
+    }
   },
   {
     "id": "makeup3",
@@ -88,24 +64,12 @@
       "Hair Styling",
       "Bridal Packages"
     ],
-    "types": [
-      {
-        "type": "Bridal Makeup",
-        "price": "₹16,000"
-      },
-      {
-        "type": "Cocktail Party Makeup",
-        "price": "₹10,000"
-      },
-      {
-        "type": "Mehndi Ceremony Makeup",
-        "price": "₹9,000"
-      },
-      {
-        "type": "Hair Extensions",
-        "price": "₹6,000"
-      }
-    ]
+    "packages": {
+      "Bridal Makeup": "₹15,000",
+      "Cocktail Party Makeup": "₹8,000",
+      "Mehndi Ceremony Makeup": "₹5,000",
+      "Hair Extensions": "₹10,000"
+    }
   },
   {
     "id": "makeup4",
@@ -124,24 +88,12 @@
       "Hair Styling",
       "Bridal Packages"
     ],
-    "types": [
-      {
-        "type": "Bridal Makeup",
-        "price": "₹17,000"
-      },
-      {
-        "type": "Bridesmaid Makeup",
-        "price": "₹7,000"
-      },
-      {
-        "type": "Hair Spa",
-        "price": "₹5,000"
-      },
-      {
-        "type": "Nail Art",
-        "price": "₹3,000"
-      }
-    ]
+    "packages": {
+      "Bridal Makeup": "₹15,000",
+      "Bridesmaid Makeup": "₹8,000",
+      "Hair Spa": "₹5,000",
+      "Nail Art": "₹2,000"
+    }
   },
   {
     "id": "makeup5",
@@ -160,24 +112,12 @@
       "Hair Styling",
       "Bridal Packages"
     ],
-    "types": [
-      {
-        "type": "Bridal Makeup",
-        "price": "₹19,000"
-      },
-      {
-        "type": "Reception Makeup",
-        "price": "₹13,000"
-      },
-      {
-        "type": "Hair Smoothing",
-        "price": "₹8,000"
-      },
-      {
-        "type": "Facials",
-        "price": "₹4,500"
-      }
-    ]
+    "packages": {
+      "Bridal Makeup": "₹15,000",
+      "Reception Makeup": "₹8,000",
+      "Hair Smoothing": "₹5,000",
+      "Facials": "₹4,500"
+    }
   },
   {
     "id": "makeup6",
@@ -196,24 +136,12 @@
       "Hair Styling",
       "Bridal Packages"
     ],
-    "types": [
-      {
-        "type": "Bridal Makeup",
-        "price": "₹20,000"
-      },
-      {
-        "type": "Engagement Makeup",
-        "price": "₹11,000"
-      },
-      {
-        "type": "Hair Highlights",
-        "price": "₹9,000"
-      },
-      {
-        "type": "Waxing",
-        "price": "₹3,500"
-      }
-    ]
+    "packages": {
+      "Bridal Makeup": "₹15,000",
+      "Engagement Makeup": "₹8,000",
+      "Hair Highlights": "₹5,000",
+      "Waxing": "₹4,500"
+    }
   },
   {
     "id": "makeup7",
@@ -232,24 +160,12 @@
       "Hair Styling",
       "Bridal Packages"
     ],
-    "types": [
-      {
-        "type": "Bridal Makeup",
-        "price": "₹18,000"
-      },
-      {
-        "type": "Sangeet Makeup",
-        "price": "₹10,000"
-      },
-      {
-        "type": "Hair Cut",
-        "price": "₹4,000"
-      },
-      {
-        "type": "Manicure",
-        "price": "₹2,500"
-      }
-    ]
+    "packages": {
+      "Bridal Makeup": "₹15,000",
+      "Sangeet Makeup": "₹8,000",
+      "Hair Cut": "₹5,000",
+      "Manicure": "₹4,500"
+    }
   },
   {
     "id": "makeup8",
@@ -268,23 +184,11 @@
       "Hair Styling",
       "Bridal Packages"
     ],
-    "types": [
-      {
-        "type": "Bridal Makeup",
-        "price": "₹21,000"
-      },
-      {
-        "type": "Pre-Wedding Shoot Makeup",
-        "price": "₹12,000"
-      },
-      {
-        "type": "Hair Treatments",
-        "price": "₹8,500"
-      },
-      {
-        "type": "Pedicure",
-        "price": "₹3,000"
-      }
-    ]
+    "packages": {
+      "Bridal Makeup": "₹15,000",
+      "Pre-Wedding Shoot Makeup": "₹8,000",
+      "Hair Treatments": "₹5,000",
+      "Pedicure": "₹4,500"
+    }
   }
 ]
