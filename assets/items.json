@@ -1714,5 +1714,140 @@
     "stock": 6,
     "packages": "Peach Cobbler Cake",
     "price": 1400
+  },
+  {
+    "id": "e1",
+    "category": "Entertainment",
+    "title": "Groove Beats Entertainment",
+    "address": "34 Dance Avenue, Beat City, Mumbai, 400006",
+    "stock": 1,
+    "packages": "DJ Services",
+    "price": 28000
+  },
+  {
+    "id": "e2",
+    "category": "Entertainment",
+    "title": "Groove Beats Entertainment",
+    "address": "34 Dance Avenue, Beat City, Mumbai, 400006",
+    "stock": 1,
+    "packages": "Group Dance Performance",
+    "price": 28000
+  },
+  {
+    "id": "e3",
+    "category": "Entertainment",
+    "title": "Groove Beats Entertainment",
+    "address": "34 Dance Avenue, Beat City, Mumbai, 400006",
+    "stock": 1,
+    "packages": "Sound System Rental with Operator",
+    "price": 15000
+  },
+  {
+    "id": "e4",
+    "category": "Entertainment",
+    "title": "Rhythm Masters",
+    "address": "56 Music Lane, Dance Hub, Bangalore, 560006",
+    "stock": 1,
+    "packages": "Classical Dance Performance",
+    "price": 25000
+  },
+  {
+    "id": "e5",
+    "category": "Entertainment",
+    "title": "Rhythm Masters",
+    "address": "56 Music Lane, Dance Hub, Bangalore, 560006",
+    "stock": 1,
+    "packages": "Sound System Rental (Full Setup)",
+    "price": 20000
+  },
+  {
+    "id": "e6",
+    "category": "Entertainment",
+    "title": "Rhythm Masters",
+    "address": "56 Music Lane, Dance Hub, Bangalore, 560006",
+    "stock": 1,
+    "packages": "Choreography for Wedding Dance",
+    "price": 28000
+  },
+  {
+    "id": "e7",
+    "category": "Entertainment",
+    "title": "Soulful Melodies",
+    "address": "78 Melody Lane, Harmony City, Chennai, 600006",
+    "stock": 1,
+    "packages": "Contemporary Dance Performance",
+    "price": 28000
+  },
+  {
+    "id": "e8",
+    "category": "Entertainment",
+    "title": "Soulful Melodies",
+    "address": "78 Melody Lane, Harmony City, Chennai, 600006",
+    "stock": 1,
+    "packages": "Sound System Rental (Premium Setup)",
+    "price": 25000
+  },
+  {
+    "id": "e9",
+    "category": "Entertainment",
+    "title": "Dynamic Beats Entertainment",
+    "address": "90 Beats Avenue, Dance Pulse, Kolkata, 700006",
+    "stock": 1,
+    "packages": "Sound System Rental (Full Event Coverage)",
+    "price": 28000
+  },
+  {
+    "id": "e10",
+    "category": "Entertainment",
+    "title": "Melody Masters",
+    "address": "123 Melodic Street, Harmonious City, Jaipur, 302006",
+    "stock": 1,
+    "packages": "Folk Dance Performance",
+    "price": 28000
+  },
+  {
+    "id": "e11",
+    "category": "Entertainment",
+    "title": "Melody Masters",
+    "address": "123 Melodic Street, Harmonious City, Jaipur, 302006",
+    "stock": 1,
+    "packages": "Sound System Rental (Premium Setup with DJ)",
+    "price": 28000
+  },
+  {
+    "id": "e12",
+    "category": "Entertainment",
+    "title": "Celestial Sounds",
+    "address": "456 Celestial Avenue, Music Haven, Hyderabad, 500006",
+    "stock": 1,
+    "packages": "Kathak Dance Performance",
+    "price": 28000
+  },
+  {
+    "id": "e13",
+    "category": "Entertainment",
+    "title": "Celestial Sounds",
+    "address": "456 Celestial Avenue, Music Haven, Hyderabad, 500006",
+    "stock": 1,
+    "packages": "Sound System Rental (Full Event Setup with Lighting)",
+    "price": 28000
+  },
+  {
+    "id": "e14",
+    "category": "Entertainment",
+    "title": "Vibrant Beats Entertainment",
+    "address": "789 Beats Boulevard, Dance Fusion City, Pune, 411006",
+    "stock": 1,
+    "packages": "Hip-Hop Dance Performance",
+    "price": 28000
+  },
+  {
+    "id": "e15",
+    "category": "Entertainment",
+    "title": "Vibrant Beats Entertainment",
+    "address": "789 Beats Boulevard, Dance Fusion City, Pune, 411006",
+    "stock": 1,
+    "packages": "Sound System Rental (Full Coverage with DJ and Effects)",
+    "price": 28000
   }
 ]

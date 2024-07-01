@@ -1,4 +1,4 @@
-v,f,p,d,m,ma,c,i
+v,f,p,d,m,ma,c,i,e
 * Venue, Hotels & Banquet Halls (venue)
 -> id(venue#), img, title ,about ,address ,email ,contact,star, review, viewmore,specifications 
 [ overview (seating, timings, since, roomsavailable, avgprice, cancellation) ]

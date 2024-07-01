@@ -16,24 +16,12 @@
       "Special Effects Lighting",
       "Installation and Setup"
     ],
-    "types": [
-      {
-        "type": "LED Uplighting",
-        "price": "₹20,000 per event"
-      },
-      {
-        "type": "String Lights",
-        "price": "₹15,000 per event"
-      },
-      {
-        "type": "Spotlights and Floodlights",
-        "price": "₹25,000 per event"
-      },
-      {
-        "type": "Gobo Lighting",
-        "price": "₹30,000 per event"
-      }
-    ]
+    "packages": {
+      "LED Uplighting": "₹20,000 per event",
+      "String Lights": "₹15,000 per event",
+      "Spotlights and Floodlights": "₹25,000 per event",
+      "Gobo Lighting":  "₹30,000 per event"
+    }
   },
   {
     "id": "lightings2",
