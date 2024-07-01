@@ -10,7 +10,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 const getData = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/invitation", { cache: "no-store" });
+    const res = await fetch("http://localhost:3000/api/stalls", { cache: "no-store" });
     if (!res.ok) {
       return null;
     }
@@ -21,31 +21,31 @@ const getData = async () => {
   }
 };
 
-const SingleInvitation = () => {
+const SingleStalls = () => {
   const { addItemToCart } = useContext(CartContext);
   const pathname = usePathname();
-  const invitationName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
+  const stallsName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
 
-  const [invitationData, setinvitationData] = useState([]);
-  const [invitationItems, setinvitationItems] = useState([]);
+  const [stallsData, setstallsData] = useState([]);
+  const [stallsItems, setstallsItems] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await getData();
       if (!data) return notFound();
 
-      const filteredInvitation = data.invitation.filter(v => v.title === invitationName);
-      setinvitationData(filteredInvitation);
+      const filteredStalls = data.stalls.filter(v => v.title === stallsName);
+      setstallsData(filteredStalls);
 
-      const filteredinvitationItems = data.items.filter(item => item.title === invitationName);
-      setinvitationItems(filteredinvitationItems);
+      const filteredstallsItems = data.items.filter(item => item.title === stallsName);
+      setstallsItems(filteredstallsItems);
     };
 
     fetchData();
-  }, [invitationName]);
+  }, [stallsName]);
 
-  if (invitationData.length === 0) {
-    return <div className="text-[#321E1E] text-center text-2xl m-12">Invitations & Gifts not found</div>;
+  if (stallsData.length === 0) {
+    return <div className="text-[#321E1E] text-center text-2xl m-12">Decorators & Florists not found</div>;
   }
 
   const addToCartHandler = (product) => {
@@ -65,13 +65,13 @@ const SingleInvitation = () => {
   return (
     <>
       <Toaster />
-      <Link href="/dashboard/createEvent/add/invitation" passHref>
+      <Link href="/dashboard/createEvent/add/stalls" passHref>
         <div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'>
           <MdOutlineArrowBackIosNew />
         </div>
       </Link>
       <form className='flex items-center justify-center flex-col m-8 gap-8'>
-        {invitationData.map((v) => (
+        {stallsData.map((v) => (
           <React.Fragment key={v.id}>
             <div className="top flex items-center justify-start flex-row gap-8 bg-[#321E1E] p-8 text-white rounded-lg">
               <div className="left rounded-lg">
@@ -124,7 +124,7 @@ const SingleInvitation = () => {
 
 
             <div className="bg-[#321E1E] rounded-lg p-8 flex flex-col gap-3 w-full text-white">
-              <p className='text-[#d4af37] font-bold text-lg'>Book Your Choice</p>
+              <p className='text-[#d4af37] font-bold text-lg'>Book Your Choice - we take a caution deposit and charge based on sales</p>
               <div className="">
                 <div className="flex flex-row gap-3">
                   <table className='table-fixed w-full text-left'>
@@ -134,7 +134,7 @@ const SingleInvitation = () => {
                         <th className='p-2'>Price</th>
                       </tr>
                     </thead>
-                    {invitationItems.map((vi) => {
+                    {stallsItems.map((vi) => {
                       const inStock = vi.stock >= 1;
                       return (
                         <tbody key={vi.id}>
@@ -166,4 +166,4 @@ const SingleInvitation = () => {
   );
 };
 
-export default SingleInvitation;
+export default SingleStalls;

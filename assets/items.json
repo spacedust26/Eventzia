@@ -2146,5 +2146,284 @@
     "stock": 1,
     "packages": "LED Uplighting",
     "price": 20000
+  },
+  {
+    "id": "s1",
+    "category": "Stalls & Exhibition",
+    "title": "Creative Crafts Expo",
+    "address": "123 Artisan Avenue, Craft City, Delhi, 110008",
+    "stock": 1,
+    "packages": "Handcrafted Jewelry",
+    "price": 5000
+  },
+  {
+    "id": "s2",
+    "category": "Stalls & Exhibition",
+    "title": "Creative Crafts Expo",
+    "address": "123 Artisan Avenue, Craft City, Delhi, 110008",
+    "stock": 1,
+    "packages": "Art Prints and Paintings",
+    "price": 5000
+  },
+  {
+    "id": "s3",
+    "category": "Stalls & Exhibition",
+    "title": "Creative Crafts Expo",
+    "address": "123 Artisan Avenue, Craft City, Delhi, 110008",
+    "stock": 1,
+    "packages": "Handwoven Textiles",
+    "price": 5000
+  },
+  {
+    "id": "s4",
+    "category": "Stalls & Exhibition",
+    "title": "Creative Crafts Expo",
+    "address": "123 Artisan Avenue, Craft City, Delhi, 110008",
+    "stock": 1,
+    "packages": "Wooden Handicrafts",
+    "price": 5000
+  },
+  {
+    "id": "s5",
+    "category": "Stalls & Exhibition",
+    "title": "Mehendi Art Stall",
+    "address": "567 Henna Lane, Mehendi Bazaar, Bangalore, 560009",
+    "stock": 1,
+    "packages": "Bridal Mehendi",
+    "price": 2000
+  },
+  {
+    "id": "s6",
+    "category": "Stalls & Exhibition",
+    "title": "Mehendi Art Stall",
+    "address": "567 Henna Lane, Mehendi Bazaar, Bangalore, 560009",
+    "stock": 1,
+    "packages": "Guest Mehendi",
+    "price": 500
+  },
+  {
+    "id": "s7",
+    "category": "Stalls & Exhibition",
+    "title": "Mehendi Art Stall",
+    "address": "567 Henna Lane, Mehendi Bazaar, Bangalore, 560009",
+    "stock": 1,
+    "packages": "Custom Designs",
+    "price": 1000
+  },
+  {
+    "id": "s8",
+    "category": "Stalls & Exhibition",
+    "title": "Fashion Fiesta",
+    "address": "56 Style Avenue, Fashion District, Bangalore, 560008",
+    "stock": 1,
+    "packages": "Women's Apparel",
+    "price": 3000
+  },
+  {
+    "id": "s9",
+    "category": "Stalls & Exhibition",
+    "title": "Fashion Fiesta",
+    "address": "56 Style Avenue, Fashion District, Bangalore, 560008",
+    "stock": 1,
+    "packages": "Men's Fashion",
+    "price": 3000
+  },
+  {
+    "id": "s10",
+    "category": "Stalls & Exhibition",
+    "title": "Fashion Fiesta",
+    "address": "56 Style Avenue, Fashion District, Bangalore, 560008",
+    "stock": 1,
+    "packages": "Footwear and Accessories",
+    "price": 3000
+  },
+  {
+    "id": "s11",
+    "category": "Stalls & Exhibition",
+    "title": "Fashion Fiesta",
+    "address": "56 Style Avenue, Fashion District, Bangalore, 560008",
+    "stock": 1,
+    "packages": "Designer Wear",
+    "price": 3000
+  },
+  {
+    "id": "s12",
+    "category": "Stalls & Exhibition",
+    "title": "Culinary Delights",
+    "address": "78 Taste Boulevard, Foodie Lane, Chennai, 600008",
+    "stock": 1,
+    "packages": "Street Food Specialties",
+    "price": 2000
+  },
+  {
+    "id": "s13",
+    "category": "Stalls & Exhibition",
+    "title": "Culinary Delights",
+    "address": "78 Taste Boulevard, Foodie Lane, Chennai, 600008",
+    "stock": 1,
+    "packages": "International Cuisine",
+    "price": 2000
+  },
+  {
+    "id": "s14",
+    "category": "Stalls & Exhibition",
+    "title": "Culinary Delights",
+    "address": "78 Taste Boulevard, Foodie Lane, Chennai, 600008",
+    "stock": 1,
+    "packages": "Desserts and Beverages",
+    "price": 2000
+  },
+  {
+    "id": "s15",
+    "category": "Stalls & Exhibition",
+    "title": "Culinary Delights",
+    "address": "78 Taste Boulevard, Foodie Lane, Chennai, 600008",
+    "stock": 1,
+    "packages": "Specialty Snacks",
+    "price": 2000
+  },
+  {
+    "id": "s16",
+    "category": "Stalls & Exhibition",
+    "title": "Artisanal Food Market",
+    "address": "90 Gourmet Street, Flavor City, Kolkata, 700008",
+    "stock": 1,
+    "packages": "Handcrafted Chocolates",
+    "price": 1500
+  },
+  {
+    "id": "s17",
+    "category": "Stalls & Exhibition",
+    "title": "Artisanal Food Market",
+    "address": "90 Gourmet Street, Flavor City, Kolkata, 700008",
+    "stock": 1,
+    "packages": "Organic Farm Produce",
+    "price": 1500
+  },
+  {
+    "id": "s18",
+    "category": "Stalls & Exhibition",
+    "title": "Artisanal Food Market",
+    "address": "90 Gourmet Street, Flavor City, Kolkata, 700008",
+    "stock": 1,
+    "packages": "Artisanal Baked Goods",
+    "price": 1500
+  },
+  {
+    "id": "s19",
+    "category": "Stalls & Exhibition",
+    "title": "Artisanal Food Market",
+    "address": "90 Gourmet Street, Flavor City, Kolkata, 700008",
+    "stock": 1,
+    "packages": "Specialty Beverages",
+    "price": 1500
+  },
+  {
+    "id": "s20",
+    "category": "Stalls & Exhibition",
+    "title": "Home Decor Showcase",
+    "address": "123 Design Lane, Decor Plaza, Hyderabad, 500008",
+    "stock": 1,
+    "packages": "Furniture and Furnishings",
+    "price": 7000
+  },
+  {
+    "id": "s21",
+    "category": "Stalls & Exhibition",
+    "title": "Home Decor Showcase",
+    "address": "123 Design Lane, Decor Plaza, Hyderabad, 500008",
+    "stock": 1,
+    "packages": "Home Accessories",
+    "price": 7000
+  },
+  {
+    "id": "s22",
+    "category": "Stalls & Exhibition",
+    "title": "Home Decor Showcase",
+    "address": "123 Design Lane, Decor Plaza, Hyderabad, 500008",
+    "stock": 1,
+    "packages": "Wall Art and Mirrors",
+    "price": 7000
+  },
+  {
+    "id": "s23",
+    "category": "Stalls & Exhibition",
+    "title": "Home Decor Showcase",
+    "address": "123 Design Lane, Decor Plaza, Hyderabad, 500008",
+    "stock": 1,
+    "packages": "Lighting Fixtures",
+    "price": 7000
+  },
+  {
+    "id": "s24",
+    "category": "Stalls & Exhibition",
+    "title": "Health and Wellness Pavilion",
+    "address": "456 Wellness Avenue, Wellness Hub, Pune, 411008",
+    "stock": 1,
+    "packages": "Organic Skincare",
+    "price": 3000
+  },
+  {
+    "id": "s25",
+    "category": "Stalls & Exhibition",
+    "title": "Health and Wellness Pavilion",
+    "address": "456 Wellness Avenue, Wellness Hub, Pune, 411008",
+    "stock": 1,
+    "packages": "Fitness Gear",
+    "price": 3000
+  },
+  {
+    "id": "s26",
+    "category": "Stalls & Exhibition",
+    "title": "Health and Wellness Pavilion",
+    "address": "456 Wellness Avenue, Wellness Hub, Pune, 411008",
+    "stock": 1,
+    "packages": "Nutritional Supplements",
+    "price": 3000
+  },
+  {
+    "id": "s27",
+    "category": "Stalls & Exhibition",
+    "title": "Health and Wellness Pavilion",
+    "address": "456 Wellness Avenue, Wellness Hub, Pune, 411008",
+    "stock": 1,
+    "packages": "Wellness Services",
+    "price": 3000
+  },
+  {
+    "id": "s28",
+    "category": "Stalls & Exhibition",
+    "title": "Health and Wellness Pavilion",
+    "address": "456 Wellness Avenue, Wellness Hub, Pune, 411008",
+    "stock": 1,
+    "packages": "Health Consultations",
+    "price": 3000
+  },
+  {
+    "id": "s29",
+    "category": "Stalls & Exhibition",
+    "title": "Speed Caricature Art",
+    "address": "234 Art Lane, Creative Corner, Mumbai, 400009",
+    "stock": 1,
+    "packages": "Black and White Caricatures",
+    "price": 500
+  },
+  {
+    "id": "s30",
+    "category": "Stalls & Exhibition",
+    "title": "Speed Caricature Art",
+    "address": "234 Art Lane, Creative Corner, Mumbai, 400009",
+    "stock": 1,
+    "packages": "Color Caricatures",
+    "price": 800
+  },
+  {
+    "id": "s31",
+    "category": "Stalls & Exhibition",
+    "title": "Speed Caricature Art",
+    "address": "234 Art Lane, Creative Corner, Mumbai, 400009",
+    "stock": 1,
+    "packages": "Group Caricatures",
+    "price": 1500
   }
 ]

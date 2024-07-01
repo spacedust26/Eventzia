@@ -16,24 +16,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Handcrafted Jewelry",
-        "price": "Varies by product"
-      },
-      {
-        "type": "Art Prints and Paintings",
-        "price": "Varies by artwork"
-      },
-      {
-        "type": "Handwoven Textiles",
-        "price": "Varies by fabric"
-      },
-      {
-        "type": "Wooden Handicrafts",
-        "price": "Varies by item"
-      }
-    ]
+    "packages": {
+      "Handcrafted Jewelry": "Varies by product",
+      "Art Prints and Paintings": "Varies by artwork",
+      "Handwoven Textiles": "Varies by artwork",
+      "Wooden Handicrafts": "Varies by artwork"
+    }
   },
   {
     "id": "stalls2",
@@ -51,20 +39,11 @@
       "Traditional and Contemporary Styles",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Bridal Mehendi",
-        "price": "₹2,000 and up"
-      },
-      {
-        "type": "Guest Mehendi",
-        "price": "₹500 per hand"
-      },
-      {
-        "type": "Custom Designs",
-        "price": "Prices vary by complexity"
-      }
-    ]
+    "packages": {
+      "Bridal Mehendi": "₹2,000 and up",
+      "Guest Mehendi": "₹500 per hand",
+      "Custom Designs": "Prices vary by complexity"
+    }
   },
   {
     "id": "stalls3",
@@ -83,24 +62,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Women's Apparel",
-        "price": "Varies by item"
-      },
-      {
-        "type": "Men's Fashion",
-        "price": "Varies by product"
-      },
-      {
-        "type": "Footwear and Accessories",
-        "price": "Varies by item"
-      },
-      {
-        "type": "Designer Wear",
-        "price": "Varies by collection"
-      }
-    ]
+    "packages": {
+      "Women's Apparel": "Varies by item",
+      "Men's Fashion": "Varies by product",
+      "Footwear and Accessories": "Varies by item",
+      "Designer Wear": "Varies by collection"
+    }
   },
   {
     "id": "stalls4",
@@ -119,24 +86,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Street Food Specialties",
-        "price": "Varies by dish"
-      },
-      {
-        "type": "International Cuisine",
-        "price": "Varies by dish"
-      },
-      {
-        "type": "Desserts and Beverages",
-        "price": "Varies by item"
-      },
-      {
-        "type": "Specialty Snacks",
-        "price": "Varies by item"
-      }
-    ]
+    "packages": {
+      "Street Food Specialties": "Varies by dish",
+      "International Cuisine": "Varies by dish",
+      "Desserts and Beverages": "Varies by item",
+      "Specialty Snacks": "Varies by item"
+    }
   },
   {
     "id": "stalls5",
@@ -155,24 +110,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Handcrafted Chocolates",
-        "price": "Varies by assortment"
-      },
-      {
-        "type": "Organic Farm Produce",
-        "price": "Varies by item"
-      },
-      {
-        "type": "Artisanal Baked Goods",
-        "price": "Varies by selection"
-      },
-      {
-        "type": "Specialty Beverages",
-        "price": "Varies by drink"
-      }
-    ]
+    "packages": {
+      "Handcrafted Chocolates": "Varies by assortment",
+      "Organic Farm Produce": "Varies by item",
+      "Artisanal Baked Goods": "Varies by selection",
+      "Specialty Beverages": "Varies by drink"
+    }
   },
   {
     "id": "stalls6",
@@ -191,24 +134,12 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Furniture and Furnishings",
-        "price": "Varies by piece"
-      },
-      {
-        "type": "Home Accessories",
-        "price": "Varies by item"
-      },
-      {
-        "type": "Wall Art and Mirrors",
-        "price": "Varies by artwork"
-      },
-      {
-        "type": "Lighting Fixtures",
-        "price": "Varies by fixture"
-      }
-    ]
+    "packages": {
+      "Furniture and Furnishings": "Varies by piece",
+      "Home Accessories": "Varies by item",
+      "Wall Art and Mirrors": "Varies by artwork",
+      "Lighting Fixtures": "Varies by fixture"
+    }
   },
   {
     "id": "stalls7",
@@ -227,28 +158,13 @@
       "Electricity Connections",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Organic Skincare",
-        "price": "Varies by product"
-      },
-      {
-        "type": "Fitness Gear",
-        "price": "Varies by equipment"
-      },
-      {
-        "type": "Nutritional Supplements",
-        "price": "Varies by supplement"
-      },
-      {
-        "type": "Wellness Services",
-        "price": "Varies by service"
-      },
-      {
-        "type": "Health Consultations",
-        "price": "Varies by consultation"
-      }
-    ]
+    "packages": {
+      "Organic Skincare": "Varies by product",
+      "Fitness Gear": "Varies by equipment",
+      "Nutritional Supplements": "Varies by supplement",
+      "Wellness Services": "Varies by service",
+      "Health Consultations": "Varies by consultation"
+    }
   },
   {
     "id": "stalls8",
@@ -266,19 +182,10 @@
       "Interactive Drawing Sessions",
       "Setup Assistance"
     ],
-    "types": [
-      {
-        "type": "Black and White Caricatures",
-        "price": "₹500 per caricature"
-      },
-      {
-        "type": "Color Caricatures",
-        "price": "₹800 per caricature"
-      },
-      {
-        "type": "Group Caricatures",
-        "price": "Prices vary by group size"
-      }
-    ]
+    "packages": {
+      "Black and White Caricatures": "₹500 per caricature",
+      "Color Caricatures": "₹800 per caricature",
+      "Group Caricatures": "Prices vary by group size"
+    }
   }
 ]
