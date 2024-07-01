@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useContext, useEffect, useState } from 'react';
 import Image from 'next/image';
 import { notFound, usePathname } from 'next/navigation';
@@ -6,6 +6,7 @@ import Star from '@/components/dashboard/Star';
 import Link from 'next/link';
 import { MdOutlineArrowBackIosNew } from 'react-icons/md';
 import { CartContext } from '@/app/lib/CartContext';
+import toast, { Toaster } from 'react-hot-toast';
 
 const getData = async () => {
   try {
@@ -21,7 +22,6 @@ const getData = async () => {
 };
 
 const SingleDecor = () => {
-  const notify = () => toast("Booking successful");
   const { addItemToCart } = useContext(CartContext);
   const pathname = usePathname();
   const decorName = decodeURIComponent(pathname.split("/").pop().replaceAll("_", " "));
@@ -59,10 +59,12 @@ const SingleDecor = () => {
       package: product.package,
       quantity: 1
     });
+    toast.success("Booking successful");
   };
 
   return (
     <>
+      <Toaster />
       <Link href="/dashboard/createEvent/add/venue" passHref>
         <div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'>
           <MdOutlineArrowBackIosNew />

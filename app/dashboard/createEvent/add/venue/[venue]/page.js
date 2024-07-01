@@ -6,6 +6,7 @@ import Star from '@/components/dashboard/Star';
 import Link from 'next/link';
 import { MdOutlineArrowBackIosNew } from 'react-icons/md';
 import { CartContext } from '@/app/lib/CartContext';
+import toast, { Toaster } from 'react-hot-toast';
 
 const getData = async () => {
   try {
@@ -60,10 +61,12 @@ const SingleVenue = () => {
       productID: product.productID,
       quantity: 1
     });
+    toast.success("Booking successful");
   };
 
   return (
     <>
+      <Toaster />
       <Link href="/dashboard/createEvent/add/venue" passHref>
         <div className='bg-[#321E1E] p-3 w-fit mt-4 rounded-full text-white hover:scale-105 cursor-pointer'>
           <MdOutlineArrowBackIosNew />

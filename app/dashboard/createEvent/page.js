@@ -99,7 +99,7 @@ const CreateEvent = ({ placeholder }) => {
           )}
         </tbody>
       </table>
-      <Pagination />
+      {/* <Pagination /> */}
     </div>
   );
 };
