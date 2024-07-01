@@ -3,13 +3,14 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import Image from 'next/image';
 
 const Footer = () => {
   return (
     <>
     <footer className='bg-[#321E1E] mt-12 bottom-0 flex flex-col md:flex-row gap-10 md:gap-20 p-6 pt-8 items-center md:justify-around text-[#d4af37] text-sm md:items-start'>
       <div className="flex flex-col justify-center items-center md:-mt-7">
-        <img src='gif/EventziaLogo.gif' alt='Eventzia' width={120} />
+        <Image src='/gif/EventziaLogo.png' alt='Eventzia' width={120} height={120} />
         <p className='text-center'>Making Your Events Memorable !</p>
         <div className='flex flex-row m-3 text-white'>
           <div className='bg-[#d4af37] p-2 m-1 rounded-full text-2xl hover:text-[#321E1E]'><FaFacebook /></div>

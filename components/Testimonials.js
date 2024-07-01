@@ -3,6 +3,7 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from 'next/image';
 
 const Testimonials = () => {
   const settings = {
@@ -44,7 +45,7 @@ const Testimonials = () => {
             {data.map((d) => (
               <div key={d.name} className='bg-[#321E1E] h-[500px] text-black rounded-xl'>
                 <div className='h-56 bg-[#d4af37] flex justify-center items-center rounded-t-xl'>
-                  <img src={d.img} alt={d.name} className='h-52 w-52 rounded-full'/>
+                  <Image src={d.img} alt={d.name} className='rounded-full' width={200} height={200}/>
                 </div>
                 <div className='flex flex-col items-center justify-center gap-4 p-4'>
                   <p className='text-xl font-semibold text-white'>{d.name}</p>

@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className='bg-[#321E1E] text-white flex items-center justify-between h-16 sticky top-0 z-50 px-4 sm:px-8'>
       <div className="logo">
-        <img src='gif/EventziaLogo.gif' alt='Eventzia' width={120} />
+        <Image src='/gif/EventziaLogo.png' alt='Eventzia' width={120} height={120}/>
       </div>
       <div className="flex items-center">
         <ul className={`fixed top-16 left-0 right-0 bg-[#321E1E] flex-col sm:flex-row gap-5 font-bold flex ${isOpen ? 'flex' : 'hidden'} sm:flex static sm:static`}>
