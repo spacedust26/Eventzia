@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
+import Link from "next/link";
 
 const pd = Playfair_Display({
   subsets: ["latin"],
@@ -22,7 +23,8 @@ export default function Home() {
           <div className="p-8 md:p-16 lg:p-32 relative z-20 mx-auto flex justify-center flex-col items-center">
             <h1 className="text-white text-3xl md:text-5xl lg:text-7xl font-bold text-center my-8 md:my-5 lg:my-7">Eventzia - Make Your Events Memorable!</h1>
             <h2 className="text-base md:text-xl lg:text-2xl text-[#d4af37] text-center w-full md:w-3/4 lg:w-1/2">Be it your big wedding day, birthday party, anniversary dates, office party or retirement - we transform life milestones into unforgettable memories.</h2>
-            <button type="button" className="bg-[#d4af37] px-4 py-1 md:px-8 md:py-2 my-4 md:my-6 lg:my-8 rounded-full font-bold text-[#321E1E] hover:bg-[#e1ba43] border border-white">Know More</button>
+            <Link href="#about">
+            <button type="button" className="bg-[#d4af37] px-4 py-1 md:px-8 md:py-2 my-4 md:my-6 lg:my-8 rounded-full font-bold text-[#321E1E] hover:bg-[#e1ba43] border border-white">Know More</button></Link>
           </div>
         </div>
       </div>
